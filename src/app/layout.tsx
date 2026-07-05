@@ -5,7 +5,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "AI Native Observatory",
-  description: "A source-backed public registry for AI ecosystem observables."
+  description:
+    "An evidence-backed AI infrastructure observatory for source-backed AI ecosystem records."
 };
 
 const navItems = [
@@ -32,7 +33,7 @@ export default function RootLayout({
                   AI Native Observatory
                 </span>
                 <span className="mt-1 text-sm text-slate-300">
-                  Source-backed AI ecosystem registry
+                  Evidence-backed AI infrastructure observatory
                 </span>
               </Link>
               <nav className="flex flex-wrap gap-2 text-sm font-medium text-slate-300">

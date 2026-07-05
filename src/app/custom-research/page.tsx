@@ -3,9 +3,9 @@ import Link from "next/link";
 import { contactEmail, contactMailto } from "@/lib/contact";
 
 export const metadata: Metadata = {
-  title: "Custom AI Ecosystem Research | AI Native Observatory",
+  title: "AI Infrastructure Evidence Briefs | AI Native Observatory",
   description:
-    "Custom research brief services built around the AI Native Observatory registry."
+    "Buyer-side AI infrastructure evidence briefs built around the AI Native Observatory registry."
 };
 
 const briefTypes = [
@@ -14,10 +14,10 @@ const briefTypes = [
     description:
       "A source-backed review of one AI infrastructure provider, model, API platform, or data-policy claim.",
     outputs: [
-      "What the organization claims",
-      "What public sources support",
-      "What remains unresolved",
-      "Evidence table and plain-English risk summary"
+      "Claim being evaluated",
+      "Source list and evidence table",
+      "Source-backed findings and unresolved questions",
+      "Plain-English risk summary and limitations"
     ]
   },
   {
@@ -42,6 +42,36 @@ const briefTypes = [
       "No compliance certification language"
     ]
   }
+];
+
+const audience = [
+  "Founders evaluating infrastructure vendors",
+  "Agencies advising clients",
+  "Procurement teams",
+  "Investors",
+  "Policy and research teams",
+  "Schools and nonprofits evaluating AI infrastructure risk"
+];
+
+const briefIncludes = [
+  "Claim being evaluated",
+  "Source list",
+  "Evidence table",
+  "Source-backed findings",
+  "Unresolved questions",
+  "Ownership and funding notes where available",
+  "Data-policy notes where available",
+  "Plain-English risk summary",
+  "Limitations"
+];
+
+const briefExclusions = [
+  "Legal advice",
+  "Compliance certification",
+  "Guaranteed verification outcome",
+  "Vendor approval",
+  "Paid badge",
+  "Change to public verification status"
 ];
 
 const processSteps = [
@@ -89,22 +119,23 @@ export default function CustomResearchPage() {
               </Link>
             </nav>
             <p className="mt-8 text-xs font-semibold uppercase text-[#8fb7cf]">
-              Custom research
+              AI infrastructure evidence briefs
             </p>
             <h1 className="mt-3 text-3xl font-semibold leading-tight sm:text-5xl">
               Buyer-side AI infrastructure evidence briefs.
             </h1>
             <p className="mt-5 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg">
               Custom briefs help founders, agencies, procurement teams,
-              consultants, schools, nonprofits, and investors understand what
-              public sources support and what remains unresolved.
+              investors, policy teams, schools, and nonprofits understand what
+              public sources support, what remains unresolved, and where
+              infrastructure risk needs closer review.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <a
                 href={contactMailto}
                 className="rounded-md bg-[#8fb7cf] px-5 py-3 text-sm font-semibold text-[#07111c] transition hover:bg-white"
               >
-                Request a brief
+                Request an AI Infrastructure Evidence Brief
               </a>
               <Link
                 href="/sponsor"
@@ -120,12 +151,20 @@ export default function CustomResearchPage() {
               Contact
             </p>
             <p className="mt-3 text-2xl font-semibold text-white">
-              Founding range: $150-$300
+              Limited manual availability
             </p>
             <p className="mt-3 text-sm leading-6 text-slate-300">
-              First 3-5 buyer-side briefs should stay intentionally small:
-              useful enough to prove demand, bounded enough to preserve review
-              quality.
+              Founding research briefs are available on a limited manual basis
+              while ANO validates demand. No pricing is published in this MVP
+              checkpoint.
+            </p>
+            <p className="mt-4 text-sm leading-6 text-slate-300">
+              Start by emailing{" "}
+              <a href={contactMailto} className="font-semibold text-[#8fb7cf]">
+                {contactEmail}
+              </a>{" "}
+              with the infrastructure provider, model, or claim you want
+              reviewed.
             </p>
           </section>
         </div>
@@ -134,8 +173,8 @@ export default function CustomResearchPage() {
       <main className="mx-auto max-w-7xl px-5 py-10 lg:px-8">
         <section>
           <SectionHeading
-            eyebrow="Research products"
-            title="First paid offers"
+            eyebrow="Buyer-side research"
+            title="Research brief offers"
           />
           <div className="mt-5 grid gap-5 lg:grid-cols-3">
             {briefTypes.map((brief) => (
@@ -165,6 +204,41 @@ export default function CustomResearchPage() {
           </div>
         </section>
 
+        <section className="mt-8 grid gap-6 lg:grid-cols-[0.9fr_1.1fr_1fr]">
+          <Panel title="Who It Is For" eyebrow="Audience">
+            <ul className="grid gap-2 text-sm text-slate-300">
+              {audience.map((item) => (
+                <li key={item} className="flex gap-2">
+                  <span className="mt-2 h-1.5 w-1.5 rounded-full bg-[#8fb7cf]" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </Panel>
+
+          <Panel title="Brief Includes" eyebrow="Evidence package">
+            <ul className="grid gap-2 text-sm text-slate-300">
+              {briefIncludes.map((item) => (
+                <li key={item} className="flex gap-2">
+                  <span className="mt-2 h-1.5 w-1.5 rounded-full bg-[#7ba36f]" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </Panel>
+
+          <Panel title="Does Not Include" eyebrow="Boundary">
+            <ul className="grid gap-2 text-sm text-slate-300">
+              {briefExclusions.map((item) => (
+                <li key={item} className="flex gap-2">
+                  <span className="mt-2 h-1.5 w-1.5 rounded-full bg-slate-500" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </Panel>
+        </section>
+
         <section className="mt-8 grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
           <Panel title="Research Process" eyebrow="Workflow">
             <ol className="grid gap-3 text-sm text-slate-300">
@@ -184,11 +258,14 @@ export default function CustomResearchPage() {
 
           <Panel title="Independence Boundary" eyebrow="Important">
             <p className="text-sm leading-6 text-slate-300">
-              Custom research is for people deciding what to trust. Paid work
-              may identify evidence, summarize public records, and list
-              unresolved questions. It does not buy source-backed status,
-              verification status, favorable treatment, badges, or a changed
-              evidence standard.
+              Custom research supports buyer-side understanding. It does not
+              alter ANO&apos;s public verification status, source-backed status,
+              evidence standards, or review decisions.
+            </p>
+            <p className="mt-4 text-sm leading-6 text-slate-300">
+              Paid work may identify evidence, summarize public records, and
+              list unresolved questions. It cannot buy source-backed status,
+              favorable treatment, badges, or a changed evidence standard.
             </p>
             <div className="mt-5 rounded border border-[#8fb7cf]/35 bg-[#8fb7cf]/10 p-4 text-sm leading-6 text-[#d8edf8]">
               Start by emailing{" "}

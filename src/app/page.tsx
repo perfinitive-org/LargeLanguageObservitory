@@ -139,16 +139,17 @@ export default function Home() {
         <div className="relative mx-auto grid max-w-7xl gap-8 px-5 py-12 lg:grid-cols-[1.05fr_0.95fr] lg:px-8 lg:py-16">
           <div className="max-w-3xl">
             <p className="text-xs font-semibold uppercase text-[#8fb7cf]">
-              Public AI ecosystem observatory
+              Evidence-backed AI infrastructure observatory
             </p>
             <h1 className="mt-4 text-4xl font-semibold leading-tight sm:text-5xl">
               A window into the organizations, models, infrastructure, and
               evidence shaping artificial intelligence.
             </h1>
             <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-300">
-              Search the source-backed registry, choose a lens, and move from
-              high-level ecosystem signals into the records and evidence behind
-              them.
+              Search infrastructure providers, models-as-infrastructure,
+              evidence records, review decisions, and source-backed claims.
+              Choose a lens, then move from ecosystem signals into the records
+              behind them.
             </p>
 
             <form

@@ -5,7 +5,7 @@ import { contactEmail, contactMailto } from "@/lib/contact";
 export const metadata: Metadata = {
   title: "Sponsor AI Native Observatory",
   description:
-    "Support and underwriting options for the AI Native Observatory without buying verification status."
+    "Support and underwriting options for the evidence-backed AI infrastructure observatory without buying verification status."
 };
 
 const products = [
@@ -37,7 +37,7 @@ const products = [
     title: "Buyer-Side Research Referral",
     label: "Research inquiry",
     description:
-      "Route buyers, researchers, consultants, and procurement teams toward custom evidence briefs instead of vendor-paid verification.",
+      "Route buyers, researchers, consultants, and procurement teams toward custom evidence briefs rather than selling trust outcomes to evaluated companies.",
     includes: [
       "Custom brief scoping",
       "Evidence table and limitations",
@@ -101,9 +101,10 @@ export default function SponsorPage() {
               Support the Observatory without compromising the evidence layer.
             </h1>
             <p className="mt-5 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg">
-              AI Native Observatory can operate like a serious directory:
-              public registry access remains free, source submission remains
-              free, and paid work stays outside the verification outcome.
+              AI Native Observatory can operate like a serious infrastructure
+              observatory: public registry access remains free, source
+              submission remains free, and paid work stays outside the
+              verification outcome.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <Link

@@ -3,7 +3,8 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Method | AI Native Observatory",
-  description: "Method and data model for the AI Native Observatory MVP."
+  description:
+    "Method and data model for the evidence-backed AI infrastructure observatory MVP."
 };
 
 export default function AboutPage() {
@@ -29,13 +30,13 @@ export default function AboutPage() {
               Observatory Handbook
             </p>
             <h1 className="mt-3 text-3xl font-semibold leading-tight sm:text-4xl">
-              A source-backed AI observatory registry
+              A source-backed AI infrastructure observatory registry
             </h1>
             <p className="mt-5 text-lg leading-8 text-slate-300">
               AI Native Observatory is an MVP for tracking public, observable
-              parts of the AI ecosystem: organizations, models, data centers,
-              and sources. It avoids hype language and treats the registry as an
-              evidence ledger.
+              parts of the AI infrastructure ecosystem: organizations, models,
+              data centers, and sources. It avoids hype language and treats the
+              registry as an evidence ledger.
             </p>
           </div>
 

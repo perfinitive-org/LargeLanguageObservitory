@@ -5,7 +5,7 @@ import { contactEmail, contactMailto } from "@/lib/contact";
 export const metadata: Metadata = {
   title: "Submit Official Sources | AI Native Observatory",
   description:
-    "Submit official source material for AI Native Observatory review without buying verification status."
+    "Submit official source material for AI Native Observatory infrastructure review without buying verification status."
 };
 
 const requestedMaterials = [
@@ -74,8 +74,9 @@ export default function SubmitOfficialSourcesPage() {
             </h1>
             <p className="mt-5 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg">
               Is this your organization, model, infrastructure site, or source?
-              Send official documentation so the Observatory can review whether
-              the public record should be corrected, expanded, or kept as-is.
+              Send official documentation so the AI infrastructure observatory
+              can review whether the public record should be corrected,
+              expanded, or kept as-is.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <a
