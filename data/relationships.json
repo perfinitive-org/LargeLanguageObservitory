@@ -1,0 +1,2186 @@
+[
+  {
+    "id": "rel-openai-gpt-4o",
+    "fromObservableId": "org-openai",
+    "toObservableId": "model-gpt-4o",
+    "verification_status": "source_backed",
+    "type": "develops",
+    "label": "develops",
+    "sourceIds": [
+      "src-openai-gpt4o-release"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: org-openai develops model-gpt-4o."
+  },
+  {
+    "id": "rel-gpt-4o-developed-by-openai",
+    "fromObservableId": "model-gpt-4o",
+    "toObservableId": "org-openai",
+    "verification_status": "source_backed",
+    "type": "developed-by",
+    "label": "developed by",
+    "sourceIds": [
+      "src-openai-gpt4o-release"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: model-gpt-4o developed by org-openai."
+  },
+  {
+    "id": "rel-openai-gpt-4o-mini",
+    "fromObservableId": "org-openai",
+    "toObservableId": "model-gpt-4o-mini",
+    "verification_status": "source_backed",
+    "type": "develops",
+    "label": "develops",
+    "sourceIds": [
+      "src-openai-gpt-4o-mini-release"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: org-openai develops model-gpt-4o-mini."
+  },
+  {
+    "id": "rel-gpt-4o-mini-developed-by-openai",
+    "fromObservableId": "model-gpt-4o-mini",
+    "toObservableId": "org-openai",
+    "verification_status": "source_backed",
+    "type": "developed-by",
+    "label": "developed by",
+    "sourceIds": [
+      "src-openai-gpt-4o-mini-release"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: model-gpt-4o-mini developed by org-openai."
+  },
+  {
+    "id": "rel-openai-o3",
+    "fromObservableId": "org-openai",
+    "toObservableId": "model-o3",
+    "verification_status": "source_backed",
+    "type": "develops",
+    "label": "develops",
+    "sourceIds": [
+      "src-openai-o3-system-card"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: org-openai develops model-o3."
+  },
+  {
+    "id": "rel-o3-developed-by-openai",
+    "fromObservableId": "model-o3",
+    "toObservableId": "org-openai",
+    "verification_status": "source_backed",
+    "type": "developed-by",
+    "label": "developed by",
+    "sourceIds": [
+      "src-openai-o3-system-card"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: model-o3 developed by org-openai."
+  },
+  {
+    "id": "rel-openai-gpt-4",
+    "fromObservableId": "org-openai",
+    "toObservableId": "model-gpt-4",
+    "verification_status": "source_backed",
+    "type": "develops",
+    "label": "develops",
+    "sourceIds": [
+      "src-openai-gpt4-release"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: org-openai develops model-gpt-4."
+  },
+  {
+    "id": "rel-gpt-4-developed-by-openai",
+    "fromObservableId": "model-gpt-4",
+    "toObservableId": "org-openai",
+    "verification_status": "source_backed",
+    "type": "developed-by",
+    "label": "developed by",
+    "sourceIds": [
+      "src-openai-gpt4-release"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: model-gpt-4 developed by org-openai."
+  },
+  {
+    "id": "rel-openai-dall-e-3",
+    "fromObservableId": "org-openai",
+    "toObservableId": "model-dall-e-3",
+    "verification_status": "source_backed",
+    "type": "develops",
+    "label": "develops",
+    "sourceIds": [
+      "src-openai-dalle-3"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: org-openai develops model-dall-e-3."
+  },
+  {
+    "id": "rel-dall-e-3-developed-by-openai",
+    "fromObservableId": "model-dall-e-3",
+    "toObservableId": "org-openai",
+    "verification_status": "source_backed",
+    "type": "developed-by",
+    "label": "developed by",
+    "sourceIds": [
+      "src-openai-dalle-3"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: model-dall-e-3 developed by org-openai."
+  },
+  {
+    "id": "rel-anthropic-claude-3-5-sonnet",
+    "fromObservableId": "org-anthropic",
+    "toObservableId": "model-claude-3-5-sonnet",
+    "verification_status": "source_backed",
+    "type": "develops",
+    "label": "develops",
+    "sourceIds": [
+      "src-anthropic-claude-35-sonnet"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: org-anthropic develops model-claude-3-5-sonnet."
+  },
+  {
+    "id": "rel-claude-3-5-sonnet-developed-by-anthropic",
+    "fromObservableId": "model-claude-3-5-sonnet",
+    "toObservableId": "org-anthropic",
+    "verification_status": "source_backed",
+    "type": "developed-by",
+    "label": "developed by",
+    "sourceIds": [
+      "src-anthropic-claude-35-sonnet"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: model-claude-3-5-sonnet developed by org-anthropic."
+  },
+  {
+    "id": "rel-anthropic-claude-3-opus",
+    "fromObservableId": "org-anthropic",
+    "toObservableId": "model-claude-3-opus",
+    "verification_status": "source_backed",
+    "type": "develops",
+    "label": "develops",
+    "sourceIds": [
+      "src-anthropic-claude-3-opus"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: org-anthropic develops model-claude-3-opus."
+  },
+  {
+    "id": "rel-claude-3-opus-developed-by-anthropic",
+    "fromObservableId": "model-claude-3-opus",
+    "toObservableId": "org-anthropic",
+    "verification_status": "source_backed",
+    "type": "developed-by",
+    "label": "developed by",
+    "sourceIds": [
+      "src-anthropic-claude-3-opus"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: model-claude-3-opus developed by org-anthropic."
+  },
+  {
+    "id": "rel-google-deepmind-gemini-1-5-pro",
+    "fromObservableId": "org-google-deepmind",
+    "toObservableId": "model-gemini-1-5-pro",
+    "verification_status": "source_backed",
+    "type": "develops",
+    "label": "develops",
+    "sourceIds": [
+      "src-google-gemini-15-pro"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: org-google-deepmind develops model-gemini-1-5-pro."
+  },
+  {
+    "id": "rel-gemini-1-5-pro-developed-by-google-deepmind",
+    "fromObservableId": "model-gemini-1-5-pro",
+    "toObservableId": "org-google-deepmind",
+    "verification_status": "source_backed",
+    "type": "developed-by",
+    "label": "developed by",
+    "sourceIds": [
+      "src-google-gemini-15-pro"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: model-gemini-1-5-pro developed by org-google-deepmind."
+  },
+  {
+    "id": "rel-google-deepmind-gemma-2",
+    "fromObservableId": "org-google-deepmind",
+    "toObservableId": "model-gemma-2",
+    "verification_status": "source_backed",
+    "type": "develops",
+    "label": "develops",
+    "sourceIds": [
+      "src-google-gemma-2"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: org-google-deepmind develops model-gemma-2."
+  },
+  {
+    "id": "rel-gemma-2-developed-by-google-deepmind",
+    "fromObservableId": "model-gemma-2",
+    "toObservableId": "org-google-deepmind",
+    "verification_status": "source_backed",
+    "type": "developed-by",
+    "label": "developed by",
+    "sourceIds": [
+      "src-google-gemma-2"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: model-gemma-2 developed by org-google-deepmind."
+  },
+  {
+    "id": "rel-meta-ai-llama-3-1-405b",
+    "fromObservableId": "org-meta-ai",
+    "toObservableId": "model-llama-3-1-405b",
+    "verification_status": "source_backed",
+    "type": "develops",
+    "label": "develops",
+    "sourceIds": [
+      "src-meta-llama-31-release"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: org-meta-ai develops model-llama-3-1-405b."
+  },
+  {
+    "id": "rel-llama-3-1-405b-developed-by-meta-ai",
+    "fromObservableId": "model-llama-3-1-405b",
+    "toObservableId": "org-meta-ai",
+    "verification_status": "source_backed",
+    "type": "developed-by",
+    "label": "developed by",
+    "sourceIds": [
+      "src-meta-llama-31-release"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: model-llama-3-1-405b developed by org-meta-ai."
+  },
+  {
+    "id": "rel-meta-ai-llama-3-70b",
+    "fromObservableId": "org-meta-ai",
+    "toObservableId": "model-llama-3-70b",
+    "verification_status": "source_backed",
+    "type": "develops",
+    "label": "develops",
+    "sourceIds": [
+      "src-meta-llama-31-release"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: org-meta-ai develops model-llama-3-70b."
+  },
+  {
+    "id": "rel-llama-3-70b-developed-by-meta-ai",
+    "fromObservableId": "model-llama-3-70b",
+    "toObservableId": "org-meta-ai",
+    "verification_status": "source_backed",
+    "type": "developed-by",
+    "label": "developed by",
+    "sourceIds": [
+      "src-meta-llama-31-release"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: model-llama-3-70b developed by org-meta-ai."
+  },
+  {
+    "id": "rel-xai-grok-2",
+    "fromObservableId": "org-xai",
+    "toObservableId": "model-grok-2",
+    "verification_status": "source_backed",
+    "type": "develops",
+    "label": "develops",
+    "sourceIds": [
+      "src-xai-grok-2"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: org-xai develops model-grok-2."
+  },
+  {
+    "id": "rel-grok-2-developed-by-xai",
+    "fromObservableId": "model-grok-2",
+    "toObservableId": "org-xai",
+    "verification_status": "source_backed",
+    "type": "developed-by",
+    "label": "developed by",
+    "sourceIds": [
+      "src-xai-grok-2"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: model-grok-2 developed by org-xai."
+  },
+  {
+    "id": "rel-mistral-ai-mistral-large",
+    "fromObservableId": "org-mistral-ai",
+    "toObservableId": "model-mistral-large",
+    "verification_status": "source_backed",
+    "type": "develops",
+    "label": "develops",
+    "sourceIds": [
+      "src-mistral-large"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: org-mistral-ai develops model-mistral-large."
+  },
+  {
+    "id": "rel-mistral-large-developed-by-mistral-ai",
+    "fromObservableId": "model-mistral-large",
+    "toObservableId": "org-mistral-ai",
+    "verification_status": "source_backed",
+    "type": "developed-by",
+    "label": "developed by",
+    "sourceIds": [
+      "src-mistral-large"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: model-mistral-large developed by org-mistral-ai."
+  },
+  {
+    "id": "rel-mistral-ai-mixtral-8x7b",
+    "fromObservableId": "org-mistral-ai",
+    "toObservableId": "model-mixtral-8x7b",
+    "verification_status": "source_backed",
+    "type": "develops",
+    "label": "develops",
+    "sourceIds": [
+      "src-mistral-mixtral"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: org-mistral-ai develops model-mixtral-8x7b."
+  },
+  {
+    "id": "rel-mixtral-8x7b-developed-by-mistral-ai",
+    "fromObservableId": "model-mixtral-8x7b",
+    "toObservableId": "org-mistral-ai",
+    "verification_status": "source_backed",
+    "type": "developed-by",
+    "label": "developed by",
+    "sourceIds": [
+      "src-mistral-mixtral"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: model-mixtral-8x7b developed by org-mistral-ai."
+  },
+  {
+    "id": "rel-cohere-command-r-plus",
+    "fromObservableId": "org-cohere",
+    "toObservableId": "model-command-r-plus",
+    "verification_status": "source_backed",
+    "type": "develops",
+    "label": "develops",
+    "sourceIds": [
+      "src-cohere-command-r-plus"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: org-cohere develops model-command-r-plus."
+  },
+  {
+    "id": "rel-command-r-plus-developed-by-cohere",
+    "fromObservableId": "model-command-r-plus",
+    "toObservableId": "org-cohere",
+    "verification_status": "source_backed",
+    "type": "developed-by",
+    "label": "developed by",
+    "sourceIds": [
+      "src-cohere-command-r-plus"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: model-command-r-plus developed by org-cohere."
+  },
+  {
+    "id": "rel-perplexity-ai-perplexity-sonar",
+    "fromObservableId": "org-perplexity-ai",
+    "toObservableId": "model-perplexity-sonar",
+    "verification_status": "source_backed",
+    "type": "develops",
+    "label": "develops",
+    "sourceIds": [
+      "src-perplexity-sonar-docs"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: org-perplexity-ai develops model-perplexity-sonar."
+  },
+  {
+    "id": "rel-perplexity-sonar-developed-by-perplexity-ai",
+    "fromObservableId": "model-perplexity-sonar",
+    "toObservableId": "org-perplexity-ai",
+    "verification_status": "source_backed",
+    "type": "developed-by",
+    "label": "developed by",
+    "sourceIds": [
+      "src-perplexity-sonar-docs"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: model-perplexity-sonar developed by org-perplexity-ai."
+  },
+  {
+    "id": "rel-amazon-web-services-amazon-nova",
+    "fromObservableId": "org-amazon-web-services",
+    "toObservableId": "model-amazon-nova",
+    "verification_status": "needs_source_review",
+    "type": "develops",
+    "label": "develops",
+    "sourceIds": [
+      "src-amazon-nova"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-amazon-web-services develops model-amazon-nova."
+  },
+  {
+    "id": "rel-amazon-nova-developed-by-amazon-web-services",
+    "fromObservableId": "model-amazon-nova",
+    "toObservableId": "org-amazon-web-services",
+    "verification_status": "needs_source_review",
+    "type": "developed-by",
+    "label": "developed by",
+    "sourceIds": [
+      "src-amazon-nova"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: model-amazon-nova developed by org-amazon-web-services."
+  },
+  {
+    "id": "rel-technology-innovation-institute-falcon-180b",
+    "fromObservableId": "org-technology-innovation-institute",
+    "toObservableId": "model-falcon-180b",
+    "verification_status": "needs_source_review",
+    "type": "develops",
+    "label": "develops",
+    "sourceIds": [
+      "src-tii-falcon-180b"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-technology-innovation-institute develops model-falcon-180b."
+  },
+  {
+    "id": "rel-falcon-180b-developed-by-technology-innovation-institute",
+    "fromObservableId": "model-falcon-180b",
+    "toObservableId": "org-technology-innovation-institute",
+    "verification_status": "needs_source_review",
+    "type": "developed-by",
+    "label": "developed by",
+    "sourceIds": [
+      "src-tii-falcon-180b"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: model-falcon-180b developed by org-technology-innovation-institute."
+  },
+  {
+    "id": "rel-ai21-labs-jamba-1-5-large",
+    "fromObservableId": "org-ai21-labs",
+    "toObservableId": "model-jamba-1-5-large",
+    "verification_status": "needs_source_review",
+    "type": "develops",
+    "label": "develops",
+    "sourceIds": [
+      "src-ai21-jamba"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-ai21-labs develops model-jamba-1-5-large."
+  },
+  {
+    "id": "rel-jamba-1-5-large-developed-by-ai21-labs",
+    "fromObservableId": "model-jamba-1-5-large",
+    "toObservableId": "org-ai21-labs",
+    "verification_status": "needs_source_review",
+    "type": "developed-by",
+    "label": "developed by",
+    "sourceIds": [
+      "src-ai21-jamba"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: model-jamba-1-5-large developed by org-ai21-labs."
+  },
+  {
+    "id": "rel-alibaba-cloud-qwen-2-5",
+    "fromObservableId": "org-alibaba-cloud",
+    "toObservableId": "model-qwen-2-5",
+    "verification_status": "needs_source_review",
+    "type": "develops",
+    "label": "develops",
+    "sourceIds": [
+      "src-alibaba-qwen"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-alibaba-cloud develops model-qwen-2-5."
+  },
+  {
+    "id": "rel-qwen-2-5-developed-by-alibaba-cloud",
+    "fromObservableId": "model-qwen-2-5",
+    "toObservableId": "org-alibaba-cloud",
+    "verification_status": "needs_source_review",
+    "type": "developed-by",
+    "label": "developed by",
+    "sourceIds": [
+      "src-alibaba-qwen"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: model-qwen-2-5 developed by org-alibaba-cloud."
+  },
+  {
+    "id": "rel-deepseek-deepseek-v3",
+    "fromObservableId": "org-deepseek",
+    "toObservableId": "model-deepseek-v3",
+    "verification_status": "needs_source_review",
+    "type": "develops",
+    "label": "develops",
+    "sourceIds": [
+      "src-deepseek-v3"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-deepseek develops model-deepseek-v3."
+  },
+  {
+    "id": "rel-deepseek-v3-developed-by-deepseek",
+    "fromObservableId": "model-deepseek-v3",
+    "toObservableId": "org-deepseek",
+    "verification_status": "needs_source_review",
+    "type": "developed-by",
+    "label": "developed by",
+    "sourceIds": [
+      "src-deepseek-v3"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: model-deepseek-v3 developed by org-deepseek."
+  },
+  {
+    "id": "rel-microsoft-phi-3",
+    "fromObservableId": "org-microsoft",
+    "toObservableId": "model-phi-3",
+    "verification_status": "needs_source_review",
+    "type": "develops",
+    "label": "develops",
+    "sourceIds": [
+      "src-microsoft-phi-3"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-microsoft develops model-phi-3."
+  },
+  {
+    "id": "rel-phi-3-developed-by-microsoft",
+    "fromObservableId": "model-phi-3",
+    "toObservableId": "org-microsoft",
+    "verification_status": "needs_source_review",
+    "type": "developed-by",
+    "label": "developed by",
+    "sourceIds": [
+      "src-microsoft-phi-3"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: model-phi-3 developed by org-microsoft."
+  },
+  {
+    "id": "rel-databricks-dbrx",
+    "fromObservableId": "org-databricks",
+    "toObservableId": "model-dbrx",
+    "verification_status": "source_backed",
+    "type": "develops",
+    "label": "develops",
+    "sourceIds": [
+      "src-databricks-dbrx"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: org-databricks develops model-dbrx."
+  },
+  {
+    "id": "rel-dbrx-developed-by-databricks",
+    "fromObservableId": "model-dbrx",
+    "toObservableId": "org-databricks",
+    "verification_status": "source_backed",
+    "type": "developed-by",
+    "label": "developed by",
+    "sourceIds": [
+      "src-databricks-dbrx"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: model-dbrx developed by org-databricks."
+  },
+  {
+    "id": "rel-nvidia-nemotron",
+    "fromObservableId": "org-nvidia",
+    "toObservableId": "model-nemotron",
+    "verification_status": "needs_source_review",
+    "type": "develops",
+    "label": "develops",
+    "sourceIds": [
+      "src-nvidia-nemotron"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-nvidia develops model-nemotron."
+  },
+  {
+    "id": "rel-nemotron-developed-by-nvidia",
+    "fromObservableId": "model-nemotron",
+    "toObservableId": "org-nvidia",
+    "verification_status": "needs_source_review",
+    "type": "developed-by",
+    "label": "developed by",
+    "sourceIds": [
+      "src-nvidia-nemotron"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: model-nemotron developed by org-nvidia."
+  },
+  {
+    "id": "rel-stability-ai-stable-diffusion-3",
+    "fromObservableId": "org-stability-ai",
+    "toObservableId": "model-stable-diffusion-3",
+    "verification_status": "source_backed",
+    "type": "develops",
+    "label": "develops",
+    "sourceIds": [
+      "src-stability-sd3"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: org-stability-ai develops model-stable-diffusion-3."
+  },
+  {
+    "id": "rel-stable-diffusion-3-developed-by-stability-ai",
+    "fromObservableId": "model-stable-diffusion-3",
+    "toObservableId": "org-stability-ai",
+    "verification_status": "source_backed",
+    "type": "developed-by",
+    "label": "developed by",
+    "sourceIds": [
+      "src-stability-sd3"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Registry seed relationship: model-stable-diffusion-3 developed by org-stability-ai."
+  },
+  {
+    "id": "rel-openai-stargate-abilene",
+    "fromObservableId": "org-openai",
+    "toObservableId": "dc-stargate-abilene",
+    "verification_status": "placeholder",
+    "type": "operates-or-uses",
+    "label": "operates or uses",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "low",
+    "notes": "Registry seed relationship: org-openai operates or uses dc-stargate-abilene."
+  },
+  {
+    "id": "rel-microsoft-microsoft-wisconsin",
+    "fromObservableId": "org-microsoft",
+    "toObservableId": "dc-microsoft-wisconsin",
+    "verification_status": "needs_source_review",
+    "type": "operates-or-uses",
+    "label": "operates or uses",
+    "sourceIds": [
+      "src-microsoft-wisconsin-datacenter"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-microsoft operates or uses dc-microsoft-wisconsin."
+  },
+  {
+    "id": "rel-google-cloud-google-council-bluffs",
+    "fromObservableId": "org-google-cloud",
+    "toObservableId": "dc-google-council-bluffs",
+    "verification_status": "needs_source_review",
+    "type": "operates-or-uses",
+    "label": "operates or uses",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-google-cloud operates or uses dc-google-council-bluffs."
+  },
+  {
+    "id": "rel-meta-ai-meta-eagle-mountain",
+    "fromObservableId": "org-meta-ai",
+    "toObservableId": "dc-meta-eagle-mountain",
+    "verification_status": "needs_source_review",
+    "type": "operates-or-uses",
+    "label": "operates or uses",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-meta-ai operates or uses dc-meta-eagle-mountain."
+  },
+  {
+    "id": "rel-coreweave-coreweave-lancaster",
+    "fromObservableId": "org-coreweave",
+    "toObservableId": "dc-coreweave-lancaster",
+    "verification_status": "placeholder",
+    "type": "operates-or-uses",
+    "label": "operates or uses",
+    "sourceIds": [
+      "src-coreweave-s1"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "low",
+    "notes": "Registry seed relationship: org-coreweave operates or uses dc-coreweave-lancaster."
+  },
+  {
+    "id": "rel-microsoft-microsoft-boydton",
+    "fromObservableId": "org-microsoft",
+    "toObservableId": "dc-microsoft-boydton",
+    "verification_status": "needs_source_review",
+    "type": "operates-or-uses",
+    "label": "operates or uses",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-microsoft operates or uses dc-microsoft-boydton."
+  },
+  {
+    "id": "rel-microsoft-microsoft-quincy",
+    "fromObservableId": "org-microsoft",
+    "toObservableId": "dc-microsoft-quincy",
+    "verification_status": "needs_source_review",
+    "type": "operates-or-uses",
+    "label": "operates or uses",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-microsoft operates or uses dc-microsoft-quincy."
+  },
+  {
+    "id": "rel-google-cloud-google-the-dalles",
+    "fromObservableId": "org-google-cloud",
+    "toObservableId": "dc-google-the-dalles",
+    "verification_status": "needs_source_review",
+    "type": "operates-or-uses",
+    "label": "operates or uses",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-google-cloud operates or uses dc-google-the-dalles."
+  },
+  {
+    "id": "rel-google-cloud-google-mayes-county",
+    "fromObservableId": "org-google-cloud",
+    "toObservableId": "dc-google-mayes-county",
+    "verification_status": "needs_source_review",
+    "type": "operates-or-uses",
+    "label": "operates or uses",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-google-cloud operates or uses dc-google-mayes-county."
+  },
+  {
+    "id": "rel-meta-ai-meta-prineville",
+    "fromObservableId": "org-meta-ai",
+    "toObservableId": "dc-meta-prineville",
+    "verification_status": "needs_source_review",
+    "type": "operates-or-uses",
+    "label": "operates or uses",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-meta-ai operates or uses dc-meta-prineville."
+  },
+  {
+    "id": "rel-meta-ai-meta-altoona",
+    "fromObservableId": "org-meta-ai",
+    "toObservableId": "dc-meta-altoona",
+    "verification_status": "needs_source_review",
+    "type": "operates-or-uses",
+    "label": "operates or uses",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-meta-ai operates or uses dc-meta-altoona."
+  },
+  {
+    "id": "rel-amazon-web-services-aws-northern-virginia",
+    "fromObservableId": "org-amazon-web-services",
+    "toObservableId": "dc-aws-northern-virginia",
+    "verification_status": "needs_source_review",
+    "type": "operates-or-uses",
+    "label": "operates or uses",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-amazon-web-services operates or uses dc-aws-northern-virginia."
+  },
+  {
+    "id": "rel-amazon-web-services-aws-oregon",
+    "fromObservableId": "org-amazon-web-services",
+    "toObservableId": "dc-aws-oregon",
+    "verification_status": "needs_source_review",
+    "type": "operates-or-uses",
+    "label": "operates or uses",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-amazon-web-services operates or uses dc-aws-oregon."
+  },
+  {
+    "id": "rel-amazon-web-services-aws-ohio",
+    "fromObservableId": "org-amazon-web-services",
+    "toObservableId": "dc-aws-ohio",
+    "verification_status": "needs_source_review",
+    "type": "operates-or-uses",
+    "label": "operates or uses",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-amazon-web-services operates or uses dc-aws-ohio."
+  },
+  {
+    "id": "rel-oracle-cloud-oracle-utah-region",
+    "fromObservableId": "org-oracle-cloud",
+    "toObservableId": "dc-oracle-utah-region",
+    "verification_status": "needs_source_review",
+    "type": "operates-or-uses",
+    "label": "operates or uses",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-oracle-cloud operates or uses dc-oracle-utah-region."
+  },
+  {
+    "id": "rel-oracle-cloud-oracle-chicago-region",
+    "fromObservableId": "org-oracle-cloud",
+    "toObservableId": "dc-oracle-chicago-region",
+    "verification_status": "needs_source_review",
+    "type": "operates-or-uses",
+    "label": "operates or uses",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-oracle-cloud operates or uses dc-oracle-chicago-region."
+  },
+  {
+    "id": "rel-xai-xai-memphis",
+    "fromObservableId": "org-xai",
+    "toObservableId": "dc-xai-memphis",
+    "verification_status": "placeholder",
+    "type": "operates-or-uses",
+    "label": "operates or uses",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "low",
+    "notes": "Registry seed relationship: org-xai operates or uses dc-xai-memphis."
+  },
+  {
+    "id": "rel-cerebras-cerebras-condor-galaxy",
+    "fromObservableId": "org-cerebras",
+    "toObservableId": "dc-cerebras-condor-galaxy",
+    "verification_status": "needs_source_review",
+    "type": "operates-or-uses",
+    "label": "operates or uses",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-cerebras operates or uses dc-cerebras-condor-galaxy."
+  },
+  {
+    "id": "rel-groq-groq-lpu-cloud",
+    "fromObservableId": "org-groq",
+    "toObservableId": "dc-groq-lpu-cloud",
+    "verification_status": "needs_source_review",
+    "type": "operates-or-uses",
+    "label": "operates or uses",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-groq operates or uses dc-groq-lpu-cloud."
+  },
+  {
+    "id": "rel-equinix-equinix-sv11",
+    "fromObservableId": "org-equinix",
+    "toObservableId": "dc-equinix-sv11",
+    "verification_status": "needs_source_review",
+    "type": "operates-or-uses",
+    "label": "operates or uses",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-equinix operates or uses dc-equinix-sv11."
+  },
+  {
+    "id": "rel-equinix-equinix-dc21",
+    "fromObservableId": "org-equinix",
+    "toObservableId": "dc-equinix-dc21",
+    "verification_status": "needs_source_review",
+    "type": "operates-or-uses",
+    "label": "operates or uses",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-equinix operates or uses dc-equinix-dc21."
+  },
+  {
+    "id": "rel-tesla-tesla-dojo",
+    "fromObservableId": "org-tesla",
+    "toObservableId": "dc-tesla-dojo",
+    "verification_status": "needs_source_review",
+    "type": "operates-or-uses",
+    "label": "operates or uses",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-tesla operates or uses dc-tesla-dojo."
+  },
+  {
+    "id": "rel-hugging-face-hugging-face-inference",
+    "fromObservableId": "org-hugging-face",
+    "toObservableId": "dc-hugging-face-inference",
+    "verification_status": "needs_source_review",
+    "type": "operates-or-uses",
+    "label": "operates or uses",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-hugging-face operates or uses dc-hugging-face-inference."
+  },
+  {
+    "id": "rel-google-cloud-google-tpu-cloud",
+    "fromObservableId": "org-google-cloud",
+    "toObservableId": "dc-google-tpu-cloud",
+    "verification_status": "needs_source_review",
+    "type": "operates-or-uses",
+    "label": "operates or uses",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-google-cloud operates or uses dc-google-tpu-cloud."
+  },
+  {
+    "id": "rel-nvidia-nvidia-dgx-cloud",
+    "fromObservableId": "org-nvidia",
+    "toObservableId": "dc-nvidia-dgx-cloud",
+    "verification_status": "needs_source_review",
+    "type": "operates-or-uses",
+    "label": "operates or uses",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Registry seed relationship: org-nvidia operates or uses dc-nvidia-dgx-cloud."
+  },
+  {
+    "id": "rel-source-openai-gpt4o-release-documents-org-openai",
+    "fromObservableId": "source-openai-gpt4o-release",
+    "toObservableId": "org-openai",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-openai-gpt4o-release"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Hello GPT-4o is linked to org-openai in the seed registry."
+  },
+  {
+    "id": "rel-source-openai-gpt4o-release-documents-model-gpt-4o",
+    "fromObservableId": "source-openai-gpt4o-release",
+    "toObservableId": "model-gpt-4o",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-openai-gpt4o-release"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Hello GPT-4o is linked to model-gpt-4o in the seed registry."
+  },
+  {
+    "id": "rel-source-openai-gpt-4o-mini-release-documents-org-openai",
+    "fromObservableId": "source-openai-gpt-4o-mini-release",
+    "toObservableId": "org-openai",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-openai-gpt-4o-mini-release"
+    ],
+    "observedAt": "2026-06-12",
+    "confidence": "high",
+    "notes": "GPT-4o mini release material is linked to org-openai in the seed registry."
+  },
+  {
+    "id": "rel-source-openai-gpt-4o-mini-release-documents-model-gpt-4o-mini",
+    "fromObservableId": "source-openai-gpt-4o-mini-release",
+    "toObservableId": "model-gpt-4o-mini",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-openai-gpt-4o-mini-release"
+    ],
+    "observedAt": "2026-06-12",
+    "confidence": "high",
+    "notes": "GPT-4o mini release material is linked to model-gpt-4o-mini in the seed registry."
+  },
+  {
+    "id": "rel-source-openai-o3-system-card-documents-org-openai",
+    "fromObservableId": "source-openai-o3-system-card",
+    "toObservableId": "org-openai",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-openai-o3-system-card"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "OpenAI o3 system card is linked to org-openai in the seed registry."
+  },
+  {
+    "id": "rel-source-openai-o3-system-card-documents-model-o3",
+    "fromObservableId": "source-openai-o3-system-card",
+    "toObservableId": "model-o3",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-openai-o3-system-card"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "OpenAI o3 system card is linked to model-o3 in the seed registry."
+  },
+  {
+    "id": "rel-source-anthropic-claude-sonnet-release-documents-org-anthropic",
+    "fromObservableId": "source-anthropic-claude-sonnet-release",
+    "toObservableId": "org-anthropic",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-anthropic-claude-35-sonnet"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Claude 3.5 Sonnet is linked to org-anthropic in the seed registry."
+  },
+  {
+    "id": "rel-source-anthropic-claude-sonnet-release-documents-model-claude-3-5-sonnet",
+    "fromObservableId": "source-anthropic-claude-sonnet-release",
+    "toObservableId": "model-claude-3-5-sonnet",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-anthropic-claude-35-sonnet"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Claude 3.5 Sonnet is linked to model-claude-3-5-sonnet in the seed registry."
+  },
+  {
+    "id": "rel-source-google-gemini-1-5-pro-announcement-documents-org-google-deepmind",
+    "fromObservableId": "source-google-gemini-1-5-pro-announcement",
+    "toObservableId": "org-google-deepmind",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-google-gemini-15-pro"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Gemini 1.5 model announcement is linked to org-google-deepmind in the seed registry."
+  },
+  {
+    "id": "rel-source-google-gemini-1-5-pro-announcement-documents-org-google-cloud",
+    "fromObservableId": "source-google-gemini-1-5-pro-announcement",
+    "toObservableId": "org-google-cloud",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-google-gemini-15-pro"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Gemini 1.5 model announcement is linked to org-google-cloud in the seed registry."
+  },
+  {
+    "id": "rel-source-google-gemini-1-5-pro-announcement-documents-model-gemini-1-5-pro",
+    "fromObservableId": "source-google-gemini-1-5-pro-announcement",
+    "toObservableId": "model-gemini-1-5-pro",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-google-gemini-15-pro"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Gemini 1.5 model announcement is linked to model-gemini-1-5-pro in the seed registry."
+  },
+  {
+    "id": "rel-source-meta-llama-3-1-release-documents-org-meta-ai",
+    "fromObservableId": "source-meta-llama-3-1-release",
+    "toObservableId": "org-meta-ai",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-meta-llama-31-release"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Introducing Llama 3.1 is linked to org-meta-ai in the seed registry."
+  },
+  {
+    "id": "rel-source-meta-llama-3-1-release-documents-model-llama-3-1-405b",
+    "fromObservableId": "source-meta-llama-3-1-release",
+    "toObservableId": "model-llama-3-1-405b",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-meta-llama-31-release"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Introducing Llama 3.1 is linked to model-llama-3-1-405b in the seed registry."
+  },
+  {
+    "id": "rel-source-meta-llama-3-1-release-documents-model-llama-3-70b",
+    "fromObservableId": "source-meta-llama-3-1-release",
+    "toObservableId": "model-llama-3-70b",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-meta-llama-31-release"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Introducing Llama 3.1 is linked to model-llama-3-70b in the seed registry."
+  },
+  {
+    "id": "rel-source-microsoft-wisconsin-campus-documents-org-microsoft",
+    "fromObservableId": "source-microsoft-wisconsin-campus",
+    "toObservableId": "org-microsoft",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-microsoft-wisconsin-datacenter"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Microsoft Wisconsin data center announcement is linked to org-microsoft in the seed registry."
+  },
+  {
+    "id": "rel-source-microsoft-wisconsin-campus-documents-dc-microsoft-wisconsin",
+    "fromObservableId": "source-microsoft-wisconsin-campus",
+    "toObservableId": "dc-microsoft-wisconsin",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-microsoft-wisconsin-datacenter"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Microsoft Wisconsin data center announcement is linked to dc-microsoft-wisconsin in the seed registry."
+  },
+  {
+    "id": "rel-source-coreweave-s1-documents-org-coreweave",
+    "fromObservableId": "source-coreweave-s1",
+    "toObservableId": "org-coreweave",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-coreweave-s1"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "CoreWeave public filing is linked to org-coreweave in the seed registry."
+  },
+  {
+    "id": "rel-source-coreweave-s1-documents-dc-coreweave-lancaster",
+    "fromObservableId": "source-coreweave-s1",
+    "toObservableId": "dc-coreweave-lancaster",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-coreweave-s1"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "CoreWeave public filing is linked to dc-coreweave-lancaster in the seed registry."
+  },
+  {
+    "id": "rel-source-coreweave-s1-documents-org-nvidia",
+    "fromObservableId": "source-coreweave-s1",
+    "toObservableId": "org-nvidia",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-coreweave-s1"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "CoreWeave public filing is linked to org-nvidia in the seed registry."
+  },
+  {
+    "id": "rel-source-eia-data-center-electricity-documents-dc-stargate-abilene",
+    "fromObservableId": "source-eia-data-center-electricity",
+    "toObservableId": "dc-stargate-abilene",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Electricity demand from data centers is linked to dc-stargate-abilene in the seed registry."
+  },
+  {
+    "id": "rel-source-eia-data-center-electricity-documents-dc-microsoft-wisconsin",
+    "fromObservableId": "source-eia-data-center-electricity",
+    "toObservableId": "dc-microsoft-wisconsin",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Electricity demand from data centers is linked to dc-microsoft-wisconsin in the seed registry."
+  },
+  {
+    "id": "rel-source-eia-data-center-electricity-documents-dc-google-council-bluffs",
+    "fromObservableId": "source-eia-data-center-electricity",
+    "toObservableId": "dc-google-council-bluffs",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Electricity demand from data centers is linked to dc-google-council-bluffs in the seed registry."
+  },
+  {
+    "id": "rel-source-eia-data-center-electricity-documents-dc-meta-eagle-mountain",
+    "fromObservableId": "source-eia-data-center-electricity",
+    "toObservableId": "dc-meta-eagle-mountain",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Electricity demand from data centers is linked to dc-meta-eagle-mountain in the seed registry."
+  },
+  {
+    "id": "rel-source-eia-data-center-electricity-documents-dc-coreweave-lancaster",
+    "fromObservableId": "source-eia-data-center-electricity",
+    "toObservableId": "dc-coreweave-lancaster",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Electricity demand from data centers is linked to dc-coreweave-lancaster in the seed registry."
+  },
+  {
+    "id": "rel-source-eia-data-center-electricity-documents-dc-microsoft-boydton",
+    "fromObservableId": "source-eia-data-center-electricity",
+    "toObservableId": "dc-microsoft-boydton",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Electricity demand from data centers is linked to dc-microsoft-boydton in the seed registry."
+  },
+  {
+    "id": "rel-source-eia-data-center-electricity-documents-dc-microsoft-quincy",
+    "fromObservableId": "source-eia-data-center-electricity",
+    "toObservableId": "dc-microsoft-quincy",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Electricity demand from data centers is linked to dc-microsoft-quincy in the seed registry."
+  },
+  {
+    "id": "rel-source-eia-data-center-electricity-documents-dc-google-the-dalles",
+    "fromObservableId": "source-eia-data-center-electricity",
+    "toObservableId": "dc-google-the-dalles",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Electricity demand from data centers is linked to dc-google-the-dalles in the seed registry."
+  },
+  {
+    "id": "rel-source-eia-data-center-electricity-documents-dc-google-mayes-county",
+    "fromObservableId": "source-eia-data-center-electricity",
+    "toObservableId": "dc-google-mayes-county",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Electricity demand from data centers is linked to dc-google-mayes-county in the seed registry."
+  },
+  {
+    "id": "rel-source-eia-data-center-electricity-documents-dc-meta-prineville",
+    "fromObservableId": "source-eia-data-center-electricity",
+    "toObservableId": "dc-meta-prineville",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Electricity demand from data centers is linked to dc-meta-prineville in the seed registry."
+  },
+  {
+    "id": "rel-source-eia-data-center-electricity-documents-dc-meta-altoona",
+    "fromObservableId": "source-eia-data-center-electricity",
+    "toObservableId": "dc-meta-altoona",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Electricity demand from data centers is linked to dc-meta-altoona in the seed registry."
+  },
+  {
+    "id": "rel-source-eia-data-center-electricity-documents-dc-aws-northern-virginia",
+    "fromObservableId": "source-eia-data-center-electricity",
+    "toObservableId": "dc-aws-northern-virginia",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Electricity demand from data centers is linked to dc-aws-northern-virginia in the seed registry."
+  },
+  {
+    "id": "rel-source-eia-data-center-electricity-documents-dc-aws-oregon",
+    "fromObservableId": "source-eia-data-center-electricity",
+    "toObservableId": "dc-aws-oregon",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Electricity demand from data centers is linked to dc-aws-oregon in the seed registry."
+  },
+  {
+    "id": "rel-source-eia-data-center-electricity-documents-dc-aws-ohio",
+    "fromObservableId": "source-eia-data-center-electricity",
+    "toObservableId": "dc-aws-ohio",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Electricity demand from data centers is linked to dc-aws-ohio in the seed registry."
+  },
+  {
+    "id": "rel-source-eia-data-center-electricity-documents-dc-oracle-utah-region",
+    "fromObservableId": "source-eia-data-center-electricity",
+    "toObservableId": "dc-oracle-utah-region",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Electricity demand from data centers is linked to dc-oracle-utah-region in the seed registry."
+  },
+  {
+    "id": "rel-source-eia-data-center-electricity-documents-dc-oracle-chicago-region",
+    "fromObservableId": "source-eia-data-center-electricity",
+    "toObservableId": "dc-oracle-chicago-region",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Electricity demand from data centers is linked to dc-oracle-chicago-region in the seed registry."
+  },
+  {
+    "id": "rel-source-eia-data-center-electricity-documents-dc-xai-memphis",
+    "fromObservableId": "source-eia-data-center-electricity",
+    "toObservableId": "dc-xai-memphis",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Electricity demand from data centers is linked to dc-xai-memphis in the seed registry."
+  },
+  {
+    "id": "rel-source-eia-data-center-electricity-documents-dc-cerebras-condor-galaxy",
+    "fromObservableId": "source-eia-data-center-electricity",
+    "toObservableId": "dc-cerebras-condor-galaxy",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Electricity demand from data centers is linked to dc-cerebras-condor-galaxy in the seed registry."
+  },
+  {
+    "id": "rel-source-eia-data-center-electricity-documents-dc-groq-lpu-cloud",
+    "fromObservableId": "source-eia-data-center-electricity",
+    "toObservableId": "dc-groq-lpu-cloud",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Electricity demand from data centers is linked to dc-groq-lpu-cloud in the seed registry."
+  },
+  {
+    "id": "rel-source-eia-data-center-electricity-documents-dc-equinix-sv11",
+    "fromObservableId": "source-eia-data-center-electricity",
+    "toObservableId": "dc-equinix-sv11",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Electricity demand from data centers is linked to dc-equinix-sv11 in the seed registry."
+  },
+  {
+    "id": "rel-source-eia-data-center-electricity-documents-dc-equinix-dc21",
+    "fromObservableId": "source-eia-data-center-electricity",
+    "toObservableId": "dc-equinix-dc21",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Electricity demand from data centers is linked to dc-equinix-dc21 in the seed registry."
+  },
+  {
+    "id": "rel-source-eia-data-center-electricity-documents-dc-tesla-dojo",
+    "fromObservableId": "source-eia-data-center-electricity",
+    "toObservableId": "dc-tesla-dojo",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Electricity demand from data centers is linked to dc-tesla-dojo in the seed registry."
+  },
+  {
+    "id": "rel-source-eia-data-center-electricity-documents-dc-hugging-face-inference",
+    "fromObservableId": "source-eia-data-center-electricity",
+    "toObservableId": "dc-hugging-face-inference",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Electricity demand from data centers is linked to dc-hugging-face-inference in the seed registry."
+  },
+  {
+    "id": "rel-source-eia-data-center-electricity-documents-dc-google-tpu-cloud",
+    "fromObservableId": "source-eia-data-center-electricity",
+    "toObservableId": "dc-google-tpu-cloud",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Electricity demand from data centers is linked to dc-google-tpu-cloud in the seed registry."
+  },
+  {
+    "id": "rel-source-eia-data-center-electricity-documents-dc-nvidia-dgx-cloud",
+    "fromObservableId": "source-eia-data-center-electricity",
+    "toObservableId": "dc-nvidia-dgx-cloud",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-eia-data-center-electricity"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Electricity demand from data centers is linked to dc-nvidia-dgx-cloud in the seed registry."
+  },
+  {
+    "id": "rel-source-nvidia-h100-product-brief-documents-org-nvidia",
+    "fromObservableId": "source-nvidia-h100-product-brief",
+    "toObservableId": "org-nvidia",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-nvidia-h100-product-brief"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "NVIDIA H100 Tensor Core GPU product brief is linked to org-nvidia in the seed registry."
+  },
+  {
+    "id": "rel-source-nvidia-h100-product-brief-documents-org-coreweave",
+    "fromObservableId": "source-nvidia-h100-product-brief",
+    "toObservableId": "org-coreweave",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-nvidia-h100-product-brief"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "NVIDIA H100 Tensor Core GPU product brief is linked to org-coreweave in the seed registry."
+  },
+  {
+    "id": "rel-source-nvidia-h100-product-brief-documents-dc-nvidia-dgx-cloud",
+    "fromObservableId": "source-nvidia-h100-product-brief",
+    "toObservableId": "dc-nvidia-dgx-cloud",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-nvidia-h100-product-brief"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "NVIDIA H100 Tensor Core GPU product brief is linked to dc-nvidia-dgx-cloud in the seed registry."
+  },
+  {
+    "id": "rel-source-oracle-ai-infrastructure-overview-documents-org-oracle-cloud",
+    "fromObservableId": "source-oracle-ai-infrastructure-overview",
+    "toObservableId": "org-oracle-cloud",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-oracle-ai-infrastructure"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Oracle Cloud Infrastructure AI infrastructure overview is linked to org-oracle-cloud in the seed registry."
+  },
+  {
+    "id": "rel-source-oracle-ai-infrastructure-overview-documents-dc-oracle-utah-region",
+    "fromObservableId": "source-oracle-ai-infrastructure-overview",
+    "toObservableId": "dc-oracle-utah-region",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-oracle-ai-infrastructure"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Oracle Cloud Infrastructure AI infrastructure overview is linked to dc-oracle-utah-region in the seed registry."
+  },
+  {
+    "id": "rel-source-oracle-ai-infrastructure-overview-documents-dc-oracle-chicago-region",
+    "fromObservableId": "source-oracle-ai-infrastructure-overview",
+    "toObservableId": "dc-oracle-chicago-region",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-oracle-ai-infrastructure"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Oracle Cloud Infrastructure AI infrastructure overview is linked to dc-oracle-chicago-region in the seed registry."
+  },
+  {
+    "id": "rel-source-oracle-ai-infrastructure-overview-documents-org-nvidia",
+    "fromObservableId": "source-oracle-ai-infrastructure-overview",
+    "toObservableId": "org-nvidia",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-oracle-ai-infrastructure"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Oracle Cloud Infrastructure AI infrastructure overview is linked to org-nvidia in the seed registry."
+  },
+  {
+    "id": "rel-source-openai-gpt4-release-documents-org-openai",
+    "fromObservableId": "source-openai-gpt4-release",
+    "toObservableId": "org-openai",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-openai-gpt4-release"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "GPT-4 release note is linked to org-openai in the seed registry."
+  },
+  {
+    "id": "rel-source-openai-gpt4-release-documents-model-gpt-4",
+    "fromObservableId": "source-openai-gpt4-release",
+    "toObservableId": "model-gpt-4",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-openai-gpt4-release"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "GPT-4 release note is linked to model-gpt-4 in the seed registry."
+  },
+  {
+    "id": "rel-source-openai-dalle-3-documents-org-openai",
+    "fromObservableId": "source-openai-dalle-3",
+    "toObservableId": "org-openai",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-openai-dalle-3"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "DALL-E 3 documentation is linked to org-openai in the seed registry."
+  },
+  {
+    "id": "rel-source-openai-dalle-3-documents-model-dall-e-3",
+    "fromObservableId": "source-openai-dalle-3",
+    "toObservableId": "model-dall-e-3",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-openai-dalle-3"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "DALL-E 3 documentation is linked to model-dall-e-3 in the seed registry."
+  },
+  {
+    "id": "rel-source-anthropic-claude-3-opus-documents-org-anthropic",
+    "fromObservableId": "source-anthropic-claude-3-opus",
+    "toObservableId": "org-anthropic",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-anthropic-claude-3-opus"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Claude 3 model family announcement is linked to org-anthropic in the seed registry."
+  },
+  {
+    "id": "rel-source-anthropic-claude-3-opus-documents-model-claude-3-opus",
+    "fromObservableId": "source-anthropic-claude-3-opus",
+    "toObservableId": "model-claude-3-opus",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-anthropic-claude-3-opus"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Claude 3 model family announcement is linked to model-claude-3-opus in the seed registry."
+  },
+  {
+    "id": "rel-source-google-gemma-2-documents-org-google-deepmind",
+    "fromObservableId": "source-google-gemma-2",
+    "toObservableId": "org-google-deepmind",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-google-gemma-2"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Gemma 2 announcement is linked to org-google-deepmind in the seed registry."
+  },
+  {
+    "id": "rel-source-google-gemma-2-documents-model-gemma-2",
+    "fromObservableId": "source-google-gemma-2",
+    "toObservableId": "model-gemma-2",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-google-gemma-2"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Gemma 2 announcement is linked to model-gemma-2 in the seed registry."
+  },
+  {
+    "id": "rel-source-xai-grok-2-documents-org-xai",
+    "fromObservableId": "source-xai-grok-2",
+    "toObservableId": "org-xai",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-xai-grok-2"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Grok-2 announcement is linked to org-xai in the seed registry."
+  },
+  {
+    "id": "rel-source-xai-grok-2-documents-model-grok-2",
+    "fromObservableId": "source-xai-grok-2",
+    "toObservableId": "model-grok-2",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-xai-grok-2"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Grok-2 announcement is linked to model-grok-2 in the seed registry."
+  },
+  {
+    "id": "rel-source-mistral-large-documents-org-mistral-ai",
+    "fromObservableId": "source-mistral-large",
+    "toObservableId": "org-mistral-ai",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-mistral-large"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Mistral Large announcement is linked to org-mistral-ai in the seed registry."
+  },
+  {
+    "id": "rel-source-mistral-large-documents-model-mistral-large",
+    "fromObservableId": "source-mistral-large",
+    "toObservableId": "model-mistral-large",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-mistral-large"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Mistral Large announcement is linked to model-mistral-large in the seed registry."
+  },
+  {
+    "id": "rel-source-mistral-mixtral-documents-org-mistral-ai",
+    "fromObservableId": "source-mistral-mixtral",
+    "toObservableId": "org-mistral-ai",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-mistral-mixtral"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Mixtral 8x7B announcement is linked to org-mistral-ai in the seed registry."
+  },
+  {
+    "id": "rel-source-mistral-mixtral-documents-model-mixtral-8x7b",
+    "fromObservableId": "source-mistral-mixtral",
+    "toObservableId": "model-mixtral-8x7b",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-mistral-mixtral"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Mixtral 8x7B announcement is linked to model-mixtral-8x7b in the seed registry."
+  },
+  {
+    "id": "rel-source-cohere-command-r-plus-documents-org-cohere",
+    "fromObservableId": "source-cohere-command-r-plus",
+    "toObservableId": "org-cohere",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-cohere-command-r-plus"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Command R+ announcement is linked to org-cohere in the seed registry."
+  },
+  {
+    "id": "rel-source-cohere-command-r-plus-documents-model-command-r-plus",
+    "fromObservableId": "source-cohere-command-r-plus",
+    "toObservableId": "model-command-r-plus",
+    "verification_status": "needs_source_review",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-cohere-command-r-plus"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "medium",
+    "notes": "Command R+ announcement is linked to model-command-r-plus in the seed registry."
+  },
+  {
+    "id": "rel-source-perplexity-sonar-docs-documents-org-perplexity-ai",
+    "fromObservableId": "source-perplexity-sonar-docs",
+    "toObservableId": "org-perplexity-ai",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-perplexity-sonar-docs"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Perplexity Sonar documentation is linked to org-perplexity-ai in the seed registry."
+  },
+  {
+    "id": "rel-source-perplexity-sonar-docs-documents-model-perplexity-sonar",
+    "fromObservableId": "source-perplexity-sonar-docs",
+    "toObservableId": "model-perplexity-sonar",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-perplexity-sonar-docs"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Perplexity Sonar documentation is linked to model-perplexity-sonar in the seed registry."
+  },
+  {
+    "id": "rel-source-amazon-nova-documents-org-amazon-web-services",
+    "fromObservableId": "source-amazon-nova",
+    "toObservableId": "org-amazon-web-services",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-amazon-nova"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Amazon Nova announcement is linked to org-amazon-web-services in the seed registry."
+  },
+  {
+    "id": "rel-source-amazon-nova-documents-model-amazon-nova",
+    "fromObservableId": "source-amazon-nova",
+    "toObservableId": "model-amazon-nova",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-amazon-nova"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Amazon Nova announcement is linked to model-amazon-nova in the seed registry."
+  },
+  {
+    "id": "rel-source-tii-falcon-180b-documents-org-technology-innovation-institute",
+    "fromObservableId": "source-tii-falcon-180b",
+    "toObservableId": "org-technology-innovation-institute",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-tii-falcon-180b"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Falcon 180B release material is linked to org-technology-innovation-institute in the seed registry."
+  },
+  {
+    "id": "rel-source-tii-falcon-180b-documents-model-falcon-180b",
+    "fromObservableId": "source-tii-falcon-180b",
+    "toObservableId": "model-falcon-180b",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-tii-falcon-180b"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Falcon 180B release material is linked to model-falcon-180b in the seed registry."
+  },
+  {
+    "id": "rel-source-ai21-jamba-documents-org-ai21-labs",
+    "fromObservableId": "source-ai21-jamba",
+    "toObservableId": "org-ai21-labs",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-ai21-jamba"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Jamba model documentation is linked to org-ai21-labs in the seed registry."
+  },
+  {
+    "id": "rel-source-ai21-jamba-documents-model-jamba-1-5-large",
+    "fromObservableId": "source-ai21-jamba",
+    "toObservableId": "model-jamba-1-5-large",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-ai21-jamba"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Jamba model documentation is linked to model-jamba-1-5-large in the seed registry."
+  },
+  {
+    "id": "rel-source-alibaba-qwen-documents-org-alibaba-cloud",
+    "fromObservableId": "source-alibaba-qwen",
+    "toObservableId": "org-alibaba-cloud",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-alibaba-qwen"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Qwen model documentation is linked to org-alibaba-cloud in the seed registry."
+  },
+  {
+    "id": "rel-source-alibaba-qwen-documents-model-qwen-2-5",
+    "fromObservableId": "source-alibaba-qwen",
+    "toObservableId": "model-qwen-2-5",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-alibaba-qwen"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Qwen model documentation is linked to model-qwen-2-5 in the seed registry."
+  },
+  {
+    "id": "rel-source-deepseek-v3-documents-org-deepseek",
+    "fromObservableId": "source-deepseek-v3",
+    "toObservableId": "org-deepseek",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-deepseek-v3"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "DeepSeek-V3 report is linked to org-deepseek in the seed registry."
+  },
+  {
+    "id": "rel-source-deepseek-v3-documents-model-deepseek-v3",
+    "fromObservableId": "source-deepseek-v3",
+    "toObservableId": "model-deepseek-v3",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-deepseek-v3"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "DeepSeek-V3 report is linked to model-deepseek-v3 in the seed registry."
+  },
+  {
+    "id": "rel-source-databricks-dbrx-documents-org-databricks",
+    "fromObservableId": "source-databricks-dbrx",
+    "toObservableId": "org-databricks",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-databricks-dbrx"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Introducing DBRX is linked to org-databricks in the seed registry."
+  },
+  {
+    "id": "rel-source-databricks-dbrx-documents-model-dbrx",
+    "fromObservableId": "source-databricks-dbrx",
+    "toObservableId": "model-dbrx",
+    "verification_status": "source_backed",
+    "type": "documents",
+    "label": "documents",
+    "sourceIds": [
+      "src-databricks-dbrx"
+    ],
+    "observedAt": "2026-06-11",
+    "confidence": "high",
+    "notes": "Introducing DBRX is linked to model-dbrx in the seed registry."
+  }
+]

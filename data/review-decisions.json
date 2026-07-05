@@ -1,0 +1,793 @@
+[
+  {
+    "id": "review-batch-001-ai21-labs",
+    "observableId": "org-ai21-labs",
+    "decision": "needs_source_review",
+    "reviewDate": "2026-06-11",
+    "reviewer": "MVP Review Batch 001",
+    "reason": "Record selected for first review batch. Existing metadata is structurally complete, but source verification has not yet been performed.",
+    "missingInformation": [
+      "Primary official source",
+      "Independent secondary source",
+      "Relationship confirmation"
+    ],
+    "recommendedSources": [
+      "Official company website",
+      "Company press release",
+      "Independent company profile"
+    ]
+  },
+  {
+    "id": "review-batch-001-alibaba-cloud",
+    "observableId": "org-alibaba-cloud",
+    "decision": "needs_source_review",
+    "reviewDate": "2026-06-11",
+    "reviewer": "MVP Review Batch 001",
+    "reason": "Record selected for first review batch. Existing metadata is structurally complete, but source verification has not yet been performed.",
+    "missingInformation": [
+      "Primary official source",
+      "Independent secondary source",
+      "Relationship confirmation"
+    ],
+    "recommendedSources": [
+      "Official company website",
+      "Official cloud documentation",
+      "Independent company profile"
+    ]
+  },
+  {
+    "id": "review-batch-001-cerebras",
+    "observableId": "org-cerebras",
+    "decision": "needs_source_review",
+    "reviewDate": "2026-06-11",
+    "reviewer": "MVP Review Batch 001",
+    "reason": "Record selected for first review batch. Existing metadata is structurally complete, but source verification has not yet been performed.",
+    "missingInformation": [
+      "Primary official source",
+      "Independent secondary source",
+      "Relationship confirmation"
+    ],
+    "recommendedSources": [
+      "Official company website",
+      "Company press release",
+      "Independent infrastructure report"
+    ]
+  },
+  {
+    "id": "review-batch-001-deepseek",
+    "observableId": "org-deepseek",
+    "decision": "needs_source_review",
+    "reviewDate": "2026-06-11",
+    "reviewer": "MVP Review Batch 001",
+    "reason": "Record selected for first review batch. Existing metadata is structurally complete, but source verification has not yet been performed.",
+    "missingInformation": [
+      "Primary official source",
+      "Independent secondary source",
+      "Relationship confirmation"
+    ],
+    "recommendedSources": [
+      "Official company website",
+      "Company announcement",
+      "Independent company profile"
+    ]
+  },
+  {
+    "id": "review-batch-001-equinix",
+    "observableId": "org-equinix",
+    "decision": "needs_source_review",
+    "reviewDate": "2026-06-11",
+    "reviewer": "MVP Review Batch 001",
+    "reason": "Record selected for first review batch. Existing metadata is structurally complete, but source verification has not yet been performed.",
+    "missingInformation": [
+      "Primary official source",
+      "Independent secondary source",
+      "Relationship confirmation"
+    ],
+    "recommendedSources": [
+      "Official company website",
+      "Company press release",
+      "Independent infrastructure report"
+    ]
+  },
+  {
+    "id": "review-batch-001-aws-northern-virginia",
+    "observableId": "dc-aws-northern-virginia",
+    "decision": "needs_source_review",
+    "reviewDate": "2026-06-11",
+    "reviewer": "MVP Review Batch 001",
+    "reason": "Record selected for first review batch. Existing metadata is structurally complete, but source verification has not yet been performed.",
+    "missingInformation": [
+      "Official cloud region documentation",
+      "Location confirmation",
+      "Operator confirmation",
+      "Relationship confirmation"
+    ],
+    "recommendedSources": [
+      "Official cloud region documentation",
+      "Official company website",
+      "Independent infrastructure report"
+    ]
+  },
+  {
+    "id": "review-batch-001-aws-ohio",
+    "observableId": "dc-aws-ohio",
+    "decision": "needs_source_review",
+    "reviewDate": "2026-06-11",
+    "reviewer": "MVP Review Batch 001",
+    "reason": "Record selected for first review batch. Existing metadata is structurally complete, but source verification has not yet been performed.",
+    "missingInformation": [
+      "Official cloud region documentation",
+      "Location confirmation",
+      "Operator confirmation",
+      "Relationship confirmation"
+    ],
+    "recommendedSources": [
+      "Official cloud region documentation",
+      "Official company website",
+      "Independent infrastructure report"
+    ]
+  },
+  {
+    "id": "review-batch-001-aws-oregon",
+    "observableId": "dc-aws-oregon",
+    "decision": "needs_source_review",
+    "reviewDate": "2026-06-11",
+    "reviewer": "MVP Review Batch 001",
+    "reason": "Record selected for first review batch. Existing metadata is structurally complete, but source verification has not yet been performed.",
+    "missingInformation": [
+      "Official cloud region documentation",
+      "Location confirmation",
+      "Operator confirmation",
+      "Relationship confirmation"
+    ],
+    "recommendedSources": [
+      "Official cloud region documentation",
+      "Official company website",
+      "Independent infrastructure report"
+    ]
+  },
+  {
+    "id": "review-batch-001-cerebras-condor-galaxy",
+    "observableId": "dc-cerebras-condor-galaxy",
+    "decision": "needs_source_review",
+    "reviewDate": "2026-06-11",
+    "reviewer": "MVP Review Batch 001",
+    "reason": "Record selected for first review batch. Existing metadata is structurally complete, but source verification has not yet been performed.",
+    "missingInformation": [
+      "Primary official source",
+      "Location confirmation",
+      "Operator confirmation",
+      "Relationship confirmation"
+    ],
+    "recommendedSources": [
+      "Official company website",
+      "Company press release",
+      "Independent infrastructure report"
+    ]
+  },
+  {
+    "id": "review-batch-001-equinix-dc21",
+    "observableId": "dc-equinix-dc21",
+    "decision": "needs_source_review",
+    "reviewDate": "2026-06-11",
+    "reviewer": "MVP Review Batch 001",
+    "reason": "Record selected for first review batch. Existing metadata is structurally complete, but source verification has not yet been performed.",
+    "missingInformation": [
+      "Primary official source",
+      "Location confirmation",
+      "Operator confirmation",
+      "Relationship confirmation"
+    ],
+    "recommendedSources": [
+      "Official company website",
+      "Official facility documentation",
+      "Independent infrastructure report"
+    ]
+  },
+  {
+    "id": "verification-pilot-ai21-labs-source-backed",
+    "observableId": "org-ai21-labs",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "AI21 Labs was reviewed as the first verification pilot. The official AI21 Labs website identifies the organization, and an independent Business Insider company/industry profile provides supporting external coverage. The existing conservative description and relationships are reasonable for source-backed MVP registry use.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "AI21 official website",
+      "AI21 About page",
+      "Independent industry/company profile"
+    ]
+  },
+  {
+    "id": "verification-pilot-equinix-source-backed",
+    "observableId": "org-equinix",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "Equinix was reviewed as the second verification pilot. The official Equinix About page identifies the organization and its digital infrastructure role, and independent Investopedia industry coverage provides supporting external coverage of Equinix as a data center operator with AI-demand relevance. The existing conservative description and infrastructure relationships are reasonable for source-backed MVP registry use.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "Equinix official company website",
+      "Equinix company or about documentation",
+      "Independent industry/company profile"
+    ]
+  },
+  {
+    "id": "verification-batch-002-cerebras-source-backed",
+    "observableId": "org-cerebras",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "Cerebras was reviewed in Verification Batch 002. The official Cerebras company page identifies the organization and its AI infrastructure role, and the TIME company profile provides independent external recognition. The existing conservative description and relationships are reasonable for source-backed MVP registry use.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "Cerebras official company page",
+      "Independent company profile",
+      "Independent infrastructure coverage"
+    ]
+  },
+  {
+    "id": "verification-batch-002-deepseek-source-backed",
+    "observableId": "org-deepseek",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "DeepSeek was reviewed in Verification Batch 002. The official DeepSeek website identifies the organization, and Associated Press industry coverage provides independent external recognition of DeepSeek in the AI model ecosystem. The existing conservative description and relationships are reasonable for source-backed MVP registry use.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "DeepSeek official website",
+      "Independent AI industry coverage",
+      "Independent company profile"
+    ]
+  },
+  {
+    "id": "verification-batch-002-alibaba-cloud-source-backed",
+    "observableId": "org-alibaba-cloud",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "Alibaba Cloud was reviewed in Verification Batch 002. The official Alibaba Cloud about page identifies the organization, and TechRadar Pro industry coverage provides independent external recognition of Alibaba Cloud in cloud and AI infrastructure context. The existing conservative description and relationships are reasonable for source-backed MVP registry use.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "Alibaba Cloud official about page",
+      "Independent cloud industry coverage",
+      "Independent company profile"
+    ]
+  },
+  {
+    "id": "verification-batch-002-aws-northern-virginia-source-backed",
+    "observableId": "dc-aws-northern-virginia",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "AWS Northern Virginia Region Footprint was reviewed in Verification Batch 002. Official AWS global infrastructure documentation identifies the US East Northern Virginia region, and Washington Post infrastructure coverage supports the broader Northern Virginia data center footprint context. The existing conservative description avoids capacity, tenancy, and facility-specific claims and is reasonable for source-backed MVP registry use.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "AWS official global infrastructure documentation",
+      "Independent Northern Virginia data center infrastructure coverage",
+      "Independent cloud infrastructure reference"
+    ]
+  },
+  {
+    "id": "verification-batch-002-cerebras-condor-galaxy-source-backed",
+    "observableId": "dc-cerebras-condor-galaxy",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "Cerebras Condor Galaxy AI Supercomputer was reviewed in Verification Batch 002. The official Cerebras company page identifies Cerebras and its stated Condor Galaxy infrastructure association, and MarketWatch industry coverage provides independent external context for Cerebras infrastructure activity connected to G42. The existing conservative description avoids capacity, location, tenancy, and performance claims and is reasonable for source-backed MVP registry use.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "Cerebras official company page",
+      "Independent infrastructure coverage",
+      "Independent AI chip or supercomputer industry coverage"
+    ]
+  },
+  {
+    "id": "verification-batch-003-aws-ohio-source-backed",
+    "observableId": "dc-aws-ohio",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "AWS Ohio Region Footprint was reviewed in Verification Batch 003. Official AWS global infrastructure documentation identifies the US East Ohio region, and Axios Columbus infrastructure coverage supports external recognition of Amazon's Central Ohio data center footprint. The existing conservative description avoids capacity, tenancy, and facility-specific claims and is reasonable for source-backed MVP registry use.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "AWS official global infrastructure documentation",
+      "Independent Ohio data center infrastructure coverage",
+      "Independent cloud infrastructure reference"
+    ]
+  },
+  {
+    "id": "verification-batch-003-aws-oregon-source-backed",
+    "observableId": "dc-aws-oregon",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "AWS Oregon Region Footprint was reviewed in Verification Batch 003. Official AWS global infrastructure documentation identifies the US West Oregon region, and WIRED infrastructure coverage provides independent external recognition of AWS Oregon regional infrastructure and availability-zone context. The existing conservative description avoids capacity, tenancy, and facility-specific claims and is reasonable for source-backed MVP registry use.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "AWS official global infrastructure documentation",
+      "Independent Oregon data center infrastructure coverage",
+      "Independent cloud infrastructure reference"
+    ]
+  },
+  {
+    "id": "verification-batch-003-equinix-dc21-source-backed",
+    "observableId": "dc-equinix-dc21",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "Equinix DC21 IBX was reviewed in Verification Batch 003. Official Equinix facility documentation identifies DC21, its Ashburn address, and its interconnection positioning, and Data Center Map provides independent facility-directory corroboration. The existing conservative description avoids capacity and customer-specific claims and is reasonable for source-backed MVP registry use.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "Equinix official facility documentation",
+      "Independent facility directory",
+      "Independent infrastructure coverage"
+    ]
+  },
+  {
+    "id": "verification-batch-003-xai-memphis-source-backed",
+    "observableId": "dc-xai-memphis",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "xAI Memphis AI Infrastructure Site was reviewed in Verification Batch 003. The official xAI Colossus page supports xAI's association with Colossus AI compute infrastructure, and Business Insider provides independent external coverage identifying the Memphis supercomputer context. The registry description remains intentionally narrow and avoids capacity, tenancy, power, and facility-specific assertions beyond the source-backed Memphis infrastructure association.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "xAI official infrastructure page",
+      "Independent Memphis infrastructure coverage",
+      "Public utility or permitting documentation"
+    ]
+  },
+  {
+    "id": "verification-batch-003-stargate-abilene-source-backed",
+    "observableId": "dc-stargate-abilene",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "Stargate Abilene Campus was reviewed in Verification Batch 003. OpenAI's official Stargate announcement supports the project identity, OpenAI operational role, and Texas-starting infrastructure buildout, and WIRED provides independent external coverage identifying the Abilene Stargate infrastructure site. The registry description remains conservative and avoids capacity, tenancy, and power assertions.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "OpenAI official Stargate announcement",
+      "Independent Abilene infrastructure coverage",
+      "Independent financing or facility-development coverage"
+    ]
+  },
+  {
+    "id": "verification-batch-004-equinix-sv11-source-backed",
+    "observableId": "dc-equinix-sv11",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "Equinix SV11 IBX was reviewed in Verification Batch 004. Official Equinix facility documentation identifies SV11, its San Jose address, and its interconnection positioning, and Data Center Map provides independent facility-directory corroboration. The existing conservative description avoids capacity and customer-specific claims and is reasonable for source-backed MVP registry use.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "Equinix official facility documentation",
+      "Independent facility directory",
+      "Independent infrastructure coverage"
+    ]
+  },
+  {
+    "id": "verification-batch-004-google-tpu-cloud-source-backed",
+    "observableId": "dc-google-tpu-cloud",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "Google Cloud TPU Infrastructure was reviewed in Verification Batch 004. Official Google Cloud TPU documentation identifies TPUs as Google Cloud AI accelerator infrastructure, and TechRadar Pro provides independent industry coverage of Google Cloud TPU infrastructure in AI compute context. The existing conservative distributed-infrastructure description avoids generation, performance, and capacity claims and is reasonable for source-backed MVP registry use.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "Google Cloud TPU documentation",
+      "Independent AI infrastructure coverage",
+      "Independent cloud infrastructure reference"
+    ]
+  },
+  {
+    "id": "verification-batch-004-google-council-bluffs-source-backed",
+    "observableId": "dc-google-council-bluffs",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "Google Council Bluffs Data Center was reviewed in Verification Batch 004. Google's official data-center location page identifies its Council Bluffs data center presence, and Data Center Map provides independent facility-directory corroboration of the Council Bluffs facility identity and operator. The existing conservative description avoids capacity, power, and tenancy claims and is reasonable for source-backed MVP registry use.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "Google official data center location page",
+      "Independent facility directory",
+      "Independent regional infrastructure coverage"
+    ]
+  },
+  {
+    "id": "verification-batch-004-google-mayes-county-source-backed",
+    "observableId": "dc-google-mayes-county",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "Google Mayes County Data Center was reviewed in Verification Batch 004. Google's official Oklahoma data-center location page identifies its Mayes County data center presence, and MidAmerica Industrial Park provides independent regional corroboration of Google data center presence in the Mayes County area. The existing conservative description avoids capacity, power, and tenancy claims and is reasonable for source-backed MVP registry use.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "Google official data center location page",
+      "Independent regional infrastructure reference",
+      "Independent infrastructure coverage"
+    ]
+  },
+  {
+    "id": "verification-batch-004-google-the-dalles-source-backed",
+    "observableId": "dc-google-the-dalles",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "Google The Dalles Data Center was reviewed in Verification Batch 004. Google's official data-center location page identifies The Dalles as a Google data center location, and Data Center Map provides independent facility-directory corroboration of the The Dalles campus identity and operator. The existing conservative description avoids capacity, power, and tenancy claims and is reasonable for source-backed MVP registry use.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "Google official data center location page",
+      "Independent facility directory",
+      "Independent regional infrastructure coverage"
+    ]
+  },
+  {
+    "id": "verification-batch-005-meta-altoona-source-backed",
+    "observableId": "dc-meta-altoona",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "Meta Altoona Data Center was reviewed in Verification Batch 005. Meta's official Altoona data center info sheet identifies the Altoona Data Center as part of Meta's global infrastructure, and Baxtel provides independent facility-directory corroboration of the Meta Altoona campus in Iowa. The existing conservative description avoids capacity, power, and tenancy claims and is reasonable for source-backed MVP registry use.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "Meta official data center info sheet",
+      "Independent facility directory",
+      "Independent regional infrastructure coverage"
+    ]
+  },
+  {
+    "id": "verification-batch-005-meta-eagle-mountain-source-backed",
+    "observableId": "dc-meta-eagle-mountain",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "Meta Eagle Mountain Data Center was reviewed in Verification Batch 005. Meta's official Eagle Mountain data center info sheet identifies the Eagle Mountain Data Center as part of Meta's global infrastructure, and Baxtel provides independent facility-directory corroboration of the Meta Eagle Mountain campus in Utah. The existing conservative description avoids capacity, power, and tenancy claims and is reasonable for source-backed MVP registry use.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "Meta official data center info sheet",
+      "Independent facility directory",
+      "Independent regional infrastructure coverage"
+    ]
+  },
+  {
+    "id": "verification-batch-005-meta-prineville-source-backed",
+    "observableId": "dc-meta-prineville",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "Meta Prineville Data Center was reviewed in Verification Batch 005. Meta's official Prineville data center info sheet identifies the Prineville Data Center as part of Meta's global infrastructure, and Baxtel provides independent facility-directory corroboration of the Meta Prineville campus in Oregon. The existing conservative description avoids capacity, power, and tenancy claims and is reasonable for source-backed MVP registry use.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "Meta official data center info sheet",
+      "Independent facility directory",
+      "Independent regional infrastructure coverage"
+    ]
+  },
+  {
+    "id": "verification-batch-005-microsoft-wisconsin-source-backed",
+    "observableId": "dc-microsoft-wisconsin",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "Microsoft Wisconsin Data Center Campus was reviewed in Verification Batch 005. Microsoft's official Fairwater infrastructure post identifies its Wisconsin AI datacenter in Mount Pleasant, and Tom's Hardware provides independent external coverage of the Microsoft Fairwater Wisconsin data center. The existing conservative description avoids capacity, GPU-count, power, performance, and tenancy claims and is reasonable for source-backed MVP registry use.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "Microsoft official infrastructure announcement",
+      "Independent infrastructure coverage",
+      "Independent regional data center coverage"
+    ]
+  },
+  {
+    "id": "verification-batch-005-oracle-utah-needs-source-review",
+    "observableId": "dc-oracle-utah-region",
+    "decision": "needs_source_review",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "Oracle Utah Cloud Region was reviewed in Verification Batch 005. Oracle's official cloud-region material and broad independent Oracle Cloud context were reviewed, but this batch did not identify enough independent Utah-specific corroboration to upgrade the observable. The record remains needs_source_review under the Observatory's conservative review policy.",
+    "missingInformation": [
+      "Independent Utah-specific Oracle Cloud region corroboration",
+      "Primary Oracle documentation directly naming the Utah or Salt Lake City region for the specific observable",
+      "Relationship confirmation for the specific region observable"
+    ],
+    "recommendedSources": [
+      "Oracle official cloud-region documentation",
+      "Independent cloud region coverage",
+      "Oracle infrastructure or availability-region documentation"
+    ]
+  },
+  {
+    "id": "verification-batch-006-groq-lpu-cloud-source-backed",
+    "observableId": "dc-groq-lpu-cloud",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "Groq LPU Inference Cloud was reviewed in Verification Batch 006. Groq's official GroqCloud page supports the hosted inference-service identity and Groq operator context, and The Wall Street Journal provides independent infrastructure coverage of Groq's data-center expansion context. The existing conservative description avoids capacity, deployment, performance, power, and tenancy claims and is reasonable for source-backed MVP registry use.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "Groq official GroqCloud documentation",
+      "Independent AI infrastructure coverage",
+      "Independent cloud or data-center expansion coverage"
+    ]
+  },
+  {
+    "id": "verification-batch-006-hugging-face-inference-source-backed",
+    "observableId": "dc-hugging-face-inference",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "Hugging Face Inference Endpoints Infrastructure was reviewed in Verification Batch 006. Hugging Face's official Inference Endpoints documentation supports the hosted inference infrastructure description, and an independent broad Hugging Face platform reference corroborates the company and inference-service context. The existing conservative description avoids capacity, cloud-provider, performance, power, and tenancy claims and is reasonable for source-backed MVP registry use.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "Hugging Face official Inference Endpoints documentation",
+      "Independent platform reference",
+      "Independent hosted inference coverage"
+    ]
+  },
+  {
+    "id": "verification-batch-006-nvidia-dgx-cloud-source-backed",
+    "observableId": "dc-nvidia-dgx-cloud",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "NVIDIA DGX Cloud Infrastructure was reviewed in Verification Batch 006. NVIDIA's official DGX Cloud page supports the DGX Cloud infrastructure identity and NVIDIA operator context, and Tom's Hardware provides independent coverage of DGX Cloud as an NVIDIA cloud infrastructure offering. The existing conservative distributed-infrastructure description avoids GPU-count, capacity, performance, power, and tenancy claims and is reasonable for source-backed MVP registry use.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "NVIDIA official DGX Cloud documentation",
+      "Independent cloud infrastructure coverage",
+      "Independent partner or marketplace documentation"
+    ]
+  },
+  {
+    "id": "verification-batch-006-oracle-chicago-source-backed",
+    "observableId": "dc-oracle-chicago-region",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "Oracle Chicago Cloud Region was reviewed in Verification Batch 006. Oracle's official OCI region documentation directly supports the Chicago region identity and Oracle Cloud Infrastructure operator context, and a broad independent Oracle Cloud reference corroborates Oracle Cloud infrastructure context. The existing conservative description avoids capacity, power, tenancy, and facility claims and is reasonable for source-backed MVP registry use.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "Oracle official OCI region documentation",
+      "Independent Oracle Cloud reference",
+      "Independent Chicago-specific cloud region coverage"
+    ]
+  },
+  {
+    "id": "verification-batch-006-tesla-dojo-needs-source-review",
+    "observableId": "dc-tesla-dojo",
+    "decision": "needs_source_review",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Pilot Verification Review",
+    "reason": "Tesla Dojo Supercomputer was reviewed in Verification Batch 006. Tesla AI Day material and independent Data Center Dynamics coverage support historical Dojo supercomputer context, but this batch did not identify enough current written official corroboration to upgrade the active infrastructure observable. The record remains needs_source_review under the Observatory's conservative review policy.",
+    "missingInformation": [
+      "Current written official Tesla source confirming Dojo status",
+      "Independent current-status corroboration for the Dojo supercomputer observable",
+      "Deployment-scope confirmation that does not rely on capacity, performance, or speculative claims"
+    ],
+    "recommendedSources": [
+      "Tesla official AI infrastructure documentation",
+      "Independent current AI infrastructure coverage",
+      "Current Tesla filings or technical reports"
+    ]
+  },
+  {
+    "id": "verification-batch-007-gpt-4o-mini-source-backed",
+    "observableId": "model-gpt-4o-mini",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Model Verification Batch 007",
+    "reason": "GPT-4o mini was reviewed in Verification Batch 007. OpenAI's official GPT-4o mini release material directly supports the specific model record, and WIRED provides independent model-level corroboration. The record was upgraded with conservative wording that avoids benchmark, pricing, and deployment claims beyond the evidence.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "OpenAI official GPT-4o mini release material",
+      "Independent model-release coverage",
+      "Current OpenAI model availability documentation"
+    ]
+  },
+  {
+    "id": "verification-batch-007-o3-source-backed",
+    "observableId": "model-o3",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Model Verification Batch 007",
+    "reason": "o3 was reviewed in Verification Batch 007. OpenAI's official o3 and o4-mini system card directly supports OpenAI o3 as a specific model, and The Verge provides independent model-level corroboration. The record was upgraded with conservative wording that avoids benchmark, tool-use, performance, and availability claims beyond the evidence.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "OpenAI official o3 release or system-card material",
+      "Independent model-release coverage",
+      "Current OpenAI model availability documentation"
+    ]
+  },
+  {
+    "id": "verification-batch-007-dall-e-3-source-backed",
+    "observableId": "model-dall-e-3",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Model Verification Batch 007",
+    "reason": "DALL-E 3 was reviewed in Verification Batch 007. OpenAI's official DALL-E 3 material directly supports the specific model-version record, and WIRED provides independent model-level corroboration. The record was upgraded with conservative wording that avoids generation-quality, safety, availability, and product-integration claims beyond the evidence.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "OpenAI official DALL-E 3 documentation",
+      "Independent model-release coverage",
+      "Current OpenAI image-model availability documentation"
+    ]
+  },
+  {
+    "id": "verification-batch-007-grok-2-source-backed",
+    "observableId": "model-grok-2",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Model Verification Batch 007",
+    "reason": "Grok-2 was reviewed in Verification Batch 007. xAI's official Grok-2 Beta Release directly supports the specific model record, and The Verge provides independent model-level corroboration. The record was upgraded with conservative wording that avoids benchmark, image-generation, access, and deployment claims beyond the evidence.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "xAI official Grok-2 release material",
+      "Independent model-release coverage",
+      "Current xAI model availability documentation"
+    ]
+  },
+  {
+    "id": "verification-batch-007-perplexity-sonar-source-backed",
+    "observableId": "model-perplexity-sonar",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Model Verification Batch 007",
+    "reason": "Perplexity Sonar was reviewed in Verification Batch 007. Perplexity's official Sonar model documentation directly supports the exact sonar model record, and an independent Perplexity AI reference corroborates Sonar as a Perplexity search model. The record was upgraded with conservative wording that explicitly excludes Sonar Pro, Sonar Reasoning Pro, Sonar Deep Research, and other broader Sonar-range variants.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "Perplexity official Sonar model documentation",
+      "Independent Sonar model reference",
+      "Perplexity model changelog if availability changes"
+    ]
+  },
+  {
+    "id": "source-verification-batch-001-google-gemma-2-source-backed",
+    "observableId": "source-google-gemma-2",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Source Verification Batch 001",
+    "missingInformation": [],
+    "reason": "The Gemma 2 source observable was reviewed under Source Verification Criteria. Google's official page is accessible, attributable to Google and Google DeepMind authors, identifiable by title and date, and reasonably classified as release material. Independent reference material corroborates the release-source context. This verifies the source observable itself only and does not add model or entity claims.",
+    "recommendedSources": [
+      "Google official Gemma 2 release page",
+      "Independent Gemma 2 release-source reference"
+    ]
+  },
+  {
+    "id": "source-verification-batch-001-mistral-large-source-backed",
+    "observableId": "source-mistral-large",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Source Verification Batch 001",
+    "missingInformation": [],
+    "reason": "The Mistral Large source observable was reviewed under Source Verification Criteria. Mistral AI's official Au Large page is accessible, attributable to Mistral AI, identifiable by title and date, and reasonably classified as release material. Independent news coverage corroborates the release-source context. This verifies the source observable itself only and does not add model or entity claims.",
+    "recommendedSources": [
+      "Mistral AI official Au Large release page",
+      "Independent Mistral Large release coverage"
+    ]
+  },
+  {
+    "id": "source-verification-batch-001-mistral-mixtral-source-backed",
+    "observableId": "source-mistral-mixtral",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Source Verification Batch 001",
+    "missingInformation": [],
+    "reason": "The Mixtral source observable was reviewed under Source Verification Criteria. Mistral AI's official Mixtral of experts page is accessible, attributable to Mistral AI, identifiable by title and date, and reasonably classified as release material. Independent reference material corroborates the release-source context. This verifies the source observable itself only and does not add model or entity claims.",
+    "recommendedSources": [
+      "Mistral AI official Mixtral of experts release page",
+      "Independent Mixtral release-source reference"
+    ]
+  },
+  {
+    "id": "source-verification-batch-001-nvidia-h100-needs-source-review",
+    "observableId": "source-nvidia-h100-product-brief",
+    "decision": "needs_source_review",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Source Verification Batch 001",
+    "missingInformation": [
+      "Exact source-observable title and URL alignment for the intended NVIDIA H100 product brief.",
+      "Confirmation that the source observable should document CoreWeave and NVIDIA DGX Cloud linked targets, or a split into narrower source records."
+    ],
+    "reason": "The NVIDIA H100 source observable was reviewed under Source Verification Criteria. Official NVIDIA H100 product material exists and is attributable, but the current source observable remains imprecise: the source record URL is generic, the accessible product brief is specifically the NVIDIA H100 NVL GPU Product Brief, and the linked registry targets include CoreWeave and NVIDIA DGX Cloud items not directly documented by the product brief evidence. This verifies source-observable fit only and does not evaluate NVIDIA or H100 as entities.",
+    "recommendedSources": [
+      "Exact NVIDIA H100 product brief URL and title",
+      "Separate source records for broader CoreWeave and DGX Cloud support if needed"
+    ]
+  },
+  {
+    "id": "source-verification-batch-001-microsoft-wisconsin-needs-source-review",
+    "observableId": "source-microsoft-wisconsin-campus",
+    "decision": "needs_source_review",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Source Verification Batch 001",
+    "missingInformation": [
+      "Exact accessible official Microsoft announcement URL and page title.",
+      "Confirmation that the generic blogs.microsoft.com source record should be replaced by the exact announcement source."
+    ],
+    "reason": "The Microsoft Wisconsin campus source observable was reviewed under Source Verification Criteria. Independent Associated Press coverage corroborates the Wisconsin Microsoft data center context, but the exact official Microsoft announcement page was not confirmed and the current source record URL is the generic Microsoft blogs root. The source observable therefore remains insufficiently identifiable and accessible as an exact official source. This verifies source-observable fit only and does not evaluate Microsoft or the campus as entities.",
+    "recommendedSources": [
+      "Exact Microsoft Wisconsin data center announcement URL and title",
+      "Independent Wisconsin data center coverage"
+    ]
+  },
+  {
+    "id": "source-verification-batch-002-amazon-nova-source-backed",
+    "observableId": "source-amazon-nova",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Source Verification Batch 002",
+    "reason": "The Amazon Nova source observable was reviewed under Source Verification Criteria. The AWS News Blog page is accessible, attributable to Amazon Web Services, identifiable by title and date, and reasonably classified as a company announcement. Independent news coverage corroborates the announcement-source context. This verifies the source observable itself only and does not add model, pricing, deployment, or benchmark claims.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "AWS official Amazon Nova announcement",
+      "Independent Amazon Nova announcement coverage"
+    ]
+  },
+  {
+    "id": "source-verification-batch-002-tii-falcon-180b-source-backed",
+    "observableId": "source-tii-falcon-180b",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Source Verification Batch 002",
+    "reason": "The Falcon 180B source observable was reviewed under Source Verification Criteria. The Technology Innovation Institute Hugging Face model card/source material is accessible, attributable to the TII organization, identifiable as Falcon 180B source material, and reasonably classified as model-card/source material. Independent reference material corroborates the Falcon 180B source context. This verifies the source observable itself only and does not add model performance, openness, deployment, or adoption claims.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "Technology Innovation Institute Falcon 180B model card",
+      "Independent Falcon 180B source-context reference"
+    ]
+  },
+  {
+    "id": "source-verification-batch-002-ai21-jamba-source-backed",
+    "observableId": "source-ai21-jamba",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Source Verification Batch 002",
+    "reason": "The Jamba source observable was reviewed under Source Verification Criteria. The AI21 Labs Jamba documentation page is accessible, attributable to AI21 Labs, identifiable by page title and documentation context, and reasonably classified as product documentation. Independent reference material corroborates the AI21/Jamba source context. This verifies the source observable itself only and does not add model capability, deployment, benchmark, or availability claims.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "AI21 Labs official Jamba documentation",
+      "Independent AI21/Jamba source-context reference"
+    ]
+  },
+  {
+    "id": "source-verification-batch-002-alibaba-qwen-source-backed",
+    "observableId": "source-alibaba-qwen",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Source Verification Batch 002",
+    "reason": "The Qwen source observable was reviewed under Source Verification Criteria. The Qwen2.5 page is accessible, attributable to the Qwen team, identifiable by title and date, and reasonably classified as model documentation/source material. Independent reference material corroborates the Qwen2.5 source context and Alibaba/Qwen attribution. This verifies the source observable itself only and does not add model capability, benchmark, openness, or adoption claims.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "Qwen official Qwen2.5 source material",
+      "Independent Qwen source-context reference"
+    ]
+  },
+  {
+    "id": "source-verification-batch-002-deepseek-v3-source-backed",
+    "observableId": "source-deepseek-v3",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-12",
+    "reviewer": "Source Verification Batch 002",
+    "reason": "The DeepSeek-V3 source observable was reviewed under Source Verification Criteria. The DeepSeek-V3 Technical Report is accessible, attributable to DeepSeek-AI, identifiable by title, and reasonably classified as a technical report. DeepSeek API Docs corroborates the release-source context and links to the report, while independent reference material corroborates the broader DeepSeek-V3 source context. This verifies the source observable itself only and does not add model performance, training-cost, deployment, or benchmark claims.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "DeepSeek-V3 Technical Report",
+      "DeepSeek official release note",
+      "Independent DeepSeek-V3 source-context reference"
+    ]
+  },
+  {
+    "id": "verification-threshold-80-stability-ai-source-backed",
+    "observableId": "org-stability-ai",
+    "decision": "source_backed",
+    "reviewDate": "2026-06-13",
+    "reviewer": "Verification Threshold 80",
+    "reason": "Stability AI was selected as the single low-risk threshold record. The official Stability AI image-model page supports the organization identity and Stable Diffusion association in the current conservative record, and an independent Stability AI reference corroborates the organization-level description. The record was upgraded without adding capability, benchmark, pricing, deployment, performance, adoption, leadership, funding, litigation, or market claims.",
+    "missingInformation": [],
+    "recommendedSources": [
+      "Stability AI official image-model page",
+      "Independent Stability AI organization reference"
+    ]
+  }
+]

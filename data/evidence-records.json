@@ -1,0 +1,1182 @@
+[
+  {
+    "id": "evidence-ai21-official-website",
+    "title": "AI21 Labs official website",
+    "publisher": "AI21 Labs",
+    "url": "https://www.ai21.com/",
+    "sourceType": "Official company website",
+    "linkedObservableIds": [
+      "org-ai21-labs"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-pilot-ai21-labs-source-backed"
+    ],
+    "notes": "Official company website used to support the existence and identity of the AI21 Labs organization observable."
+  },
+  {
+    "id": "evidence-ai21-business-insider-profile",
+    "title": "Nvidia-backed Israeli AI startup AI21 is raising a $300 million funding round",
+    "publisher": "Business Insider",
+    "url": "https://www.businessinsider.com/llm-startup-ai21-is-raising-a-300-million-funding-round-2025-5",
+    "sourceType": "Independent industry/company profile",
+    "linkedObservableIds": [
+      "org-ai21-labs"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-pilot-ai21-labs-source-backed"
+    ],
+    "notes": "Independent industry coverage used to support external recognition of AI21 as an AI company/startup."
+  },
+  {
+    "id": "evidence-equinix-official-about",
+    "title": "About Equinix",
+    "publisher": "Equinix",
+    "url": "https://www.equinix.com/about",
+    "sourceType": "Official company website",
+    "linkedObservableIds": [
+      "org-equinix"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-pilot-equinix-source-backed"
+    ],
+    "notes": "Official Equinix page used to support the existence, identity, and digital infrastructure positioning of the Equinix organization observable."
+  },
+  {
+    "id": "evidence-equinix-investopedia-ai-demand",
+    "title": "Data Center Operator Equinix Soars on AI Demand",
+    "publisher": "Investopedia",
+    "url": "https://www.investopedia.com/data-center-operator-equinix-soars-on-ai-demand-8645937",
+    "sourceType": "Independent industry coverage",
+    "linkedObservableIds": [
+      "org-equinix"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-pilot-equinix-source-backed"
+    ],
+    "notes": "Independent industry coverage used to support external recognition of Equinix as a data center infrastructure company with AI-demand relevance."
+  },
+  {
+    "id": "evidence-cerebras-official-company",
+    "title": "Cerebras company page",
+    "publisher": "Cerebras",
+    "url": "https://www.cerebras.ai/company",
+    "sourceType": "Official company website",
+    "linkedObservableIds": [
+      "org-cerebras",
+      "dc-cerebras-condor-galaxy"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-002-cerebras-source-backed",
+      "verification-batch-002-cerebras-condor-galaxy-source-backed"
+    ],
+    "notes": "Official Cerebras page used to support the existence and identity of the Cerebras organization observable and its stated association with the Condor Galaxy AI supercomputer network."
+  },
+  {
+    "id": "evidence-cerebras-time-profile",
+    "title": "Cerebras Systems",
+    "publisher": "TIME",
+    "url": "https://time.com/6979980/cerebras-systems/",
+    "sourceType": "Independent company profile",
+    "linkedObservableIds": [
+      "org-cerebras"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-002-cerebras-source-backed"
+    ],
+    "notes": "Independent company profile used to support external recognition of Cerebras as an AI compute company."
+  },
+  {
+    "id": "evidence-cerebras-marketwatch-g42-profile",
+    "title": "How the CEO of this upstart Nvidia rival hopes to seize on the lucrative market for AI chips",
+    "publisher": "MarketWatch",
+    "url": "https://www.marketwatch.com/story/how-the-ceo-of-this-upstart-nvidia-rival-hopes-to-seize-on-the-lucrative-market-for-ai-chips-d5ccdab0",
+    "sourceType": "Independent industry coverage",
+    "linkedObservableIds": [
+      "dc-cerebras-condor-galaxy"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-002-cerebras-condor-galaxy-source-backed"
+    ],
+    "notes": "Independent industry coverage used to support external recognition of Cerebras infrastructure activity connected to G42 and AI supercomputer deployment context."
+  },
+  {
+    "id": "evidence-deepseek-official-website",
+    "title": "DeepSeek official website",
+    "publisher": "DeepSeek",
+    "url": "https://www.deepseek.com/",
+    "sourceType": "Official company website",
+    "linkedObservableIds": [
+      "org-deepseek"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-002-deepseek-source-backed"
+    ],
+    "notes": "Official DeepSeek website used to support the existence and identity of the DeepSeek organization observable."
+  },
+  {
+    "id": "evidence-deepseek-ap-chinese-ai-models",
+    "title": "DeepSeek has rattled the AI industry. Here's a quick look at other Chinese AI models",
+    "publisher": "Associated Press",
+    "url": "https://apnews.com/article/92d10dc20e3110b2774a5bc8f976e8f9",
+    "sourceType": "Independent industry coverage",
+    "linkedObservableIds": [
+      "org-deepseek"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-002-deepseek-source-backed"
+    ],
+    "notes": "Independent industry coverage used to support external recognition of DeepSeek as an AI organization associated with model releases."
+  },
+  {
+    "id": "evidence-alibaba-cloud-official-about",
+    "title": "About Alibaba Cloud",
+    "publisher": "Alibaba Cloud",
+    "url": "https://www.alibabacloud.com/about",
+    "sourceType": "Official company website",
+    "linkedObservableIds": [
+      "org-alibaba-cloud"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-002-alibaba-cloud-source-backed"
+    ],
+    "notes": "Official Alibaba Cloud page used to support the existence and identity of the Alibaba Cloud organization observable."
+  },
+  {
+    "id": "evidence-alibaba-cloud-techradar-ai-demand",
+    "title": "Alibaba Cloud bumps prices by up to 34 percent due to AI demand and hardware costs",
+    "publisher": "TechRadar Pro",
+    "url": "https://www.techradar.com/pro/alibaba-cloud-bumps-prices-by-up-to-34-percent-due-to-ai-demand-and-hardware-costs",
+    "sourceType": "Independent industry coverage",
+    "linkedObservableIds": [
+      "org-alibaba-cloud"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-002-alibaba-cloud-source-backed"
+    ],
+    "notes": "Independent industry coverage used to support external recognition of Alibaba Cloud as a cloud and AI infrastructure-relevant organization."
+  },
+  {
+    "id": "evidence-aws-northern-virginia-official-regions",
+    "title": "AWS Global Infrastructure Regions and Availability Zones",
+    "publisher": "Amazon Web Services",
+    "url": "https://aws.amazon.com/about-aws/global-infrastructure/regions_az/",
+    "sourceType": "Official cloud infrastructure documentation",
+    "linkedObservableIds": [
+      "dc-aws-northern-virginia"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-002-aws-northern-virginia-source-backed"
+    ],
+    "notes": "Official AWS infrastructure documentation used to support the existence of the AWS US East Northern Virginia regional infrastructure observable."
+  },
+  {
+    "id": "evidence-northern-virginia-wapo-data-center-capital",
+    "title": "What it looks like in the world's data center capital",
+    "publisher": "The Washington Post",
+    "url": "https://www.washingtonpost.com/business/interactive/2025/data-centers-northern-virginia/",
+    "sourceType": "Independent infrastructure coverage",
+    "linkedObservableIds": [
+      "dc-aws-northern-virginia"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-002-aws-northern-virginia-source-backed"
+    ],
+    "notes": "Independent infrastructure coverage used to support the broader Northern Virginia data center footprint context for the AWS regional infrastructure observable."
+  },
+  {
+    "id": "evidence-aws-ohio-oregon-official-regions",
+    "title": "AWS Global Infrastructure Regions and Availability Zones",
+    "publisher": "Amazon Web Services",
+    "url": "https://aws.amazon.com/about-aws/global-infrastructure/regions_az/",
+    "sourceType": "Official cloud infrastructure documentation",
+    "linkedObservableIds": [
+      "dc-aws-ohio",
+      "dc-aws-oregon"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-003-aws-ohio-source-backed",
+      "verification-batch-003-aws-oregon-source-backed"
+    ],
+    "notes": "Official AWS infrastructure documentation used to support the existence of the AWS US East Ohio and US West Oregon regional infrastructure observables."
+  },
+  {
+    "id": "evidence-aws-ohio-axios-data-center-footprint",
+    "title": "Mapped: Amazon's local data center footprint",
+    "publisher": "Axios Columbus",
+    "url": "https://www.axios.com/local/columbus/2025/04/28/amazon-data-centers-central-ohio",
+    "sourceType": "Independent infrastructure coverage",
+    "linkedObservableIds": [
+      "dc-aws-ohio"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-003-aws-ohio-source-backed"
+    ],
+    "notes": "Independent regional infrastructure coverage used to support external recognition of Amazon's Central Ohio data center footprint without adding facility-specific claims."
+  },
+  {
+    "id": "evidence-aws-oregon-wired-cloud-region",
+    "title": "Amazon Floats New Cloud Over Pacific Northwest",
+    "publisher": "WIRED",
+    "url": "https://www.wired.com/2011/11/amazon-in-orego/",
+    "sourceType": "Independent infrastructure coverage",
+    "linkedObservableIds": [
+      "dc-aws-oregon"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-003-aws-oregon-source-backed"
+    ],
+    "notes": "Independent infrastructure coverage used to support external recognition of AWS Oregon regional infrastructure and availability-zone context."
+  },
+  {
+    "id": "evidence-equinix-dc21-official-facility",
+    "title": "Washington DC DC21",
+    "publisher": "Equinix",
+    "url": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/washington-dc-data-centers/dc21",
+    "sourceType": "Official facility documentation",
+    "linkedObservableIds": [
+      "dc-equinix-dc21"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-003-equinix-dc21-source-backed"
+    ],
+    "notes": "Official Equinix facility documentation used to support the existence, operator, DC21 site code, and Ashburn location of the Equinix DC21 IBX observable."
+  },
+  {
+    "id": "evidence-equinix-dc21-datacenter-map",
+    "title": "Equinix DC21 Data Center in Ashburn",
+    "publisher": "Data Center Map",
+    "url": "https://www.datacentermap.com/usa/virginia/ashburn/equinix-dc21/",
+    "sourceType": "Independent facility directory",
+    "linkedObservableIds": [
+      "dc-equinix-dc21"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-003-equinix-dc21-source-backed"
+    ],
+    "notes": "Independent facility directory entry used to corroborate the Equinix DC21 facility identity and Ashburn address."
+  },
+  {
+    "id": "evidence-xai-official-colossus",
+    "title": "Colossus: The World's Largest AI Supercomputer",
+    "publisher": "xAI",
+    "url": "https://x.ai/colossus",
+    "sourceType": "Official infrastructure page",
+    "linkedObservableIds": [
+      "dc-xai-memphis"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-003-xai-memphis-source-backed"
+    ],
+    "notes": "Official xAI Colossus page used to support xAI's association with Colossus AI compute infrastructure; location-specific support is provided by independent coverage."
+  },
+  {
+    "id": "evidence-xai-memphis-business-insider-colossus",
+    "title": "Elon Musk's xAI is expanding its Memphis supercomputer to house at least 1 million GPUs",
+    "publisher": "Business Insider",
+    "url": "https://www.businessinsider.com/xai-memphis-supercomputer-gpus-2024-12",
+    "sourceType": "Independent infrastructure coverage",
+    "linkedObservableIds": [
+      "dc-xai-memphis"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-003-xai-memphis-source-backed"
+    ],
+    "notes": "Independent coverage used to support external recognition of xAI-associated AI infrastructure in Memphis while retaining the registry's conservative no-capacity-claim posture."
+  },
+  {
+    "id": "evidence-stargate-openai-official-announcement",
+    "title": "Announcing The Stargate Project",
+    "publisher": "OpenAI",
+    "url": "https://openai.com/index/announcing-the-stargate-project/",
+    "sourceType": "Official project announcement",
+    "linkedObservableIds": [
+      "dc-stargate-abilene"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-003-stargate-abilene-source-backed"
+    ],
+    "notes": "Official OpenAI announcement used to support the Stargate project identity, OpenAI operational role, and Texas-starting infrastructure buildout; Abilene-specific support is provided by independent coverage."
+  },
+  {
+    "id": "evidence-stargate-abilene-wired-data-centers",
+    "title": "OpenAI Teams Up With Oracle and SoftBank to Build 5 New Stargate Data Centers",
+    "publisher": "WIRED",
+    "url": "https://www.wired.com/story/openai-oracle-softbank-data-center-stargate-us/",
+    "sourceType": "Independent infrastructure coverage",
+    "linkedObservableIds": [
+      "dc-stargate-abilene"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-003-stargate-abilene-source-backed"
+    ],
+    "notes": "Independent coverage used to support external recognition of the Stargate infrastructure site in Abilene, Texas, while avoiding added power, tenancy, and capacity assertions in the registry record."
+  },
+  {
+    "id": "evidence-equinix-sv11-official-facility",
+    "title": "Silicon Valley SV11",
+    "publisher": "Equinix",
+    "url": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/silicon-valley-data-centers/sv11",
+    "sourceType": "Official facility documentation",
+    "linkedObservableIds": [
+      "dc-equinix-sv11"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-004-equinix-sv11-source-backed"
+    ],
+    "notes": "Official Equinix facility documentation used to support the existence, operator, SV11 site code, and San Jose location of the Equinix SV11 IBX observable without adding capacity or customer-specific assertions."
+  },
+  {
+    "id": "evidence-equinix-sv11-datacenter-map",
+    "title": "Equinix SV11 Data Center in San Jose",
+    "publisher": "Data Center Map",
+    "url": "https://www.datacentermap.com/usa/california/san-jose/equinix-sv11/",
+    "sourceType": "Independent facility directory",
+    "linkedObservableIds": [
+      "dc-equinix-sv11"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-004-equinix-sv11-source-backed"
+    ],
+    "notes": "Independent facility directory entry used to corroborate the Equinix SV11 facility identity, operator, site code, and San Jose address."
+  },
+  {
+    "id": "evidence-google-tpu-official",
+    "title": "Tensor Processing Units (TPUs)",
+    "publisher": "Google Cloud",
+    "url": "https://cloud.google.com/tpu",
+    "sourceType": "Official cloud infrastructure documentation",
+    "linkedObservableIds": [
+      "dc-google-tpu-cloud"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-004-google-tpu-cloud-source-backed"
+    ],
+    "notes": "Official Google Cloud TPU page used to support the existence of Google Cloud TPU AI accelerator infrastructure while avoiding added generation, performance, or capacity assertions."
+  },
+  {
+    "id": "evidence-google-tpu-techradar-infrastructure",
+    "title": "Google Cloud unveils eighth-generation TPUs built to support an agentic era",
+    "publisher": "TechRadar Pro",
+    "url": "https://www.techradar.com/pro/google-cloud-unveils-eighth-generation-tpus-built-to-support-an-agentic-era",
+    "sourceType": "Independent industry coverage",
+    "linkedObservableIds": [
+      "dc-google-tpu-cloud"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-004-google-tpu-cloud-source-backed"
+    ],
+    "notes": "Independent industry coverage used to corroborate external recognition of Google Cloud TPU infrastructure in AI compute context without adding performance or scale claims to the registry record."
+  },
+  {
+    "id": "evidence-google-council-bluffs-official-location",
+    "title": "Council Bluffs, Iowa - Google Data Center Location",
+    "publisher": "Google Data Centers",
+    "url": "https://datacenters.google/locations/iowa/",
+    "sourceType": "Official data center location page",
+    "linkedObservableIds": [
+      "dc-google-council-bluffs"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-004-google-council-bluffs-source-backed"
+    ],
+    "notes": "Official Google Data Centers location page used to support the existence and location of Google's Council Bluffs data center presence without adding capacity, power, or tenancy claims."
+  },
+  {
+    "id": "evidence-google-council-bluffs-datacenter-map",
+    "title": "Google Council Bluffs Data Center",
+    "publisher": "Data Center Map",
+    "url": "https://www.datacentermap.com/usa/iowa/council-bluffs/google-council-bluffs/",
+    "sourceType": "Independent facility directory",
+    "linkedObservableIds": [
+      "dc-google-council-bluffs"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-004-google-council-bluffs-source-backed"
+    ],
+    "notes": "Independent facility directory entry used to corroborate the Google Council Bluffs data center identity, operator, and Iowa location."
+  },
+  {
+    "id": "evidence-google-mayes-county-official-location",
+    "title": "Oklahoma - Google Data Center Location",
+    "publisher": "Google Data Centers",
+    "url": "https://datacenters.google/locations/oklahoma/",
+    "sourceType": "Official data center location page",
+    "linkedObservableIds": [
+      "dc-google-mayes-county"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-004-google-mayes-county-source-backed"
+    ],
+    "notes": "Official Google Data Centers location page used to support the existence of Google's Mayes County data center presence without adding capacity, power, or tenancy claims."
+  },
+  {
+    "id": "evidence-google-mayes-county-midamerica",
+    "title": "Welcome to MidAmerica",
+    "publisher": "MidAmerica Industrial Park",
+    "url": "https://maip.com/",
+    "sourceType": "Independent regional infrastructure reference",
+    "linkedObservableIds": [
+      "dc-google-mayes-county"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-004-google-mayes-county-source-backed"
+    ],
+    "notes": "Independent regional infrastructure reference used to corroborate Google data center presence in the MidAmerica/Mayes County area while retaining the registry's conservative no-capacity-claim posture."
+  },
+  {
+    "id": "evidence-google-the-dalles-official-location",
+    "title": "The Dalles, Oregon - Google Data Center Location",
+    "publisher": "Google Data Centers",
+    "url": "https://datacenters.google/locations/oregon/",
+    "sourceType": "Official data center location page",
+    "linkedObservableIds": [
+      "dc-google-the-dalles"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-004-google-the-dalles-source-backed"
+    ],
+    "notes": "Official Google Data Centers location page used to support the existence and location of Google's The Dalles data center presence without adding capacity, power, or tenancy claims."
+  },
+  {
+    "id": "evidence-google-the-dalles-datacenter-map",
+    "title": "Google The Dalles Campus",
+    "publisher": "Data Center Map",
+    "url": "https://www.datacentermap.com/usa/oregon/the-dalles/google-the-dalles/",
+    "sourceType": "Independent facility directory",
+    "linkedObservableIds": [
+      "dc-google-the-dalles"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-004-google-the-dalles-source-backed"
+    ],
+    "notes": "Independent facility directory entry used to corroborate the Google The Dalles campus identity, operator, and Oregon location."
+  },
+  {
+    "id": "evidence-meta-altoona-official-info-sheet",
+    "title": "Altoona Data Center Info Sheet",
+    "publisher": "Meta Data Centers",
+    "url": "https://datacenters.atmeta.com/asset/altoona-data-center-info-sheet/",
+    "sourceType": "Official data center info sheet",
+    "linkedObservableIds": [
+      "dc-meta-altoona"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-005-meta-altoona-source-backed"
+    ],
+    "notes": "Official Meta info sheet used to support the identity of the Altoona Data Center and its Meta infrastructure context without adding capacity, power, or tenancy claims."
+  },
+  {
+    "id": "evidence-meta-altoona-baxtel",
+    "title": "Meta: Altoona 8 Data Center",
+    "publisher": "Baxtel",
+    "url": "https://baxtel.com/data-center/meta-altoona-8",
+    "sourceType": "Independent facility directory",
+    "linkedObservableIds": [
+      "dc-meta-altoona"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-005-meta-altoona-source-backed"
+    ],
+    "notes": "Independent facility directory entry used to corroborate the Meta Altoona campus identity and Iowa location while preserving the registry's conservative no-capacity-claim posture."
+  },
+  {
+    "id": "evidence-meta-eagle-mountain-official-info-sheet",
+    "title": "Eagle Mountain Data Center Info Sheet",
+    "publisher": "Meta Data Centers",
+    "url": "https://datacenters.atmeta.com/asset/eagle-mountain-data-center-sheet/",
+    "sourceType": "Official data center info sheet",
+    "linkedObservableIds": [
+      "dc-meta-eagle-mountain"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-005-meta-eagle-mountain-source-backed"
+    ],
+    "notes": "Official Meta info sheet used to support the identity of the Eagle Mountain Data Center and its Meta infrastructure context without adding capacity, power, or tenancy claims."
+  },
+  {
+    "id": "evidence-meta-eagle-mountain-baxtel",
+    "title": "Meta: Eagle 3 Data Center",
+    "publisher": "Baxtel",
+    "url": "https://baxtel.com/data-center/meta-eagle-3",
+    "sourceType": "Independent facility directory",
+    "linkedObservableIds": [
+      "dc-meta-eagle-mountain"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-005-meta-eagle-mountain-source-backed"
+    ],
+    "notes": "Independent facility directory entry used to corroborate the Meta Eagle Mountain campus identity and Utah location while preserving the registry's conservative no-capacity-claim posture."
+  },
+  {
+    "id": "evidence-meta-prineville-official-info-sheet",
+    "title": "Prineville Data Center Info Sheet",
+    "publisher": "Meta Data Centers",
+    "url": "https://datacenters.atmeta.com/asset/prineville-data-center-info-sheet/",
+    "sourceType": "Official data center info sheet",
+    "linkedObservableIds": [
+      "dc-meta-prineville"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-005-meta-prineville-source-backed"
+    ],
+    "notes": "Official Meta info sheet used to support the identity of the Prineville Data Center and its Meta infrastructure context without adding capacity, power, or tenancy claims."
+  },
+  {
+    "id": "evidence-meta-prineville-baxtel",
+    "title": "Meta: Prineville 5 Data Center",
+    "publisher": "Baxtel",
+    "url": "https://baxtel.com/data-center/meta-prineville-5",
+    "sourceType": "Independent facility directory",
+    "linkedObservableIds": [
+      "dc-meta-prineville"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-005-meta-prineville-source-backed"
+    ],
+    "notes": "Independent facility directory entry used to corroborate the Meta Prineville campus identity and Oregon location while preserving the registry's conservative no-capacity-claim posture."
+  },
+  {
+    "id": "evidence-microsoft-wisconsin-official-fairwater",
+    "title": "Inside the world's most powerful AI datacenter",
+    "publisher": "Microsoft",
+    "url": "https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/",
+    "sourceType": "Official infrastructure announcement",
+    "linkedObservableIds": [
+      "dc-microsoft-wisconsin"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-005-microsoft-wisconsin-source-backed"
+    ],
+    "notes": "Official Microsoft post used to support the Fairwater AI datacenter identity and Mount Pleasant, Wisconsin location without adding capacity, GPU-count, power, performance, or tenancy claims."
+  },
+  {
+    "id": "evidence-microsoft-wisconsin-tomshardware",
+    "title": "Microsoft announces world's most powerful AI data center",
+    "publisher": "Tom's Hardware",
+    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-announces-worlds-most-powerful-ai-data-center-315-acre-site-to-house-hundreds-of-thousands-of-nvidia-gpus-and-enough-fiber-to-circle-the-earth-4-5-times",
+    "sourceType": "Independent infrastructure coverage",
+    "linkedObservableIds": [
+      "dc-microsoft-wisconsin"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-005-microsoft-wisconsin-source-backed"
+    ],
+    "notes": "Independent infrastructure coverage used to corroborate Microsoft Fairwater data center context in Mount Pleasant, Wisconsin while excluding capacity, GPU-count, performance, and power claims from the registry record."
+  },
+  {
+    "id": "evidence-oracle-utah-official-regions",
+    "title": "Public Cloud Regions and Data Centers",
+    "publisher": "Oracle",
+    "url": "https://www.oracle.com/cloud/public-cloud-regions/",
+    "sourceType": "Official cloud region documentation",
+    "linkedObservableIds": [
+      "dc-oracle-utah-region"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-005-oracle-utah-needs-source-review"
+    ],
+    "notes": "Official Oracle cloud-region material reviewed for OCI region structure and related Salt Lake City multicloud availability, but retained because it did not provide enough support for upgrading the specific Utah region observable."
+  },
+  {
+    "id": "evidence-oracle-cloud-wikipedia-regions",
+    "title": "Oracle Cloud",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Oracle_Cloud",
+    "sourceType": "Independent cloud infrastructure reference",
+    "linkedObservableIds": [
+      "dc-oracle-utah-region"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-005-oracle-utah-needs-source-review"
+    ],
+    "notes": "Broad independent reference reviewed for Oracle Cloud and cloud-region context, but not sufficient by itself to corroborate the Utah-specific infrastructure record."
+  },
+  {
+    "id": "evidence-groq-cloud-official",
+    "title": "GroqCloud",
+    "publisher": "Groq",
+    "url": "https://groq.com/groqcloud/",
+    "sourceType": "Official inference cloud product page",
+    "linkedObservableIds": [
+      "dc-groq-lpu-cloud"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-006-groq-lpu-cloud-source-backed"
+    ],
+    "notes": "Official Groq product page used to support the GroqCloud inference-service identity and Groq operator context without adding capacity, deployment, performance, power, or tenancy claims."
+  },
+  {
+    "id": "evidence-groq-wsj-data-center-expansion",
+    "title": "AI Unicorn Groq Charts Data-Center Expansion Plan",
+    "publisher": "The Wall Street Journal",
+    "url": "https://www.wsj.com/business/ai-unicorn-groq-charts-data-center-expansion-plan-5d6a130e",
+    "sourceType": "Independent infrastructure coverage",
+    "linkedObservableIds": [
+      "dc-groq-lpu-cloud"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-006-groq-lpu-cloud-source-backed"
+    ],
+    "notes": "Independent business coverage used to corroborate Groq's inference-infrastructure context while preserving the registry's conservative distributed-infrastructure description."
+  },
+  {
+    "id": "evidence-hugging-face-inference-endpoints-official",
+    "title": "Inference Endpoints",
+    "publisher": "Hugging Face",
+    "url": "https://huggingface.co/docs/inference-endpoints/index",
+    "sourceType": "Official hosted inference documentation",
+    "linkedObservableIds": [
+      "dc-hugging-face-inference"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-006-hugging-face-inference-source-backed"
+    ],
+    "notes": "Official Hugging Face documentation used to support Inference Endpoints as hosted inference infrastructure without adding capacity, cloud-provider, performance, or tenancy claims."
+  },
+  {
+    "id": "evidence-hugging-face-wikipedia-platform",
+    "title": "Hugging Face",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Hugging_Face",
+    "sourceType": "Independent company and platform reference",
+    "linkedObservableIds": [
+      "dc-hugging-face-inference"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-006-hugging-face-inference-source-backed"
+    ],
+    "notes": "Independent broad reference used to corroborate Hugging Face's platform and inference-service context while relying on official Hugging Face documentation for the Inference Endpoints-specific hosted infrastructure claim."
+  },
+  {
+    "id": "evidence-nvidia-dgx-cloud-official",
+    "title": "NVIDIA DGX Cloud",
+    "publisher": "NVIDIA",
+    "url": "https://www.nvidia.com/en-us/data-center/dgx-cloud/",
+    "sourceType": "Official AI infrastructure product page",
+    "linkedObservableIds": [
+      "dc-nvidia-dgx-cloud"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-006-nvidia-dgx-cloud-source-backed"
+    ],
+    "notes": "Official NVIDIA DGX Cloud page used to support the DGX Cloud infrastructure identity and NVIDIA operator context without adding GPU-count, capacity, performance, power, or tenancy claims."
+  },
+  {
+    "id": "evidence-nvidia-dgx-cloud-tomshardware",
+    "title": "Nvidia reportedly steps back from DGX Cloud",
+    "publisher": "Tom's Hardware",
+    "url": "https://www.tomshardware.com/tech-industry/nvidia-steps-back-from-dgx-cloud",
+    "sourceType": "Independent cloud infrastructure coverage",
+    "linkedObservableIds": [
+      "dc-nvidia-dgx-cloud"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-006-nvidia-dgx-cloud-source-backed"
+    ],
+    "notes": "Independent coverage used to corroborate DGX Cloud as an NVIDIA AI cloud-infrastructure offering while excluding reported strategy, capacity, and provider-specific claims from the registry record."
+  },
+  {
+    "id": "evidence-oracle-chicago-official-regions",
+    "title": "Regions and Availability Domains",
+    "publisher": "Oracle",
+    "url": "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm",
+    "sourceType": "Official cloud region documentation",
+    "linkedObservableIds": [
+      "dc-oracle-chicago-region"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-006-oracle-chicago-source-backed"
+    ],
+    "notes": "Official Oracle Cloud Infrastructure documentation used to support the Chicago region identity and OCI operator context without adding capacity, power, tenancy, or facility claims."
+  },
+  {
+    "id": "evidence-oracle-chicago-wikipedia-cloud",
+    "title": "Oracle Cloud",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Oracle_Cloud",
+    "sourceType": "Independent cloud infrastructure reference",
+    "linkedObservableIds": [
+      "dc-oracle-chicago-region"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-006-oracle-chicago-source-backed"
+    ],
+    "notes": "Independent broad reference used to corroborate Oracle Cloud infrastructure context while relying on official Oracle documentation for the Chicago-specific region identity."
+  },
+  {
+    "id": "evidence-tesla-ai-day-2021-official",
+    "title": "Tesla AI Day",
+    "publisher": "Tesla",
+    "url": "https://www.youtube.com/watch?v=j0z4FweCy4M",
+    "sourceType": "Official AI infrastructure presentation",
+    "linkedObservableIds": [
+      "dc-tesla-dojo"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-006-tesla-dojo-needs-source-review"
+    ],
+    "notes": "Official Tesla AI Day presentation reviewed for Dojo supercomputer context, but retained because the observable's current active-status framing needs stronger current written corroboration."
+  },
+  {
+    "id": "evidence-tesla-dojo-dcd",
+    "title": "Tesla details Dojo supercomputer, reveals Dojo D1 chip and training tile module",
+    "publisher": "Data Center Dynamics",
+    "url": "https://www.datacenterdynamics.com/en/news/tesla-details-dojo-supercomputer-reveals-dojo-d1-chip-and-training-tile-module/",
+    "sourceType": "Independent AI infrastructure coverage",
+    "linkedObservableIds": [
+      "dc-tesla-dojo"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-006-tesla-dojo-needs-source-review"
+    ],
+    "notes": "Independent infrastructure coverage reviewed for Tesla Dojo history, but not treated as sufficient by itself to upgrade the record because current active status and deployment scope remain review-sensitive."
+  },
+  {
+    "id": "evidence-openai-gpt-4o-mini-official",
+    "title": "GPT-4o mini: advancing cost-efficient intelligence",
+    "publisher": "OpenAI",
+    "url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
+    "sourceType": "Official model release note",
+    "linkedObservableIds": [
+      "model-gpt-4o-mini"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-007-gpt-4o-mini-source-backed"
+    ],
+    "notes": "Official OpenAI release material used to support GPT-4o mini as a specific OpenAI model while excluding benchmark, pricing, and deployment claims from the registry record."
+  },
+  {
+    "id": "evidence-gpt-4o-mini-wired",
+    "title": "OpenAI Slashes the Cost of Using Its AI With a Mini Model",
+    "publisher": "WIRED",
+    "url": "https://www.wired.com/story/openai-gpt-4o-mini/",
+    "sourceType": "Independent model-release coverage",
+    "linkedObservableIds": [
+      "model-gpt-4o-mini"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-007-gpt-4o-mini-source-backed"
+    ],
+    "notes": "Independent coverage used to corroborate GPT-4o mini as a specific OpenAI model without importing reported pricing, benchmark, or market-position claims into the observable."
+  },
+  {
+    "id": "evidence-openai-o3-system-card",
+    "title": "OpenAI o3 and o4-mini System Card",
+    "publisher": "OpenAI",
+    "url": "https://openai.com/index/o3-o4-mini-system-card/",
+    "sourceType": "Official system card",
+    "linkedObservableIds": [
+      "model-o3"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-007-o3-source-backed"
+    ],
+    "notes": "Official OpenAI system-card material used to support o3 as a specific OpenAI reasoning model while excluding benchmark, tool-use, and availability claims from the registry record."
+  },
+  {
+    "id": "evidence-openai-o3-the-verge",
+    "title": "OpenAI's upgraded o3 model can use images when reasoning",
+    "publisher": "The Verge",
+    "url": "https://www.theverge.com/news/649941/openai-o3-o4-mini-model-images-reasoning",
+    "sourceType": "Independent model-release coverage",
+    "linkedObservableIds": [
+      "model-o3"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-007-o3-source-backed"
+    ],
+    "notes": "Independent coverage used to corroborate the o3 model-level release while excluding capability, tool, and access details from the conservative observable."
+  },
+  {
+    "id": "evidence-openai-dalle-3-official",
+    "title": "DALL-E 3",
+    "publisher": "OpenAI",
+    "url": "https://openai.com/index/dall-e-3/",
+    "sourceType": "Official model documentation",
+    "linkedObservableIds": [
+      "model-dall-e-3"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-007-dall-e-3-source-backed"
+    ],
+    "notes": "Official OpenAI material used to support DALL-E 3 as a specific text-to-image model version while excluding generation-quality, safety, and availability claims from the registry record."
+  },
+  {
+    "id": "evidence-dall-e-3-wired",
+    "title": "OpenAI's Dall-E 3 Is an Art Generator Powered by ChatGPT",
+    "publisher": "WIRED",
+    "url": "https://www.wired.com/story/dall-e-3-open-ai-chat-gpt/",
+    "sourceType": "Independent model-release coverage",
+    "linkedObservableIds": [
+      "model-dall-e-3"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-007-dall-e-3-source-backed"
+    ],
+    "notes": "Independent coverage used to corroborate DALL-E 3 as a specific OpenAI model version while excluding product-integration and generation-quality details from the observable."
+  },
+  {
+    "id": "evidence-xai-grok-2-official",
+    "title": "Grok-2 Beta Release",
+    "publisher": "xAI",
+    "url": "https://x.ai/news/grok-2",
+    "sourceType": "Official model release note",
+    "linkedObservableIds": [
+      "model-grok-2"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-007-grok-2-source-backed"
+    ],
+    "notes": "Official xAI material used to support Grok-2 as a specific xAI model while excluding benchmark, image-generation, access, and deployment claims from the registry record."
+  },
+  {
+    "id": "evidence-grok-2-the-verge",
+    "title": "xAI's new Grok-2 chatbots bring AI image generation to X",
+    "publisher": "The Verge",
+    "url": "https://www.theverge.com/2024/8/14/24220127/grok-ai-chatbot-beta-image-generation-x-xai-update",
+    "sourceType": "Independent model-release coverage",
+    "linkedObservableIds": [
+      "model-grok-2"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-007-grok-2-source-backed"
+    ],
+    "notes": "Independent coverage used to corroborate the Grok-2 model-level release while excluding image-generation, access, and safety controversy details from the conservative observable."
+  },
+  {
+    "id": "evidence-perplexity-sonar-official-docs",
+    "title": "Sonar",
+    "publisher": "Perplexity AI",
+    "url": "https://docs.perplexity.ai/docs/sonar/models/sonar",
+    "sourceType": "Official model documentation",
+    "linkedObservableIds": [
+      "model-perplexity-sonar"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-007-perplexity-sonar-source-backed"
+    ],
+    "notes": "Official Perplexity documentation used to support the exact sonar model record while excluding claims about Sonar Pro, Sonar Reasoning Pro, and other Sonar-range variants."
+  },
+  {
+    "id": "evidence-perplexity-sonar-wikipedia",
+    "title": "Perplexity AI",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Perplexity_AI",
+    "sourceType": "Independent company and model reference",
+    "linkedObservableIds": [
+      "model-perplexity-sonar"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-batch-007-perplexity-sonar-source-backed"
+    ],
+    "notes": "Independent broad reference used only to corroborate external recognition of Sonar as a Perplexity search model; it is not used to verify Sonar Pro or other broader Sonar-family variants."
+  },
+  {
+    "id": "evidence-source-google-gemma-2-official",
+    "title": "Gemma 2 is now available to researchers and developers",
+    "publisher": "Google",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-gemma-2/",
+    "sourceType": "Official release note",
+    "linkedObservableIds": [
+      "source-google-gemma-2"
+    ],
+    "linkedReviewDecisionIds": [
+      "source-verification-batch-001-google-gemma-2-source-backed"
+    ],
+    "notes": "Official Google page used to verify the Gemma 2 source observable as identifiable, attributable, accessible, and reasonably classified as release material."
+  },
+  {
+    "id": "evidence-source-google-gemma-2-wikipedia",
+    "title": "Gemma (language model)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Gemma_(language_model)",
+    "sourceType": "Independent reference",
+    "linkedObservableIds": [
+      "source-google-gemma-2"
+    ],
+    "linkedReviewDecisionIds": [
+      "source-verification-batch-001-google-gemma-2-source-backed"
+    ],
+    "notes": "Independent reference used only to corroborate the Gemma 2 release-source context; it does not verify model capabilities or add entity claims."
+  },
+  {
+    "id": "evidence-source-mistral-large-official",
+    "title": "Au Large",
+    "publisher": "Mistral AI",
+    "url": "https://mistral.ai/news/mistral-large/",
+    "sourceType": "Official release note",
+    "linkedObservableIds": [
+      "source-mistral-large"
+    ],
+    "linkedReviewDecisionIds": [
+      "source-verification-batch-001-mistral-large-source-backed"
+    ],
+    "notes": "Official Mistral AI page used to verify the Mistral Large source observable as identifiable, attributable, accessible, and reasonably classified as release material."
+  },
+  {
+    "id": "evidence-source-mistral-large-ap",
+    "title": "Microsoft partners with France's Mistral AI, an OpenAI rival",
+    "publisher": "Associated Press",
+    "url": "https://apnews.com/article/mistral-ai-lechat-microsoft-openai-cbd6f5604fa577a0d1e7f9047708b718",
+    "sourceType": "Independent news coverage",
+    "linkedObservableIds": [
+      "source-mistral-large"
+    ],
+    "linkedReviewDecisionIds": [
+      "source-verification-batch-001-mistral-large-source-backed"
+    ],
+    "notes": "Independent coverage used only to corroborate the Mistral Large release-source context; it does not verify model capabilities or add entity claims."
+  },
+  {
+    "id": "evidence-source-mistral-mixtral-official",
+    "title": "Mixtral of experts",
+    "publisher": "Mistral AI",
+    "url": "https://mistral.ai/news/mixtral-of-experts/",
+    "sourceType": "Official release note",
+    "linkedObservableIds": [
+      "source-mistral-mixtral"
+    ],
+    "linkedReviewDecisionIds": [
+      "source-verification-batch-001-mistral-mixtral-source-backed"
+    ],
+    "notes": "Official Mistral AI page used to verify the Mixtral source observable as identifiable, attributable, accessible, and reasonably classified as release material."
+  },
+  {
+    "id": "evidence-source-mistral-mixtral-wikipedia",
+    "title": "Mistral AI",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Mistral_AI",
+    "sourceType": "Independent reference",
+    "linkedObservableIds": [
+      "source-mistral-mixtral"
+    ],
+    "linkedReviewDecisionIds": [
+      "source-verification-batch-001-mistral-mixtral-source-backed"
+    ],
+    "notes": "Independent reference used only to corroborate the Mixtral release-source context; it does not verify model capabilities or add entity claims."
+  },
+  {
+    "id": "evidence-source-nvidia-h100-official-product-brief",
+    "title": "NVIDIA H100 NVL GPU Product Brief",
+    "publisher": "NVIDIA",
+    "url": "https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/h100/PB-11773-001_v01.pdf",
+    "sourceType": "Official product brief",
+    "linkedObservableIds": [
+      "source-nvidia-h100-product-brief"
+    ],
+    "linkedReviewDecisionIds": [
+      "source-verification-batch-001-nvidia-h100-needs-source-review"
+    ],
+    "notes": "Official NVIDIA product brief located during source verification. It confirms attributable H100 product material exists, but the current source observable and source record still require representation review."
+  },
+  {
+    "id": "evidence-source-nvidia-h100-hopper-wikipedia",
+    "title": "Hopper (microarchitecture)",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Hopper_(microarchitecture)",
+    "sourceType": "Independent reference",
+    "linkedObservableIds": [
+      "source-nvidia-h100-product-brief"
+    ],
+    "linkedReviewDecisionIds": [
+      "source-verification-batch-001-nvidia-h100-needs-source-review"
+    ],
+    "notes": "Independent reference used only as broad H100 source-context corroboration; it does not resolve the source observable representation mismatch."
+  },
+  {
+    "id": "evidence-source-microsoft-wisconsin-ap",
+    "title": "Biden lauds new Microsoft center on the same site where Trump's Foxconn project failed",
+    "publisher": "Associated Press",
+    "url": "https://apnews.com/article/biden-microsoft-tech-election-2024-ec3501d041d7b8b563563b22fcc23db5",
+    "sourceType": "Independent news coverage",
+    "linkedObservableIds": [
+      "source-microsoft-wisconsin-campus"
+    ],
+    "linkedReviewDecisionIds": [
+      "source-verification-batch-001-microsoft-wisconsin-needs-source-review"
+    ],
+    "notes": "Independent coverage corroborates the Wisconsin Microsoft data center context, but it does not replace the missing exact official Microsoft source URL for this source observable."
+  },
+  {
+    "id": "evidence-source-amazon-nova-official",
+    "title": "Introducing Amazon Nova foundation models: Frontier intelligence and industry leading price performance",
+    "publisher": "Amazon Web Services",
+    "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-nova-frontier-intelligence-and-industry-leading-price-performance/",
+    "sourceType": "Official company announcement",
+    "linkedObservableIds": [
+      "source-amazon-nova"
+    ],
+    "linkedReviewDecisionIds": [
+      "source-verification-batch-002-amazon-nova-source-backed"
+    ],
+    "notes": "Official AWS News Blog page used to verify the Amazon Nova source observable as identifiable, attributable, accessible, and reasonably classified as a company announcement."
+  },
+  {
+    "id": "evidence-source-amazon-nova-the-verge",
+    "title": "Amazon announces its own set of Nova AI models",
+    "publisher": "The Verge",
+    "url": "https://www.theverge.com/2024/12/3/24312260/amazon-nova-foundation-ai-models-anthropic",
+    "sourceType": "Independent news coverage",
+    "linkedObservableIds": [
+      "source-amazon-nova"
+    ],
+    "linkedReviewDecisionIds": [
+      "source-verification-batch-002-amazon-nova-source-backed"
+    ],
+    "notes": "Independent coverage used only to corroborate the Amazon Nova announcement-source context; it does not verify model capabilities or add deployment claims."
+  },
+  {
+    "id": "evidence-source-tii-falcon-180b-huggingface",
+    "title": "tiiuae/falcon-180B",
+    "publisher": "Technology Innovation Institute via Hugging Face",
+    "url": "https://huggingface.co/tiiuae/falcon-180B",
+    "sourceType": "Official model card",
+    "linkedObservableIds": [
+      "source-tii-falcon-180b"
+    ],
+    "linkedReviewDecisionIds": [
+      "source-verification-batch-002-tii-falcon-180b-source-backed"
+    ],
+    "notes": "Official Falcon 180B model card/source material used to verify the source observable as identifiable, attributable to Technology Innovation Institute, accessible, and reasonably classified as model source material."
+  },
+  {
+    "id": "evidence-source-tii-falcon-180b-wikipedia",
+    "title": "Falcon 180B",
+    "publisher": "Wikipedia",
+    "url": "https://fr.wikipedia.org/wiki/Falcon_180B",
+    "sourceType": "Independent reference",
+    "linkedObservableIds": [
+      "source-tii-falcon-180b"
+    ],
+    "linkedReviewDecisionIds": [
+      "source-verification-batch-002-tii-falcon-180b-source-backed"
+    ],
+    "notes": "Independent reference used only to corroborate the Falcon 180B source context and Technology Innovation Institute attribution; it does not verify model performance claims."
+  },
+  {
+    "id": "evidence-source-ai21-jamba-docs",
+    "title": "Jamba",
+    "publisher": "AI21 Labs",
+    "url": "https://docs.ai21.com/docs/jamba-foundation-models",
+    "sourceType": "Official product documentation",
+    "linkedObservableIds": [
+      "source-ai21-jamba"
+    ],
+    "linkedReviewDecisionIds": [
+      "source-verification-batch-002-ai21-jamba-source-backed"
+    ],
+    "notes": "Official AI21 Labs documentation used to verify the Jamba source observable as identifiable, attributable, accessible, and reasonably classified as product documentation."
+  },
+  {
+    "id": "evidence-source-ai21-jamba-wikipedia",
+    "title": "AI21 Labs",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/AI21_Labs",
+    "sourceType": "Independent reference",
+    "linkedObservableIds": [
+      "source-ai21-jamba"
+    ],
+    "linkedReviewDecisionIds": [
+      "source-verification-batch-002-ai21-jamba-source-backed"
+    ],
+    "notes": "Independent reference used only to corroborate AI21 Labs and Jamba source context; it does not verify model capabilities or availability claims."
+  },
+  {
+    "id": "evidence-source-alibaba-qwen-official",
+    "title": "Qwen2.5: A Party of Foundation Models!",
+    "publisher": "Qwen Team",
+    "url": "https://qwenlm.github.io/blog/qwen2.5/",
+    "sourceType": "Official model documentation",
+    "linkedObservableIds": [
+      "source-alibaba-qwen"
+    ],
+    "linkedReviewDecisionIds": [
+      "source-verification-batch-002-alibaba-qwen-source-backed"
+    ],
+    "notes": "Official Qwen2.5 page used to verify the Qwen source observable as identifiable, attributable to the Qwen team, accessible, and reasonably classified as model documentation/source material."
+  },
+  {
+    "id": "evidence-source-alibaba-qwen-wikipedia",
+    "title": "Qwen",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Qwen",
+    "sourceType": "Independent reference",
+    "linkedObservableIds": [
+      "source-alibaba-qwen"
+    ],
+    "linkedReviewDecisionIds": [
+      "source-verification-batch-002-alibaba-qwen-source-backed"
+    ],
+    "notes": "Independent reference used only to corroborate Qwen2.5 source context and Alibaba/Qwen attribution; it does not verify model capabilities or openness claims."
+  },
+  {
+    "id": "evidence-source-deepseek-v3-official-report",
+    "title": "DeepSeek-V3 Technical Report",
+    "publisher": "DeepSeek-AI / arXiv",
+    "url": "https://arxiv.org/abs/2412.19437",
+    "sourceType": "Official technical report",
+    "linkedObservableIds": [
+      "source-deepseek-v3"
+    ],
+    "linkedReviewDecisionIds": [
+      "source-verification-batch-002-deepseek-v3-source-backed"
+    ],
+    "notes": "DeepSeek-AI technical report used to verify the DeepSeek-V3 report source observable as identifiable, attributable, accessible, and reasonably classified as a technical report."
+  },
+  {
+    "id": "evidence-source-deepseek-v3-official-api-docs",
+    "title": "Introducing DeepSeek-V3",
+    "publisher": "DeepSeek API Docs",
+    "url": "https://api-docs.deepseek.com/news/news1226",
+    "sourceType": "Official release note",
+    "linkedObservableIds": [
+      "source-deepseek-v3"
+    ],
+    "linkedReviewDecisionIds": [
+      "source-verification-batch-002-deepseek-v3-source-backed"
+    ],
+    "notes": "Official DeepSeek release page used to corroborate the DeepSeek-V3 technical-report source context and source artifact links."
+  },
+  {
+    "id": "evidence-source-deepseek-v3-wikipedia",
+    "title": "DeepSeek",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/DeepSeek",
+    "sourceType": "Independent reference",
+    "linkedObservableIds": [
+      "source-deepseek-v3"
+    ],
+    "linkedReviewDecisionIds": [
+      "source-verification-batch-002-deepseek-v3-source-backed"
+    ],
+    "notes": "Independent reference used only to corroborate the DeepSeek-V3 source context; it does not verify model performance or training-cost claims."
+  },
+  {
+    "id": "evidence-threshold-80-stability-ai-official",
+    "title": "Stability AI Image Models",
+    "publisher": "Stability AI",
+    "url": "https://stability.ai/stable-image",
+    "sourceType": "Official company model page",
+    "linkedObservableIds": [
+      "org-stability-ai"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-threshold-80-stability-ai-source-backed"
+    ],
+    "notes": "Official Stability AI page used to verify the organization identity and its association with Stable Diffusion image models. It does not add model capability, performance, deployment, pricing, or market claims."
+  },
+  {
+    "id": "evidence-threshold-80-stability-ai-wikipedia",
+    "title": "Stability AI",
+    "publisher": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Stability_AI",
+    "sourceType": "Independent reference",
+    "linkedObservableIds": [
+      "org-stability-ai"
+    ],
+    "linkedReviewDecisionIds": [
+      "verification-threshold-80-stability-ai-source-backed"
+    ],
+    "notes": "Independent reference used to corroborate Stability AI as an artificial intelligence company associated with Stable Diffusion. It does not add current leadership, funding, litigation, capability, or market claims."
+  }
+]

@@ -1,0 +1,2475 @@
+[
+  {
+    "id": "org-openai",
+    "slug": "openai",
+    "name": "OpenAI",
+    "type": "Organization",
+    "verification_status": "source_backed",
+    "summary": "AI research and product organization associated with the GPT model family.",
+    "description": "OpenAI is tracked as an organization observable in the AI ecosystem registry. The record is intentionally conservative and should be expanded only with source-backed claims.",
+    "location": "San Francisco, California, United States",
+    "status": "active",
+    "tags": [
+      "frontier-lab",
+      "models",
+      "deployment",
+      "api",
+      "consumer-ai"
+    ],
+    "aliases": [
+      "OpenAI, L.L.C.",
+      "OpenAI Global"
+    ],
+    "metadata": {
+      "website": "https://openai.com",
+      "founded": "2015",
+      "primaryDomains": [
+        "research",
+        "products",
+        "developer platform"
+      ]
+    }
+  },
+  {
+    "id": "org-microsoft",
+    "slug": "microsoft",
+    "name": "Microsoft",
+    "type": "Organization",
+    "verification_status": "source_backed",
+    "summary": "Cloud, software, and AI infrastructure company with major AI platform investments.",
+    "description": "Microsoft is tracked as an organization observable in the AI ecosystem registry. The record is intentionally conservative and should be expanded only with source-backed claims.",
+    "location": "Redmond, Washington, United States",
+    "status": "active",
+    "tags": [
+      "cloud",
+      "infrastructure",
+      "partnerships",
+      "enterprise-ai"
+    ],
+    "aliases": [
+      "Microsoft Corporation",
+      "Azure"
+    ],
+    "metadata": {
+      "website": "https://www.microsoft.com",
+      "cloudPlatform": "Azure"
+    }
+  },
+  {
+    "id": "org-anthropic",
+    "slug": "anthropic",
+    "name": "Anthropic",
+    "type": "Organization",
+    "verification_status": "source_backed",
+    "summary": "AI company associated with the Claude model family.",
+    "description": "Anthropic is tracked as an organization observable in the AI ecosystem registry. The record is intentionally conservative and should be expanded only with source-backed claims.",
+    "location": "San Francisco, California, United States",
+    "status": "active",
+    "tags": [
+      "frontier-lab",
+      "models",
+      "safety",
+      "api"
+    ],
+    "aliases": [
+      "Anthropic PBC"
+    ],
+    "metadata": {
+      "website": "https://www.anthropic.com",
+      "founded": "2021"
+    }
+  },
+  {
+    "id": "org-google-deepmind",
+    "slug": "google-deepmind",
+    "name": "Google DeepMind",
+    "type": "Organization",
+    "verification_status": "source_backed",
+    "summary": "AI research unit within Google associated with Gemini and other model systems.",
+    "description": "Google DeepMind is tracked as an organization observable in the AI ecosystem registry. The record is intentionally conservative and should be expanded only with source-backed claims.",
+    "location": "London, United Kingdom and Mountain View, California, United States",
+    "status": "active",
+    "tags": [
+      "frontier-lab",
+      "models",
+      "research",
+      "google"
+    ],
+    "aliases": [
+      "DeepMind",
+      "Google AI"
+    ],
+    "metadata": {
+      "website": "https://deepmind.google"
+    }
+  },
+  {
+    "id": "org-meta-ai",
+    "slug": "meta-ai",
+    "name": "Meta AI",
+    "type": "Organization",
+    "verification_status": "source_backed",
+    "summary": "AI research and product organization within Meta Platforms.",
+    "description": "Meta AI is tracked as an organization observable in the AI ecosystem registry. The record is intentionally conservative and should be expanded only with source-backed claims.",
+    "location": "Menlo Park, California, United States",
+    "status": "active",
+    "tags": [
+      "open-models",
+      "social-platforms",
+      "models",
+      "infrastructure"
+    ],
+    "aliases": [
+      "Meta Platforms AI",
+      "FAIR"
+    ],
+    "metadata": {
+      "parentCompany": "Meta Platforms",
+      "website": "https://ai.meta.com"
+    }
+  },
+  {
+    "id": "org-nvidia",
+    "slug": "nvidia",
+    "name": "NVIDIA",
+    "type": "Organization",
+    "verification_status": "source_backed",
+    "summary": "Accelerated computing company supplying GPUs, systems, and AI infrastructure software.",
+    "description": "NVIDIA is tracked as an organization observable in the AI ecosystem registry. The record is intentionally conservative and should be expanded only with source-backed claims.",
+    "location": "Santa Clara, California, United States",
+    "status": "active",
+    "tags": [
+      "compute",
+      "gpus",
+      "hardware",
+      "infrastructure"
+    ],
+    "aliases": [
+      "NVIDIA Corporation"
+    ],
+    "metadata": {
+      "website": "https://www.nvidia.com",
+      "notableProducts": [
+        "H100",
+        "H200",
+        "GB200"
+      ]
+    }
+  },
+  {
+    "id": "org-coreweave",
+    "slug": "coreweave",
+    "name": "CoreWeave",
+    "type": "Organization",
+    "verification_status": "source_backed",
+    "summary": "Cloud provider focused on GPU-accelerated workloads.",
+    "description": "CoreWeave is tracked as an organization observable in the AI ecosystem registry. The record is intentionally conservative and should be expanded only with source-backed claims.",
+    "location": "Roseland, New Jersey, United States",
+    "status": "active",
+    "tags": [
+      "gpu-cloud",
+      "infrastructure",
+      "data-centers",
+      "compute"
+    ],
+    "aliases": [
+      "CoreWeave Cloud"
+    ],
+    "metadata": {
+      "website": "https://www.coreweave.com"
+    }
+  },
+  {
+    "id": "org-oracle-cloud",
+    "slug": "oracle-cloud",
+    "name": "Oracle Cloud Infrastructure",
+    "type": "Organization",
+    "verification_status": "source_backed",
+    "summary": "Cloud infrastructure platform offering AI training and inference capacity.",
+    "description": "Oracle Cloud Infrastructure is tracked as an organization observable in the AI ecosystem registry. The record is intentionally conservative and should be expanded only with source-backed claims.",
+    "location": "Austin, Texas, United States",
+    "status": "active",
+    "tags": [
+      "cloud",
+      "infrastructure",
+      "compute",
+      "enterprise-ai"
+    ],
+    "aliases": [
+      "OCI",
+      "Oracle Cloud"
+    ],
+    "metadata": {
+      "parentCompany": "Oracle Corporation",
+      "website": "https://www.oracle.com/cloud"
+    }
+  },
+  {
+    "id": "org-xai",
+    "slug": "xai",
+    "name": "xAI",
+    "type": "Organization",
+    "verification_status": "source_backed",
+    "summary": "AI company associated with the Grok model family.",
+    "description": "xAI is tracked as an organization observable in the AI ecosystem registry. The record is intentionally conservative and should be expanded only with source-backed claims.",
+    "location": "San Francisco Bay Area, California, United States",
+    "status": "active",
+    "tags": [
+      "frontier-lab",
+      "models",
+      "consumer-ai"
+    ],
+    "aliases": [
+      "x.AI Corp.",
+      "xAI Corp."
+    ],
+    "metadata": {
+      "website": "https://x.ai",
+      "founded": "2023"
+    }
+  },
+  {
+    "id": "org-mistral-ai",
+    "slug": "mistral-ai",
+    "name": "Mistral AI",
+    "type": "Organization",
+    "verification_status": "source_backed",
+    "summary": "AI company associated with Mistral and Mixtral model families.",
+    "description": "Mistral AI is tracked as an organization observable in the AI ecosystem registry. The record is intentionally conservative and should be expanded only with source-backed claims.",
+    "location": "Paris, France",
+    "status": "active",
+    "tags": [
+      "models",
+      "open-weights",
+      "api",
+      "europe"
+    ],
+    "aliases": [
+      "Mistral"
+    ],
+    "metadata": {
+      "website": "https://mistral.ai"
+    }
+  },
+  {
+    "id": "org-cohere",
+    "slug": "cohere",
+    "name": "Cohere",
+    "type": "Organization",
+    "verification_status": "source_backed",
+    "summary": "Enterprise AI company associated with Command model families.",
+    "description": "Cohere is tracked as an organization observable in the AI ecosystem registry. The record is intentionally conservative and should be expanded only with source-backed claims.",
+    "location": "Toronto, Ontario, Canada",
+    "status": "active",
+    "tags": [
+      "models",
+      "enterprise-ai",
+      "api"
+    ],
+    "aliases": [
+      "Cohere Inc."
+    ],
+    "metadata": {
+      "website": "https://cohere.com"
+    }
+  },
+  {
+    "id": "org-perplexity-ai",
+    "slug": "perplexity-ai",
+    "name": "Perplexity AI",
+    "type": "Organization",
+    "verification_status": "source_backed",
+    "summary": "AI search and answer product company associated with Sonar model offerings.",
+    "description": "Perplexity AI is tracked as an organization observable in the AI ecosystem registry. The record is intentionally conservative and should be expanded only with source-backed claims.",
+    "location": "San Francisco, California, United States",
+    "status": "active",
+    "tags": [
+      "search",
+      "consumer-ai",
+      "models"
+    ],
+    "aliases": [
+      "Perplexity"
+    ],
+    "metadata": {
+      "website": "https://www.perplexity.ai"
+    }
+  },
+  {
+    "id": "org-amazon-web-services",
+    "slug": "amazon-web-services",
+    "name": "Amazon Web Services",
+    "type": "Organization",
+    "verification_status": "source_backed",
+    "summary": "Cloud infrastructure provider associated with AI services and Amazon model offerings.",
+    "description": "Amazon Web Services is tracked as an organization observable in the AI ecosystem registry. The record is intentionally conservative and should be expanded only with source-backed claims.",
+    "location": "Seattle, Washington, United States",
+    "status": "active",
+    "tags": [
+      "cloud",
+      "infrastructure",
+      "models",
+      "bedrock"
+    ],
+    "aliases": [
+      "AWS"
+    ],
+    "metadata": {
+      "website": "https://aws.amazon.com"
+    }
+  },
+  {
+    "id": "org-google-cloud",
+    "slug": "google-cloud",
+    "name": "Google Cloud",
+    "type": "Organization",
+    "verification_status": "source_backed",
+    "summary": "Cloud infrastructure platform used for AI training, inference, and model distribution.",
+    "description": "Google Cloud is tracked as an organization observable in the AI ecosystem registry. The record is intentionally conservative and should be expanded only with source-backed claims.",
+    "location": "Mountain View, California, United States",
+    "status": "active",
+    "tags": [
+      "cloud",
+      "infrastructure",
+      "ai-platform"
+    ],
+    "aliases": [
+      "GCP"
+    ],
+    "metadata": {
+      "website": "https://cloud.google.com"
+    }
+  },
+  {
+    "id": "org-tesla",
+    "slug": "tesla",
+    "name": "Tesla",
+    "type": "Organization",
+    "verification_status": "needs_source_review",
+    "summary": "Company tracked for AI infrastructure and the Dojo supercomputer program.",
+    "description": "Tesla is tracked as an organization observable in the AI ecosystem registry. The record is intentionally conservative and should be expanded only with source-backed claims.",
+    "location": "Austin, Texas, United States",
+    "status": "active",
+    "tags": [
+      "ai-infrastructure",
+      "autonomy",
+      "compute"
+    ],
+    "aliases": [
+      "Tesla, Inc."
+    ],
+    "metadata": {
+      "website": "https://www.tesla.com"
+    }
+  },
+  {
+    "id": "org-hugging-face",
+    "slug": "hugging-face",
+    "name": "Hugging Face",
+    "type": "Organization",
+    "verification_status": "source_backed",
+    "summary": "AI platform company associated with model hosting, datasets, and inference services.",
+    "description": "Hugging Face is tracked as an organization observable in the AI ecosystem registry. The record is intentionally conservative and should be expanded only with source-backed claims.",
+    "location": "New York, New York, United States",
+    "status": "active",
+    "tags": [
+      "model-hub",
+      "datasets",
+      "inference",
+      "open-source"
+    ],
+    "aliases": [
+      "Hugging Face Hub"
+    ],
+    "metadata": {
+      "website": "https://huggingface.co"
+    }
+  },
+  {
+    "id": "org-databricks",
+    "slug": "databricks",
+    "name": "Databricks",
+    "type": "Organization",
+    "verification_status": "source_backed",
+    "summary": "Data and AI platform company associated with the DBRX model release.",
+    "description": "Databricks is tracked as an organization observable in the AI ecosystem registry. The record is intentionally conservative and should be expanded only with source-backed claims.",
+    "location": "San Francisco, California, United States",
+    "status": "active",
+    "tags": [
+      "data-platform",
+      "models",
+      "enterprise-ai"
+    ],
+    "aliases": [
+      "Databricks, Inc."
+    ],
+    "metadata": {
+      "website": "https://www.databricks.com"
+    }
+  },
+  {
+    "id": "org-technology-innovation-institute",
+    "slug": "technology-innovation-institute",
+    "name": "Technology Innovation Institute",
+    "type": "Organization",
+    "verification_status": "needs_source_review",
+    "summary": "Research institute associated with Falcon model releases.",
+    "description": "Technology Innovation Institute is tracked as an organization observable in the AI ecosystem registry. The record is intentionally conservative and should be expanded only with source-backed claims.",
+    "location": "Abu Dhabi, United Arab Emirates",
+    "status": "active",
+    "tags": [
+      "research",
+      "models",
+      "open-weights"
+    ],
+    "aliases": [
+      "TII"
+    ],
+    "metadata": {
+      "website": "https://www.tii.ae"
+    }
+  },
+  {
+    "id": "org-ai21-labs",
+    "slug": "ai21-labs",
+    "name": "AI21 Labs",
+    "type": "Organization",
+    "verification_status": "source_backed",
+    "summary": "AI company associated with Jamba and Jurassic model families.",
+    "description": "AI21 Labs is tracked as an organization observable in the AI ecosystem registry. The record is intentionally conservative and should be expanded only with source-backed claims.",
+    "location": "Tel Aviv, Israel",
+    "status": "active",
+    "tags": [
+      "models",
+      "api",
+      "enterprise-ai"
+    ],
+    "aliases": [
+      "AI21"
+    ],
+    "metadata": {
+      "website": "https://www.ai21.com"
+    }
+  },
+  {
+    "id": "org-alibaba-cloud",
+    "slug": "alibaba-cloud",
+    "name": "Alibaba Cloud",
+    "type": "Organization",
+    "verification_status": "source_backed",
+    "summary": "Cloud and AI platform organization associated with Qwen model releases.",
+    "description": "Alibaba Cloud is tracked as an organization observable in the AI ecosystem registry. The record is intentionally conservative and should be expanded only with source-backed claims.",
+    "location": "Hangzhou, China",
+    "status": "active",
+    "tags": [
+      "cloud",
+      "models",
+      "open-weights"
+    ],
+    "aliases": [
+      "Alibaba Cloud Intelligence"
+    ],
+    "metadata": {
+      "website": "https://www.alibabacloud.com"
+    }
+  },
+  {
+    "id": "org-deepseek",
+    "slug": "deepseek",
+    "name": "DeepSeek",
+    "type": "Organization",
+    "verification_status": "source_backed",
+    "summary": "AI company associated with DeepSeek model releases.",
+    "description": "DeepSeek is tracked as an organization observable in the AI ecosystem registry. The record is intentionally conservative and should be expanded only with source-backed claims.",
+    "location": "China",
+    "status": "active",
+    "tags": [
+      "models",
+      "reasoning",
+      "open-weights"
+    ],
+    "aliases": [
+      "DeepSeek AI"
+    ],
+    "metadata": {
+      "website": "https://www.deepseek.com"
+    }
+  },
+  {
+    "id": "org-stability-ai",
+    "slug": "stability-ai",
+    "name": "Stability AI",
+    "type": "Organization",
+    "verification_status": "source_backed",
+    "summary": "AI company associated with Stable Diffusion image generation models.",
+    "description": "Stability AI is tracked as an organization observable in the AI ecosystem registry. The record is intentionally conservative and should be expanded only with source-backed claims.",
+    "location": "London, United Kingdom",
+    "status": "active",
+    "tags": [
+      "image-generation",
+      "models",
+      "open-weights"
+    ],
+    "aliases": [
+      "Stability"
+    ],
+    "metadata": {
+      "website": "https://stability.ai"
+    }
+  },
+  {
+    "id": "org-cerebras",
+    "slug": "cerebras",
+    "name": "Cerebras",
+    "type": "Organization",
+    "verification_status": "source_backed",
+    "summary": "AI compute company associated with wafer-scale systems and AI supercomputer deployments.",
+    "description": "Cerebras is tracked as an organization observable in the AI ecosystem registry. The record is intentionally conservative and should be expanded only with source-backed claims.",
+    "location": "Sunnyvale, California, United States",
+    "status": "active",
+    "tags": [
+      "compute",
+      "hardware",
+      "ai-infrastructure"
+    ],
+    "aliases": [
+      "Cerebras Systems"
+    ],
+    "metadata": {
+      "website": "https://www.cerebras.net"
+    }
+  },
+  {
+    "id": "org-groq",
+    "slug": "groq",
+    "name": "Groq",
+    "type": "Organization",
+    "verification_status": "needs_source_review",
+    "summary": "AI inference infrastructure company associated with LPU-based inference services.",
+    "description": "Groq is tracked as an organization observable in the AI ecosystem registry. The record is intentionally conservative and should be expanded only with source-backed claims.",
+    "location": "Mountain View, California, United States",
+    "status": "active",
+    "tags": [
+      "inference",
+      "hardware",
+      "ai-infrastructure"
+    ],
+    "aliases": [
+      "Groq, Inc."
+    ],
+    "metadata": {
+      "website": "https://groq.com"
+    }
+  },
+  {
+    "id": "org-equinix",
+    "slug": "equinix",
+    "name": "Equinix",
+    "type": "Organization",
+    "verification_status": "source_backed",
+    "summary": "Data center and interconnection provider with AI infrastructure relevance.",
+    "description": "Equinix is tracked as an organization observable in the AI ecosystem registry. The record is intentionally conservative and should be expanded only with source-backed claims.",
+    "location": "Redwood City, California, United States",
+    "status": "active",
+    "tags": [
+      "data-centers",
+      "interconnection",
+      "infrastructure"
+    ],
+    "aliases": [
+      "Equinix, Inc."
+    ],
+    "metadata": {
+      "website": "https://www.equinix.com"
+    }
+  },
+  {
+    "id": "model-gpt-4o",
+    "slug": "gpt-4o",
+    "name": "GPT-4o",
+    "type": "Model",
+    "verification_status": "source_backed",
+    "summary": "Multimodal GPT model released by OpenAI.",
+    "description": "GPT-4o is tracked as a model observable associated with OpenAI. This seed record avoids benchmark, capability, and release-detail claims unless they are backed by a linked source.",
+    "location": "Global deployment",
+    "status": "active",
+    "tags": [
+      "multimodal",
+      "text",
+      "vision",
+      "audio",
+      "openai"
+    ],
+    "aliases": [
+      "gpt-4o",
+      "omni"
+    ],
+    "metadata": {
+      "developer": "OpenAI",
+      "developerObservableId": "org-openai",
+      "releaseDate": "2024-05-13",
+      "modality": [
+        "text",
+        "image",
+        "audio"
+      ]
+    }
+  },
+  {
+    "id": "model-gpt-4o-mini",
+    "slug": "gpt-4o-mini",
+    "name": "GPT-4o mini",
+    "type": "Model",
+    "verification_status": "source_backed",
+    "summary": "Smaller OpenAI model documented for lower-cost text and vision use.",
+    "description": "GPT-4o mini is tracked as a specific OpenAI model. Official OpenAI material identifies GPT-4o mini as a smaller cost-efficient model, and independent coverage corroborates the model-level release; benchmark, pricing, and deployment details remain excluded unless separately sourced.",
+    "location": "Global deployment",
+    "status": "active",
+    "tags": [
+      "text",
+      "vision",
+      "cost-efficient",
+      "api",
+      "openai"
+    ],
+    "aliases": [
+      "gpt-4o-mini"
+    ],
+    "metadata": {
+      "developer": "OpenAI",
+      "developerObservableId": "org-openai"
+    }
+  },
+  {
+    "id": "model-o3",
+    "slug": "o3",
+    "name": "o3",
+    "type": "Model",
+    "verification_status": "source_backed",
+    "summary": "OpenAI reasoning model documented through official release and system-card material.",
+    "description": "o3 is tracked as a specific OpenAI reasoning model. Official OpenAI release and system-card material identify OpenAI o3, and independent coverage corroborates the o3 model-level release; benchmark, tool, availability, and performance details remain excluded unless separately sourced.",
+    "location": "Global deployment",
+    "status": "active",
+    "tags": [
+      "reasoning",
+      "evaluations",
+      "openai"
+    ],
+    "aliases": [
+      "OpenAI o3"
+    ],
+    "metadata": {
+      "developer": "OpenAI",
+      "developerObservableId": "org-openai"
+    }
+  },
+  {
+    "id": "model-gpt-4",
+    "slug": "gpt-4",
+    "name": "GPT-4",
+    "type": "Model",
+    "verification_status": "source_backed",
+    "summary": "GPT-4 model family observable associated with OpenAI.",
+    "description": "GPT-4 is tracked as a model observable associated with OpenAI. This seed record avoids benchmark, capability, and release-detail claims unless they are backed by a linked source.",
+    "location": "Global deployment",
+    "status": "active",
+    "tags": [
+      "text",
+      "vision",
+      "api",
+      "openai"
+    ],
+    "aliases": [
+      "GPT-4"
+    ],
+    "metadata": {
+      "developer": "OpenAI",
+      "developerObservableId": "org-openai"
+    }
+  },
+  {
+    "id": "model-dall-e-3",
+    "slug": "dall-e-3",
+    "name": "DALL-E 3",
+    "type": "Model",
+    "verification_status": "source_backed",
+    "summary": "OpenAI text-to-image model version documented through official and independent sources.",
+    "description": "DALL-E 3 is tracked as a specific OpenAI text-to-image model version. Official OpenAI material identifies DALL-E 3, and independent coverage corroborates the model-level release; generation quality, safety, availability, and product-integration details remain excluded unless separately sourced.",
+    "location": "Global deployment",
+    "status": "active",
+    "tags": [
+      "image-generation",
+      "multimodal",
+      "openai"
+    ],
+    "aliases": [
+      "DALL·E 3",
+      "DALL-E"
+    ],
+    "metadata": {
+      "developer": "OpenAI",
+      "developerObservableId": "org-openai"
+    }
+  },
+  {
+    "id": "model-claude-3-5-sonnet",
+    "slug": "claude-3-5-sonnet",
+    "name": "Claude 3.5 Sonnet",
+    "type": "Model",
+    "verification_status": "source_backed",
+    "summary": "Claude model released by Anthropic.",
+    "description": "Claude 3.5 Sonnet is tracked as a model observable associated with Anthropic. This seed record avoids benchmark, capability, and release-detail claims unless they are backed by a linked source.",
+    "location": "Global deployment",
+    "status": "active",
+    "tags": [
+      "text",
+      "vision",
+      "api",
+      "anthropic"
+    ],
+    "aliases": [
+      "Claude Sonnet 3.5"
+    ],
+    "metadata": {
+      "developer": "Anthropic",
+      "developerObservableId": "org-anthropic",
+      "releaseDate": "2024-06-20"
+    }
+  },
+  {
+    "id": "model-claude-3-opus",
+    "slug": "claude-3-opus",
+    "name": "Claude 3 Opus",
+    "type": "Model",
+    "verification_status": "source_backed",
+    "summary": "Claude model family observable associated with Anthropic.",
+    "description": "Claude 3 Opus is tracked as a model observable associated with Anthropic. This seed record avoids benchmark, capability, and release-detail claims unless they are backed by a linked source.",
+    "location": "Global deployment",
+    "status": "active",
+    "tags": [
+      "text",
+      "vision",
+      "api",
+      "anthropic"
+    ],
+    "aliases": [
+      "Claude Opus"
+    ],
+    "metadata": {
+      "developer": "Anthropic",
+      "developerObservableId": "org-anthropic"
+    }
+  },
+  {
+    "id": "model-gemini-1-5-pro",
+    "slug": "gemini-1-5-pro",
+    "name": "Gemini 1.5 Pro",
+    "type": "Model",
+    "verification_status": "source_backed",
+    "summary": "Google multimodal model with long-context positioning.",
+    "description": "Gemini 1.5 Pro is tracked as a model observable associated with Google DeepMind. This seed record avoids benchmark, capability, and release-detail claims unless they are backed by a linked source.",
+    "location": "Global deployment",
+    "status": "active",
+    "tags": [
+      "multimodal",
+      "long-context",
+      "api",
+      "google-deepmind"
+    ],
+    "aliases": [
+      "Gemini 1.5 Pro"
+    ],
+    "metadata": {
+      "developer": "Google DeepMind",
+      "developerObservableId": "org-google-deepmind",
+      "releaseDate": "2024-02-15"
+    }
+  },
+  {
+    "id": "model-gemma-2",
+    "slug": "gemma-2",
+    "name": "Gemma 2",
+    "type": "Model",
+    "verification_status": "source_backed",
+    "summary": "Open model family observable associated with Google.",
+    "description": "Gemma 2 is tracked as a model observable associated with Google DeepMind. This seed record avoids benchmark, capability, and release-detail claims unless they are backed by a linked source.",
+    "location": "Global deployment",
+    "status": "active",
+    "tags": [
+      "open-weights",
+      "research",
+      "llm",
+      "google-deepmind"
+    ],
+    "aliases": [
+      "Gemma"
+    ],
+    "metadata": {
+      "developer": "Google DeepMind",
+      "developerObservableId": "org-google-deepmind"
+    }
+  },
+  {
+    "id": "model-llama-3-1-405b",
+    "slug": "llama-3-1-405b",
+    "name": "Llama 3.1 405B",
+    "type": "Model",
+    "verification_status": "source_backed",
+    "summary": "Large open-weight model released by Meta.",
+    "description": "Llama 3.1 405B is tracked as a model observable associated with Meta AI. This seed record avoids benchmark, capability, and release-detail claims unless they are backed by a linked source.",
+    "location": "Global deployment",
+    "status": "active",
+    "tags": [
+      "open-weights",
+      "llm",
+      "research",
+      "meta-ai"
+    ],
+    "aliases": [
+      "Llama 3.1 405B Instruct"
+    ],
+    "metadata": {
+      "developer": "Meta AI",
+      "developerObservableId": "org-meta-ai",
+      "parameters": "405B"
+    }
+  },
+  {
+    "id": "model-llama-3-70b",
+    "slug": "llama-3-70b",
+    "name": "Llama 3 70B",
+    "type": "Model",
+    "verification_status": "source_backed",
+    "summary": "Open-weight Llama model family observable associated with Meta.",
+    "description": "Llama 3 70B is tracked as a model observable associated with Meta AI. This seed record avoids benchmark, capability, and release-detail claims unless they are backed by a linked source.",
+    "location": "Global deployment",
+    "status": "active",
+    "tags": [
+      "open-weights",
+      "llm",
+      "research",
+      "meta-ai"
+    ],
+    "aliases": [
+      "Llama 3 70B"
+    ],
+    "metadata": {
+      "developer": "Meta AI",
+      "developerObservableId": "org-meta-ai"
+    }
+  },
+  {
+    "id": "model-grok-2",
+    "slug": "grok-2",
+    "name": "Grok-2",
+    "type": "Model",
+    "verification_status": "source_backed",
+    "summary": "xAI model version documented through Grok-2 release material and independent coverage.",
+    "description": "Grok-2 is tracked as a specific xAI model version. Official xAI material identifies Grok-2, and independent coverage corroborates the Grok-2 model-level release; benchmark, image-generation, access, and deployment details remain excluded unless separately sourced.",
+    "location": "Global deployment",
+    "status": "active",
+    "tags": [
+      "consumer-ai",
+      "model",
+      "xai"
+    ],
+    "aliases": [
+      "Grok 2"
+    ],
+    "metadata": {
+      "developer": "xAI",
+      "developerObservableId": "org-xai"
+    }
+  },
+  {
+    "id": "model-mistral-large",
+    "slug": "mistral-large",
+    "name": "Mistral Large",
+    "type": "Model",
+    "verification_status": "source_backed",
+    "summary": "Mistral model family observable associated with Mistral AI.",
+    "description": "Mistral Large is tracked as a model observable associated with Mistral AI. This seed record avoids benchmark, capability, and release-detail claims unless they are backed by a linked source.",
+    "location": "Global deployment",
+    "status": "active",
+    "tags": [
+      "llm",
+      "api",
+      "europe",
+      "mistral-ai"
+    ],
+    "aliases": [
+      "Mistral Large"
+    ],
+    "metadata": {
+      "developer": "Mistral AI",
+      "developerObservableId": "org-mistral-ai"
+    }
+  },
+  {
+    "id": "model-mixtral-8x7b",
+    "slug": "mixtral-8x7b",
+    "name": "Mixtral 8x7B",
+    "type": "Model",
+    "verification_status": "source_backed",
+    "summary": "Sparse mixture-of-experts model observable associated with Mistral AI.",
+    "description": "Mixtral 8x7B is tracked as a model observable associated with Mistral AI. This seed record avoids benchmark, capability, and release-detail claims unless they are backed by a linked source.",
+    "location": "Global deployment",
+    "status": "active",
+    "tags": [
+      "open-weights",
+      "mixture-of-experts",
+      "llm",
+      "mistral-ai"
+    ],
+    "aliases": [
+      "Mixtral"
+    ],
+    "metadata": {
+      "developer": "Mistral AI",
+      "developerObservableId": "org-mistral-ai"
+    }
+  },
+  {
+    "id": "model-command-r-plus",
+    "slug": "command-r-plus",
+    "name": "Command R+",
+    "type": "Model",
+    "verification_status": "source_backed",
+    "summary": "Cohere model observable associated with retrieval-augmented enterprise use cases.",
+    "description": "Command R+ is tracked as a model observable associated with Cohere. This seed record avoids benchmark, capability, and release-detail claims unless they are backed by a linked source.",
+    "location": "Global deployment",
+    "status": "active",
+    "tags": [
+      "enterprise-ai",
+      "retrieval",
+      "api",
+      "cohere"
+    ],
+    "aliases": [
+      "Command R Plus"
+    ],
+    "metadata": {
+      "developer": "Cohere",
+      "developerObservableId": "org-cohere"
+    }
+  },
+  {
+    "id": "model-perplexity-sonar",
+    "slug": "perplexity-sonar",
+    "name": "Perplexity Sonar",
+    "type": "Model",
+    "verification_status": "source_backed",
+    "summary": "Perplexity AI Sonar search model documented through official model documentation and external reference coverage.",
+    "description": "Perplexity Sonar is tracked as a specific Sonar model offering associated with Perplexity AI. Official Perplexity documentation identifies the sonar model, and independent reference coverage corroborates Sonar as a Perplexity search model; this record does not assert Sonar Pro, Sonar Reasoning Pro, or other broader Sonar-range variants.",
+    "location": "Global deployment",
+    "status": "active",
+    "tags": [
+      "search",
+      "answer-engine",
+      "api",
+      "perplexity-ai"
+    ],
+    "aliases": [
+      "Sonar"
+    ],
+    "metadata": {
+      "developer": "Perplexity AI",
+      "developerObservableId": "org-perplexity-ai"
+    }
+  },
+  {
+    "id": "model-amazon-nova",
+    "slug": "amazon-nova",
+    "name": "Amazon Nova",
+    "type": "Model",
+    "verification_status": "needs_source_review",
+    "summary": "Amazon model family observable associated with AWS AI services.",
+    "description": "Amazon Nova is tracked as a model observable associated with Amazon Web Services. This seed record avoids benchmark, capability, and release-detail claims unless they are backed by a linked source.",
+    "location": "Global deployment",
+    "status": "active",
+    "tags": [
+      "multimodal",
+      "bedrock",
+      "cloud",
+      "amazon-web-services"
+    ],
+    "aliases": [
+      "Nova"
+    ],
+    "metadata": {
+      "developer": "Amazon Web Services",
+      "developerObservableId": "org-amazon-web-services"
+    }
+  },
+  {
+    "id": "model-falcon-180b",
+    "slug": "falcon-180b",
+    "name": "Falcon 180B",
+    "type": "Model",
+    "verification_status": "needs_source_review",
+    "summary": "Open model family observable associated with Technology Innovation Institute.",
+    "description": "Falcon 180B is tracked as a model observable associated with Technology Innovation Institute. This seed record avoids benchmark, capability, and release-detail claims unless they are backed by a linked source.",
+    "location": "Global deployment",
+    "status": "active",
+    "tags": [
+      "open-weights",
+      "llm",
+      "research",
+      "technology-innovation-institute"
+    ],
+    "aliases": [
+      "Falcon"
+    ],
+    "metadata": {
+      "developer": "Technology Innovation Institute",
+      "developerObservableId": "org-technology-innovation-institute"
+    }
+  },
+  {
+    "id": "model-jamba-1-5-large",
+    "slug": "jamba-1-5-large",
+    "name": "Jamba 1.5 Large",
+    "type": "Model",
+    "verification_status": "needs_source_review",
+    "summary": "AI21 model family observable associated with Jamba releases.",
+    "description": "Jamba 1.5 Large is tracked as a model observable associated with AI21 Labs. This seed record avoids benchmark, capability, and release-detail claims unless they are backed by a linked source.",
+    "location": "Global deployment",
+    "status": "active",
+    "tags": [
+      "llm",
+      "hybrid-architecture",
+      "api",
+      "ai21-labs"
+    ],
+    "aliases": [
+      "Jamba"
+    ],
+    "metadata": {
+      "developer": "AI21 Labs",
+      "developerObservableId": "org-ai21-labs"
+    }
+  },
+  {
+    "id": "model-qwen-2-5",
+    "slug": "qwen-2-5",
+    "name": "Qwen2.5",
+    "type": "Model",
+    "verification_status": "needs_source_review",
+    "summary": "Qwen model family observable associated with Alibaba Cloud.",
+    "description": "Qwen2.5 is tracked as a model observable associated with Alibaba Cloud. This seed record avoids benchmark, capability, and release-detail claims unless they are backed by a linked source.",
+    "location": "Global deployment",
+    "status": "active",
+    "tags": [
+      "open-weights",
+      "llm",
+      "multilingual",
+      "alibaba-cloud"
+    ],
+    "aliases": [
+      "Qwen 2.5",
+      "Qwen"
+    ],
+    "metadata": {
+      "developer": "Alibaba Cloud",
+      "developerObservableId": "org-alibaba-cloud"
+    }
+  },
+  {
+    "id": "model-deepseek-v3",
+    "slug": "deepseek-v3",
+    "name": "DeepSeek-V3",
+    "type": "Model",
+    "verification_status": "needs_source_review",
+    "summary": "DeepSeek model family observable associated with public model releases.",
+    "description": "DeepSeek-V3 is tracked as a model observable associated with DeepSeek. This seed record avoids benchmark, capability, and release-detail claims unless they are backed by a linked source.",
+    "location": "Global deployment",
+    "status": "active",
+    "tags": [
+      "llm",
+      "reasoning",
+      "open-weights",
+      "deepseek"
+    ],
+    "aliases": [
+      "DeepSeek V3"
+    ],
+    "metadata": {
+      "developer": "DeepSeek",
+      "developerObservableId": "org-deepseek"
+    }
+  },
+  {
+    "id": "model-phi-3",
+    "slug": "phi-3",
+    "name": "Phi-3",
+    "type": "Model",
+    "verification_status": "needs_source_review",
+    "summary": "Small language model family observable associated with Microsoft.",
+    "description": "Phi-3 is tracked as a model observable associated with Microsoft. This seed record avoids benchmark, capability, and release-detail claims unless they are backed by a linked source.",
+    "location": "Global deployment",
+    "status": "active",
+    "tags": [
+      "small-model",
+      "open-weights",
+      "edge",
+      "microsoft"
+    ],
+    "aliases": [
+      "Microsoft Phi-3"
+    ],
+    "metadata": {
+      "developer": "Microsoft",
+      "developerObservableId": "org-microsoft"
+    }
+  },
+  {
+    "id": "model-dbrx",
+    "slug": "dbrx",
+    "name": "DBRX",
+    "type": "Model",
+    "verification_status": "source_backed",
+    "summary": "Open model family observable associated with Databricks.",
+    "description": "DBRX is tracked as a model observable associated with Databricks. This seed record avoids benchmark, capability, and release-detail claims unless they are backed by a linked source.",
+    "location": "Global deployment",
+    "status": "active",
+    "tags": [
+      "open-weights",
+      "llm",
+      "data-platform",
+      "databricks"
+    ],
+    "aliases": [
+      "Databricks DBRX"
+    ],
+    "metadata": {
+      "developer": "Databricks",
+      "developerObservableId": "org-databricks"
+    }
+  },
+  {
+    "id": "model-nemotron",
+    "slug": "nemotron",
+    "name": "Nemotron",
+    "type": "Model",
+    "verification_status": "needs_source_review",
+    "summary": "NVIDIA model family observable associated with AI model and inference tooling.",
+    "description": "Nemotron is tracked as a model observable associated with NVIDIA. This seed record avoids benchmark, capability, and release-detail claims unless they are backed by a linked source.",
+    "location": "Global deployment",
+    "status": "active",
+    "tags": [
+      "llm",
+      "inference",
+      "enterprise-ai",
+      "nvidia"
+    ],
+    "aliases": [
+      "NVIDIA Nemotron"
+    ],
+    "metadata": {
+      "developer": "NVIDIA",
+      "developerObservableId": "org-nvidia"
+    }
+  },
+  {
+    "id": "model-stable-diffusion-3",
+    "slug": "stable-diffusion-3",
+    "name": "Stable Diffusion 3",
+    "type": "Model",
+    "verification_status": "source_backed",
+    "summary": "Image generation model family observable associated with Stability AI.",
+    "description": "Stable Diffusion 3 is tracked as a model observable associated with Stability AI. This seed record avoids benchmark, capability, and release-detail claims unless they are backed by a linked source.",
+    "location": "Global deployment",
+    "status": "active",
+    "tags": [
+      "image-generation",
+      "multimodal",
+      "stability-ai"
+    ],
+    "aliases": [
+      "SD3"
+    ],
+    "metadata": {
+      "developer": "Stability AI",
+      "developerObservableId": "org-stability-ai"
+    }
+  },
+  {
+    "id": "dc-stargate-abilene",
+    "slug": "stargate-abilene",
+    "name": "Stargate Abilene Campus",
+    "type": "Data Center",
+    "verification_status": "source_backed",
+    "summary": "Source-backed observable for a large AI infrastructure campus in Abilene, Texas.",
+    "description": "Stargate Abilene Campus is tracked as a data center or AI infrastructure-site observable. Capacity, tenancy, and power details are not asserted in this conservative record without linked evidence.",
+    "location": "Abilene, Texas, United States",
+    "status": "active",
+    "tags": [
+      "data-center",
+      "ai-infrastructure",
+      "texas",
+      "power"
+    ],
+    "aliases": [
+      "Stargate Abilene"
+    ],
+    "metadata": {
+      "operator": "OpenAI",
+      "operatorObservableId": "org-openai"
+    }
+  },
+  {
+    "id": "dc-microsoft-wisconsin",
+    "slug": "microsoft-wisconsin",
+    "name": "Microsoft Wisconsin Data Center Campus",
+    "type": "Data Center",
+    "verification_status": "source_backed",
+    "summary": "Microsoft data center campus investment in southeastern Wisconsin.",
+    "description": "Microsoft Wisconsin Data Center Campus is tracked as a data center or AI infrastructure-site observable. Capacity, tenancy, and power details are not asserted in this seed record without further source review.",
+    "location": "Mount Pleasant, Wisconsin, United States",
+    "status": "active",
+    "tags": [
+      "data-center",
+      "ai-infrastructure",
+      "microsoft",
+      "wisconsin",
+      "cloud"
+    ],
+    "aliases": [
+      "Microsoft Wisconsin"
+    ],
+    "metadata": {
+      "operator": "Microsoft",
+      "operatorObservableId": "org-microsoft"
+    }
+  },
+  {
+    "id": "dc-google-council-bluffs",
+    "slug": "google-council-bluffs",
+    "name": "Google Council Bluffs Data Center",
+    "type": "Data Center",
+    "verification_status": "source_backed",
+    "summary": "Google data center site in Council Bluffs, Iowa.",
+    "description": "Google Council Bluffs Data Center is tracked as a data center or AI infrastructure-site observable. Capacity, tenancy, and power details are not asserted in this seed record without further source review.",
+    "location": "Council Bluffs, Iowa, United States",
+    "status": "active",
+    "tags": [
+      "data-center",
+      "ai-infrastructure",
+      "google",
+      "iowa",
+      "cloud"
+    ],
+    "aliases": [
+      "Google Council Bluffs"
+    ],
+    "metadata": {
+      "operator": "Google Cloud",
+      "operatorObservableId": "org-google-cloud"
+    }
+  },
+  {
+    "id": "dc-meta-eagle-mountain",
+    "slug": "meta-eagle-mountain",
+    "name": "Meta Eagle Mountain Data Center",
+    "type": "Data Center",
+    "verification_status": "source_backed",
+    "summary": "Meta data center campus in Eagle Mountain, Utah.",
+    "description": "Meta Eagle Mountain Data Center is tracked as a data center or AI infrastructure-site observable. Capacity, tenancy, and power details are not asserted in this seed record without further source review.",
+    "location": "Eagle Mountain, Utah, United States",
+    "status": "active",
+    "tags": [
+      "data-center",
+      "ai-infrastructure",
+      "meta",
+      "utah"
+    ],
+    "aliases": [
+      "Meta Eagle Mountain"
+    ],
+    "metadata": {
+      "operator": "Meta AI",
+      "operatorObservableId": "org-meta-ai"
+    }
+  },
+  {
+    "id": "dc-coreweave-lancaster",
+    "slug": "coreweave-lancaster",
+    "name": "CoreWeave Lancaster Campus",
+    "type": "Data Center",
+    "verification_status": "placeholder",
+    "summary": "Placeholder observable for CoreWeave infrastructure in Lancaster, Texas.",
+    "description": "CoreWeave Lancaster Campus is tracked as a data center or AI infrastructure-site observable. Capacity, tenancy, and power details are not asserted in this seed record without further source review.",
+    "location": "Lancaster, Texas, United States",
+    "status": "tracked-placeholder",
+    "tags": [
+      "data-center",
+      "ai-infrastructure",
+      "coreweave",
+      "texas",
+      "gpu-cloud"
+    ],
+    "aliases": [
+      "CoreWeave Lancaster"
+    ],
+    "metadata": {
+      "operator": "CoreWeave",
+      "operatorObservableId": "org-coreweave"
+    }
+  },
+  {
+    "id": "dc-microsoft-boydton",
+    "slug": "microsoft-boydton",
+    "name": "Microsoft Boydton Data Center Campus",
+    "type": "Data Center",
+    "verification_status": "needs_source_review",
+    "summary": "Microsoft cloud infrastructure campus observable in Virginia.",
+    "description": "Microsoft Boydton Data Center Campus is tracked as a data center or AI infrastructure-site observable. Capacity, tenancy, and power details are not asserted in this seed record without further source review.",
+    "location": "Boydton, Virginia, United States",
+    "status": "active",
+    "tags": [
+      "data-center",
+      "ai-infrastructure",
+      "microsoft",
+      "virginia",
+      "cloud"
+    ],
+    "aliases": [
+      "Microsoft Boydton"
+    ],
+    "metadata": {
+      "operator": "Microsoft",
+      "operatorObservableId": "org-microsoft"
+    }
+  },
+  {
+    "id": "dc-microsoft-quincy",
+    "slug": "microsoft-quincy",
+    "name": "Microsoft Quincy Data Center Campus",
+    "type": "Data Center",
+    "verification_status": "needs_source_review",
+    "summary": "Microsoft cloud infrastructure campus observable in Washington.",
+    "description": "Microsoft Quincy Data Center Campus is tracked as a data center or AI infrastructure-site observable. Capacity, tenancy, and power details are not asserted in this seed record without further source review.",
+    "location": "Quincy, Washington, United States",
+    "status": "active",
+    "tags": [
+      "data-center",
+      "ai-infrastructure",
+      "microsoft",
+      "washington",
+      "cloud"
+    ],
+    "aliases": [
+      "Microsoft Quincy"
+    ],
+    "metadata": {
+      "operator": "Microsoft",
+      "operatorObservableId": "org-microsoft"
+    }
+  },
+  {
+    "id": "dc-google-the-dalles",
+    "slug": "google-the-dalles",
+    "name": "Google The Dalles Data Center",
+    "type": "Data Center",
+    "verification_status": "source_backed",
+    "summary": "Google data center site observable in Oregon.",
+    "description": "Google The Dalles Data Center is tracked as a data center or AI infrastructure-site observable. Capacity, tenancy, and power details are not asserted in this seed record without further source review.",
+    "location": "The Dalles, Oregon, United States",
+    "status": "active",
+    "tags": [
+      "data-center",
+      "ai-infrastructure",
+      "google",
+      "oregon",
+      "cloud"
+    ],
+    "aliases": [
+      "Google The Dalles"
+    ],
+    "metadata": {
+      "operator": "Google Cloud",
+      "operatorObservableId": "org-google-cloud"
+    }
+  },
+  {
+    "id": "dc-google-mayes-county",
+    "slug": "google-mayes-county",
+    "name": "Google Mayes County Data Center",
+    "type": "Data Center",
+    "verification_status": "source_backed",
+    "summary": "Google data center site observable in Oklahoma.",
+    "description": "Google Mayes County Data Center is tracked as a data center or AI infrastructure-site observable. Capacity, tenancy, and power details are not asserted in this seed record without further source review.",
+    "location": "Mayes County, Oklahoma, United States",
+    "status": "active",
+    "tags": [
+      "data-center",
+      "ai-infrastructure",
+      "google",
+      "oklahoma",
+      "cloud"
+    ],
+    "aliases": [
+      "Google Mayes County"
+    ],
+    "metadata": {
+      "operator": "Google Cloud",
+      "operatorObservableId": "org-google-cloud"
+    }
+  },
+  {
+    "id": "dc-meta-prineville",
+    "slug": "meta-prineville",
+    "name": "Meta Prineville Data Center",
+    "type": "Data Center",
+    "verification_status": "source_backed",
+    "summary": "Meta data center campus observable in Oregon.",
+    "description": "Meta Prineville Data Center is tracked as a data center or AI infrastructure-site observable. Capacity, tenancy, and power details are not asserted in this seed record without further source review.",
+    "location": "Prineville, Oregon, United States",
+    "status": "active",
+    "tags": [
+      "data-center",
+      "ai-infrastructure",
+      "meta",
+      "oregon"
+    ],
+    "aliases": [
+      "Meta Prineville"
+    ],
+    "metadata": {
+      "operator": "Meta AI",
+      "operatorObservableId": "org-meta-ai"
+    }
+  },
+  {
+    "id": "dc-meta-altoona",
+    "slug": "meta-altoona",
+    "name": "Meta Altoona Data Center",
+    "type": "Data Center",
+    "verification_status": "source_backed",
+    "summary": "Meta data center campus observable in Iowa.",
+    "description": "Meta Altoona Data Center is tracked as a data center or AI infrastructure-site observable. Capacity, tenancy, and power details are not asserted in this seed record without further source review.",
+    "location": "Altoona, Iowa, United States",
+    "status": "active",
+    "tags": [
+      "data-center",
+      "ai-infrastructure",
+      "meta",
+      "iowa"
+    ],
+    "aliases": [
+      "Meta Altoona"
+    ],
+    "metadata": {
+      "operator": "Meta AI",
+      "operatorObservableId": "org-meta-ai"
+    }
+  },
+  {
+    "id": "dc-aws-northern-virginia",
+    "slug": "aws-northern-virginia",
+    "name": "AWS Northern Virginia Region Footprint",
+    "type": "Data Center",
+    "verification_status": "source_backed",
+    "summary": "AWS regional infrastructure footprint observable for AI and cloud workloads.",
+    "description": "AWS Northern Virginia Region Footprint is tracked as a data center or AI infrastructure-site observable. Capacity, tenancy, and power details are not asserted in this seed record without further source review.",
+    "location": "Northern Virginia, United States",
+    "status": "active",
+    "tags": [
+      "data-center",
+      "ai-infrastructure",
+      "aws",
+      "virginia",
+      "cloud-region"
+    ],
+    "aliases": [
+      "AWS Northern Virginia"
+    ],
+    "metadata": {
+      "operator": "Amazon Web Services",
+      "operatorObservableId": "org-amazon-web-services"
+    }
+  },
+  {
+    "id": "dc-aws-oregon",
+    "slug": "aws-oregon",
+    "name": "AWS Oregon Region Footprint",
+    "type": "Data Center",
+    "verification_status": "source_backed",
+    "summary": "AWS regional infrastructure footprint observable in Oregon.",
+    "description": "AWS Oregon Region Footprint is tracked as a data center or AI infrastructure-site observable. Capacity, tenancy, and power details are not asserted in this seed record without further source review.",
+    "location": "Oregon, United States",
+    "status": "active",
+    "tags": [
+      "data-center",
+      "ai-infrastructure",
+      "aws",
+      "oregon",
+      "cloud-region"
+    ],
+    "aliases": [
+      "AWS Oregon"
+    ],
+    "metadata": {
+      "operator": "Amazon Web Services",
+      "operatorObservableId": "org-amazon-web-services"
+    }
+  },
+  {
+    "id": "dc-aws-ohio",
+    "slug": "aws-ohio",
+    "name": "AWS Ohio Region Footprint",
+    "type": "Data Center",
+    "verification_status": "source_backed",
+    "summary": "AWS regional infrastructure footprint observable in Ohio.",
+    "description": "AWS Ohio Region Footprint is tracked as a data center or AI infrastructure-site observable. Capacity, tenancy, and power details are not asserted in this seed record without further source review.",
+    "location": "Ohio, United States",
+    "status": "active",
+    "tags": [
+      "data-center",
+      "ai-infrastructure",
+      "aws",
+      "ohio",
+      "cloud-region"
+    ],
+    "aliases": [
+      "AWS Ohio"
+    ],
+    "metadata": {
+      "operator": "Amazon Web Services",
+      "operatorObservableId": "org-amazon-web-services"
+    }
+  },
+  {
+    "id": "dc-oracle-utah-region",
+    "slug": "oracle-utah-region",
+    "name": "Oracle Utah Cloud Region",
+    "type": "Data Center",
+    "verification_status": "needs_source_review",
+    "summary": "Oracle cloud region observable relevant to AI infrastructure mapping.",
+    "description": "Oracle Utah Cloud Region is tracked as a data center or AI infrastructure-site observable. Capacity, tenancy, and power details are not asserted in this seed record without further source review.",
+    "location": "Utah, United States",
+    "status": "active",
+    "tags": [
+      "data-center",
+      "ai-infrastructure",
+      "oracle",
+      "cloud-region",
+      "utah"
+    ],
+    "aliases": [
+      "Oracle Utah Cloud"
+    ],
+    "metadata": {
+      "operator": "Oracle Cloud Infrastructure",
+      "operatorObservableId": "org-oracle-cloud"
+    }
+  },
+  {
+    "id": "dc-oracle-chicago-region",
+    "slug": "oracle-chicago-region",
+    "name": "Oracle Chicago Cloud Region",
+    "type": "Data Center",
+    "verification_status": "source_backed",
+    "summary": "Oracle cloud region observable relevant to AI infrastructure mapping.",
+    "description": "Oracle Chicago Cloud Region is tracked as a data center or AI infrastructure-site observable. Capacity, tenancy, and power details are not asserted in this seed record without further source review.",
+    "location": "Chicago, Illinois, United States",
+    "status": "active",
+    "tags": [
+      "data-center",
+      "ai-infrastructure",
+      "oracle",
+      "cloud-region",
+      "illinois"
+    ],
+    "aliases": [
+      "Oracle Chicago Cloud"
+    ],
+    "metadata": {
+      "operator": "Oracle Cloud Infrastructure",
+      "operatorObservableId": "org-oracle-cloud"
+    }
+  },
+  {
+    "id": "dc-xai-memphis",
+    "slug": "xai-memphis",
+    "name": "xAI Memphis AI Infrastructure Site",
+    "type": "Data Center",
+    "verification_status": "source_backed",
+    "summary": "Source-backed observable for xAI-associated AI infrastructure in Memphis.",
+    "description": "xAI Memphis AI Infrastructure Site is tracked as a data center or AI infrastructure-site observable. Capacity, tenancy, and power details are not asserted in this conservative record without linked evidence.",
+    "location": "Memphis, Tennessee, United States",
+    "status": "active",
+    "tags": [
+      "data-center",
+      "ai-infrastructure",
+      "xai",
+      "tennessee",
+      "gpu-cluster"
+    ],
+    "aliases": [
+      "xAI Memphis AI Infrastructure"
+    ],
+    "metadata": {
+      "operator": "xAI",
+      "operatorObservableId": "org-xai"
+    }
+  },
+  {
+    "id": "dc-cerebras-condor-galaxy",
+    "slug": "cerebras-condor-galaxy",
+    "name": "Cerebras Condor Galaxy AI Supercomputer",
+    "type": "Data Center",
+    "verification_status": "source_backed",
+    "summary": "AI supercomputer infrastructure observable associated with Cerebras ecosystem reporting.",
+    "description": "Cerebras Condor Galaxy AI Supercomputer is tracked as a data center or AI infrastructure-site observable. Capacity, tenancy, and power details are not asserted in this seed record without further source review.",
+    "location": "Distributed infrastructure",
+    "status": "active",
+    "tags": [
+      "data-center",
+      "ai-infrastructure",
+      "cerebras",
+      "supercomputer",
+      "compute"
+    ],
+    "aliases": [
+      "Cerebras Condor Galaxy AI Supercomputer"
+    ],
+    "metadata": {
+      "operator": "Cerebras",
+      "operatorObservableId": "org-cerebras"
+    }
+  },
+  {
+    "id": "dc-groq-lpu-cloud",
+    "slug": "groq-lpu-cloud",
+    "name": "Groq LPU Inference Cloud",
+    "type": "Data Center",
+    "verification_status": "source_backed",
+    "summary": "AI inference infrastructure observable associated with Groq service offerings.",
+    "description": "Groq LPU Inference Cloud is tracked as a data center or AI infrastructure-site observable. Capacity, tenancy, and power details are not asserted in this seed record without further source review.",
+    "location": "Distributed infrastructure",
+    "status": "active",
+    "tags": [
+      "data-center",
+      "ai-infrastructure",
+      "groq",
+      "inference",
+      "hardware"
+    ],
+    "aliases": [
+      "Groq LPU Inference Cloud"
+    ],
+    "metadata": {
+      "operator": "Groq",
+      "operatorObservableId": "org-groq"
+    }
+  },
+  {
+    "id": "dc-equinix-sv11",
+    "slug": "equinix-sv11",
+    "name": "Equinix SV11 IBX",
+    "type": "Data Center",
+    "verification_status": "source_backed",
+    "summary": "Equinix interconnection facility observable with AI infrastructure relevance.",
+    "description": "Equinix SV11 IBX is tracked as a data center or AI infrastructure-site observable. Capacity, tenancy, and power details are not asserted in this seed record without further source review.",
+    "location": "San Jose, California, United States",
+    "status": "active",
+    "tags": [
+      "data-center",
+      "ai-infrastructure",
+      "equinix",
+      "interconnection",
+      "california"
+    ],
+    "aliases": [
+      "Equinix SV11 IBX"
+    ],
+    "metadata": {
+      "operator": "Equinix",
+      "operatorObservableId": "org-equinix"
+    }
+  },
+  {
+    "id": "dc-equinix-dc21",
+    "slug": "equinix-dc21",
+    "name": "Equinix DC21 IBX",
+    "type": "Data Center",
+    "verification_status": "source_backed",
+    "summary": "Equinix interconnection facility observable in Northern Virginia.",
+    "description": "Equinix DC21 IBX is tracked as a data center or AI infrastructure-site observable. Capacity, tenancy, and power details are not asserted in this seed record without further source review.",
+    "location": "Ashburn, Virginia, United States",
+    "status": "active",
+    "tags": [
+      "data-center",
+      "ai-infrastructure",
+      "equinix",
+      "interconnection",
+      "virginia"
+    ],
+    "aliases": [
+      "Equinix DC21 IBX"
+    ],
+    "metadata": {
+      "operator": "Equinix",
+      "operatorObservableId": "org-equinix"
+    }
+  },
+  {
+    "id": "dc-tesla-dojo",
+    "slug": "tesla-dojo",
+    "name": "Tesla Dojo Supercomputer",
+    "type": "Data Center",
+    "verification_status": "needs_source_review",
+    "summary": "AI supercomputer infrastructure observable associated with Tesla.",
+    "description": "Tesla Dojo Supercomputer is tracked as a data center or AI infrastructure-site observable. Capacity, tenancy, and power details are not asserted in this seed record without further source review.",
+    "location": "United States",
+    "status": "active",
+    "tags": [
+      "data-center",
+      "ai-infrastructure",
+      "tesla",
+      "supercomputer",
+      "autonomy"
+    ],
+    "aliases": [
+      "Tesla Dojo Supercomputer"
+    ],
+    "metadata": {
+      "operator": "Tesla",
+      "operatorObservableId": "org-tesla"
+    }
+  },
+  {
+    "id": "dc-hugging-face-inference",
+    "slug": "hugging-face-inference",
+    "name": "Hugging Face Inference Endpoints Infrastructure",
+    "type": "Data Center",
+    "verification_status": "source_backed",
+    "summary": "Inference infrastructure observable associated with Hugging Face hosted services.",
+    "description": "Hugging Face Inference Endpoints Infrastructure is tracked as a data center or AI infrastructure-site observable. Capacity, tenancy, and power details are not asserted in this seed record without further source review.",
+    "location": "Distributed infrastructure",
+    "status": "active",
+    "tags": [
+      "data-center",
+      "ai-infrastructure",
+      "hugging-face",
+      "inference",
+      "model-hosting"
+    ],
+    "aliases": [
+      "Hugging Face Inference Endpoints Infrastructure"
+    ],
+    "metadata": {
+      "operator": "Hugging Face",
+      "operatorObservableId": "org-hugging-face"
+    }
+  },
+  {
+    "id": "dc-google-tpu-cloud",
+    "slug": "google-tpu-cloud",
+    "name": "Google Cloud TPU Infrastructure",
+    "type": "Data Center",
+    "verification_status": "source_backed",
+    "summary": "AI accelerator infrastructure observable associated with Google Cloud TPU services.",
+    "description": "Google Cloud TPU Infrastructure is tracked as a data center or AI infrastructure-site observable. Capacity, tenancy, and power details are not asserted in this seed record without further source review.",
+    "location": "Distributed infrastructure",
+    "status": "active",
+    "tags": [
+      "data-center",
+      "ai-infrastructure",
+      "google",
+      "tpu",
+      "accelerators"
+    ],
+    "aliases": [
+      "Google Cloud TPU Infrastructure"
+    ],
+    "metadata": {
+      "operator": "Google Cloud",
+      "operatorObservableId": "org-google-cloud"
+    }
+  },
+  {
+    "id": "dc-nvidia-dgx-cloud",
+    "slug": "nvidia-dgx-cloud",
+    "name": "NVIDIA DGX Cloud Infrastructure",
+    "type": "Data Center",
+    "verification_status": "source_backed",
+    "summary": "AI compute infrastructure observable associated with NVIDIA DGX Cloud offerings.",
+    "description": "NVIDIA DGX Cloud Infrastructure is tracked as a data center or AI infrastructure-site observable. Capacity, tenancy, and power details are not asserted in this seed record without further source review.",
+    "location": "Distributed infrastructure",
+    "status": "active",
+    "tags": [
+      "data-center",
+      "ai-infrastructure",
+      "nvidia",
+      "dgx",
+      "compute"
+    ],
+    "aliases": [
+      "NVIDIA DGX Cloud Infrastructure"
+    ],
+    "metadata": {
+      "operator": "NVIDIA",
+      "operatorObservableId": "org-nvidia"
+    }
+  },
+  {
+    "id": "source-openai-gpt4o-release",
+    "slug": "source-openai-gpt4o-release",
+    "name": "Hello GPT-4o",
+    "type": "Source",
+    "verification_status": "source_backed",
+    "summary": "Source record for Hello GPT-4o.",
+    "description": "A source observable representing OpenAI material used to support registry notes and relationships.",
+    "location": "Web",
+    "status": "active",
+    "tags": [
+      "source",
+      "openai",
+      "gpt-4o",
+      "model-release",
+      "primary-source"
+    ],
+    "aliases": [
+      "Hello GPT-4o"
+    ],
+    "metadata": {
+      "sourceId": "src-openai-gpt4o-release",
+      "sourceSlug": "openai-gpt-4o-release",
+      "publisher": "OpenAI"
+    }
+  },
+  {
+    "id": "source-openai-gpt-4o-mini-release",
+    "slug": "source-openai-gpt-4o-mini-release",
+    "name": "GPT-4o mini: advancing cost-efficient intelligence",
+    "type": "Source",
+    "verification_status": "source_backed",
+    "summary": "Source record for GPT-4o mini release material.",
+    "description": "A source observable representing OpenAI material used to support registry notes and relationships.",
+    "location": "Web",
+    "status": "active",
+    "tags": [
+      "source",
+      "openai",
+      "gpt-4o-mini",
+      "model-release",
+      "primary-source"
+    ],
+    "aliases": [
+      "GPT-4o mini release"
+    ],
+    "metadata": {
+      "sourceId": "src-openai-gpt-4o-mini-release",
+      "sourceSlug": "openai-gpt-4o-mini-release",
+      "publisher": "OpenAI"
+    }
+  },
+  {
+    "id": "source-openai-o3-system-card",
+    "slug": "source-openai-o3-system-card",
+    "name": "OpenAI o3 and o4-mini System Card",
+    "type": "Source",
+    "verification_status": "source_backed",
+    "summary": "Source record for OpenAI o3 and o4-mini system-card material.",
+    "description": "A source observable representing OpenAI material used to support registry notes and relationships.",
+    "location": "Web",
+    "status": "active",
+    "tags": [
+      "source",
+      "openai",
+      "o3",
+      "system-card",
+      "primary-source"
+    ],
+    "aliases": [
+      "OpenAI o3 system card"
+    ],
+    "metadata": {
+      "sourceId": "src-openai-o3-system-card",
+      "sourceSlug": "openai-o3-system-card",
+      "publisher": "OpenAI"
+    }
+  },
+  {
+    "id": "source-anthropic-claude-sonnet-release",
+    "slug": "source-anthropic-claude-sonnet-release",
+    "name": "Claude 3.5 Sonnet",
+    "type": "Source",
+    "verification_status": "source_backed",
+    "summary": "Source record for Claude 3.5 Sonnet.",
+    "description": "A source observable representing Anthropic material used to support registry notes and relationships.",
+    "location": "Web",
+    "status": "active",
+    "tags": [
+      "source",
+      "anthropic",
+      "claude",
+      "model-release",
+      "primary-source"
+    ],
+    "aliases": [
+      "Claude 3.5 Sonnet"
+    ],
+    "metadata": {
+      "sourceId": "src-anthropic-claude-35-sonnet",
+      "sourceSlug": "anthropic-claude-35-sonnet-release",
+      "publisher": "Anthropic"
+    }
+  },
+  {
+    "id": "source-google-gemini-1-5-pro-announcement",
+    "slug": "source-google-gemini-1-5-pro-announcement",
+    "name": "Gemini 1.5 model announcement",
+    "type": "Source",
+    "verification_status": "source_backed",
+    "summary": "Source record for Gemini 1.5 model announcement.",
+    "description": "A source observable representing Google material used to support registry notes and relationships.",
+    "location": "Web",
+    "status": "active",
+    "tags": [
+      "source",
+      "google",
+      "gemini",
+      "model-release",
+      "primary-source"
+    ],
+    "aliases": [
+      "Gemini 1.5 model announcement"
+    ],
+    "metadata": {
+      "sourceId": "src-google-gemini-15-pro",
+      "sourceSlug": "google-gemini-1-5-pro-announcement",
+      "publisher": "Google"
+    }
+  },
+  {
+    "id": "source-meta-llama-3-1-release",
+    "slug": "source-meta-llama-3-1-release",
+    "name": "Introducing Llama 3.1",
+    "type": "Source",
+    "verification_status": "source_backed",
+    "summary": "Source record for Introducing Llama 3.1.",
+    "description": "A source observable representing Meta AI material used to support registry notes and relationships.",
+    "location": "Web",
+    "status": "active",
+    "tags": [
+      "source",
+      "meta",
+      "llama",
+      "open-weights",
+      "primary-source"
+    ],
+    "aliases": [
+      "Introducing Llama 3.1"
+    ],
+    "metadata": {
+      "sourceId": "src-meta-llama-31-release",
+      "sourceSlug": "meta-llama-3-1-release",
+      "publisher": "Meta AI"
+    }
+  },
+  {
+    "id": "source-microsoft-wisconsin-campus",
+    "slug": "source-microsoft-wisconsin-campus",
+    "name": "Microsoft Wisconsin data center announcement",
+    "type": "Source",
+    "verification_status": "needs_source_review",
+    "summary": "Source record for Microsoft Wisconsin data center announcement.",
+    "description": "A source observable representing Microsoft material used to support registry notes and relationships.",
+    "location": "Web",
+    "status": "active",
+    "tags": [
+      "source",
+      "microsoft",
+      "data-center",
+      "wisconsin"
+    ],
+    "aliases": [
+      "Microsoft Wisconsin data center announcement"
+    ],
+    "metadata": {
+      "sourceId": "src-microsoft-wisconsin-datacenter",
+      "sourceSlug": "microsoft-wisconsin-data-center-announcement",
+      "publisher": "Microsoft"
+    }
+  },
+  {
+    "id": "source-coreweave-s1",
+    "slug": "source-coreweave-s1",
+    "name": "CoreWeave public filing",
+    "type": "Source",
+    "verification_status": "needs_source_review",
+    "summary": "Source record for CoreWeave public filing.",
+    "description": "A source observable representing CoreWeave material used to support registry notes and relationships.",
+    "location": "Web",
+    "status": "active",
+    "tags": [
+      "source",
+      "coreweave",
+      "filing",
+      "gpu-cloud",
+      "infrastructure"
+    ],
+    "aliases": [
+      "CoreWeave public filing"
+    ],
+    "metadata": {
+      "sourceId": "src-coreweave-s1",
+      "sourceSlug": "coreweave-public-filing",
+      "publisher": "CoreWeave"
+    }
+  },
+  {
+    "id": "source-eia-data-center-electricity",
+    "slug": "source-eia-data-center-electricity",
+    "name": "Electricity demand from data centers",
+    "type": "Source",
+    "verification_status": "needs_source_review",
+    "summary": "Source record for Electricity demand from data centers.",
+    "description": "A source observable representing U.S. Energy Information Administration material used to support registry notes and relationships.",
+    "location": "Web",
+    "status": "active",
+    "tags": [
+      "source",
+      "energy",
+      "electricity",
+      "data-centers",
+      "government"
+    ],
+    "aliases": [
+      "Electricity demand from data centers"
+    ],
+    "metadata": {
+      "sourceId": "src-eia-data-center-electricity",
+      "sourceSlug": "eia-data-center-electricity-analysis",
+      "publisher": "U.S. Energy Information Administration"
+    }
+  },
+  {
+    "id": "source-nvidia-h100-product-brief",
+    "slug": "source-nvidia-h100-product-brief",
+    "name": "NVIDIA H100 Tensor Core GPU product brief",
+    "type": "Source",
+    "verification_status": "needs_source_review",
+    "summary": "Source record for NVIDIA H100 Tensor Core GPU product brief.",
+    "description": "A source observable representing NVIDIA material used to support registry notes and relationships.",
+    "location": "Web",
+    "status": "active",
+    "tags": [
+      "source",
+      "nvidia",
+      "gpu",
+      "h100",
+      "compute"
+    ],
+    "aliases": [
+      "NVIDIA H100 Tensor Core GPU product brief"
+    ],
+    "metadata": {
+      "sourceId": "src-nvidia-h100-product-brief",
+      "sourceSlug": "nvidia-h100-product-brief",
+      "publisher": "NVIDIA"
+    }
+  },
+  {
+    "id": "source-oracle-ai-infrastructure-overview",
+    "slug": "source-oracle-ai-infrastructure-overview",
+    "name": "Oracle Cloud Infrastructure AI infrastructure overview",
+    "type": "Source",
+    "verification_status": "needs_source_review",
+    "summary": "Source record for Oracle Cloud Infrastructure AI infrastructure overview.",
+    "description": "A source observable representing Oracle material used to support registry notes and relationships.",
+    "location": "Web",
+    "status": "active",
+    "tags": [
+      "source",
+      "oracle",
+      "cloud",
+      "ai-infrastructure"
+    ],
+    "aliases": [
+      "Oracle Cloud Infrastructure AI infrastructure overview"
+    ],
+    "metadata": {
+      "sourceId": "src-oracle-ai-infrastructure",
+      "sourceSlug": "oracle-ai-infrastructure-overview",
+      "publisher": "Oracle"
+    }
+  },
+  {
+    "id": "source-openai-gpt4-release",
+    "slug": "source-openai-gpt4-release",
+    "name": "GPT-4 release note",
+    "type": "Source",
+    "verification_status": "source_backed",
+    "summary": "Source record for GPT-4 release note.",
+    "description": "A source observable representing OpenAI material used to support registry notes and relationships.",
+    "location": "Web",
+    "status": "active",
+    "tags": [
+      "source",
+      "openai",
+      "gpt-4",
+      "model-release"
+    ],
+    "aliases": [
+      "GPT-4 release note"
+    ],
+    "metadata": {
+      "sourceId": "src-openai-gpt4-release",
+      "sourceSlug": "openai-gpt4-release",
+      "publisher": "OpenAI"
+    }
+  },
+  {
+    "id": "source-openai-dalle-3",
+    "slug": "source-openai-dalle-3",
+    "name": "DALL-E 3",
+    "type": "Source",
+    "verification_status": "source_backed",
+    "summary": "Source record for OpenAI DALL-E 3 material.",
+    "description": "A source observable representing OpenAI material used to support registry notes and relationships.",
+    "location": "Web",
+    "status": "active",
+    "tags": [
+      "source",
+      "openai",
+      "dall-e",
+      "image-generation"
+    ],
+    "aliases": [
+      "DALL-E 3 documentation"
+    ],
+    "metadata": {
+      "sourceId": "src-openai-dalle-3",
+      "sourceSlug": "openai-dalle-3",
+      "publisher": "OpenAI"
+    }
+  },
+  {
+    "id": "source-anthropic-claude-3-opus",
+    "slug": "source-anthropic-claude-3-opus",
+    "name": "Claude 3 model family announcement",
+    "type": "Source",
+    "verification_status": "source_backed",
+    "summary": "Source record for Claude 3 model family announcement.",
+    "description": "A source observable representing Anthropic material used to support registry notes and relationships.",
+    "location": "Web",
+    "status": "active",
+    "tags": [
+      "source",
+      "anthropic",
+      "claude",
+      "model-release"
+    ],
+    "aliases": [
+      "Claude 3 model family announcement"
+    ],
+    "metadata": {
+      "sourceId": "src-anthropic-claude-3-opus",
+      "sourceSlug": "anthropic-claude-3-opus",
+      "publisher": "Anthropic"
+    }
+  },
+  {
+    "id": "source-google-gemma-2",
+    "slug": "source-google-gemma-2",
+    "name": "Gemma 2 announcement",
+    "type": "Source",
+    "verification_status": "source_backed",
+    "summary": "Source observable for Google's Gemma 2 release page.",
+    "description": "A Source observable representing an identifiable Google release page used as source material in the registry. Source verification confirms the source page identity, publisher, accessibility, and release-note classification only.",
+    "location": "Web",
+    "status": "active",
+    "tags": [
+      "source",
+      "google",
+      "gemma",
+      "open-model"
+    ],
+    "aliases": [
+      "Gemma 2 announcement"
+    ],
+    "metadata": {
+      "sourceId": "src-google-gemma-2",
+      "sourceSlug": "google-gemma-2",
+      "publisher": "Google"
+    }
+  },
+  {
+    "id": "source-xai-grok-2",
+    "slug": "source-xai-grok-2",
+    "name": "Grok-2 announcement",
+    "type": "Source",
+    "verification_status": "source_backed",
+    "summary": "Source record for Grok-2 announcement.",
+    "description": "A source observable representing xAI material used to support registry notes and relationships.",
+    "location": "Web",
+    "status": "active",
+    "tags": [
+      "source",
+      "xai",
+      "grok",
+      "model-release"
+    ],
+    "aliases": [
+      "Grok-2 announcement"
+    ],
+    "metadata": {
+      "sourceId": "src-xai-grok-2",
+      "sourceSlug": "xai-grok-2",
+      "publisher": "xAI"
+    }
+  },
+  {
+    "id": "source-mistral-large",
+    "slug": "source-mistral-large",
+    "name": "Mistral Large announcement",
+    "type": "Source",
+    "verification_status": "source_backed",
+    "summary": "Source observable for Mistral AI's Au Large release page.",
+    "description": "A Source observable representing an identifiable Mistral AI release page used as source material in the registry. Source verification confirms the source page identity, publisher, accessibility, and release-note classification only.",
+    "location": "Web",
+    "status": "active",
+    "tags": [
+      "source",
+      "mistral",
+      "model-release"
+    ],
+    "aliases": [
+      "Mistral Large announcement"
+    ],
+    "metadata": {
+      "sourceId": "src-mistral-large",
+      "sourceSlug": "mistral-large",
+      "publisher": "Mistral AI"
+    }
+  },
+  {
+    "id": "source-mistral-mixtral",
+    "slug": "source-mistral-mixtral",
+    "name": "Mixtral 8x7B announcement",
+    "type": "Source",
+    "verification_status": "source_backed",
+    "summary": "Source observable for Mistral AI's Mixtral of experts release page.",
+    "description": "A Source observable representing an identifiable Mistral AI release page used as source material in the registry. Source verification confirms the source page identity, publisher, accessibility, and release-note classification only.",
+    "location": "Web",
+    "status": "active",
+    "tags": [
+      "source",
+      "mistral",
+      "mixtral",
+      "open-weights"
+    ],
+    "aliases": [
+      "Mixtral 8x7B announcement"
+    ],
+    "metadata": {
+      "sourceId": "src-mistral-mixtral",
+      "sourceSlug": "mistral-mixtral",
+      "publisher": "Mistral AI"
+    }
+  },
+  {
+    "id": "source-cohere-command-r-plus",
+    "slug": "source-cohere-command-r-plus",
+    "name": "Command R+ announcement",
+    "type": "Source",
+    "verification_status": "needs_source_review",
+    "summary": "Source record for Command R+ announcement.",
+    "description": "A source observable representing Cohere material used to support registry notes and relationships.",
+    "location": "Web",
+    "status": "active",
+    "tags": [
+      "source",
+      "cohere",
+      "command-r",
+      "enterprise-ai"
+    ],
+    "aliases": [
+      "Command R+ announcement"
+    ],
+    "metadata": {
+      "sourceId": "src-cohere-command-r-plus",
+      "sourceSlug": "cohere-command-r-plus",
+      "publisher": "Cohere"
+    }
+  },
+  {
+    "id": "source-perplexity-sonar-docs",
+    "slug": "source-perplexity-sonar-docs",
+    "name": "Sonar",
+    "type": "Source",
+    "verification_status": "source_backed",
+    "summary": "Source record for Perplexity Sonar model documentation.",
+    "description": "A source observable representing Perplexity AI material used to support registry notes and relationships.",
+    "location": "Web",
+    "status": "active",
+    "tags": [
+      "source",
+      "perplexity",
+      "sonar",
+      "api"
+    ],
+    "aliases": [
+      "Perplexity Sonar documentation"
+    ],
+    "metadata": {
+      "sourceId": "src-perplexity-sonar-docs",
+      "sourceSlug": "perplexity-sonar-docs",
+      "publisher": "Perplexity AI"
+    }
+  },
+  {
+    "id": "source-amazon-nova",
+    "slug": "source-amazon-nova",
+    "name": "Amazon Nova announcement",
+    "type": "Source",
+    "verification_status": "source_backed",
+    "summary": "Source observable for the AWS News Blog Amazon Nova announcement.",
+    "description": "A Source observable representing an identifiable AWS News Blog announcement used as source material in the registry. Source verification confirms the source page identity, publisher, accessibility, and company-announcement classification only.",
+    "location": "Web",
+    "status": "active",
+    "tags": [
+      "source",
+      "aws",
+      "amazon-nova",
+      "bedrock"
+    ],
+    "aliases": [
+      "Amazon Nova announcement"
+    ],
+    "metadata": {
+      "sourceId": "src-amazon-nova",
+      "sourceSlug": "amazon-nova",
+      "publisher": "Amazon Web Services"
+    }
+  },
+  {
+    "id": "source-tii-falcon-180b",
+    "slug": "source-tii-falcon-180b",
+    "name": "Falcon 180B release material",
+    "type": "Source",
+    "verification_status": "source_backed",
+    "summary": "Source observable for Technology Innovation Institute Falcon 180B source material.",
+    "description": "A Source observable representing identifiable Falcon 180B source material published through the Technology Innovation Institute Hugging Face organization. Source verification confirms the source artifact identity, publisher, accessibility, and model-card/source-material classification only.",
+    "location": "Web",
+    "status": "active",
+    "tags": [
+      "source",
+      "falcon",
+      "tii",
+      "open-weights"
+    ],
+    "aliases": [
+      "Falcon 180B release material"
+    ],
+    "metadata": {
+      "sourceId": "src-tii-falcon-180b",
+      "sourceSlug": "tii-falcon-180b",
+      "publisher": "Technology Innovation Institute"
+    }
+  },
+  {
+    "id": "source-ai21-jamba",
+    "slug": "source-ai21-jamba",
+    "name": "Jamba model documentation",
+    "type": "Source",
+    "verification_status": "source_backed",
+    "summary": "Source observable for AI21 Labs Jamba model documentation.",
+    "description": "A Source observable representing identifiable AI21 Labs Jamba documentation used as source material in the registry. Source verification confirms the source page identity, publisher, accessibility, and product-documentation classification only.",
+    "location": "Web",
+    "status": "active",
+    "tags": [
+      "source",
+      "ai21",
+      "jamba",
+      "model"
+    ],
+    "aliases": [
+      "Jamba model documentation"
+    ],
+    "metadata": {
+      "sourceId": "src-ai21-jamba",
+      "sourceSlug": "ai21-jamba",
+      "publisher": "AI21 Labs"
+    }
+  },
+  {
+    "id": "source-alibaba-qwen",
+    "slug": "source-alibaba-qwen",
+    "name": "Qwen model documentation",
+    "type": "Source",
+    "verification_status": "source_backed",
+    "summary": "Source observable for Qwen2.5 model documentation and release material.",
+    "description": "A Source observable representing identifiable Qwen2.5 source material used as source material in the registry. Source verification confirms the source page identity, publisher, accessibility, and model-documentation classification only.",
+    "location": "Web",
+    "status": "active",
+    "tags": [
+      "source",
+      "qwen",
+      "alibaba",
+      "open-weights"
+    ],
+    "aliases": [
+      "Qwen model documentation"
+    ],
+    "metadata": {
+      "sourceId": "src-alibaba-qwen",
+      "sourceSlug": "alibaba-qwen",
+      "publisher": "Alibaba Cloud"
+    }
+  },
+  {
+    "id": "source-deepseek-v3",
+    "slug": "source-deepseek-v3",
+    "name": "DeepSeek-V3 report",
+    "type": "Source",
+    "verification_status": "source_backed",
+    "summary": "Source observable for the DeepSeek-V3 technical report.",
+    "description": "A Source observable representing an identifiable DeepSeek-V3 technical report used as source material in the registry. Source verification confirms the source artifact identity, publisher, accessibility, and technical-report classification only.",
+    "location": "Web",
+    "status": "active",
+    "tags": [
+      "source",
+      "deepseek",
+      "model",
+      "technical-report"
+    ],
+    "aliases": [
+      "DeepSeek-V3 report"
+    ],
+    "metadata": {
+      "sourceId": "src-deepseek-v3",
+      "sourceSlug": "deepseek-v3",
+      "publisher": "DeepSeek"
+    }
+  },
+  {
+    "id": "source-databricks-dbrx",
+    "slug": "source-databricks-dbrx",
+    "name": "Introducing DBRX",
+    "type": "Source",
+    "verification_status": "source_backed",
+    "summary": "Source record for Introducing DBRX.",
+    "description": "A source observable representing Databricks material used to support registry notes and relationships.",
+    "location": "Web",
+    "status": "active",
+    "tags": [
+      "source",
+      "databricks",
+      "dbrx",
+      "open-weights"
+    ],
+    "aliases": [
+      "Introducing DBRX"
+    ],
+    "metadata": {
+      "sourceId": "src-databricks-dbrx",
+      "sourceSlug": "databricks-dbrx",
+      "publisher": "Databricks"
+    }
+  }
+]

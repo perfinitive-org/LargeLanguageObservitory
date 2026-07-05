@@ -1,0 +1,1012 @@
+[
+  {
+    "id": "obs-openai",
+    "observableId": "org-openai",
+    "sourceId": "src-openai-gpt4o-release",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: OpenAI is included as a Organization observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-microsoft",
+    "observableId": "org-microsoft",
+    "sourceId": "src-microsoft-wisconsin-datacenter",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Microsoft is included as a Organization observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-anthropic",
+    "observableId": "org-anthropic",
+    "sourceId": "src-anthropic-claude-35-sonnet",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Anthropic is included as a Organization observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-google-deepmind",
+    "observableId": "org-google-deepmind",
+    "sourceId": "src-google-gemini-15-pro",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Google DeepMind is included as a Organization observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-meta-ai",
+    "observableId": "org-meta-ai",
+    "sourceId": "src-meta-llama-31-release",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Meta AI is included as a Organization observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-nvidia",
+    "observableId": "org-nvidia",
+    "sourceId": "src-coreweave-s1",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: NVIDIA is included as a Organization observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-coreweave",
+    "observableId": "org-coreweave",
+    "sourceId": "src-coreweave-s1",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: CoreWeave is included as a Organization observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-oracle-cloud",
+    "observableId": "org-oracle-cloud",
+    "sourceId": "src-oracle-ai-infrastructure",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Oracle Cloud Infrastructure is included as a Organization observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-xai",
+    "observableId": "org-xai",
+    "sourceId": "src-xai-grok-2",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: xAI is included as a Organization observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-mistral-ai",
+    "observableId": "org-mistral-ai",
+    "sourceId": "src-mistral-large",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Mistral AI is included as a Organization observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-cohere",
+    "observableId": "org-cohere",
+    "sourceId": "src-cohere-command-r-plus",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Cohere is included as a Organization observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-perplexity-ai",
+    "observableId": "org-perplexity-ai",
+    "sourceId": "src-perplexity-sonar-docs",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Perplexity AI is included as a Organization observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-amazon-web-services",
+    "observableId": "org-amazon-web-services",
+    "sourceId": "src-amazon-nova",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Amazon Web Services is included as a Organization observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-google-cloud",
+    "observableId": "org-google-cloud",
+    "sourceId": "src-google-gemini-15-pro",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Google Cloud is included as a Organization observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-tesla",
+    "observableId": "org-tesla",
+    "sourceId": "src-tesla-dojo",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Tesla is included as a Organization observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-hugging-face",
+    "observableId": "org-hugging-face",
+    "sourceId": "src-hugging-face-inference",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Hugging Face is included as a Organization observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-databricks",
+    "observableId": "org-databricks",
+    "sourceId": "src-databricks-dbrx",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Databricks is included as a Organization observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-technology-innovation-institute",
+    "observableId": "org-technology-innovation-institute",
+    "sourceId": "src-tii-falcon-180b",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Technology Innovation Institute is included as a Organization observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-ai21-labs",
+    "observableId": "org-ai21-labs",
+    "sourceId": "src-ai21-jamba",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: AI21 Labs is included as a Organization observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-alibaba-cloud",
+    "observableId": "org-alibaba-cloud",
+    "sourceId": "src-alibaba-qwen",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Alibaba Cloud is included as a Organization observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-deepseek",
+    "observableId": "org-deepseek",
+    "sourceId": "src-deepseek-v3",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: DeepSeek is included as a Organization observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-stability-ai",
+    "observableId": "org-stability-ai",
+    "sourceId": "src-stability-sd3",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Stability AI is included as a Organization observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-cerebras",
+    "observableId": "org-cerebras",
+    "sourceId": "src-cerebras-condor-galaxy",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Cerebras is included as a Organization observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-groq",
+    "observableId": "org-groq",
+    "sourceId": "src-groq-inference-cloud",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Groq is included as a Organization observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-equinix",
+    "observableId": "org-equinix",
+    "sourceId": "src-equinix-ai-infrastructure",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Equinix is included as a Organization observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-gpt-4o",
+    "observableId": "model-gpt-4o",
+    "sourceId": "src-openai-gpt4o-release",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: GPT-4o is included as a Model observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-gpt-4o-mini",
+    "observableId": "model-gpt-4o-mini",
+    "sourceId": "src-openai-gpt-4o-mini-release",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: GPT-4o mini is included as a Model observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-o3",
+    "observableId": "model-o3",
+    "sourceId": "src-openai-o3-system-card",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: o3 is included as a Model observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-gpt-4",
+    "observableId": "model-gpt-4",
+    "sourceId": "src-openai-gpt4-release",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: GPT-4 is included as a Model observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-dall-e-3",
+    "observableId": "model-dall-e-3",
+    "sourceId": "src-openai-dalle-3",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: DALL-E 3 is included as a Model observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-claude-3-5-sonnet",
+    "observableId": "model-claude-3-5-sonnet",
+    "sourceId": "src-anthropic-claude-35-sonnet",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Claude 3.5 Sonnet is included as a Model observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-claude-3-opus",
+    "observableId": "model-claude-3-opus",
+    "sourceId": "src-anthropic-claude-3-opus",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Claude 3 Opus is included as a Model observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-gemini-1-5-pro",
+    "observableId": "model-gemini-1-5-pro",
+    "sourceId": "src-google-gemini-15-pro",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Gemini 1.5 Pro is included as a Model observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-gemma-2",
+    "observableId": "model-gemma-2",
+    "sourceId": "src-google-gemma-2",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Gemma 2 is included as a Model observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-llama-3-1-405b",
+    "observableId": "model-llama-3-1-405b",
+    "sourceId": "src-meta-llama-31-release",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Llama 3.1 405B is included as a Model observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-llama-3-70b",
+    "observableId": "model-llama-3-70b",
+    "sourceId": "src-meta-llama-31-release",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Llama 3 70B is included as a Model observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-grok-2",
+    "observableId": "model-grok-2",
+    "sourceId": "src-xai-grok-2",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Grok-2 is included as a Model observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-mistral-large",
+    "observableId": "model-mistral-large",
+    "sourceId": "src-mistral-large",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Mistral Large is included as a Model observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-mixtral-8x7b",
+    "observableId": "model-mixtral-8x7b",
+    "sourceId": "src-mistral-mixtral",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Mixtral 8x7B is included as a Model observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-command-r-plus",
+    "observableId": "model-command-r-plus",
+    "sourceId": "src-cohere-command-r-plus",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Command R+ is included as a Model observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-perplexity-sonar",
+    "observableId": "model-perplexity-sonar",
+    "sourceId": "src-perplexity-sonar-docs",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Perplexity Sonar is included as a Model observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-amazon-nova",
+    "observableId": "model-amazon-nova",
+    "sourceId": "src-amazon-nova",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Amazon Nova is included as a Model observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-falcon-180b",
+    "observableId": "model-falcon-180b",
+    "sourceId": "src-tii-falcon-180b",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Falcon 180B is included as a Model observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-jamba-1-5-large",
+    "observableId": "model-jamba-1-5-large",
+    "sourceId": "src-ai21-jamba",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Jamba 1.5 Large is included as a Model observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-qwen-2-5",
+    "observableId": "model-qwen-2-5",
+    "sourceId": "src-alibaba-qwen",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Qwen2.5 is included as a Model observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-deepseek-v3",
+    "observableId": "model-deepseek-v3",
+    "sourceId": "src-deepseek-v3",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: DeepSeek-V3 is included as a Model observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-phi-3",
+    "observableId": "model-phi-3",
+    "sourceId": "src-microsoft-phi-3",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Phi-3 is included as a Model observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-dbrx",
+    "observableId": "model-dbrx",
+    "sourceId": "src-databricks-dbrx",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: DBRX is included as a Model observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-nemotron",
+    "observableId": "model-nemotron",
+    "sourceId": "src-nvidia-nemotron",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Nemotron is included as a Model observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-stable-diffusion-3",
+    "observableId": "model-stable-diffusion-3",
+    "sourceId": "src-stability-sd3",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Stable Diffusion 3 is included as a Model observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-stargate-abilene",
+    "observableId": "dc-stargate-abilene",
+    "sourceId": "src-eia-data-center-electricity",
+    "verification_status": "placeholder",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Stargate Abilene Campus is included as a Data Center observable for conservative ecosystem indexing.",
+    "evidenceType": "placeholder registry note",
+    "confidence": "low"
+  },
+  {
+    "id": "obs-microsoft-wisconsin",
+    "observableId": "dc-microsoft-wisconsin",
+    "sourceId": "src-microsoft-wisconsin-datacenter",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Microsoft Wisconsin Data Center Campus is included as a Data Center observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-google-council-bluffs",
+    "observableId": "dc-google-council-bluffs",
+    "sourceId": "src-eia-data-center-electricity",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Google Council Bluffs Data Center is included as a Data Center observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-meta-eagle-mountain",
+    "observableId": "dc-meta-eagle-mountain",
+    "sourceId": "src-eia-data-center-electricity",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Meta Eagle Mountain Data Center is included as a Data Center observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-coreweave-lancaster",
+    "observableId": "dc-coreweave-lancaster",
+    "sourceId": "src-coreweave-s1",
+    "verification_status": "placeholder",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: CoreWeave Lancaster Campus is included as a Data Center observable for conservative ecosystem indexing.",
+    "evidenceType": "placeholder registry note",
+    "confidence": "low"
+  },
+  {
+    "id": "obs-microsoft-boydton",
+    "observableId": "dc-microsoft-boydton",
+    "sourceId": "src-eia-data-center-electricity",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Microsoft Boydton Data Center Campus is included as a Data Center observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-microsoft-quincy",
+    "observableId": "dc-microsoft-quincy",
+    "sourceId": "src-eia-data-center-electricity",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Microsoft Quincy Data Center Campus is included as a Data Center observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-google-the-dalles",
+    "observableId": "dc-google-the-dalles",
+    "sourceId": "src-eia-data-center-electricity",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Google The Dalles Data Center is included as a Data Center observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-google-mayes-county",
+    "observableId": "dc-google-mayes-county",
+    "sourceId": "src-eia-data-center-electricity",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Google Mayes County Data Center is included as a Data Center observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-meta-prineville",
+    "observableId": "dc-meta-prineville",
+    "sourceId": "src-eia-data-center-electricity",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Meta Prineville Data Center is included as a Data Center observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-meta-altoona",
+    "observableId": "dc-meta-altoona",
+    "sourceId": "src-eia-data-center-electricity",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Meta Altoona Data Center is included as a Data Center observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-aws-northern-virginia",
+    "observableId": "dc-aws-northern-virginia",
+    "sourceId": "src-eia-data-center-electricity",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: AWS Northern Virginia Region Footprint is included as a Data Center observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-aws-oregon",
+    "observableId": "dc-aws-oregon",
+    "sourceId": "src-eia-data-center-electricity",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: AWS Oregon Region Footprint is included as a Data Center observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-aws-ohio",
+    "observableId": "dc-aws-ohio",
+    "sourceId": "src-eia-data-center-electricity",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: AWS Ohio Region Footprint is included as a Data Center observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-oracle-utah-region",
+    "observableId": "dc-oracle-utah-region",
+    "sourceId": "src-eia-data-center-electricity",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Oracle Utah Cloud Region is included as a Data Center observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-oracle-chicago-region",
+    "observableId": "dc-oracle-chicago-region",
+    "sourceId": "src-eia-data-center-electricity",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Oracle Chicago Cloud Region is included as a Data Center observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-xai-memphis",
+    "observableId": "dc-xai-memphis",
+    "sourceId": "src-eia-data-center-electricity",
+    "verification_status": "placeholder",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: xAI Memphis AI Infrastructure Site is included as a Data Center observable for conservative ecosystem indexing.",
+    "evidenceType": "placeholder registry note",
+    "confidence": "low"
+  },
+  {
+    "id": "obs-cerebras-condor-galaxy",
+    "observableId": "dc-cerebras-condor-galaxy",
+    "sourceId": "src-eia-data-center-electricity",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Cerebras Condor Galaxy AI Supercomputer is included as a Data Center observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-groq-lpu-cloud",
+    "observableId": "dc-groq-lpu-cloud",
+    "sourceId": "src-eia-data-center-electricity",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Groq LPU Inference Cloud is included as a Data Center observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-equinix-sv11",
+    "observableId": "dc-equinix-sv11",
+    "sourceId": "src-eia-data-center-electricity",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Equinix SV11 IBX is included as a Data Center observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-equinix-dc21",
+    "observableId": "dc-equinix-dc21",
+    "sourceId": "src-eia-data-center-electricity",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Equinix DC21 IBX is included as a Data Center observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-tesla-dojo",
+    "observableId": "dc-tesla-dojo",
+    "sourceId": "src-eia-data-center-electricity",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Tesla Dojo Supercomputer is included as a Data Center observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-hugging-face-inference",
+    "observableId": "dc-hugging-face-inference",
+    "sourceId": "src-eia-data-center-electricity",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Hugging Face Inference Endpoints Infrastructure is included as a Data Center observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-google-tpu-cloud",
+    "observableId": "dc-google-tpu-cloud",
+    "sourceId": "src-eia-data-center-electricity",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Google Cloud TPU Infrastructure is included as a Data Center observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-nvidia-dgx-cloud",
+    "observableId": "dc-nvidia-dgx-cloud",
+    "sourceId": "src-eia-data-center-electricity",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: NVIDIA DGX Cloud Infrastructure is included as a Data Center observable for conservative ecosystem indexing.",
+    "evidenceType": "registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-source-observable-openai-gpt4o-release",
+    "observableId": "source-openai-gpt4o-release",
+    "sourceId": "src-openai-gpt4o-release",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Hello GPT-4o is included as a Source observable linked to source metadata.",
+    "evidenceType": "source registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-source-observable-openai-gpt-4o-mini-release",
+    "observableId": "source-openai-gpt-4o-mini-release",
+    "sourceId": "src-openai-gpt-4o-mini-release",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-12",
+    "claim": "Registry seed note: GPT-4o mini release material is included as a Source observable linked to source metadata.",
+    "evidenceType": "source registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-source-observable-openai-o3-system-card",
+    "observableId": "source-openai-o3-system-card",
+    "sourceId": "src-openai-o3-system-card",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: OpenAI o3 system card is included as a Source observable linked to source metadata.",
+    "evidenceType": "source registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-source-observable-anthropic-claude-sonnet-release",
+    "observableId": "source-anthropic-claude-sonnet-release",
+    "sourceId": "src-anthropic-claude-35-sonnet",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Claude 3.5 Sonnet is included as a Source observable linked to source metadata.",
+    "evidenceType": "source registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-source-observable-google-gemini-1-5-pro-announcement",
+    "observableId": "source-google-gemini-1-5-pro-announcement",
+    "sourceId": "src-google-gemini-15-pro",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Gemini 1.5 model announcement is included as a Source observable linked to source metadata.",
+    "evidenceType": "source registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-source-observable-meta-llama-3-1-release",
+    "observableId": "source-meta-llama-3-1-release",
+    "sourceId": "src-meta-llama-31-release",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Introducing Llama 3.1 is included as a Source observable linked to source metadata.",
+    "evidenceType": "source registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-source-observable-microsoft-wisconsin-campus",
+    "observableId": "source-microsoft-wisconsin-campus",
+    "sourceId": "src-microsoft-wisconsin-datacenter",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Microsoft Wisconsin data center announcement is included as a Source observable linked to source metadata.",
+    "evidenceType": "source registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-source-observable-coreweave-s1",
+    "observableId": "source-coreweave-s1",
+    "sourceId": "src-coreweave-s1",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: CoreWeave public filing is included as a Source observable linked to source metadata.",
+    "evidenceType": "source registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-source-observable-eia-data-center-electricity",
+    "observableId": "source-eia-data-center-electricity",
+    "sourceId": "src-eia-data-center-electricity",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Electricity demand from data centers is included as a Source observable linked to source metadata.",
+    "evidenceType": "source registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-source-observable-nvidia-h100-product-brief",
+    "observableId": "source-nvidia-h100-product-brief",
+    "sourceId": "src-nvidia-h100-product-brief",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: NVIDIA H100 Tensor Core GPU product brief is included as a Source observable linked to source metadata.",
+    "evidenceType": "source registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-source-observable-oracle-ai-infrastructure-overview",
+    "observableId": "source-oracle-ai-infrastructure-overview",
+    "sourceId": "src-oracle-ai-infrastructure",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Oracle Cloud Infrastructure AI infrastructure overview is included as a Source observable linked to source metadata.",
+    "evidenceType": "source registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-source-observable-openai-gpt4-release",
+    "observableId": "source-openai-gpt4-release",
+    "sourceId": "src-openai-gpt4-release",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: GPT-4 release note is included as a Source observable linked to source metadata.",
+    "evidenceType": "source registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-source-observable-openai-dalle-3",
+    "observableId": "source-openai-dalle-3",
+    "sourceId": "src-openai-dalle-3",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: DALL-E 3 documentation is included as a Source observable linked to source metadata.",
+    "evidenceType": "source registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-source-observable-anthropic-claude-3-opus",
+    "observableId": "source-anthropic-claude-3-opus",
+    "sourceId": "src-anthropic-claude-3-opus",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Claude 3 model family announcement is included as a Source observable linked to source metadata.",
+    "evidenceType": "source registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-source-observable-google-gemma-2",
+    "observableId": "source-google-gemma-2",
+    "sourceId": "src-google-gemma-2",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Gemma 2 announcement is included as a Source observable linked to source metadata.",
+    "evidenceType": "source registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-source-observable-xai-grok-2",
+    "observableId": "source-xai-grok-2",
+    "sourceId": "src-xai-grok-2",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Grok-2 announcement is included as a Source observable linked to source metadata.",
+    "evidenceType": "source registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-source-observable-mistral-large",
+    "observableId": "source-mistral-large",
+    "sourceId": "src-mistral-large",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Mistral Large announcement is included as a Source observable linked to source metadata.",
+    "evidenceType": "source registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-source-observable-mistral-mixtral",
+    "observableId": "source-mistral-mixtral",
+    "sourceId": "src-mistral-mixtral",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Mixtral 8x7B announcement is included as a Source observable linked to source metadata.",
+    "evidenceType": "source registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-source-observable-cohere-command-r-plus",
+    "observableId": "source-cohere-command-r-plus",
+    "sourceId": "src-cohere-command-r-plus",
+    "verification_status": "needs_source_review",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Command R+ announcement is included as a Source observable linked to source metadata.",
+    "evidenceType": "source registry note",
+    "confidence": "medium"
+  },
+  {
+    "id": "obs-source-observable-perplexity-sonar-docs",
+    "observableId": "source-perplexity-sonar-docs",
+    "sourceId": "src-perplexity-sonar-docs",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Perplexity Sonar documentation is included as a Source observable linked to source metadata.",
+    "evidenceType": "source registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-source-observable-amazon-nova",
+    "observableId": "source-amazon-nova",
+    "sourceId": "src-amazon-nova",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Amazon Nova announcement is included as a Source observable linked to source metadata.",
+    "evidenceType": "source registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-source-observable-tii-falcon-180b",
+    "observableId": "source-tii-falcon-180b",
+    "sourceId": "src-tii-falcon-180b",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Falcon 180B release material is included as a Source observable linked to source metadata.",
+    "evidenceType": "source registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-source-observable-ai21-jamba",
+    "observableId": "source-ai21-jamba",
+    "sourceId": "src-ai21-jamba",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Jamba model documentation is included as a Source observable linked to source metadata.",
+    "evidenceType": "source registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-source-observable-alibaba-qwen",
+    "observableId": "source-alibaba-qwen",
+    "sourceId": "src-alibaba-qwen",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Qwen model documentation is included as a Source observable linked to source metadata.",
+    "evidenceType": "source registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-source-observable-deepseek-v3",
+    "observableId": "source-deepseek-v3",
+    "sourceId": "src-deepseek-v3",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: DeepSeek-V3 report is included as a Source observable linked to source metadata.",
+    "evidenceType": "source registry note",
+    "confidence": "high"
+  },
+  {
+    "id": "obs-source-observable-databricks-dbrx",
+    "observableId": "source-databricks-dbrx",
+    "sourceId": "src-databricks-dbrx",
+    "verification_status": "source_backed",
+    "observedAt": "2026-06-11",
+    "claim": "Registry seed note: Introducing DBRX is included as a Source observable linked to source metadata.",
+    "evidenceType": "source registry note",
+    "confidence": "high"
+  }
+]

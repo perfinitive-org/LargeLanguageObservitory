@@ -1,0 +1,883 @@
+[
+  {
+    "id": "src-openai-gpt4o-release",
+    "slug": "openai-gpt-4o-release",
+    "title": "Hello GPT-4o",
+    "verification_status": "source_backed",
+    "publisher": "OpenAI",
+    "url": "https://openai.com/index/hello-gpt-4o/",
+    "publishedAt": "2024-05-13",
+    "retrievedAt": "2026-06-11",
+    "sourceType": "Release note",
+    "reliability": "primary",
+    "summary": "OpenAI announcement used to back GPT-4o release and capability observations.",
+    "tags": [
+      "openai",
+      "gpt-4o",
+      "model-release",
+      "primary-source"
+    ],
+    "linkedObservableIds": [
+      "org-openai",
+      "model-gpt-4o"
+    ]
+  },
+  {
+    "id": "src-openai-gpt-4o-mini-release",
+    "slug": "openai-gpt-4o-mini-release",
+    "title": "GPT-4o mini: advancing cost-efficient intelligence",
+    "verification_status": "source_backed",
+    "publisher": "OpenAI",
+    "url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
+    "publishedAt": "2024-07-18",
+    "retrievedAt": "2026-06-12",
+    "sourceType": "Release note",
+    "reliability": "primary",
+    "summary": "OpenAI announcement used to back GPT-4o mini model observations.",
+    "tags": [
+      "openai",
+      "gpt-4o-mini",
+      "model-release",
+      "primary-source"
+    ],
+    "linkedObservableIds": [
+      "org-openai",
+      "model-gpt-4o-mini"
+    ]
+  },
+  {
+    "id": "src-openai-o3-system-card",
+    "slug": "openai-o3-system-card",
+    "title": "OpenAI o3 and o4-mini System Card",
+    "verification_status": "source_backed",
+    "publisher": "OpenAI",
+    "url": "https://openai.com/index/o3-o4-mini-system-card/",
+    "publishedAt": "2025-04-16",
+    "retrievedAt": "2026-06-12",
+    "sourceType": "System card",
+    "reliability": "primary",
+    "summary": "OpenAI system-card material used to back o3 model observations.",
+    "tags": [
+      "openai",
+      "o3",
+      "system-card",
+      "primary-source"
+    ],
+    "linkedObservableIds": [
+      "org-openai",
+      "model-o3"
+    ]
+  },
+  {
+    "id": "src-anthropic-claude-35-sonnet",
+    "slug": "anthropic-claude-35-sonnet-release",
+    "title": "Claude 3.5 Sonnet",
+    "verification_status": "source_backed",
+    "publisher": "Anthropic",
+    "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+    "publishedAt": "2024-06-20",
+    "retrievedAt": "2026-06-11",
+    "sourceType": "Release note",
+    "reliability": "primary",
+    "summary": "Anthropic announcement used to back Claude 3.5 Sonnet release observations.",
+    "tags": [
+      "anthropic",
+      "claude",
+      "model-release",
+      "primary-source"
+    ],
+    "linkedObservableIds": [
+      "org-anthropic",
+      "model-claude-3-5-sonnet"
+    ]
+  },
+  {
+    "id": "src-google-gemini-15-pro",
+    "slug": "google-gemini-1-5-pro-announcement",
+    "title": "Gemini 1.5 model announcement",
+    "verification_status": "source_backed",
+    "publisher": "Google",
+    "url": "https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/",
+    "publishedAt": "2024-02-15",
+    "retrievedAt": "2026-06-11",
+    "sourceType": "Release note",
+    "reliability": "primary",
+    "summary": "Google announcement used to back Gemini 1.5 Pro model observations.",
+    "tags": [
+      "google",
+      "gemini",
+      "model-release",
+      "primary-source"
+    ],
+    "linkedObservableIds": [
+      "org-google-deepmind",
+      "org-google-cloud",
+      "model-gemini-1-5-pro"
+    ]
+  },
+  {
+    "id": "src-meta-llama-31-release",
+    "slug": "meta-llama-3-1-release",
+    "title": "Introducing Llama 3.1",
+    "verification_status": "source_backed",
+    "publisher": "Meta AI",
+    "url": "https://ai.meta.com/blog/meta-llama-3-1/",
+    "publishedAt": "2024-07-23",
+    "retrievedAt": "2026-06-11",
+    "sourceType": "Release note",
+    "reliability": "primary",
+    "summary": "Meta announcement used to back Llama 3.1 and Llama family observations.",
+    "tags": [
+      "meta",
+      "llama",
+      "open-weights",
+      "primary-source"
+    ],
+    "linkedObservableIds": [
+      "org-meta-ai",
+      "model-llama-3-1-405b",
+      "model-llama-3-70b"
+    ]
+  },
+  {
+    "id": "src-microsoft-wisconsin-datacenter",
+    "slug": "microsoft-wisconsin-data-center-announcement",
+    "title": "Microsoft Wisconsin data center announcement",
+    "verification_status": "needs_source_review",
+    "publisher": "Microsoft",
+    "url": "https://blogs.microsoft.com/",
+    "publishedAt": "2024-05-08",
+    "retrievedAt": "2026-06-11",
+    "sourceType": "Company announcement",
+    "reliability": "primary-placeholder",
+    "summary": "Microsoft source metadata for Wisconsin data center campus investment observations.",
+    "tags": [
+      "microsoft",
+      "data-center",
+      "wisconsin"
+    ],
+    "linkedObservableIds": [
+      "org-microsoft",
+      "dc-microsoft-wisconsin"
+    ]
+  },
+  {
+    "id": "src-coreweave-s1",
+    "slug": "coreweave-public-filing",
+    "title": "CoreWeave public filing",
+    "verification_status": "needs_source_review",
+    "publisher": "CoreWeave",
+    "url": "https://www.sec.gov/",
+    "publishedAt": "2025-03-01",
+    "retrievedAt": "2026-06-11",
+    "sourceType": "Public filing",
+    "reliability": "primary-placeholder",
+    "summary": "Public filing metadata placeholder used for CoreWeave infrastructure and business relationship observations.",
+    "tags": [
+      "coreweave",
+      "filing",
+      "gpu-cloud",
+      "infrastructure"
+    ],
+    "linkedObservableIds": [
+      "org-coreweave",
+      "dc-coreweave-lancaster",
+      "org-nvidia"
+    ]
+  },
+  {
+    "id": "src-eia-data-center-electricity",
+    "slug": "eia-data-center-electricity-analysis",
+    "title": "Electricity demand from data centers",
+    "verification_status": "needs_source_review",
+    "publisher": "U.S. Energy Information Administration",
+    "url": "https://www.eia.gov/",
+    "publishedAt": "2024-01-01",
+    "retrievedAt": "2026-06-11",
+    "sourceType": "Public data analysis",
+    "reliability": "government-placeholder",
+    "summary": "Government energy context record for data center electricity demand observations.",
+    "tags": [
+      "energy",
+      "electricity",
+      "data-centers",
+      "government"
+    ],
+    "linkedObservableIds": [
+      "dc-stargate-abilene",
+      "dc-microsoft-wisconsin",
+      "dc-google-council-bluffs",
+      "dc-meta-eagle-mountain",
+      "dc-coreweave-lancaster",
+      "dc-microsoft-boydton",
+      "dc-microsoft-quincy",
+      "dc-google-the-dalles",
+      "dc-google-mayes-county",
+      "dc-meta-prineville",
+      "dc-meta-altoona",
+      "dc-aws-northern-virginia",
+      "dc-aws-oregon",
+      "dc-aws-ohio",
+      "dc-oracle-utah-region",
+      "dc-oracle-chicago-region",
+      "dc-xai-memphis",
+      "dc-cerebras-condor-galaxy",
+      "dc-groq-lpu-cloud",
+      "dc-equinix-sv11",
+      "dc-equinix-dc21",
+      "dc-tesla-dojo",
+      "dc-hugging-face-inference",
+      "dc-google-tpu-cloud",
+      "dc-nvidia-dgx-cloud"
+    ]
+  },
+  {
+    "id": "src-nvidia-h100-product-brief",
+    "slug": "nvidia-h100-product-brief",
+    "title": "NVIDIA H100 Tensor Core GPU product brief",
+    "verification_status": "needs_source_review",
+    "publisher": "NVIDIA",
+    "url": "https://www.nvidia.com/",
+    "publishedAt": "2022-03-22",
+    "retrievedAt": "2026-06-11",
+    "sourceType": "Product documentation",
+    "reliability": "primary-placeholder",
+    "summary": "NVIDIA product documentation placeholder for accelerated compute observations.",
+    "tags": [
+      "nvidia",
+      "gpu",
+      "h100",
+      "compute"
+    ],
+    "linkedObservableIds": [
+      "org-nvidia",
+      "org-coreweave",
+      "dc-nvidia-dgx-cloud"
+    ]
+  },
+  {
+    "id": "src-oracle-ai-infrastructure",
+    "slug": "oracle-ai-infrastructure-overview",
+    "title": "Oracle Cloud Infrastructure AI infrastructure overview",
+    "verification_status": "needs_source_review",
+    "publisher": "Oracle",
+    "url": "https://www.oracle.com/cloud/ai-infrastructure/",
+    "publishedAt": "2024-01-01",
+    "retrievedAt": "2026-06-11",
+    "sourceType": "Product documentation",
+    "reliability": "primary-placeholder",
+    "summary": "Oracle source metadata placeholder for AI infrastructure offerings.",
+    "tags": [
+      "oracle",
+      "cloud",
+      "ai-infrastructure"
+    ],
+    "linkedObservableIds": [
+      "org-oracle-cloud",
+      "dc-oracle-utah-region",
+      "dc-oracle-chicago-region",
+      "org-nvidia"
+    ]
+  },
+  {
+    "id": "src-openai-gpt4-release",
+    "slug": "openai-gpt4-release",
+    "title": "GPT-4 release note",
+    "verification_status": "source_backed",
+    "publisher": "OpenAI",
+    "url": "https://openai.com/research/gpt-4",
+    "publishedAt": "2023-03-14",
+    "retrievedAt": "2026-06-11",
+    "sourceType": "Release note",
+    "reliability": "primary",
+    "summary": "OpenAI source metadata for GPT-4 model-family observations.",
+    "tags": [
+      "openai",
+      "gpt-4",
+      "model-release"
+    ],
+    "linkedObservableIds": [
+      "org-openai",
+      "model-gpt-4"
+    ]
+  },
+  {
+    "id": "src-openai-dalle-3",
+    "slug": "openai-dalle-3",
+    "title": "DALL-E 3",
+    "verification_status": "source_backed",
+    "publisher": "OpenAI",
+    "url": "https://openai.com/index/dall-e-3/",
+    "publishedAt": "2023-09-20",
+    "retrievedAt": "2026-06-12",
+    "sourceType": "Product documentation",
+    "reliability": "primary",
+    "summary": "OpenAI material used to back DALL-E 3 model observations.",
+    "tags": [
+      "openai",
+      "dall-e",
+      "image-generation"
+    ],
+    "linkedObservableIds": [
+      "org-openai",
+      "model-dall-e-3"
+    ]
+  },
+  {
+    "id": "src-anthropic-claude-3-opus",
+    "slug": "anthropic-claude-3-opus",
+    "title": "Claude 3 model family announcement",
+    "verification_status": "source_backed",
+    "publisher": "Anthropic",
+    "url": "https://www.anthropic.com/news/claude-3-family",
+    "publishedAt": "2024-03-04",
+    "retrievedAt": "2026-06-11",
+    "sourceType": "Release note",
+    "reliability": "primary",
+    "summary": "Anthropic source metadata for Claude 3 Opus observations.",
+    "tags": [
+      "anthropic",
+      "claude",
+      "model-release"
+    ],
+    "linkedObservableIds": [
+      "org-anthropic",
+      "model-claude-3-opus"
+    ]
+  },
+  {
+    "id": "src-google-gemma-2",
+    "slug": "google-gemma-2",
+    "title": "Gemma 2 is now available to researchers and developers",
+    "verification_status": "source_backed",
+    "publisher": "Google",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-gemma-2/",
+    "publishedAt": "2024-06-27",
+    "retrievedAt": "2026-06-12",
+    "sourceType": "Release note",
+    "reliability": "primary",
+    "summary": "Google release page used to identify the Gemma 2 source observable and its registry source context.",
+    "tags": [
+      "google",
+      "gemma",
+      "open-model"
+    ],
+    "linkedObservableIds": [
+      "org-google-deepmind",
+      "model-gemma-2"
+    ]
+  },
+  {
+    "id": "src-xai-grok-2",
+    "slug": "xai-grok-2",
+    "title": "Grok-2 announcement",
+    "verification_status": "source_backed",
+    "publisher": "xAI",
+    "url": "https://x.ai/news/grok-2",
+    "publishedAt": "2024-08-13",
+    "retrievedAt": "2026-06-12",
+    "sourceType": "Company announcement",
+    "reliability": "primary",
+    "summary": "xAI announcement used to back Grok-2 model observations.",
+    "tags": [
+      "xai",
+      "grok",
+      "model-release"
+    ],
+    "linkedObservableIds": [
+      "org-xai",
+      "model-grok-2"
+    ]
+  },
+  {
+    "id": "src-mistral-large",
+    "slug": "mistral-large",
+    "title": "Au Large",
+    "verification_status": "source_backed",
+    "publisher": "Mistral AI",
+    "url": "https://mistral.ai/news/mistral-large/",
+    "publishedAt": "2024-02-26",
+    "retrievedAt": "2026-06-12",
+    "sourceType": "Release note",
+    "reliability": "primary",
+    "summary": "Mistral AI release page used to identify the Mistral Large source observable and its registry source context.",
+    "tags": [
+      "mistral",
+      "model-release"
+    ],
+    "linkedObservableIds": [
+      "org-mistral-ai",
+      "model-mistral-large"
+    ]
+  },
+  {
+    "id": "src-mistral-mixtral",
+    "slug": "mistral-mixtral",
+    "title": "Mixtral of experts",
+    "verification_status": "source_backed",
+    "publisher": "Mistral AI",
+    "url": "https://mistral.ai/news/mixtral-of-experts/",
+    "publishedAt": "2023-12-11",
+    "retrievedAt": "2026-06-12",
+    "sourceType": "Release note",
+    "reliability": "primary",
+    "summary": "Mistral AI release page used to identify the Mixtral source observable and its registry source context.",
+    "tags": [
+      "mistral",
+      "mixtral",
+      "open-weights"
+    ],
+    "linkedObservableIds": [
+      "org-mistral-ai",
+      "model-mixtral-8x7b"
+    ]
+  },
+  {
+    "id": "src-cohere-command-r-plus",
+    "slug": "cohere-command-r-plus",
+    "title": "Command R+ announcement",
+    "verification_status": "needs_source_review",
+    "publisher": "Cohere",
+    "url": "https://cohere.com/",
+    "publishedAt": "2024-04-04",
+    "retrievedAt": "2026-06-11",
+    "sourceType": "Release note",
+    "reliability": "primary-placeholder",
+    "summary": "Cohere source metadata for Command R+ observations.",
+    "tags": [
+      "cohere",
+      "command-r",
+      "enterprise-ai"
+    ],
+    "linkedObservableIds": [
+      "org-cohere",
+      "model-command-r-plus"
+    ]
+  },
+  {
+    "id": "src-perplexity-sonar-docs",
+    "slug": "perplexity-sonar-docs",
+    "title": "Sonar",
+    "verification_status": "source_backed",
+    "publisher": "Perplexity AI",
+    "url": "https://docs.perplexity.ai/docs/sonar/models/sonar",
+    "publishedAt": "2025-01-01",
+    "retrievedAt": "2026-06-12",
+    "sourceType": "Model documentation",
+    "reliability": "primary",
+    "summary": "Perplexity documentation used to back Sonar model observations.",
+    "tags": [
+      "perplexity",
+      "sonar",
+      "api"
+    ],
+    "linkedObservableIds": [
+      "org-perplexity-ai",
+      "model-perplexity-sonar"
+    ]
+  },
+  {
+    "id": "src-amazon-nova",
+    "slug": "amazon-nova",
+    "title": "Introducing Amazon Nova foundation models: Frontier intelligence and industry leading price performance",
+    "verification_status": "source_backed",
+    "publisher": "Amazon Web Services",
+    "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-nova-frontier-intelligence-and-industry-leading-price-performance/",
+    "publishedAt": "2024-12-03",
+    "retrievedAt": "2026-06-12",
+    "sourceType": "Company announcement",
+    "reliability": "primary",
+    "summary": "AWS News Blog announcement used to identify the Amazon Nova source observable and its registry source context.",
+    "tags": [
+      "aws",
+      "amazon-nova",
+      "bedrock"
+    ],
+    "linkedObservableIds": [
+      "org-amazon-web-services",
+      "model-amazon-nova"
+    ]
+  },
+  {
+    "id": "src-tii-falcon-180b",
+    "slug": "tii-falcon-180b",
+    "title": "tiiuae/falcon-180B",
+    "verification_status": "source_backed",
+    "publisher": "Technology Innovation Institute",
+    "url": "https://huggingface.co/tiiuae/falcon-180B",
+    "publishedAt": "2023-09-06",
+    "retrievedAt": "2026-06-12",
+    "sourceType": "Model card",
+    "reliability": "primary",
+    "summary": "Technology Innovation Institute Falcon 180B model card used to identify the Falcon 180B source observable and its registry source context.",
+    "tags": [
+      "falcon",
+      "tii",
+      "open-weights"
+    ],
+    "linkedObservableIds": [
+      "org-technology-innovation-institute",
+      "model-falcon-180b"
+    ]
+  },
+  {
+    "id": "src-ai21-jamba",
+    "slug": "ai21-jamba",
+    "title": "Jamba",
+    "verification_status": "source_backed",
+    "publisher": "AI21 Labs",
+    "url": "https://docs.ai21.com/docs/jamba-foundation-models",
+    "publishedAt": "2024-08-22",
+    "retrievedAt": "2026-06-12",
+    "sourceType": "Product documentation",
+    "reliability": "primary",
+    "summary": "AI21 Labs Jamba documentation used to identify the Jamba source observable and its registry source context.",
+    "tags": [
+      "ai21",
+      "jamba",
+      "model"
+    ],
+    "linkedObservableIds": [
+      "org-ai21-labs",
+      "model-jamba-1-5-large"
+    ]
+  },
+  {
+    "id": "src-alibaba-qwen",
+    "slug": "alibaba-qwen",
+    "title": "Qwen2.5: A Party of Foundation Models!",
+    "verification_status": "source_backed",
+    "publisher": "Alibaba Cloud",
+    "url": "https://qwenlm.github.io/blog/qwen2.5/",
+    "publishedAt": "2024-09-19",
+    "retrievedAt": "2026-06-12",
+    "sourceType": "Model documentation",
+    "reliability": "primary",
+    "summary": "Qwen2.5 source material used to identify the Qwen source observable and its registry source context.",
+    "tags": [
+      "qwen",
+      "alibaba",
+      "open-weights"
+    ],
+    "linkedObservableIds": [
+      "org-alibaba-cloud",
+      "model-qwen-2-5"
+    ]
+  },
+  {
+    "id": "src-deepseek-v3",
+    "slug": "deepseek-v3",
+    "title": "DeepSeek-V3 Technical Report",
+    "verification_status": "source_backed",
+    "publisher": "DeepSeek",
+    "url": "https://arxiv.org/abs/2412.19437",
+    "publishedAt": "2024-12-26",
+    "retrievedAt": "2026-06-12",
+    "sourceType": "Technical report",
+    "reliability": "primary",
+    "summary": "DeepSeek-V3 technical report used to identify the DeepSeek-V3 source observable and its registry source context.",
+    "tags": [
+      "deepseek",
+      "model",
+      "technical-report"
+    ],
+    "linkedObservableIds": [
+      "org-deepseek",
+      "model-deepseek-v3"
+    ]
+  },
+  {
+    "id": "src-databricks-dbrx",
+    "slug": "databricks-dbrx",
+    "title": "Introducing DBRX",
+    "verification_status": "source_backed",
+    "publisher": "Databricks",
+    "url": "https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm",
+    "publishedAt": "2024-03-27",
+    "retrievedAt": "2026-06-11",
+    "sourceType": "Release note",
+    "reliability": "primary",
+    "summary": "Databricks source metadata for DBRX observations.",
+    "tags": [
+      "databricks",
+      "dbrx",
+      "open-weights"
+    ],
+    "linkedObservableIds": [
+      "org-databricks",
+      "model-dbrx"
+    ]
+  },
+  {
+    "id": "src-microsoft-phi-3",
+    "slug": "microsoft-phi-3",
+    "title": "Phi-3 model announcement",
+    "verification_status": "needs_source_review",
+    "publisher": "Microsoft",
+    "url": "https://www.microsoft.com/en-us/research/",
+    "publishedAt": "2024-04-23",
+    "retrievedAt": "2026-06-11",
+    "sourceType": "Release note",
+    "reliability": "primary-placeholder",
+    "summary": "Microsoft source metadata placeholder for Phi-3 observations.",
+    "tags": [
+      "microsoft",
+      "phi-3",
+      "small-model"
+    ],
+    "linkedObservableIds": [
+      "org-microsoft",
+      "model-phi-3"
+    ]
+  },
+  {
+    "id": "src-nvidia-nemotron",
+    "slug": "nvidia-nemotron",
+    "title": "NVIDIA Nemotron model documentation",
+    "verification_status": "needs_source_review",
+    "publisher": "NVIDIA",
+    "url": "https://www.nvidia.com/",
+    "publishedAt": "2024-01-01",
+    "retrievedAt": "2026-06-11",
+    "sourceType": "Model documentation",
+    "reliability": "primary-placeholder",
+    "summary": "NVIDIA source metadata placeholder for Nemotron observations.",
+    "tags": [
+      "nvidia",
+      "nemotron",
+      "model"
+    ],
+    "linkedObservableIds": [
+      "org-nvidia",
+      "model-nemotron"
+    ]
+  },
+  {
+    "id": "src-stability-sd3",
+    "slug": "stability-sd3",
+    "title": "Stable Diffusion 3 announcement",
+    "verification_status": "source_backed",
+    "publisher": "Stability AI",
+    "url": "https://stability.ai/",
+    "publishedAt": "2024-02-22",
+    "retrievedAt": "2026-06-11",
+    "sourceType": "Release note",
+    "reliability": "primary",
+    "summary": "Stability AI source metadata for Stable Diffusion 3 observations.",
+    "tags": [
+      "stability-ai",
+      "stable-diffusion",
+      "image-generation"
+    ],
+    "linkedObservableIds": [
+      "org-stability-ai",
+      "model-stable-diffusion-3"
+    ]
+  },
+  {
+    "id": "src-aws-ai-infrastructure",
+    "slug": "aws-ai-infrastructure",
+    "title": "AWS AI infrastructure overview",
+    "verification_status": "needs_source_review",
+    "publisher": "Amazon Web Services",
+    "url": "https://aws.amazon.com/ai/infrastructure/",
+    "publishedAt": "2024-01-01",
+    "retrievedAt": "2026-06-11",
+    "sourceType": "Product documentation",
+    "reliability": "primary-placeholder",
+    "summary": "AWS source metadata placeholder for AI infrastructure observations.",
+    "tags": [
+      "aws",
+      "ai-infrastructure",
+      "cloud"
+    ],
+    "linkedObservableIds": [
+      "org-amazon-web-services",
+      "dc-aws-northern-virginia",
+      "dc-aws-oregon",
+      "dc-aws-ohio"
+    ]
+  },
+  {
+    "id": "src-google-data-centers",
+    "slug": "google-data-centers",
+    "title": "Google data centers overview",
+    "verification_status": "needs_source_review",
+    "publisher": "Google",
+    "url": "https://www.google.com/about/datacenters/",
+    "publishedAt": "2024-01-01",
+    "retrievedAt": "2026-06-11",
+    "sourceType": "Company documentation",
+    "reliability": "primary-placeholder",
+    "summary": "Google source metadata placeholder for data center observations.",
+    "tags": [
+      "google",
+      "data-centers",
+      "cloud"
+    ],
+    "linkedObservableIds": [
+      "org-google-cloud",
+      "dc-google-council-bluffs",
+      "dc-google-the-dalles",
+      "dc-google-mayes-county",
+      "dc-google-tpu-cloud"
+    ]
+  },
+  {
+    "id": "src-meta-data-centers",
+    "slug": "meta-data-centers",
+    "title": "Meta data centers overview",
+    "verification_status": "needs_source_review",
+    "publisher": "Meta",
+    "url": "https://datacenters.atmeta.com/",
+    "publishedAt": "2024-01-01",
+    "retrievedAt": "2026-06-11",
+    "sourceType": "Company documentation",
+    "reliability": "primary-placeholder",
+    "summary": "Meta source metadata placeholder for data center observations.",
+    "tags": [
+      "meta",
+      "data-centers",
+      "infrastructure"
+    ],
+    "linkedObservableIds": [
+      "org-meta-ai",
+      "dc-meta-eagle-mountain",
+      "dc-meta-prineville",
+      "dc-meta-altoona"
+    ]
+  },
+  {
+    "id": "src-xai-memphis-infrastructure",
+    "slug": "xai-memphis-infrastructure",
+    "title": "xAI Memphis infrastructure source placeholder",
+    "verification_status": "placeholder",
+    "publisher": "xAI",
+    "url": "https://x.ai/",
+    "publishedAt": "2024-01-01",
+    "retrievedAt": "2026-06-11",
+    "sourceType": "Company documentation",
+    "reliability": "primary-placeholder",
+    "summary": "Placeholder source metadata for xAI Memphis infrastructure observations.",
+    "tags": [
+      "xai",
+      "memphis",
+      "infrastructure"
+    ],
+    "linkedObservableIds": [
+      "org-xai",
+      "dc-xai-memphis"
+    ]
+  },
+  {
+    "id": "src-cerebras-condor-galaxy",
+    "slug": "cerebras-condor-galaxy",
+    "title": "Cerebras Condor Galaxy overview",
+    "verification_status": "needs_source_review",
+    "publisher": "Cerebras",
+    "url": "https://www.cerebras.net/",
+    "publishedAt": "2024-01-01",
+    "retrievedAt": "2026-06-11",
+    "sourceType": "Company documentation",
+    "reliability": "primary-placeholder",
+    "summary": "Source metadata placeholder for Condor Galaxy infrastructure observations.",
+    "tags": [
+      "cerebras",
+      "supercomputer",
+      "infrastructure"
+    ],
+    "linkedObservableIds": [
+      "org-cerebras",
+      "dc-cerebras-condor-galaxy"
+    ]
+  },
+  {
+    "id": "src-groq-inference-cloud",
+    "slug": "groq-inference-cloud",
+    "title": "Groq inference cloud overview",
+    "verification_status": "needs_source_review",
+    "publisher": "Groq",
+    "url": "https://groq.com/",
+    "publishedAt": "2024-01-01",
+    "retrievedAt": "2026-06-11",
+    "sourceType": "Company documentation",
+    "reliability": "primary-placeholder",
+    "summary": "Source metadata placeholder for Groq inference infrastructure observations.",
+    "tags": [
+      "groq",
+      "inference",
+      "infrastructure"
+    ],
+    "linkedObservableIds": [
+      "org-groq",
+      "dc-groq-lpu-cloud"
+    ]
+  },
+  {
+    "id": "src-equinix-ai-infrastructure",
+    "slug": "equinix-ai-infrastructure",
+    "title": "Equinix AI infrastructure overview",
+    "verification_status": "needs_source_review",
+    "publisher": "Equinix",
+    "url": "https://www.equinix.com/",
+    "publishedAt": "2024-01-01",
+    "retrievedAt": "2026-06-11",
+    "sourceType": "Company documentation",
+    "reliability": "primary-placeholder",
+    "summary": "Source metadata placeholder for Equinix AI infrastructure observations.",
+    "tags": [
+      "equinix",
+      "data-centers",
+      "interconnection"
+    ],
+    "linkedObservableIds": [
+      "org-equinix",
+      "dc-equinix-sv11",
+      "dc-equinix-dc21"
+    ]
+  },
+  {
+    "id": "src-tesla-dojo",
+    "slug": "tesla-dojo",
+    "title": "Tesla Dojo source placeholder",
+    "verification_status": "placeholder",
+    "publisher": "Tesla",
+    "url": "https://www.tesla.com/",
+    "publishedAt": "2024-01-01",
+    "retrievedAt": "2026-06-11",
+    "sourceType": "Company documentation",
+    "reliability": "primary-placeholder",
+    "summary": "Placeholder source metadata for Tesla Dojo infrastructure observations.",
+    "tags": [
+      "tesla",
+      "dojo",
+      "supercomputer"
+    ],
+    "linkedObservableIds": [
+      "org-tesla",
+      "dc-tesla-dojo"
+    ]
+  },
+  {
+    "id": "src-hugging-face-inference",
+    "slug": "hugging-face-inference",
+    "title": "Hugging Face Inference Endpoints documentation",
+    "verification_status": "needs_source_review",
+    "publisher": "Hugging Face",
+    "url": "https://huggingface.co/docs/inference-endpoints",
+    "publishedAt": "2024-01-01",
+    "retrievedAt": "2026-06-11",
+    "sourceType": "Product documentation",
+    "reliability": "primary-placeholder",
+    "summary": "Source metadata placeholder for Hugging Face inference infrastructure observations.",
+    "tags": [
+      "hugging-face",
+      "inference",
+      "model-hosting"
+    ],
+    "linkedObservableIds": [
+      "org-hugging-face",
+      "dc-hugging-face-inference"
+    ]
+  }
+]
