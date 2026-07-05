@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { contactEmail, contactMailto } from "@/lib/contact";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -10,7 +11,9 @@ export const metadata: Metadata = {
 const navItems = [
   { href: "/", label: "Home" },
   { href: "/registry", label: "Registry" },
-  { href: "/about", label: "Method" }
+  { href: "/about", label: "Method" },
+  { href: "/sponsor", label: "Sponsor" },
+  { href: "/custom-research", label: "Research" }
 ];
 
 export default function RootLayout({
@@ -47,9 +50,25 @@ export default function RootLayout({
           </header>
           <main>{children}</main>
           <footer className="border-t border-[#182033] bg-[#03050d]">
-            <div className="mx-auto flex max-w-7xl flex-col gap-3 px-5 py-8 text-sm text-slate-400 sm:flex-row sm:items-center sm:justify-between lg:px-8">
-              <p>AI Native Observatory MVP</p>
-              <p>Static JSON data. No database dependency.</p>
+            <div className="mx-auto flex max-w-7xl flex-col gap-4 px-5 py-8 text-sm text-slate-400 lg:px-8">
+              <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                <p>AI Native Observatory MVP</p>
+                <p>Static JSON data. No database dependency.</p>
+              </div>
+              <div className="flex flex-wrap gap-3 text-xs font-semibold uppercase tracking-normal">
+                <Link href="/sponsor" className="text-[#8fb7cf] hover:text-white">
+                  Sponsor
+                </Link>
+                <Link
+                  href="/custom-research"
+                  className="text-[#8fb7cf] hover:text-white"
+                >
+                  Custom Research
+                </Link>
+                <a href={contactMailto} className="text-[#8fb7cf] hover:text-white">
+                  {contactEmail}
+                </a>
+              </div>
             </div>
           </footer>
         </div>
