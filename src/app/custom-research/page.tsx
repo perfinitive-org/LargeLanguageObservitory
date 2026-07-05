@@ -10,36 +10,36 @@ export const metadata: Metadata = {
 
 const briefTypes = [
   {
-    title: "Custom AI Ecosystem Research Brief",
+    title: "AI Infrastructure Evidence Brief",
     description:
-      "A focused written brief for a company, model family, infrastructure cluster, source set, or market question.",
+      "A source-backed review of one AI infrastructure provider, model, API platform, or data-policy claim.",
     outputs: [
-      "Defined research question",
-      "Relevant Observatory records",
-      "Evidence and source review",
-      "Plain-language findings"
+      "What the organization claims",
+      "What public sources support",
+      "What remains unresolved",
+      "Evidence table and plain-English risk summary"
     ]
   },
   {
-    title: "Company / Profile Dossier",
+    title: "Comparison Report",
     description:
-      "A deeper profile review for one organization or infrastructure-linked entity already present in the registry.",
+      "A buyer-side comparison of selected organizations, model providers, infrastructure records, or source claims.",
     outputs: [
-      "Record summary",
-      "Linked models, infrastructure, sources, and evidence",
-      "Review notes and unresolved questions",
-      "Suggested profile improvements"
+      "Comparable public claims",
+      "Evidence-backed and unresolved items",
+      "Ownership, funding, or data-policy notes where sourced",
+      "Decision-focused summary"
     ]
   },
   {
-    title: "Sponsored Category Brief",
+    title: "Procurement Risk Memo",
     description:
-      "A clearly labeled sponsored research artifact around a category such as AI infrastructure, model providers, or evidence sources.",
+      "A concise memo for teams deciding what to trust before vendor conversations, purchasing, partnership, or grant decisions.",
     outputs: [
-      "Category framing",
-      "Curated public records",
-      "Sponsor label and boundary language",
-      "Evidence-aware narrative summary"
+      "Plain-English risk summary",
+      "Source-backed documentation map",
+      "Open questions for the vendor or provider",
+      "No compliance certification language"
     ]
   }
 ];
@@ -49,7 +49,7 @@ const processSteps = [
   "Identify relevant registry records and evidence records.",
   "Review source quality and unresolved gaps.",
   "Prepare a written brief with caveats and next questions.",
-  "Separate sponsor or client material from independent registry evidence."
+  "Keep client questions separate from registry verification outcomes."
 ];
 
 export default function CustomResearchPage() {
@@ -81,17 +81,23 @@ export default function CustomResearchPage() {
               <Link href="/sponsor" className="text-[#8fb7cf] hover:text-white">
                 Sponsor
               </Link>
+              <Link
+                href="/submit-official-sources"
+                className="text-[#8fb7cf] hover:text-white"
+              >
+                Submit Sources
+              </Link>
             </nav>
             <p className="mt-8 text-xs font-semibold uppercase text-[#8fb7cf]">
               Custom research
             </p>
             <h1 className="mt-3 text-3xl font-semibold leading-tight sm:text-5xl">
-              Turn the Observatory into evidence-aware AI ecosystem briefs.
+              Buyer-side AI infrastructure evidence briefs.
             </h1>
             <p className="mt-5 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg">
-              Custom briefs use the public registry as a starting point, then
-              apply human review to answer narrower questions about companies,
-              models, infrastructure, sources, and evidence.
+              Custom briefs help founders, agencies, procurement teams,
+              consultants, schools, nonprofits, and investors understand what
+              public sources support and what remains unresolved.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <a
@@ -104,7 +110,7 @@ export default function CustomResearchPage() {
                 href="/sponsor"
                 className="rounded-md border border-white/15 bg-white/[0.06] px-5 py-3 text-sm font-semibold text-white transition hover:border-[#8fb7cf]/70"
               >
-                View sponsor options
+                Support the Observatory
               </Link>
             </div>
           </div>
@@ -114,11 +120,12 @@ export default function CustomResearchPage() {
               Contact
             </p>
             <p className="mt-3 text-2xl font-semibold text-white">
-              {contactEmail}
+              Founding range: $150-$300
             </p>
             <p className="mt-3 text-sm leading-6 text-slate-300">
-              Send the research question, target audience, deadline, and any
-              records or topics you want included.
+              First 3-5 buyer-side briefs should stay intentionally small:
+              useful enough to prove demand, bounded enough to preserve review
+              quality.
             </p>
           </section>
         </div>
@@ -128,7 +135,7 @@ export default function CustomResearchPage() {
         <section>
           <SectionHeading
             eyebrow="Research products"
-            title="Paid brief options"
+            title="First paid offers"
           />
           <div className="mt-5 grid gap-5 lg:grid-cols-3">
             {briefTypes.map((brief) => (
@@ -177,10 +184,11 @@ export default function CustomResearchPage() {
 
           <Panel title="Independence Boundary" eyebrow="Important">
             <p className="text-sm leading-6 text-slate-300">
-              Custom research can be sponsored or commissioned, but registry
-              verification remains separate. Paid work may identify evidence,
-              summarize public records, or recommend review targets. It does
-              not buy source-backed status.
+              Custom research is for people deciding what to trust. Paid work
+              may identify evidence, summarize public records, and list
+              unresolved questions. It does not buy source-backed status,
+              verification status, favorable treatment, badges, or a changed
+              evidence standard.
             </p>
             <div className="mt-5 rounded border border-[#8fb7cf]/35 bg-[#8fb7cf]/10 p-4 text-sm leading-6 text-[#d8edf8]">
               Start by emailing{" "}

@@ -12,7 +12,7 @@ const navItems = [
   { href: "/", label: "Home" },
   { href: "/registry", label: "Registry" },
   { href: "/about", label: "Method" },
-  { href: "/sponsor", label: "Sponsor" },
+  { href: "/submit-official-sources", label: "Submit Sources" },
   { href: "/custom-research", label: "Research" }
 ];
 
@@ -58,6 +58,12 @@ export default function RootLayout({
               <div className="flex flex-wrap gap-3 text-xs font-semibold uppercase tracking-normal">
                 <Link href="/sponsor" className="text-[#8fb7cf] hover:text-white">
                   Sponsor
+                </Link>
+                <Link
+                  href="/submit-official-sources"
+                  className="text-[#8fb7cf] hover:text-white"
+                >
+                  Submit Sources
                 </Link>
                 <Link
                   href="/custom-research"

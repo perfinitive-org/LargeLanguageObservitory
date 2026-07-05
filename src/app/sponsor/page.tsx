@@ -5,53 +5,54 @@ import { contactEmail, contactMailto } from "@/lib/contact";
 export const metadata: Metadata = {
   title: "Sponsor AI Native Observatory",
   description:
-    "Sponsor and enhanced profile options for the AI Native Observatory."
+    "Support and underwriting options for the AI Native Observatory without buying verification status."
 };
 
 const products = [
   {
     title: "Sponsored Supporter Slot",
-    label: "Directory sponsorship",
+    label: "Public support",
     description:
       "A clearly labeled supporter placement for organizations that want to support the public Observatory while reaching AI ecosystem readers.",
     includes: [
       "Supporter name on a sponsor section or sponsor page",
       "Link to official website",
       "Short sponsor description",
-      "Clear sponsorship label"
+      "Clear sponsorship label and no verification implication"
     ]
   },
   {
-    title: "Enhanced Company / Profile Page",
-    label: "Claimed profile",
+    title: "Public Writeup Underwriting",
+    label: "Editorial support",
     description:
-      "An expanded profile layer for organizations already represented in the registry, kept separate from evidence and verification status.",
+      "Support public writeups about what changed, what is source-backed, and what remains unresolved in the registry.",
     includes: [
-      "Official website and contact links",
-      "Company-provided summary marked as provided copy",
-      "Product, hiring, or documentation links",
-      "Clear separation from source-backed registry claims"
+      "Clearly labeled underwriting",
+      "Topic scoped before publication",
+      "Evidence and limitation language preserved",
+      "No sponsor control over review outcomes"
     ]
   },
   {
-    title: "Custom AI Ecosystem Research Brief",
-    label: "Research service",
+    title: "Buyer-Side Research Referral",
+    label: "Research inquiry",
     description:
-      "A manually prepared brief using the Observatory's registry, evidence records, and reviewer workflow as the starting point.",
+      "Route buyers, researchers, consultants, and procurement teams toward custom evidence briefs instead of vendor-paid verification.",
     includes: [
-      "Custom scope definition",
-      "Curated record and evidence review",
-      "Plain-language findings",
-      "Delivery as a written brief"
+      "Custom brief scoping",
+      "Evidence table and limitations",
+      "Plain-English risk summary",
+      "No vendor badge or certification language"
     ]
   }
 ];
 
 const safeguards = [
-  "Sponsorship never changes verification status.",
-  "Paid profile content is labeled separately from source-backed evidence.",
+  "Payment can support public visibility or underwriting; it cannot buy verification status.",
+  "Payment cannot buy source-backed status, a badge, or a change to the evidence standard.",
+  "Paid priority review is not currently offered; if offered later, it would affect timing only, not outcome.",
   "Registry records remain governed by evidence, review decisions, and source quality.",
-  "The Observatory will not sell source-backed status, review outcomes, or hidden ranking influence."
+  "Free source submission is available without payment and does not guarantee a favorable outcome."
 ];
 
 export default function SponsorPage() {
@@ -86,26 +87,31 @@ export default function SponsorPage() {
               >
                 Custom Research
               </Link>
+              <Link
+                href="/submit-official-sources"
+                className="text-[#8fb7cf] hover:text-white"
+              >
+                Submit Sources
+              </Link>
             </nav>
             <p className="mt-8 text-xs font-semibold uppercase text-[#8fb7cf]">
-              Sponsorship and directory products
+              Support and underwriting
             </p>
             <h1 className="mt-3 text-3xl font-semibold leading-tight sm:text-5xl">
               Support the Observatory without compromising the evidence layer.
             </h1>
             <p className="mt-5 max-w-2xl text-base leading-7 text-slate-300 sm:text-lg">
               AI Native Observatory can operate like a serious directory:
-              public registry access remains free, while sponsorship, enhanced
-              profiles, and custom research create revenue around the trusted
-              data product.
+              public registry access remains free, source submission remains
+              free, and paid work stays outside the verification outcome.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
-              <a
-                href={contactMailto}
+              <Link
+                href="/submit-official-sources"
                 className="rounded-md bg-[#8fb7cf] px-5 py-3 text-sm font-semibold text-[#07111c] transition hover:bg-white"
               >
-                Contact {contactEmail}
-              </a>
+                Submit official sources
+              </Link>
               <Link
                 href="/custom-research"
                 className="rounded-md border border-white/15 bg-white/[0.06] px-5 py-3 text-sm font-semibold text-white transition hover:border-[#8fb7cf]/70"
@@ -120,12 +126,12 @@ export default function SponsorPage() {
               Revenue rule
             </p>
             <p className="mt-3 text-2xl font-semibold text-white">
-              Money buys visibility, not trust status.
+              Money cannot buy the trust signal.
             </p>
             <p className="mt-3 text-sm leading-6 text-slate-300">
-              The registry&apos;s value depends on the distinction between paid
-              placement and evidence-backed review. Sponsored and enhanced
-              content must be labeled.
+              Payment can support the project or commission research around the
+              registry. It cannot buy source-backed status, badges, favorable
+              treatment, or a different evidence standard.
             </p>
           </section>
         </div>
@@ -135,7 +141,7 @@ export default function SponsorPage() {
         <section>
           <SectionHeading
             eyebrow="Available products"
-            title="Three first revenue offers"
+            title="Support options that preserve trust"
           />
           <div className="mt-5 grid gap-5 lg:grid-cols-3">
             {products.map((product) => (
@@ -182,13 +188,14 @@ export default function SponsorPage() {
               <a href={contactMailto} className="font-semibold text-[#8fb7cf]">
                 {contactEmail}
               </a>{" "}
-              with the product you are interested in, the organization or topic,
-              and the preferred timing. The first step is a manual scope review,
-              not an automated purchase flow.
+              with the support option, topic, and preferred timing. If you are
+              submitting documentation about your organization, use the free
+              source-submission path instead of a paid sponsorship request.
             </p>
             <div className="mt-5 rounded border border-[#7ba36f]/45 bg-[#7ba36f]/10 p-4 text-sm leading-6 text-[#d8f2d2]">
-              Recommended first offer: sponsor slot plus optional enhanced
-              profile for organizations already represented in the registry.
+              Recommended first paid offer: buyer-side AI Infrastructure
+              Evidence Briefs. Recommended vendor action: submit official
+              sources for free review.
             </div>
           </Panel>
         </section>
