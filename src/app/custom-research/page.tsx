@@ -82,6 +82,34 @@ const processSteps = [
   "Keep client questions separate from registry verification outcomes."
 ];
 
+const faqs = [
+  {
+    question: "What do clients buy?",
+    answer:
+      "Buyer-side research reports built from ANO's public evidence records, review decisions, registry entries, and source-backed claims."
+  },
+  {
+    question: "Is this verification?",
+    answer:
+      "No. ANO does not sell verification, certification, rankings, badges, vendor approval, source-backed status, or favorable treatment."
+  },
+  {
+    question: "How are reports produced?",
+    answer:
+      "Reports are machine-assembled from structured evidence records and human-edited before delivery or publication."
+  },
+  {
+    question: "Can a vendor pay to improve its status?",
+    answer:
+      "No. Payment cannot change verification status, source-backed status, evidence standards, review decisions, inclusion criteria, or public registry treatment."
+  },
+  {
+    question: "What can I request?",
+    answer:
+      "A buyer memo, AI Infrastructure Evidence Brief, comparison matrix, procurement question pack, or recurring evidence digest."
+  }
+];
+
 export default function CustomResearchPage() {
   return (
     <div className="bg-[#03050d] text-white">
@@ -275,6 +303,28 @@ export default function CustomResearchPage() {
               with a topic and desired brief type.
             </div>
           </Panel>
+        </section>
+
+        <section className="mt-8">
+          <SectionHeading
+            eyebrow="Common questions"
+            title="How buyer-side research works"
+          />
+          <div className="mt-5 grid gap-4 lg:grid-cols-2">
+            {faqs.map((item) => (
+              <article
+                key={item.question}
+                className="rounded-lg border border-white/15 bg-[#07111c] p-5"
+              >
+                <h2 className="text-base font-semibold text-white">
+                  {item.question}
+                </h2>
+                <p className="mt-3 text-sm leading-6 text-slate-300">
+                  {item.answer}
+                </p>
+              </article>
+            ))}
+          </div>
         </section>
       </main>
     </div>

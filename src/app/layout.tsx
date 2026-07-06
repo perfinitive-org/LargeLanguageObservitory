@@ -12,6 +12,8 @@ export const metadata: Metadata = {
 const navItems = [
   { href: "/", label: "Home" },
   { href: "/registry", label: "Registry" },
+  { href: "/latest", label: "Latest" },
+  { href: "/sample-brief", label: "Sample Brief" },
   { href: "/about", label: "Method" },
   { href: "/submit-official-sources", label: "Submit Sources" },
   { href: "/custom-research", label: "Research" }
@@ -71,6 +73,15 @@ export default function RootLayout({
                   className="text-[#8fb7cf] hover:text-white"
                 >
                   Custom Research
+                </Link>
+                <Link
+                  href="/transparency"
+                  className="text-[#8fb7cf] hover:text-white"
+                >
+                  Transparency
+                </Link>
+                <Link href="/press" className="text-[#8fb7cf] hover:text-white">
+                  Press
                 </Link>
                 <a href={contactMailto} className="text-[#8fb7cf] hover:text-white">
                   {contactEmail}

@@ -101,6 +101,45 @@ const lensCards: Array<{
   }
 ];
 
+const proofLinks = [
+  {
+    title: "Registry",
+    label: "Public records",
+    description: "Search organizations, models, infrastructure sites, and sources.",
+    href: "/registry"
+  },
+  {
+    title: "Evidence Records",
+    label: "Reusable proof",
+    description: "Inspect normalized evidence linked to observables and review decisions.",
+    href: "/evidence"
+  },
+  {
+    title: "Review Decisions",
+    label: "Human review ledger",
+    description: "See documented review outcomes and supporting rationale.",
+    href: "/review-decisions"
+  },
+  {
+    title: "Sample Brief",
+    label: "Buyer artifact",
+    description: "View a public sample of a buyer-side AI Infrastructure Evidence Brief.",
+    href: "/sample-brief"
+  },
+  {
+    title: "Custom Research",
+    label: "Buyer-side reports",
+    description: "Request decision-ready research built from the evidence layer.",
+    href: "/custom-research"
+  },
+  {
+    title: "Submit Official Sources",
+    label: "Outcome-neutral intake",
+    description: "Submit official sources or corrections without buying status.",
+    href: "/submit-official-sources"
+  }
+];
+
 export default function Home() {
   const stats = getRegistryStats();
   const countsByType = observableTypes.reduce(
@@ -252,6 +291,48 @@ export default function Home() {
               <span>{stats.observations} observation notes</span>
               <span>{stats.relationships} relationship links</span>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="relative overflow-hidden border-b border-[#182033] bg-[#03050d] text-white">
+        <FieldTexture />
+        <div className="relative mx-auto max-w-7xl px-5 py-10 lg:px-8">
+          <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <p className="text-xs font-semibold uppercase text-[#8fb7cf]">
+                Public proof spine
+              </p>
+              <h2 className="mt-2 max-w-3xl text-2xl font-semibold">
+                Source-backed public proof-of-work, converted into
+                decision-ready buyer intelligence.
+              </h2>
+            </div>
+            <Link
+              href="/transparency"
+              className="w-fit rounded-md border border-white/15 bg-white/[0.06] px-4 py-2 text-sm font-semibold text-white transition hover:border-[#8fb7cf]/70"
+            >
+              Read transparency notes
+            </Link>
+          </div>
+          <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+            {proofLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="rounded-lg border border-l-4 border-white/15 border-l-[#8fb7cf] bg-[#07111c] p-5 transition hover:-translate-y-0.5 hover:border-[#8fb7cf]/55 hover:bg-[#0b1725]"
+              >
+                <p className="text-xs font-semibold uppercase text-[#8fb7cf]">
+                  {link.label}
+                </p>
+                <h3 className="mt-3 text-xl font-semibold text-white">
+                  {link.title}
+                </h3>
+                <p className="mt-3 text-sm leading-6 text-slate-300">
+                  {link.description}
+                </p>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
