@@ -57,6 +57,12 @@ export default function EvidencePage() {
                 Source/Evidence Model
               </Link>
               <Link
+                href="/evidence/frontier-claim-velocity"
+                className="text-[#8fb7cf] hover:text-white"
+              >
+                Frontier Claim Velocity
+              </Link>
+              <Link
                 href="/verification-pilot-ai21-labs"
                 className="text-[#8fb7cf] hover:text-white"
               >
@@ -116,6 +122,26 @@ export default function EvidencePage() {
       </section>
 
       <main className="mx-auto max-w-7xl px-5 py-10 lg:px-8">
+        <section className="mb-8 rounded-lg border border-l-4 border-white/15 border-l-white bg-[#07111c] p-5">
+          <p className="text-xs font-semibold uppercase text-[#8fb7cf]">
+            Evidence visualization
+          </p>
+          <h2 className="mt-2 text-2xl font-semibold text-white">
+            Frontier Claim Velocity
+          </h2>
+          <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-300">
+            A timeline of public source-backed claims about frontier AI model
+            and infrastructure scale. Values are shown by unit family and are
+            not a forecast, ranking, certification, or private-capacity audit.
+          </p>
+          <Link
+            href="/evidence/frontier-claim-velocity"
+            className="mt-5 inline-flex rounded-md bg-white px-4 py-2 text-sm font-semibold text-[#03050d] transition hover:bg-slate-200"
+          >
+            Open Frontier Claim Velocity
+          </Link>
+        </section>
+
         <section className="rounded-lg border border-white/15 bg-[#07111c] p-4">
           <div className="flex items-center justify-between gap-3 border-b border-white/10 pb-3">
             <div>

@@ -1,0 +1,171 @@
+[
+  {
+    "id": "fcv-001",
+    "date": "2020-05-28",
+    "entity": "OpenAI",
+    "label": "GPT-3",
+    "claim": "Candidate point: GPT-3 described as a 175 billion parameter language model.",
+    "type": "model",
+    "unit_family": "parameters",
+    "value": 175000000000,
+    "display_value": "175B parameters",
+    "source_ids": [],
+    "evidence_record_ids": [],
+    "status": "needs_source_review",
+    "caveat": "Candidate point only. Current registry does not include a linked source or evidence record for this specific scale claim."
+  },
+  {
+    "id": "fcv-002",
+    "date": "2022-04-04",
+    "entity": "Google",
+    "label": "PaLM",
+    "claim": "Candidate point: PaLM described as a 540 billion parameter language model.",
+    "type": "model",
+    "unit_family": "parameters",
+    "value": 540000000000,
+    "display_value": "540B parameters",
+    "source_ids": [],
+    "evidence_record_ids": [],
+    "status": "needs_source_review",
+    "caveat": "Candidate point only. Current registry does not include a linked source or evidence record for this specific scale claim."
+  },
+  {
+    "id": "fcv-003",
+    "date": "2023-09-06",
+    "entity": "Technology Innovation Institute",
+    "label": "Falcon 180B",
+    "claim": "Falcon 180B source material identifies the model as Falcon 180B.",
+    "type": "model",
+    "unit_family": "parameters",
+    "value": 180000000000,
+    "display_value": "180B parameters",
+    "source_ids": [
+      "src-tii-falcon-180b"
+    ],
+    "evidence_record_ids": [
+      "evidence-source-tii-falcon-180b-huggingface"
+    ],
+    "status": "reported_public_claim",
+    "caveat": "Public model-scale claim from source material; not a capability claim, benchmark claim, or independent audit."
+  },
+  {
+    "id": "fcv-004",
+    "date": "2024-07-23",
+    "entity": "Meta AI",
+    "label": "Llama 3.1 405B",
+    "claim": "Meta's Llama 3.1 source record is linked to the Llama 3.1 405B model observable.",
+    "type": "model",
+    "unit_family": "parameters",
+    "value": 405000000000,
+    "display_value": "405B parameters",
+    "source_ids": [
+      "src-meta-llama-31-release"
+    ],
+    "evidence_record_ids": [],
+    "status": "source_backed",
+    "caveat": "Public model-scale claim represented in the registry; not a capability claim, benchmark claim, or independent audit."
+  },
+  {
+    "id": "fcv-005",
+    "date": "2023-05-16",
+    "entity": "Meta",
+    "label": "Meta RSC",
+    "claim": "Candidate point: Meta RSC described as a 16,000 GPU research supercomputer.",
+    "type": "infrastructure",
+    "unit_family": "accelerators",
+    "value": 16000,
+    "display_value": "16K GPUs",
+    "source_ids": [],
+    "evidence_record_ids": [],
+    "status": "needs_source_review",
+    "caveat": "Candidate point only. Current registry does not include a linked source or evidence record for this specific scale claim."
+  },
+  {
+    "id": "fcv-006",
+    "date": "2024-01-18",
+    "entity": "Meta",
+    "label": "Meta AI compute intent",
+    "claim": "Candidate point: Meta public intent around hundreds of thousands of AI accelerators.",
+    "type": "infrastructure",
+    "unit_family": "accelerators",
+    "value": 350000,
+    "display_value": "350K accelerators",
+    "source_ids": [],
+    "evidence_record_ids": [],
+    "status": "needs_source_review",
+    "caveat": "Candidate point only. Current registry does not include a linked source or evidence record for this specific scale claim."
+  },
+  {
+    "id": "fcv-007",
+    "date": "2024-03-01",
+    "entity": "OpenAI / Stargate",
+    "label": "Stargate reported scale",
+    "claim": "Candidate point: reported Stargate GPU-equivalent scale claim.",
+    "type": "infrastructure",
+    "unit_family": "accelerators",
+    "value": 1000000,
+    "display_value": "1M GPU-equivalent claim",
+    "source_ids": [],
+    "evidence_record_ids": [
+      "evidence-stargate-openai-official-announcement",
+      "evidence-stargate-abilene-wired-data-centers"
+    ],
+    "status": "needs_source_review",
+    "caveat": "Candidate point only. Existing evidence supports Stargate project and Abilene context, not this specific GPU-equivalent scale claim."
+  },
+  {
+    "id": "fcv-008",
+    "date": "2024-12-01",
+    "entity": "xAI",
+    "label": "xAI Memphis / Colossus",
+    "claim": "Business Insider coverage described xAI's Memphis supercomputer expansion as intended to house at least 1 million GPUs.",
+    "type": "infrastructure",
+    "unit_family": "accelerators",
+    "value": 1000000,
+    "display_value": "At least 1M GPUs",
+    "source_ids": [
+      "src-xai-memphis-infrastructure"
+    ],
+    "evidence_record_ids": [
+      "evidence-xai-memphis-business-insider-colossus"
+    ],
+    "status": "reported_public_claim",
+    "caveat": "Reported public claim from independent coverage. The registry record remains conservative and does not treat this as an independent capacity audit."
+  },
+  {
+    "id": "fcv-009",
+    "date": "2026-02-01",
+    "entity": "CoreWeave",
+    "label": "CoreWeave fabric",
+    "claim": "Candidate point: reported CoreWeave fabric scale claim.",
+    "type": "infrastructure",
+    "unit_family": "accelerators",
+    "value": 250000,
+    "display_value": "250K GPU claim",
+    "source_ids": [
+      "src-coreweave-s1"
+    ],
+    "evidence_record_ids": [],
+    "status": "needs_source_review",
+    "caveat": "Candidate point only. Current linked source metadata does not support plotting this specific scale claim."
+  },
+  {
+    "id": "fcv-010",
+    "date": "2025-09-18",
+    "entity": "Microsoft",
+    "label": "Microsoft Wisconsin / Fairwater",
+    "claim": "Tom's Hardware coverage of Microsoft's Wisconsin AI data center refers to hundreds of thousands of NVIDIA GPUs.",
+    "type": "infrastructure",
+    "unit_family": "accelerators",
+    "value": 0,
+    "display_value": "Hundreds of thousands of GPUs",
+    "source_ids": [
+      "src-microsoft-wisconsin-datacenter"
+    ],
+    "evidence_record_ids": [
+      "evidence-microsoft-wisconsin-tomshardware"
+    ],
+    "status": "needs_source_review",
+    "caveat": "Candidate table row only. Current evidence does not provide a precise numeric value suitable for plotting."
+  }
+]

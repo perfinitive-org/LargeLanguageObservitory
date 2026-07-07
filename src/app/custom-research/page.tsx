@@ -152,6 +152,12 @@ const proofLinks = [
     description: "Reusable evidence records linked to observables and review decisions."
   },
   {
+    title: "Frontier Claim Velocity",
+    href: "/evidence/frontier-claim-velocity",
+    description:
+      "A neutral timeline of public claims about frontier model and infrastructure scale."
+  },
+  {
     title: "Review Decisions",
     href: "/review-decisions",
     description: "The static human review ledger behind status changes."

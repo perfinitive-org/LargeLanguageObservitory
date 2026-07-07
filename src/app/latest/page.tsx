@@ -15,6 +15,13 @@ export const metadata: Metadata = {
 
 const reportUpdates = [
   {
+    title: "Frontier Claim Velocity",
+    status: "Evidence visualization",
+    note:
+      "A neutral timeline shows public source-backed and reported public claims about frontier model and infrastructure scale without forecasting AGI.",
+    href: "/evidence/frontier-claim-velocity"
+  },
+  {
     title: "AI21 Labs sample evidence brief",
     status: "Public sample",
     note:
@@ -244,4 +251,3 @@ function FieldTexture() {
     />
   );
 }
-

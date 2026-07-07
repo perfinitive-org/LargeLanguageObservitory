@@ -17,6 +17,22 @@ const verificationStatuses = new Set([
   "needs_source_review",
   "placeholder"
 ]);
+const frontierClaimTypes = new Set(["model", "infrastructure"]);
+const frontierClaimUnitFamilies = new Set([
+  "parameters",
+  "accelerators",
+  "power"
+]);
+const frontierClaimStatuses = new Set([
+  "source_backed",
+  "reported_public_claim",
+  "needs_source_review",
+  "excluded_from_chart"
+]);
+const plottedFrontierClaimStatuses = new Set([
+  "source_backed",
+  "reported_public_claim"
+]);
 
 function readJson(fileName) {
   const filePath = path.join(dataDir, fileName);
@@ -326,7 +342,105 @@ function validateEvidenceRecord(errors, evidenceRecord, observableIds, reviewDec
   }
 }
 
+function validateFrontierClaimVelocityRecord(
+  errors,
+  record,
+  sourceIds,
+  evidenceRecordIds
+) {
+  pushMissing(errors, "Frontier claim velocity record", record, [
+    "id",
+    "date",
+    "entity",
+    "label",
+    "claim",
+    "type",
+    "unit_family",
+    "value",
+    "display_value",
+    "source_ids",
+    "evidence_record_ids",
+    "status",
+    "caveat"
+  ]);
+
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(record.date || "")) {
+    errors.push(
+      `Frontier claim velocity record ${record.id || "(missing id)"} date must be YYYY-MM-DD`
+    );
+  }
+
+  if (!frontierClaimTypes.has(record.type)) {
+    errors.push(
+      `Frontier claim velocity record ${record.id || "(missing id)"} has invalid type ${record.type}`
+    );
+  }
+
+  if (!frontierClaimUnitFamilies.has(record.unit_family)) {
+    errors.push(
+      `Frontier claim velocity record ${record.id || "(missing id)"} has invalid unit_family ${record.unit_family}`
+    );
+  }
+
+  if (!frontierClaimStatuses.has(record.status)) {
+    errors.push(
+      `Frontier claim velocity record ${record.id || "(missing id)"} has invalid status ${record.status}`
+    );
+  }
+
+  if (typeof record.value !== "number" || record.value < 0) {
+    errors.push(
+      `Frontier claim velocity record ${record.id || "(missing id)"} value must be a non-negative number`
+    );
+  }
+
+  if (!Array.isArray(record.source_ids)) {
+    errors.push(
+      `Frontier claim velocity record ${record.id || "(missing id)"} source_ids must be an array`
+    );
+  } else {
+    record.source_ids.forEach((sourceId) => {
+      if (!sourceIds.has(sourceId)) {
+        errors.push(
+          `Frontier claim velocity record ${record.id} references missing source ${sourceId}`
+        );
+      }
+    });
+  }
+
+  if (!Array.isArray(record.evidence_record_ids)) {
+    errors.push(
+      `Frontier claim velocity record ${record.id || "(missing id)"} evidence_record_ids must be an array`
+    );
+  } else {
+    record.evidence_record_ids.forEach((evidenceRecordId) => {
+      if (!evidenceRecordIds.has(evidenceRecordId)) {
+        errors.push(
+          `Frontier claim velocity record ${record.id} references missing evidence record ${evidenceRecordId}`
+        );
+      }
+    });
+  }
+
+  if (
+    plottedFrontierClaimStatuses.has(record.status) &&
+    (!record.source_ids || !record.evidence_record_ids ||
+      record.source_ids.length + record.evidence_record_ids.length === 0)
+  ) {
+    errors.push(
+      `Frontier claim velocity record ${record.id || "(missing id)"} is plotted but has no source or evidence links`
+    );
+  }
+
+  if (plottedFrontierClaimStatuses.has(record.status) && record.value <= 0) {
+    errors.push(
+      `Frontier claim velocity record ${record.id || "(missing id)"} is plotted but value is not positive`
+    );
+  }
+}
+
 const evidenceRecords = readJson("evidence-records.json");
+const frontierClaimVelocityRecords = readJson("frontier-claim-velocity.json");
 const observables = readJson("observables.json");
 const sources = readJson("sources.json");
 const observations = readJson("observations.json");
@@ -336,6 +450,9 @@ const errors = [];
 
 if (!Array.isArray(evidenceRecords)) {
   errors.push("evidence-records.json must be an array");
+}
+if (!Array.isArray(frontierClaimVelocityRecords)) {
+  errors.push("frontier-claim-velocity.json must be an array");
 }
 if (!Array.isArray(observables)) errors.push("observables.json must be an array");
 if (!Array.isArray(sources)) errors.push("sources.json must be an array");
@@ -350,10 +467,16 @@ const sourceIds = new Set(sources.map((source) => source.id));
 const reviewDecisionIds = new Set(
   reviewDecisions.map((decision) => decision.id)
 );
+const evidenceRecordIds = new Set(
+  evidenceRecords.map((evidenceRecord) => evidenceRecord.id)
+);
 const sourceById = new Map(sources.map((source) => [source.id, source]));
 
 duplicateValues(evidenceRecords, "id").forEach((id) =>
   errors.push(`Duplicate evidence record id ${id}`)
+);
+duplicateValues(frontierClaimVelocityRecords, "id").forEach((id) =>
+  errors.push(`Duplicate frontier claim velocity record id ${id}`)
 );
 duplicateValues(observables, "id").forEach((id) =>
   errors.push(`Duplicate observable id ${id}`)
@@ -397,6 +520,14 @@ evidenceRecords.forEach((evidenceRecord) =>
     reviewDecisionIds
   )
 );
+frontierClaimVelocityRecords.forEach((record) =>
+  validateFrontierClaimVelocityRecord(
+    errors,
+    record,
+    sourceIds,
+    evidenceRecordIds
+  )
+);
 
 const countsByType = observables.reduce((counts, observable) => {
   counts[observable.type] = (counts[observable.type] || 0) + 1;
@@ -419,7 +550,8 @@ console.log(
       observations: observations.length,
       relationships: relationships.length,
       reviewDecisions: reviewDecisions.length,
-      evidenceRecords: evidenceRecords.length
+      evidenceRecords: evidenceRecords.length,
+      frontierClaimVelocityRecords: frontierClaimVelocityRecords.length
     },
     null,
     2
