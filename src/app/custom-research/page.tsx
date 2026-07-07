@@ -12,7 +12,7 @@ const briefTypes = [
   {
     title: "AI Infrastructure Evidence Brief",
     description:
-      "A source-backed review of one AI infrastructure provider, model, API platform, or data-policy claim.",
+      "A buyer-side evidence review of one AI infrastructure provider, model, API platform, or data-policy claim.",
     outputs: [
       "Claim being evaluated",
       "Source list and evidence table",
@@ -41,6 +41,46 @@ const briefTypes = [
       "Open questions for the vendor or provider",
       "No compliance certification language"
     ]
+  }
+];
+
+const useCases = [
+  "Prepare for a vendor call.",
+  "Evaluate one AI infrastructure provider.",
+  "Compare providers for procurement.",
+  "Track a category over time.",
+  "Support a client recommendation.",
+  "Create a source-backed appendix."
+];
+
+const productsByNeed = [
+  {
+    need: "I need to ask better questions before a vendor call.",
+    report: "AI Procurement Question Pack"
+  },
+  {
+    need: "I need one focused answer.",
+    report: "Buyer Memo"
+  },
+  {
+    need: "I need to evaluate one provider or claim.",
+    report: "Custom Evidence Brief"
+  },
+  {
+    need: "I need to compare 2-4 vendors.",
+    report: "Comparison Matrix"
+  },
+  {
+    need: "I need to monitor this category over time.",
+    report: "Monthly Digest"
+  },
+  {
+    need: "I need the source trail.",
+    report: "Evidence Appendix / Claim Sheet"
+  },
+  {
+    need: "I need proof ANO can do the work.",
+    report: "Sample Brief"
   }
 ];
 
@@ -80,6 +120,42 @@ const processSteps = [
   "Review source quality and unresolved gaps.",
   "Prepare a written brief with caveats and next questions.",
   "Keep client questions separate from registry verification outcomes."
+];
+
+const assemblySteps = [
+  "Structured evidence records",
+  "Source-backed claim table",
+  "Review decision log",
+  "Human editorial pass",
+  "Buyer-facing report"
+];
+
+const proofLinks = [
+  {
+    title: "Method",
+    href: "/about",
+    description: "How the observatory defines records, evidence, and review status."
+  },
+  {
+    title: "Transparency",
+    href: "/transparency",
+    description: "Commercial boundaries, source-submission rules, and limitations."
+  },
+  {
+    title: "Sample Brief",
+    href: "/sample-brief",
+    description: "A public sample of a buyer-side evidence brief."
+  },
+  {
+    title: "Evidence Records",
+    href: "/evidence",
+    description: "Reusable evidence records linked to observables and review decisions."
+  },
+  {
+    title: "Review Decisions",
+    href: "/review-decisions",
+    description: "The static human review ledger behind status changes."
+  }
 ];
 
 const faqs = [
@@ -232,6 +308,50 @@ export default function CustomResearchPage() {
           </div>
         </section>
 
+        <section className="mt-8 grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
+          <Panel title="Use Cases" eyebrow="Buyer workflow">
+            <ul className="grid gap-3 text-sm text-slate-300 sm:grid-cols-2">
+              {useCases.map((item) => (
+                <li
+                  key={item}
+                  className="rounded border border-white/10 bg-[#03050d] p-3"
+                >
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </Panel>
+
+          <section className="rounded-lg border border-white/15 bg-[#07111c] p-5">
+            <p className="text-xs font-semibold uppercase text-[#8fb7cf]">
+              Product by need
+            </p>
+            <h2 className="mt-2 text-xl font-semibold text-white">
+              Start with the decision, then choose the report.
+            </h2>
+            <div className="mt-4 overflow-x-auto rounded border border-white/10 bg-[#03050d]">
+              <table className="min-w-full divide-y divide-white/10 text-left text-sm">
+                <thead className="text-xs uppercase text-slate-500">
+                  <tr>
+                    <th className="px-3 py-3">Buyer need</th>
+                    <th className="px-3 py-3">Recommended report</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-white/10 text-slate-300">
+                  {productsByNeed.map((row) => (
+                    <tr key={row.need}>
+                      <td className="px-3 py-3">{row.need}</td>
+                      <td className="px-3 py-3 font-semibold text-white">
+                        {row.report}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </section>
+        </section>
+
         <section className="mt-8 rounded-lg border border-l-4 border-white/15 border-l-[#8fb7cf] bg-[#07111c] p-5">
           <p className="text-xs font-semibold uppercase text-[#8fb7cf]">
             Product boundary
@@ -274,6 +394,11 @@ export default function CustomResearchPage() {
             Short version: a data center tracker maps the asset. ANO maps the
             claim network.
           </p>
+          <div className="mt-5 rounded border border-white/10 bg-[#03050d] p-4 text-sm leading-6 text-slate-300">
+            ANO is not a model hub, benchmark index, ranking site, or data
+            center real-estate database. It maps public claim networks across
+            AI organizations, models, infrastructure, and sources.
+          </div>
         </section>
 
         <section className="mt-8 grid gap-6 lg:grid-cols-[0.9fr_1.1fr_1fr]">
@@ -330,14 +455,19 @@ export default function CustomResearchPage() {
 
           <Panel title="Independence Boundary" eyebrow="Important">
             <p className="text-sm leading-6 text-slate-300">
-              Custom research supports buyer-side understanding. It does not
-              alter ANO&apos;s public verification status, source-backed status,
-              evidence standards, or review decisions.
+              ANO reports are buyer-side research support. They are not legal
+              advice, compliance certification, official approval, vendor
+              endorsement, rankings, or verification badges.
+            </p>
+            <p className="mt-4 text-sm leading-6 text-slate-300">
+              Payment for custom research does not alter ANO&apos;s public
+              verification status, source-backed status, evidence standards,
+              review decisions, or inclusion criteria.
             </p>
             <p className="mt-4 text-sm leading-6 text-slate-300">
               Paid work may identify evidence, summarize public records, and
-              list unresolved questions. It cannot buy source-backed status,
-              favorable treatment, badges, or a changed evidence standard.
+              list unresolved questions. It cannot buy favorable treatment,
+              badges, or a changed evidence standard.
             </p>
             <div className="mt-5 rounded border border-[#8fb7cf]/35 bg-[#8fb7cf]/10 p-4 text-sm leading-6 text-[#d8edf8]">
               Start by emailing{" "}
@@ -347,6 +477,63 @@ export default function CustomResearchPage() {
               with a topic and desired brief type.
             </div>
           </Panel>
+        </section>
+
+        <section className="mt-8 grid gap-6 lg:grid-cols-[1fr_0.95fr]">
+          <Panel title="How Reports Are Assembled" eyebrow="Evidence packaging">
+            <div className="grid gap-3 text-sm text-slate-300">
+              {assemblySteps.map((step, index) => (
+                <div
+                  key={step}
+                  className="grid grid-cols-[32px_1fr] gap-3 rounded border border-white/10 bg-[#03050d] p-3"
+                >
+                  <span className="flex h-8 w-8 items-center justify-center rounded border border-[#8fb7cf]/35 bg-[#8fb7cf]/10 text-xs font-semibold text-[#d8edf8]">
+                    {index + 1}
+                  </span>
+                  <span className="pt-1">{step}</span>
+                </div>
+              ))}
+            </div>
+            <p className="mt-4 text-sm leading-6 text-slate-300">
+              Public evidence records create the trust layer. Reports package
+              that same evidence into a decision artifact for a specific buyer
+              workflow.
+            </p>
+          </Panel>
+
+          <Panel title="Public Proof Links" eyebrow="Trust spine">
+            <div className="grid gap-3">
+              {proofLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="rounded border border-white/10 bg-[#03050d] p-3 transition hover:border-[#8fb7cf]/60"
+                >
+                  <p className="text-sm font-semibold text-white">
+                    {link.title}
+                  </p>
+                  <p className="mt-1 text-sm leading-6 text-slate-300">
+                    {link.description}
+                  </p>
+                </Link>
+              ))}
+            </div>
+          </Panel>
+        </section>
+
+        <section className="mt-8 rounded-lg border border-white/15 bg-[#07111c] p-5">
+          <p className="text-xs font-semibold uppercase text-[#8fb7cf]">
+            Later data products
+          </p>
+          <h2 className="mt-2 text-xl font-semibold text-white">
+            Evidence exports come after manual demand is proven.
+          </h2>
+          <p className="mt-4 text-sm leading-6 text-slate-300">
+            Future products may include source inventories, claim sheets,
+            evidence appendices, review-decision logs, recurring evidence
+            digests, and structured exports. They are not checkout products in
+            this MVP checkpoint.
+          </p>
         </section>
 
         <section className="mt-8">
