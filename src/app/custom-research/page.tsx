@@ -232,6 +232,50 @@ export default function CustomResearchPage() {
           </div>
         </section>
 
+        <section className="mt-8 rounded-lg border border-l-4 border-white/15 border-l-[#8fb7cf] bg-[#07111c] p-5">
+          <p className="text-xs font-semibold uppercase text-[#8fb7cf]">
+            Product boundary
+          </p>
+          <h2 className="mt-2 text-2xl font-semibold text-white">
+            ANO maps the public claim network behind AI infrastructure.
+          </h2>
+          <div className="mt-5 grid gap-5 lg:grid-cols-2">
+            <div className="rounded border border-white/10 bg-[#03050d] p-4">
+              <p className="text-sm font-semibold text-white">
+                Use a data center market-intelligence platform when you need:
+              </p>
+              <ul className="mt-3 grid gap-2 text-sm text-slate-300">
+                <li>Parcel precision, lease terms, or private site details.</li>
+                <li>Exact square footage, power capacity, or capacity forecasts.</li>
+                <li>Real-estate market, submarket, utility, or pipeline analysis.</li>
+              </ul>
+            </div>
+            <div className="rounded border border-[#8fb7cf]/35 bg-[#8fb7cf]/10 p-4">
+              <p className="text-sm font-semibold text-[#d8edf8]">
+                Use ANO when you need:
+              </p>
+              <ul className="mt-3 grid gap-2 text-sm text-slate-300">
+                <li>
+                  A source-backed explanation of how an AI organization, model,
+                  infrastructure site, and public claim connect.
+                </li>
+                <li>
+                  A clear split between source-backed findings, needs-review
+                  items, unresolved questions, and buyer follow-up questions.
+                </li>
+                <li>
+                  Decision-ready evidence built from public records, evidence
+                  records, and review decisions.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <p className="mt-5 text-sm leading-6 text-slate-300">
+            Short version: a data center tracker maps the asset. ANO maps the
+            claim network.
+          </p>
+        </section>
+
         <section className="mt-8 grid gap-6 lg:grid-cols-[0.9fr_1.1fr_1fr]">
           <Panel title="Who It Is For" eyebrow="Audience">
             <ul className="grid gap-2 text-sm text-slate-300">

@@ -32,12 +32,95 @@ const limitations = [
   "The MVP does not provide maps, rankings, scoring, automated review, or live monitoring."
 ];
 
+const capabilityBoundary = [
+  {
+    label: "Primary object",
+    dataCenterTracker: "Facility, parcel, or site",
+    ano: "Observable, relationship, and source-backed claim"
+  },
+  {
+    label: "Main lens",
+    dataCenterTracker: "Real estate and capacity",
+    ano: "AI stack accountability"
+  },
+  {
+    label: "Core unit",
+    dataCenterTracker: "Data center asset",
+    ano: "Public evidence record and review decision"
+  },
+  {
+    label: "Buyer value",
+    dataCenterTracker: "Capacity intelligence",
+    ano: "Decision-ready evidence"
+  },
+  {
+    label: "Best question",
+    dataCenterTracker: "How big is this asset?",
+    ano: "What claim can we trace to a source?"
+  }
+];
+
 export default function TransparencyPage() {
   return (
     <div className="bg-[#03050d] text-white">
       <Hero />
 
       <main className="mx-auto grid max-w-7xl gap-8 px-5 py-10 lg:px-8">
+        <section className="rounded-lg border border-l-4 border-white/15 border-l-[#8fb7cf] bg-[#07111c] p-5">
+          <p className="text-xs font-semibold uppercase text-[#8fb7cf]">
+            Infrastructure evidence boundary
+          </p>
+          <h2 className="mt-2 text-2xl font-semibold text-white">
+            ANO maps the claim network, not the proprietary real-estate asset.
+          </h2>
+          <div className="mt-5 grid gap-5 lg:grid-cols-[0.9fr_1.1fr]">
+            <div className="grid gap-4 text-sm leading-6 text-slate-300">
+              <p>
+                A commercial data center market-intelligence platform answers:
+                what is this data center asset?
+              </p>
+              <p>
+                AI Native Observatory answers: what role does this
+                infrastructure play in the AI stack, and what public evidence
+                supports that relationship?
+              </p>
+              <p>
+                ANO does not attempt to provide proprietary parcel data, lease
+                terms, exact square footage, or private capacity forecasts. It
+                tracks source-backed public relationships across AI
+                organizations, models, infrastructure sites, source documents,
+                observations, and review decisions.
+              </p>
+            </div>
+            <div className="overflow-x-auto rounded border border-white/10 bg-[#03050d]">
+              <table className="min-w-full divide-y divide-white/10 text-left text-sm">
+                <thead className="text-xs uppercase text-slate-500">
+                  <tr>
+                    <th className="px-3 py-3">Question</th>
+                    <th className="px-3 py-3">Data center tracker</th>
+                    <th className="px-3 py-3">ANO</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-white/10 text-slate-300">
+                  {capabilityBoundary.map((row) => (
+                    <tr key={row.label}>
+                      <td className="px-3 py-3 font-semibold text-white">
+                        {row.label}
+                      </td>
+                      <td className="px-3 py-3">{row.dataCenterTracker}</td>
+                      <td className="px-3 py-3">{row.ano}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div className="mt-5 rounded border border-[#8fb7cf]/35 bg-[#8fb7cf]/10 p-4 text-sm leading-6 text-[#d8edf8]">
+            ANO sacrifices proprietary real-estate depth in exchange for
+            public, source-backed AI-stack traceability.
+          </div>
+        </section>
+
         <section className="grid gap-6 lg:grid-cols-[1fr_1.05fr]">
           <Panel title="Funding" eyebrow="Operating model">
             <p className="text-sm leading-6 text-slate-300">
@@ -208,4 +291,3 @@ function FieldTexture() {
     />
   );
 }
-
