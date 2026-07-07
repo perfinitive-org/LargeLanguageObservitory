@@ -222,16 +222,60 @@ export default function SourceEvidenceModelPage() {
           </div>
         </section>
 
+        <section className="mt-8 rounded-lg border border-l-4 border-white/15 border-l-[#8fb7cf] bg-[#07111c] p-5">
+          <p className="text-xs font-semibold uppercase text-[#8fb7cf]">
+            Claim-event method rules
+          </p>
+          <h2 className="mt-2 text-2xl font-semibold text-white">
+            The timeline tracks claim events, not only growth.
+          </h2>
+          <ul className="mt-4 grid gap-3 text-sm leading-6 text-slate-300">
+            <li>
+              The <Link href="/evidence/frontier-claim-velocity" className="font-semibold text-[#8fb7cf] hover:text-white">Frontier Claim Velocity</Link> timeline
+              tracks public claim events over time — a claim event may
+              indicate expansion, revision, delay, cancellation, retraction,
+              or uncertainty, not only an increase.
+            </li>
+            <li>
+              The system does not normalize incompatible metrics without a
+              transparent conversion rule. Values from different unit
+              families (parameters, accelerators, power) are never combined
+              or converted into one comparable number unless a stated
+              formula makes that conversion explicit.
+            </li>
+            <li>
+              Investigative reporting may be included as a reported public
+              claim when clearly labeled, but it is not treated the same as
+              direct documentation, filings, permits, or public records. Each
+              record carries its own source type and source tier so that
+              distinction stays visible rather than implied.
+            </li>
+            <li>
+              If a source changes or disappears, the record is marked for
+              review rather than silently removed. A changed, archived, or
+              dead link does not erase the claim history — it flags the
+              record so a human can decide what happens next.
+            </li>
+          </ul>
+        </section>
+
         <section className="mt-8 rounded-lg border border-white/15 bg-[#07111c] p-5">
           <p className="text-xs font-semibold uppercase text-[#8fb7cf]">
             Validator note
           </p>
           <p className="mt-3 text-sm leading-6 text-slate-300">
-            No schema change is required for this clarification packet. Current
-            validation already checks evidence IDs and links to observables and
-            review decisions. A future packet may add an explicit source-origin
-            reference on evidence records if the Observatory needs stricter
-            source-to-evidence lineage.
+            No schema change was required for the original AI21 clarification
+            packet described above. A later packet (PACKET_061) did extend
+            the frontier-claim-velocity schema with explicit event_type,
+            direction, source_type, source_tier, source_status,
+            normalization_status, and provenance fields (original URL,
+            archive URL, accessed date) — see{" "}
+            <code className="rounded bg-white/10 px-1 py-0.5">
+              scripts/validate-data.mjs
+            </code>{" "}
+            for the enforced rules, including that a record cannot be marked
+            plotted while its normalization is ambiguous, its source needs
+            review, or its own event type is needs_review.
           </p>
         </section>
       </main>

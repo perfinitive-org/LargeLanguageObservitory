@@ -1,4 +1,7 @@
-import type { FrontierClaimVelocityRecord } from "@/lib/frontierClaimVelocity";
+import {
+  isSourceDecayed,
+  type FrontierClaimVelocityRecord
+} from "@/lib/frontierClaimVelocity";
 
 type ChartPanel = {
   title: string;
@@ -205,6 +208,7 @@ function ChartPanel({ panel }: { panel: ChartPanel }) {
                   fill="black"
                 >
                   {record.label}
+                  {isSourceDecayed(record) ? " †" : ""}
                 </text>
                 <text
                   x={x + 10}

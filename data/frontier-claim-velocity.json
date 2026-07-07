@@ -12,7 +12,21 @@
     "source_ids": [],
     "evidence_record_ids": [],
     "status": "needs_source_review",
-    "caveat": "Candidate point only. Current registry does not include a linked source or evidence record for this specific scale claim."
+    "caveat": "Candidate point only. Current registry does not include a linked source or evidence record for this specific scale claim.",
+    "event_type": "needs_review",
+    "direction": "unknown",
+    "source_type": "unknown",
+    "source_tier": "unresolved",
+    "source_url": "",
+    "archive_url": "",
+    "accessed_at": "",
+    "source_status": "requires_review",
+    "normalization_status": "quarantined",
+    "normalization_note": "No source or evidence record is linked yet; the parameter count cannot be verified or plotted until reviewed.",
+    "conversion_formula": null,
+    "plotted": false,
+    "prior_claim_id": null,
+    "supersedes_claim_id": null
   },
   {
     "id": "fcv-002",
@@ -27,7 +41,21 @@
     "source_ids": [],
     "evidence_record_ids": [],
     "status": "needs_source_review",
-    "caveat": "Candidate point only. Current registry does not include a linked source or evidence record for this specific scale claim."
+    "caveat": "Candidate point only. Current registry does not include a linked source or evidence record for this specific scale claim.",
+    "event_type": "needs_review",
+    "direction": "unknown",
+    "source_type": "unknown",
+    "source_tier": "unresolved",
+    "source_url": "",
+    "archive_url": "",
+    "accessed_at": "",
+    "source_status": "requires_review",
+    "normalization_status": "quarantined",
+    "normalization_note": "No source or evidence record is linked yet; the parameter count cannot be verified or plotted until reviewed.",
+    "conversion_formula": null,
+    "plotted": false,
+    "prior_claim_id": null,
+    "supersedes_claim_id": null
   },
   {
     "id": "fcv-003",
@@ -46,7 +74,21 @@
       "evidence-source-tii-falcon-180b-huggingface"
     ],
     "status": "reported_public_claim",
-    "caveat": "Public model-scale claim from source material; not a capability claim, benchmark claim, or independent audit."
+    "caveat": "Public model-scale claim from source material; not a capability claim, benchmark claim, or independent audit.",
+    "event_type": "announcement",
+    "direction": "increase",
+    "source_type": "system_card",
+    "source_tier": "primary",
+    "source_url": "https://huggingface.co/tiiuae/falcon-180B",
+    "archive_url": "",
+    "accessed_at": "2026-06-12",
+    "source_status": "live",
+    "normalization_status": "direct",
+    "normalization_note": "",
+    "conversion_formula": null,
+    "plotted": true,
+    "prior_claim_id": null,
+    "supersedes_claim_id": null
   },
   {
     "id": "fcv-004",
@@ -63,7 +105,21 @@
     ],
     "evidence_record_ids": [],
     "status": "source_backed",
-    "caveat": "Public model-scale claim represented in the registry; not a capability claim, benchmark claim, or independent audit."
+    "caveat": "Public model-scale claim represented in the registry; not a capability claim, benchmark claim, or independent audit.",
+    "event_type": "announcement",
+    "direction": "increase",
+    "source_type": "direct_vendor_statement",
+    "source_tier": "primary",
+    "source_url": "https://ai.meta.com/blog/meta-llama-3-1/",
+    "archive_url": "",
+    "accessed_at": "2026-06-11",
+    "source_status": "live",
+    "normalization_status": "direct",
+    "normalization_note": "",
+    "conversion_formula": null,
+    "plotted": true,
+    "prior_claim_id": null,
+    "supersedes_claim_id": null
   },
   {
     "id": "fcv-005",
@@ -78,7 +134,21 @@
     "source_ids": [],
     "evidence_record_ids": [],
     "status": "needs_source_review",
-    "caveat": "Candidate point only. Current registry does not include a linked source or evidence record for this specific scale claim."
+    "caveat": "Candidate point only. Current registry does not include a linked source or evidence record for this specific scale claim.",
+    "event_type": "needs_review",
+    "direction": "unknown",
+    "source_type": "unknown",
+    "source_tier": "unresolved",
+    "source_url": "",
+    "archive_url": "",
+    "accessed_at": "",
+    "source_status": "requires_review",
+    "normalization_status": "quarantined",
+    "normalization_note": "No source or evidence record is linked yet; the accelerator count cannot be verified or plotted until reviewed.",
+    "conversion_formula": null,
+    "plotted": false,
+    "prior_claim_id": null,
+    "supersedes_claim_id": null
   },
   {
     "id": "fcv-006",
@@ -93,7 +163,21 @@
     "source_ids": [],
     "evidence_record_ids": [],
     "status": "needs_source_review",
-    "caveat": "Candidate point only. Current registry does not include a linked source or evidence record for this specific scale claim."
+    "caveat": "Candidate point only. Current registry does not include a linked source or evidence record for this specific scale claim.",
+    "event_type": "needs_review",
+    "direction": "unknown",
+    "source_type": "unknown",
+    "source_tier": "unresolved",
+    "source_url": "",
+    "archive_url": "",
+    "accessed_at": "",
+    "source_status": "requires_review",
+    "normalization_status": "quarantined",
+    "normalization_note": "No source or evidence record is linked yet; a stated intent range is not a specific, comparable accelerator count.",
+    "conversion_formula": null,
+    "plotted": false,
+    "prior_claim_id": null,
+    "supersedes_claim_id": null
   },
   {
     "id": "fcv-007",
@@ -111,7 +195,21 @@
       "evidence-stargate-abilene-wired-data-centers"
     ],
     "status": "needs_source_review",
-    "caveat": "Candidate point only. Existing evidence supports Stargate project and Abilene context, not this specific GPU-equivalent scale claim."
+    "caveat": "Candidate point only. Existing evidence supports Stargate project and Abilene context, not this specific GPU-equivalent scale claim.",
+    "event_type": "needs_review",
+    "direction": "unknown",
+    "source_type": "direct_vendor_statement",
+    "source_tier": "primary",
+    "source_url": "https://openai.com/index/announcing-the-stargate-project/",
+    "archive_url": "",
+    "accessed_at": "",
+    "source_status": "live",
+    "normalization_status": "quarantined",
+    "normalization_note": "Linked sources confirm the Stargate project and the Abilene site but do not confirm this specific 1,000,000 GPU-equivalent figure; the value is withheld from the chart pending a source that states this number directly.",
+    "conversion_formula": null,
+    "plotted": false,
+    "prior_claim_id": null,
+    "supersedes_claim_id": null
   },
   {
     "id": "fcv-008",
@@ -130,7 +228,21 @@
       "evidence-xai-memphis-business-insider-colossus"
     ],
     "status": "reported_public_claim",
-    "caveat": "Reported public claim from independent coverage. The registry record remains conservative and does not treat this as an independent capacity audit."
+    "caveat": "Reported public claim from independent coverage. The registry record remains conservative and does not treat this as an independent capacity audit.",
+    "event_type": "announcement",
+    "direction": "increase",
+    "source_type": "investigative_reporting",
+    "source_tier": "reputable_reporting",
+    "source_url": "https://www.businessinsider.com/xai-memphis-supercomputer-gpus-2024-12",
+    "archive_url": "",
+    "accessed_at": "",
+    "source_status": "live",
+    "normalization_status": "reported_equivalent",
+    "normalization_note": "Figure comes from independent reporting (Business Insider), not xAI's own disclosure; treated as a reported public claim, not company-confirmed capacity.",
+    "conversion_formula": null,
+    "plotted": true,
+    "prior_claim_id": null,
+    "supersedes_claim_id": null
   },
   {
     "id": "fcv-009",
@@ -147,7 +259,21 @@
     ],
     "evidence_record_ids": [],
     "status": "needs_source_review",
-    "caveat": "Candidate point only. Current linked source metadata does not support plotting this specific scale claim."
+    "caveat": "Candidate point only. Current linked source metadata does not support plotting this specific scale claim.",
+    "event_type": "needs_review",
+    "direction": "unknown",
+    "source_type": "regulatory_filing",
+    "source_tier": "unresolved",
+    "source_url": "https://www.sec.gov/",
+    "archive_url": "",
+    "accessed_at": "2026-06-11",
+    "source_status": "requires_review",
+    "normalization_status": "quarantined",
+    "normalization_note": "Linked source is a placeholder public-filing reference, not a specific filing URL, and is not yet confirmed; the 250K GPU figure is not verifiable against it and is withheld from the chart.",
+    "conversion_formula": null,
+    "plotted": false,
+    "prior_claim_id": null,
+    "supersedes_claim_id": null
   },
   {
     "id": "fcv-010",
@@ -166,6 +292,20 @@
       "evidence-microsoft-wisconsin-tomshardware"
     ],
     "status": "needs_source_review",
-    "caveat": "Candidate table row only. Current evidence does not provide a precise numeric value suitable for plotting."
+    "caveat": "Candidate table row only. Current evidence does not provide a precise numeric value suitable for plotting.",
+    "event_type": "announcement",
+    "direction": "unknown",
+    "source_type": "investigative_reporting",
+    "source_tier": "reputable_reporting",
+    "source_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-announces-worlds-most-powerful-ai-data-center-315-acre-site-to-house-hundreds-of-thousands-of-nvidia-gpus-and-enough-fiber-to-circle-the-earth-4-5-times",
+    "archive_url": "",
+    "accessed_at": "",
+    "source_status": "live",
+    "normalization_status": "ambiguous",
+    "normalization_note": "Reported as 'hundreds of thousands' of GPUs without a specific figure; not converted into a plotted numeric value. The row is retained in the table and plotting is withheld until a precise, source-stated number is available.",
+    "conversion_formula": null,
+    "plotted": false,
+    "prior_claim_id": null,
+    "supersedes_claim_id": null
   }
 ]

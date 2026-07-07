@@ -34,6 +34,74 @@ const plottedFrontierClaimStatuses = new Set([
   "reported_public_claim"
 ]);
 
+// Method-governance fields (PACKET_061): the claim tracks an *event*, not
+// only growth, and the record must be internally consistent about whether
+// it is safe to plot as a comparable number before `plotted` can be true.
+const frontierClaimEventTypes = new Set([
+  "announcement",
+  "expansion",
+  "revision",
+  "delay",
+  "cancellation",
+  "retraction",
+  "capacity_reduction",
+  "source_removed",
+  "source_changed",
+  "needs_review"
+]);
+const frontierClaimDirections = new Set([
+  "increase",
+  "decrease",
+  "delay",
+  "cancellation",
+  "revision",
+  "unknown"
+]);
+const frontierClaimSourceStatuses = new Set([
+  "live",
+  "archived",
+  "changed",
+  "removed",
+  "dead_link",
+  "requires_review"
+]);
+const frontierClaimNormalizationStatuses = new Set([
+  "direct",
+  "converted_with_formula",
+  "reported_equivalent",
+  "ambiguous",
+  "not_comparable",
+  "quarantined"
+]);
+const frontierClaimSourceTypes = new Set([
+  "direct_vendor_statement",
+  "technical_report",
+  "system_card",
+  "regulatory_filing",
+  "permit_or_planning_record",
+  "court_record",
+  "government_record",
+  "customer_or_partner_statement",
+  "investigative_reporting",
+  "news_reporting",
+  "analyst_report",
+  "secondary_summary",
+  "unknown"
+]);
+const frontierClaimSourceTiers = new Set([
+  "primary",
+  "official_partner",
+  "public_record",
+  "reputable_reporting",
+  "secondary",
+  "unresolved"
+]);
+const nonPlottableNormalizationStatuses = new Set([
+  "ambiguous",
+  "not_comparable",
+  "quarantined"
+]);
+
 function readJson(fileName) {
   const filePath = path.join(dataDir, fileName);
   try {
@@ -344,10 +412,13 @@ function validateEvidenceRecord(errors, evidenceRecord, observableIds, reviewDec
 
 function validateFrontierClaimVelocityRecord(
   errors,
+  warnings,
   record,
   sourceIds,
   evidenceRecordIds
 ) {
+  const label = record.id || "(missing id)";
+
   pushMissing(errors, "Frontier claim velocity record", record, [
     "id",
     "date",
@@ -363,6 +434,86 @@ function validateFrontierClaimVelocityRecord(
     "status",
     "caveat"
   ]);
+
+  // PACKET_061 method-governance fields: required regardless of whether
+  // the claim ends up plotted, so every record declares its own event
+  // type, direction, source classification, and normalization disposition.
+  pushMissing(errors, "Frontier claim velocity record", record, [
+    "event_type",
+    "direction",
+    "source_type",
+    "source_tier",
+    "source_status",
+    "normalization_status",
+    "plotted"
+  ]);
+
+  if (record.event_type !== undefined && !frontierClaimEventTypes.has(record.event_type)) {
+    errors.push(`Frontier claim velocity record ${label} has invalid event_type ${record.event_type}`);
+  }
+  if (record.direction !== undefined && !frontierClaimDirections.has(record.direction)) {
+    errors.push(`Frontier claim velocity record ${label} has invalid direction ${record.direction}`);
+  }
+  if (record.source_type !== undefined && !frontierClaimSourceTypes.has(record.source_type)) {
+    errors.push(`Frontier claim velocity record ${label} has invalid source_type ${record.source_type}`);
+  }
+  if (record.source_tier !== undefined && !frontierClaimSourceTiers.has(record.source_tier)) {
+    errors.push(`Frontier claim velocity record ${label} has invalid source_tier ${record.source_tier}`);
+  }
+  if (
+    record.source_status !== undefined &&
+    !frontierClaimSourceStatuses.has(record.source_status)
+  ) {
+    errors.push(`Frontier claim velocity record ${label} has invalid source_status ${record.source_status}`);
+  }
+  if (
+    record.normalization_status !== undefined &&
+    !frontierClaimNormalizationStatuses.has(record.normalization_status)
+  ) {
+    errors.push(
+      `Frontier claim velocity record ${label} has invalid normalization_status ${record.normalization_status}`
+    );
+  }
+
+  if (typeof record.plotted !== "boolean") {
+    errors.push(`Frontier claim velocity record ${label} plotted must be a boolean`);
+  }
+
+  // A non-direct normalization must explain itself — silent conversions
+  // or silent ambiguity are exactly what this packet hardens against.
+  if (
+    record.normalization_status !== undefined &&
+    record.normalization_status !== "direct" &&
+    !isNonEmptyString(record.normalization_note)
+  ) {
+    errors.push(
+      `Frontier claim velocity record ${label} must have normalization_note when normalization_status is not direct`
+    );
+  }
+
+  if (record.plotted === true) {
+    if (!isNonEmptyString(record.archive_url)) {
+      warnings.push(
+        `Frontier claim velocity record ${label} is plotted but missing archive_url`
+      );
+    }
+    if (nonPlottableNormalizationStatuses.has(record.normalization_status)) {
+      errors.push(
+        `Frontier claim velocity record ${label} cannot be plotted with normalization_status ${record.normalization_status}`
+      );
+    }
+    if (record.source_status === "requires_review") {
+      errors.push(
+        `Frontier claim velocity record ${label} cannot be plotted while source_status is requires_review`
+      );
+    }
+    if (record.event_type === "needs_review") {
+      errors.push(
+        `Frontier claim velocity record ${label} cannot be plotted while event_type is needs_review`
+      );
+    }
+  }
+
 
   if (!/^\d{4}-\d{2}-\d{2}$/.test(record.date || "")) {
     errors.push(
@@ -439,6 +590,25 @@ function validateFrontierClaimVelocityRecord(
   }
 }
 
+function validateFrontierClaimVelocityChain(errors, record, frontierClaimIds) {
+  const label = record.id || "(missing id)";
+
+  [
+    ["prior_claim_id", record.prior_claim_id],
+    ["supersedes_claim_id", record.supersedes_claim_id]
+  ].forEach(([field, value]) => {
+    if (value === null || value === undefined) return;
+    if (!frontierClaimIds.has(value)) {
+      errors.push(
+        `Frontier claim velocity record ${label} ${field} references missing claim ${value}`
+      );
+    }
+    if (value === record.id) {
+      errors.push(`Frontier claim velocity record ${label} ${field} cannot reference itself`);
+    }
+  });
+}
+
 const evidenceRecords = readJson("evidence-records.json");
 const frontierClaimVelocityRecords = readJson("frontier-claim-velocity.json");
 const observables = readJson("observables.json");
@@ -447,6 +617,7 @@ const observations = readJson("observations.json");
 const relationships = readJson("relationships.json");
 const reviewDecisions = readJson("review-decisions.json");
 const errors = [];
+const warnings = [];
 
 if (!Array.isArray(evidenceRecords)) {
   errors.push("evidence-records.json must be an array");
@@ -471,6 +642,9 @@ const evidenceRecordIds = new Set(
   evidenceRecords.map((evidenceRecord) => evidenceRecord.id)
 );
 const sourceById = new Map(sources.map((source) => [source.id, source]));
+const frontierClaimIds = new Set(
+  frontierClaimVelocityRecords.map((record) => record.id)
+);
 
 duplicateValues(evidenceRecords, "id").forEach((id) =>
   errors.push(`Duplicate evidence record id ${id}`)
@@ -520,19 +694,26 @@ evidenceRecords.forEach((evidenceRecord) =>
     reviewDecisionIds
   )
 );
-frontierClaimVelocityRecords.forEach((record) =>
+frontierClaimVelocityRecords.forEach((record) => {
   validateFrontierClaimVelocityRecord(
     errors,
+    warnings,
     record,
     sourceIds,
     evidenceRecordIds
-  )
-);
+  );
+  validateFrontierClaimVelocityChain(errors, record, frontierClaimIds);
+});
 
 const countsByType = observables.reduce((counts, observable) => {
   counts[observable.type] = (counts[observable.type] || 0) + 1;
   return counts;
 }, {});
+
+if (warnings.length > 0) {
+  console.warn("Data validation warnings:");
+  warnings.forEach((warning) => console.warn(`- ${warning}`));
+}
 
 if (errors.length > 0) {
   console.error("Data validation failed:");
