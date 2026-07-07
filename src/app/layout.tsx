@@ -80,6 +80,12 @@ export default function RootLayout({
                 >
                   Transparency
                 </Link>
+                <Link
+                  href="/method/evidence-manifold"
+                  className="text-[#8fb7cf] hover:text-white"
+                >
+                  Evidence Manifold
+                </Link>
                 <Link href="/press" className="text-[#8fb7cf] hover:text-white">
                   Press
                 </Link>

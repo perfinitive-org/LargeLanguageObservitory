@@ -91,6 +91,12 @@ export default function AboutPage() {
               >
                 Source/evidence model
               </Link>
+              <Link
+                href="/method/evidence-manifold"
+                className="inline-flex rounded-md border border-white/15 bg-white/[0.06] px-4 py-2 text-sm font-semibold text-slate-100 transition hover:border-[#8fb7cf]/70 hover:bg-white/10"
+              >
+                Evidence manifold
+              </Link>
             </div>
           </div>
         </div>
@@ -182,6 +188,19 @@ export default function AboutPage() {
                 className="font-semibold text-[#8fb7cf] hover:text-white"
               >
                 Open the source/evidence model
+              </Link>
+            </span>
+          </HandbookCard>
+          <HandbookCard title="Evidence manifold">
+            The evidence manifold documents the broader domain-agnostic
+            architecture behind LLO: source inputs, evidence normalization,
+            domain plugins, human review, and buyer-side outputs.
+            <span className="mt-3 block">
+              <Link
+                href="/method/evidence-manifold"
+                className="font-semibold text-[#8fb7cf] hover:text-white"
+              >
+                Open the evidence manifold
               </Link>
             </span>
           </HandbookCard>

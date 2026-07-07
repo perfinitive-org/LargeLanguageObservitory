@@ -1,0 +1,56 @@
+{
+  "status": "connector_manifest_stub",
+  "runtime_connectors_enabled": false,
+  "connectors": [
+    {
+      "id": "official_company_pages",
+      "source_type": "official_company_documentation",
+      "expected_fields": ["title", "url", "publisher", "date_accessed", "claim_text"],
+      "trust_priority": "high_when_direct",
+      "refresh_frequency": "manual_for_now",
+      "parser_strategy": "manual_extraction",
+      "review_required": true,
+      "failure_behavior": "mark_needs_source_review"
+    },
+    {
+      "id": "technical_reports",
+      "source_type": "technical_report",
+      "expected_fields": ["title", "url", "publisher", "date_accessed", "claim_text"],
+      "trust_priority": "high_when_primary",
+      "refresh_frequency": "manual_for_now",
+      "parser_strategy": "manual_extraction",
+      "review_required": true,
+      "failure_behavior": "mark_needs_source_review"
+    },
+    {
+      "id": "news_rss_feeds",
+      "source_type": "credible_reporting",
+      "expected_fields": ["title", "url", "publisher", "date_accessed", "claim_text"],
+      "trust_priority": "medium_requires_caveat",
+      "refresh_frequency": "future_scheduled",
+      "parser_strategy": "future_rss_ingestion",
+      "review_required": true,
+      "failure_behavior": "mark_unresolved"
+    },
+    {
+      "id": "government_filings",
+      "source_type": "government_filing",
+      "expected_fields": ["title", "url", "agency_or_publisher", "date_accessed", "claim_text"],
+      "trust_priority": "high_when_relevant",
+      "refresh_frequency": "manual_for_now",
+      "parser_strategy": "manual_extraction",
+      "review_required": true,
+      "failure_behavior": "mark_needs_source_review"
+    },
+    {
+      "id": "manual_uploads",
+      "source_type": "manual_upload",
+      "expected_fields": ["title", "file_reference", "submitted_by", "date_received", "claim_text"],
+      "trust_priority": "varies_requires_review",
+      "refresh_frequency": "on_submission",
+      "parser_strategy": "manual_review",
+      "review_required": true,
+      "failure_behavior": "do_not_publish_until_reviewed"
+    }
+  ]
+}

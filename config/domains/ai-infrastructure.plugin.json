@@ -1,0 +1,47 @@
+{
+  "domain_title": "AI / LLM infrastructure",
+  "domain_instance": "Domain Instance 001",
+  "status": "current_static_manual_review",
+  "description": "Domain plugin stub for LLO's AI infrastructure evidence registry.",
+  "entity_types": [
+    "organization",
+    "model",
+    "infrastructure",
+    "source"
+  ],
+  "relation_types": [
+    "develops",
+    "operates",
+    "funds",
+    "hosts",
+    "announces",
+    "documents",
+    "depends_on",
+    "associated_with"
+  ],
+  "source_categories": [
+    "official_company_documentation",
+    "technical_report",
+    "model_card",
+    "government_filing",
+    "press_release",
+    "credible_reporting",
+    "infrastructure_announcement",
+    "funding_announcement",
+    "policy_page",
+    "data_use_privacy_page",
+    "manual_upload"
+  ],
+  "review_tags": [
+    "source_backed",
+    "needs_source_review",
+    "unresolved",
+    "placeholder",
+    "out_of_scope",
+    "accepted_with_caveat",
+    "rejected_as_unsupported"
+  ],
+  "canonical_schema_locked": true,
+  "note": "Plugins may extend domain meaning but may not alter the canonical evidence schema."
+}
+
