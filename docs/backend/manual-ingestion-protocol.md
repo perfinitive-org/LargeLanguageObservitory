@@ -15,6 +15,21 @@ Status: Current manual-review guidance for source-backed evidence work.
 9. Record review decision.
 10. Publish only after review.
 
+## Frontier Claim Event Updates
+
+Frontier Claim Velocity updates use the scripted authoring path documented in
+`docs/backend/frontier-claim-authoring.md`.
+
+Use the script when adding a claim event to `data/frontier-claim-velocity.json`:
+
+```bash
+npm run author:frontier-claim -- --input /path/to/claim-event.json --dry-run
+npm run author:frontier-claim -- --input /path/to/claim-event.json
+```
+
+Do not use an HTTP submission endpoint for frontier claim events in the current
+MVP. Authorship is operator-led until the write model has more review history.
+
 ## Manual Source Rules
 
 - Do not infer missing facts.
@@ -76,4 +91,3 @@ Do not claim yet:
 - No automated ingestion is active.
 - No source presence creates source-backed status by itself.
 - No paid work changes evidence standards or public registry status.
-

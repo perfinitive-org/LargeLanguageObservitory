@@ -49,6 +49,15 @@ const frontierClaimEventTypes = new Set([
   "source_changed",
   "needs_review"
 ]);
+const frontierClaimHistoryLinkedEventTypes = new Set([
+  "revision",
+  "delay",
+  "cancellation",
+  "retraction",
+  "capacity_reduction",
+  "source_removed",
+  "source_changed"
+]);
 const frontierClaimDirections = new Set([
   "increase",
   "decrease",
@@ -100,6 +109,18 @@ const nonPlottableNormalizationStatuses = new Set([
   "ambiguous",
   "not_comparable",
   "quarantined"
+]);
+const reportedFrontierClaimSourceTypes = new Set([
+  "investigative_reporting",
+  "news_reporting",
+  "analyst_report",
+  "secondary_summary",
+  "unknown"
+]);
+const officialFrontierClaimSourceTiers = new Set([
+  "primary",
+  "official_partner",
+  "public_record"
 ]);
 
 function readJson(fileName) {
@@ -492,6 +513,11 @@ function validateFrontierClaimVelocityRecord(
   }
 
   if (record.plotted === true) {
+    if (!plottedFrontierClaimStatuses.has(record.status)) {
+      errors.push(
+        `Frontier claim velocity record ${label} cannot be plotted with status ${record.status}`
+      );
+    }
     if (!isNonEmptyString(record.archive_url)) {
       warnings.push(
         `Frontier claim velocity record ${label} is plotted but missing archive_url`
@@ -514,6 +540,18 @@ function validateFrontierClaimVelocityRecord(
     }
   }
 
+  if (record.status === "source_backed") {
+    if (!officialFrontierClaimSourceTiers.has(record.source_tier)) {
+      errors.push(
+        `Frontier claim velocity record ${label} source_backed records require primary, official_partner, or public_record source_tier`
+      );
+    }
+    if (reportedFrontierClaimSourceTypes.has(record.source_type)) {
+      errors.push(
+        `Frontier claim velocity record ${label} source_backed records cannot rely on reported or secondary source_type`
+      );
+    }
+  }
 
   if (!/^\d{4}-\d{2}-\d{2}$/.test(record.date || "")) {
     errors.push(
@@ -574,7 +612,7 @@ function validateFrontierClaimVelocityRecord(
   }
 
   if (
-    plottedFrontierClaimStatuses.has(record.status) &&
+    record.plotted === true &&
     (!record.source_ids || !record.evidence_record_ids ||
       record.source_ids.length + record.evidence_record_ids.length === 0)
   ) {
@@ -583,7 +621,7 @@ function validateFrontierClaimVelocityRecord(
     );
   }
 
-  if (plottedFrontierClaimStatuses.has(record.status) && record.value <= 0) {
+  if (record.plotted === true && record.value <= 0) {
     errors.push(
       `Frontier claim velocity record ${record.id || "(missing id)"} is plotted but value is not positive`
     );
@@ -607,6 +645,16 @@ function validateFrontierClaimVelocityChain(errors, record, frontierClaimIds) {
       errors.push(`Frontier claim velocity record ${label} ${field} cannot reference itself`);
     }
   });
+
+  if (
+    frontierClaimHistoryLinkedEventTypes.has(record.event_type) &&
+    !record.prior_claim_id &&
+    !record.supersedes_claim_id
+  ) {
+    errors.push(
+      `Frontier claim velocity record ${label} ${record.event_type} event must reference prior_claim_id or supersedes_claim_id`
+    );
+  }
 }
 
 const evidenceRecords = readJson("evidence-records.json");

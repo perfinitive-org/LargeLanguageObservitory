@@ -8,7 +8,8 @@
     "start": "node scripts/serve-static.mjs out",
     "serve:static": "node scripts/serve-static.mjs out",
     "typecheck": "tsc --noEmit --incremental false",
-    "validate:data": "node scripts/validate-data.mjs"
+    "validate:data": "node scripts/validate-data.mjs",
+    "author:frontier-claim": "node scripts/author-frontier-claim.mjs"
   },
   "overrides": {
     "postcss": "8.5.15"
