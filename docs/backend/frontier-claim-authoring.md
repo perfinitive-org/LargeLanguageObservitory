@@ -4,21 +4,25 @@ This is the operator-led write path for Frontier Claim Velocity records.
 
 It is intentionally a script, not a public HTTP endpoint. The Observatory should keep claim-event authorship explicit until the write model, source hierarchy, and review posture have more operating history.
 
+The authoring script is a local manual-assistance tool for preparing candidate Frontier Claim Velocity records. It does not automatically ingest sources, verify claims, assign evidence status, or publish records without human review.
+
 ## Command
 
-Run a dry validation first:
-
-```bash
-npm run author:frontier-claim -- --input /path/to/claim-event.json --dry-run
-```
-
-Write one record after the dry run passes:
+Validate a payload first. Dry-run validation is the default and does not change files:
 
 ```bash
 npm run author:frontier-claim -- --input /path/to/claim-event.json
 ```
 
-The script appends exactly one record to `data/frontier-claim-velocity.json`, then runs `npm run validate:data` through the same validator used by the rest of the site. If global validation fails after a write, the script restores the original JSON file.
+Write one record only after the dry run passes and a human operator has reviewed the payload:
+
+```bash
+npm run author:frontier-claim -- --input /path/to/claim-event.json --write
+```
+
+With `--write`, the script appends exactly one record to `data/frontier-claim-velocity.json`, then runs `npm run validate:data` through the same validator used by the rest of the site. If global validation fails after a write, the script restores the original JSON file.
+
+The script does not create source records, evidence records, review decisions, payment links, public submission endpoints, API routes, database writes, runtime connectors, scraping jobs, or automated ingestion flows.
 
 ## Payload Shape
 
@@ -80,6 +84,8 @@ This is stricter than the legacy dataset, where some plotted records still carry
 - `source_type` cannot be `investigative_reporting`, `news_reporting`, `analyst_report`, `secondary_summary`, or `unknown`
 
 Reported or investigative material can still be authored, but should use `reported_public_claim` or remain table-only when the metric is not clean enough to plot.
+
+The script validates the status supplied in the payload. It does not promote a record to `source_backed` automatically.
 
 ## Revision And Negative Velocity Events
 

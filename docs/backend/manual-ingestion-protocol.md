@@ -20,15 +20,24 @@ Status: Current manual-review guidance for source-backed evidence work.
 Frontier Claim Velocity updates use the scripted authoring path documented in
 `docs/backend/frontier-claim-authoring.md`.
 
-Use the script when adding a claim event to `data/frontier-claim-velocity.json`:
+Use the script to validate a claim-event payload before adding it to
+`data/frontier-claim-velocity.json`. Dry-run validation is the default:
 
 ```bash
-npm run author:frontier-claim -- --input /path/to/claim-event.json --dry-run
 npm run author:frontier-claim -- --input /path/to/claim-event.json
+```
+
+Write only after human review, using an explicit write flag:
+
+```bash
+npm run author:frontier-claim -- --input /path/to/claim-event.json --write
 ```
 
 Do not use an HTTP submission endpoint for frontier claim events in the current
 MVP. Authorship is operator-led until the write model has more review history.
+The script is a local manual-assistance tool. It does not automatically ingest
+sources, verify claims, assign evidence status, or publish records without
+human review.
 
 ## Manual Source Rules
 

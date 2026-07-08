@@ -151,21 +151,24 @@ function printHelp() {
 
 Usage:
   npm run author:frontier-claim -- --input path/to/payload.json
-  npm run author:frontier-claim -- --input path/to/payload.json --dry-run
+  npm run author:frontier-claim -- --input path/to/payload.json --write
 
 Rules:
-  - Writes exactly one claim-event record at a time.
+  - Dry-run validation is the default; no files change unless --write is supplied.
+  - With --write, appends exactly one claim-event record at a time.
   - Refuses duplicate IDs and broken source/evidence references.
   - Refuses plotted records with ambiguous, quarantined, or not-comparable metrics.
   - Refuses plotted records without source_url, archive_url, accessed_at, and evidence/source links.
   - Requires revision/cancellation/retraction/source-decay events to link to prior history.
+  - Does not fetch sources, create evidence, verify claims, or assign status automatically.
 `);
 }
 
 function parseArgs(argv) {
   const args = {
     input: "",
-    dryRun: false
+    dryRun: false,
+    write: false
   };
 
   for (let index = 0; index < argv.length; index += 1) {
@@ -174,12 +177,18 @@ function parseArgs(argv) {
       args.help = true;
     } else if (value === "--dry-run") {
       args.dryRun = true;
+    } else if (value === "--write") {
+      args.write = true;
     } else if (value === "--input") {
       args.input = argv[index + 1] || "";
       index += 1;
     } else {
       throw new Error(`Unknown argument: ${value}`);
     }
+  }
+
+  if (args.write && args.dryRun) {
+    throw new Error("Use either --write or --dry-run, not both.");
   }
 
   return args;
@@ -414,8 +423,9 @@ function main() {
   const nextFrontierClaims = [...frontierClaims, payload];
   const nextJson = `${JSON.stringify(nextFrontierClaims, null, 2)}\n`;
 
-  if (args.dryRun) {
+  if (!args.write) {
     console.log("Claim-event payload is valid. Dry run only; no files changed.");
+    console.log("Add --write to append this record after human review.");
     console.log(
       JSON.stringify(
         {
@@ -434,6 +444,7 @@ function main() {
     return;
   }
 
+  console.log("Explicit --write supplied. Appending one manually reviewed claim-event record.");
   fs.writeFileSync(frontierClaimsPath, nextJson);
 
   const validation = spawnSync(process.execPath, [validateDataPath], {
@@ -447,7 +458,7 @@ function main() {
     process.exit(validation.status || 1);
   }
 
-  console.log(`Claim-event record authored: ${payload.id}`);
+  console.log(`Claim-event record authored after explicit --write: ${payload.id}`);
   console.log(`Updated ${path.relative(root, frontierClaimsPath)}`);
 }
 
