@@ -180,6 +180,28 @@ const assessedPortabilityStatuses = new Set([
   "not_supported"
 ]);
 
+// Meaningful Human Decision Audits: same pattern again, testing whether a
+// platform's "human in the loop" claim is actually meaningful on four
+// axes. A real finding must cite a claim.
+const humanDecisionDimensions = new Set([
+  "awareness",
+  "authority",
+  "accountability",
+  "time"
+]);
+const humanDecisionStatuses = new Set([
+  "meaningful",
+  "partially_meaningful",
+  "not_meaningful",
+  "not_yet_assessed",
+  "out_of_scope"
+]);
+const assessedHumanDecisionStatuses = new Set([
+  "meaningful",
+  "partially_meaningful",
+  "not_meaningful"
+]);
+
 const reportedFrontierClaimSourceTypes = new Set([
   "investigative_reporting",
   "news_reporting",
@@ -882,6 +904,64 @@ function validatePortabilityRecord(errors, record, observableIds, claimIds) {
   }
 }
 
+function validateHumanDecisionAuditRecord(errors, record, observableIds, claimIds) {
+  const label = record.id || "(missing id)";
+
+  pushMissing(errors, "Human decision audit record", record, [
+    "id",
+    "subject_observable_id",
+    "subject_label",
+    "dimension",
+    "status",
+    "last_reviewed"
+  ]);
+
+  if (
+    record.dimension !== undefined &&
+    !humanDecisionDimensions.has(record.dimension)
+  ) {
+    errors.push(
+      `Human decision audit record ${label} has invalid dimension ${record.dimension}`
+    );
+  }
+  if (record.status !== undefined && !humanDecisionStatuses.has(record.status)) {
+    errors.push(
+      `Human decision audit record ${label} has invalid status ${record.status}`
+    );
+  }
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(record.last_reviewed || "")) {
+    errors.push(
+      `Human decision audit record ${label} last_reviewed must be YYYY-MM-DD`
+    );
+  }
+
+  if (
+    record.subject_observable_id !== undefined &&
+    !observableIds.has(record.subject_observable_id)
+  ) {
+    errors.push(
+      `Human decision audit record ${label} references missing subject_observable_id ${record.subject_observable_id}`
+    );
+  }
+
+  if (record.claim_id !== undefined && record.claim_id !== null) {
+    if (!claimIds.has(record.claim_id)) {
+      errors.push(
+        `Human decision audit record ${label} references missing claim ${record.claim_id}`
+      );
+    }
+  }
+
+  // A real finding must cite a claim - this audit never asserts a
+  // judgment about a real platform without a source-backed claim behind
+  // it. Only "not_yet_assessed" and "out_of_scope" may go unlinked.
+  if (assessedHumanDecisionStatuses.has(record.status) && !record.claim_id) {
+    errors.push(
+      `Human decision audit record ${label} has status ${record.status} but no claim_id`
+    );
+  }
+}
+
 const evidenceRecords = readJson("evidence-records.json");
 const frontierClaimVelocityRecords = readJson("frontier-claim-velocity.json");
 const claimEvidenceRegistry = readJson("claim-evidence-registry.json");
@@ -889,6 +969,7 @@ const governanceGapMatrix = readJson("governance-gap-matrix.json");
 const platformPortabilityScorecards = readJson(
   "platform-portability-scorecards.json"
 );
+const humanDecisionAudits = readJson("human-decision-audits.json");
 const observables = readJson("observables.json");
 const sources = readJson("sources.json");
 const observations = readJson("observations.json");
@@ -911,6 +992,9 @@ if (!Array.isArray(governanceGapMatrix)) {
 }
 if (!Array.isArray(platformPortabilityScorecards)) {
   errors.push("platform-portability-scorecards.json must be an array");
+}
+if (!Array.isArray(humanDecisionAudits)) {
+  errors.push("human-decision-audits.json must be an array");
 }
 if (!Array.isArray(observables)) errors.push("observables.json must be an array");
 if (!Array.isArray(sources)) errors.push("sources.json must be an array");
@@ -950,6 +1034,9 @@ duplicateValues(governanceGapMatrix, "id").forEach((id) =>
 );
 duplicateValues(platformPortabilityScorecards, "id").forEach((id) =>
   errors.push(`Duplicate portability record id ${id}`)
+);
+duplicateValues(humanDecisionAudits, "id").forEach((id) =>
+  errors.push(`Duplicate human decision audit record id ${id}`)
 );
 duplicateValues(observables, "id").forEach((id) =>
   errors.push(`Duplicate observable id ${id}`)
@@ -1012,6 +1099,9 @@ governanceGapMatrix.forEach((record) =>
 platformPortabilityScorecards.forEach((record) =>
   validatePortabilityRecord(errors, record, observableIds, claimEvidenceIds)
 );
+humanDecisionAudits.forEach((record) =>
+  validateHumanDecisionAuditRecord(errors, record, observableIds, claimEvidenceIds)
+);
 
 const countsByType = observables.reduce((counts, observable) => {
   counts[observable.type] = (counts[observable.type] || 0) + 1;
@@ -1043,7 +1133,8 @@ console.log(
       frontierClaimVelocityRecords: frontierClaimVelocityRecords.length,
       claimEvidenceRegistry: claimEvidenceRegistry.length,
       governanceGapMatrix: governanceGapMatrix.length,
-      platformPortabilityScorecards: platformPortabilityScorecards.length
+      platformPortabilityScorecards: platformPortabilityScorecards.length,
+      humanDecisionAudits: humanDecisionAudits.length
     },
     null,
     2

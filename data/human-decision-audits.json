@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "hda-gpt-4o-awareness",
+    "subject_observable_id": "model-gpt-4o",
+    "subject_label": "GPT-4o",
+    "dimension": "awareness",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-gpt-4o-authority",
+    "subject_observable_id": "model-gpt-4o",
+    "subject_label": "GPT-4o",
+    "dimension": "authority",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-gpt-4o-accountability",
+    "subject_observable_id": "model-gpt-4o",
+    "subject_label": "GPT-4o",
+    "dimension": "accountability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-gpt-4o-time",
+    "subject_observable_id": "model-gpt-4o",
+    "subject_label": "GPT-4o",
+    "dimension": "time",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-gpt-4o-mini-awareness",
+    "subject_observable_id": "model-gpt-4o-mini",
+    "subject_label": "GPT-4o mini",
+    "dimension": "awareness",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-gpt-4o-mini-authority",
+    "subject_observable_id": "model-gpt-4o-mini",
+    "subject_label": "GPT-4o mini",
+    "dimension": "authority",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-gpt-4o-mini-accountability",
+    "subject_observable_id": "model-gpt-4o-mini",
+    "subject_label": "GPT-4o mini",
+    "dimension": "accountability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-gpt-4o-mini-time",
+    "subject_observable_id": "model-gpt-4o-mini",
+    "subject_label": "GPT-4o mini",
+    "dimension": "time",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-o3-awareness",
+    "subject_observable_id": "model-o3",
+    "subject_label": "o3",
+    "dimension": "awareness",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-o3-authority",
+    "subject_observable_id": "model-o3",
+    "subject_label": "o3",
+    "dimension": "authority",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-o3-accountability",
+    "subject_observable_id": "model-o3",
+    "subject_label": "o3",
+    "dimension": "accountability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-o3-time",
+    "subject_observable_id": "model-o3",
+    "subject_label": "o3",
+    "dimension": "time",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-gpt-4-awareness",
+    "subject_observable_id": "model-gpt-4",
+    "subject_label": "GPT-4",
+    "dimension": "awareness",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-gpt-4-authority",
+    "subject_observable_id": "model-gpt-4",
+    "subject_label": "GPT-4",
+    "dimension": "authority",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-gpt-4-accountability",
+    "subject_observable_id": "model-gpt-4",
+    "subject_label": "GPT-4",
+    "dimension": "accountability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-gpt-4-time",
+    "subject_observable_id": "model-gpt-4",
+    "subject_label": "GPT-4",
+    "dimension": "time",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-dall-e-3-awareness",
+    "subject_observable_id": "model-dall-e-3",
+    "subject_label": "DALL-E 3",
+    "dimension": "awareness",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-dall-e-3-authority",
+    "subject_observable_id": "model-dall-e-3",
+    "subject_label": "DALL-E 3",
+    "dimension": "authority",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-dall-e-3-accountability",
+    "subject_observable_id": "model-dall-e-3",
+    "subject_label": "DALL-E 3",
+    "dimension": "accountability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-dall-e-3-time",
+    "subject_observable_id": "model-dall-e-3",
+    "subject_label": "DALL-E 3",
+    "dimension": "time",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-claude-3-5-sonnet-awareness",
+    "subject_observable_id": "model-claude-3-5-sonnet",
+    "subject_label": "Claude 3.5 Sonnet",
+    "dimension": "awareness",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-claude-3-5-sonnet-authority",
+    "subject_observable_id": "model-claude-3-5-sonnet",
+    "subject_label": "Claude 3.5 Sonnet",
+    "dimension": "authority",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-claude-3-5-sonnet-accountability",
+    "subject_observable_id": "model-claude-3-5-sonnet",
+    "subject_label": "Claude 3.5 Sonnet",
+    "dimension": "accountability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-claude-3-5-sonnet-time",
+    "subject_observable_id": "model-claude-3-5-sonnet",
+    "subject_label": "Claude 3.5 Sonnet",
+    "dimension": "time",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-claude-3-opus-awareness",
+    "subject_observable_id": "model-claude-3-opus",
+    "subject_label": "Claude 3 Opus",
+    "dimension": "awareness",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-claude-3-opus-authority",
+    "subject_observable_id": "model-claude-3-opus",
+    "subject_label": "Claude 3 Opus",
+    "dimension": "authority",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-claude-3-opus-accountability",
+    "subject_observable_id": "model-claude-3-opus",
+    "subject_label": "Claude 3 Opus",
+    "dimension": "accountability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-claude-3-opus-time",
+    "subject_observable_id": "model-claude-3-opus",
+    "subject_label": "Claude 3 Opus",
+    "dimension": "time",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-gemini-1-5-pro-awareness",
+    "subject_observable_id": "model-gemini-1-5-pro",
+    "subject_label": "Gemini 1.5 Pro",
+    "dimension": "awareness",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-gemini-1-5-pro-authority",
+    "subject_observable_id": "model-gemini-1-5-pro",
+    "subject_label": "Gemini 1.5 Pro",
+    "dimension": "authority",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-gemini-1-5-pro-accountability",
+    "subject_observable_id": "model-gemini-1-5-pro",
+    "subject_label": "Gemini 1.5 Pro",
+    "dimension": "accountability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-gemini-1-5-pro-time",
+    "subject_observable_id": "model-gemini-1-5-pro",
+    "subject_label": "Gemini 1.5 Pro",
+    "dimension": "time",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-gemma-2-awareness",
+    "subject_observable_id": "model-gemma-2",
+    "subject_label": "Gemma 2",
+    "dimension": "awareness",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-gemma-2-authority",
+    "subject_observable_id": "model-gemma-2",
+    "subject_label": "Gemma 2",
+    "dimension": "authority",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-gemma-2-accountability",
+    "subject_observable_id": "model-gemma-2",
+    "subject_label": "Gemma 2",
+    "dimension": "accountability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-gemma-2-time",
+    "subject_observable_id": "model-gemma-2",
+    "subject_label": "Gemma 2",
+    "dimension": "time",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-llama-3-1-405b-awareness",
+    "subject_observable_id": "model-llama-3-1-405b",
+    "subject_label": "Llama 3.1 405B",
+    "dimension": "awareness",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-llama-3-1-405b-authority",
+    "subject_observable_id": "model-llama-3-1-405b",
+    "subject_label": "Llama 3.1 405B",
+    "dimension": "authority",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-llama-3-1-405b-accountability",
+    "subject_observable_id": "model-llama-3-1-405b",
+    "subject_label": "Llama 3.1 405B",
+    "dimension": "accountability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-llama-3-1-405b-time",
+    "subject_observable_id": "model-llama-3-1-405b",
+    "subject_label": "Llama 3.1 405B",
+    "dimension": "time",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-llama-3-70b-awareness",
+    "subject_observable_id": "model-llama-3-70b",
+    "subject_label": "Llama 3 70B",
+    "dimension": "awareness",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-llama-3-70b-authority",
+    "subject_observable_id": "model-llama-3-70b",
+    "subject_label": "Llama 3 70B",
+    "dimension": "authority",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-llama-3-70b-accountability",
+    "subject_observable_id": "model-llama-3-70b",
+    "subject_label": "Llama 3 70B",
+    "dimension": "accountability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-llama-3-70b-time",
+    "subject_observable_id": "model-llama-3-70b",
+    "subject_label": "Llama 3 70B",
+    "dimension": "time",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-grok-2-awareness",
+    "subject_observable_id": "model-grok-2",
+    "subject_label": "Grok-2",
+    "dimension": "awareness",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-grok-2-authority",
+    "subject_observable_id": "model-grok-2",
+    "subject_label": "Grok-2",
+    "dimension": "authority",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-grok-2-accountability",
+    "subject_observable_id": "model-grok-2",
+    "subject_label": "Grok-2",
+    "dimension": "accountability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-grok-2-time",
+    "subject_observable_id": "model-grok-2",
+    "subject_label": "Grok-2",
+    "dimension": "time",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-mistral-large-awareness",
+    "subject_observable_id": "model-mistral-large",
+    "subject_label": "Mistral Large",
+    "dimension": "awareness",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-mistral-large-authority",
+    "subject_observable_id": "model-mistral-large",
+    "subject_label": "Mistral Large",
+    "dimension": "authority",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-mistral-large-accountability",
+    "subject_observable_id": "model-mistral-large",
+    "subject_label": "Mistral Large",
+    "dimension": "accountability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-mistral-large-time",
+    "subject_observable_id": "model-mistral-large",
+    "subject_label": "Mistral Large",
+    "dimension": "time",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-mixtral-8x7b-awareness",
+    "subject_observable_id": "model-mixtral-8x7b",
+    "subject_label": "Mixtral 8x7B",
+    "dimension": "awareness",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-mixtral-8x7b-authority",
+    "subject_observable_id": "model-mixtral-8x7b",
+    "subject_label": "Mixtral 8x7B",
+    "dimension": "authority",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-mixtral-8x7b-accountability",
+    "subject_observable_id": "model-mixtral-8x7b",
+    "subject_label": "Mixtral 8x7B",
+    "dimension": "accountability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-mixtral-8x7b-time",
+    "subject_observable_id": "model-mixtral-8x7b",
+    "subject_label": "Mixtral 8x7B",
+    "dimension": "time",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-command-r-plus-awareness",
+    "subject_observable_id": "model-command-r-plus",
+    "subject_label": "Command R+",
+    "dimension": "awareness",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-command-r-plus-authority",
+    "subject_observable_id": "model-command-r-plus",
+    "subject_label": "Command R+",
+    "dimension": "authority",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-command-r-plus-accountability",
+    "subject_observable_id": "model-command-r-plus",
+    "subject_label": "Command R+",
+    "dimension": "accountability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-command-r-plus-time",
+    "subject_observable_id": "model-command-r-plus",
+    "subject_label": "Command R+",
+    "dimension": "time",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-perplexity-sonar-awareness",
+    "subject_observable_id": "model-perplexity-sonar",
+    "subject_label": "Perplexity Sonar",
+    "dimension": "awareness",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-perplexity-sonar-authority",
+    "subject_observable_id": "model-perplexity-sonar",
+    "subject_label": "Perplexity Sonar",
+    "dimension": "authority",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-perplexity-sonar-accountability",
+    "subject_observable_id": "model-perplexity-sonar",
+    "subject_label": "Perplexity Sonar",
+    "dimension": "accountability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-perplexity-sonar-time",
+    "subject_observable_id": "model-perplexity-sonar",
+    "subject_label": "Perplexity Sonar",
+    "dimension": "time",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-amazon-nova-awareness",
+    "subject_observable_id": "model-amazon-nova",
+    "subject_label": "Amazon Nova",
+    "dimension": "awareness",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-amazon-nova-authority",
+    "subject_observable_id": "model-amazon-nova",
+    "subject_label": "Amazon Nova",
+    "dimension": "authority",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-amazon-nova-accountability",
+    "subject_observable_id": "model-amazon-nova",
+    "subject_label": "Amazon Nova",
+    "dimension": "accountability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-amazon-nova-time",
+    "subject_observable_id": "model-amazon-nova",
+    "subject_label": "Amazon Nova",
+    "dimension": "time",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-falcon-180b-awareness",
+    "subject_observable_id": "model-falcon-180b",
+    "subject_label": "Falcon 180B",
+    "dimension": "awareness",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-falcon-180b-authority",
+    "subject_observable_id": "model-falcon-180b",
+    "subject_label": "Falcon 180B",
+    "dimension": "authority",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-falcon-180b-accountability",
+    "subject_observable_id": "model-falcon-180b",
+    "subject_label": "Falcon 180B",
+    "dimension": "accountability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-falcon-180b-time",
+    "subject_observable_id": "model-falcon-180b",
+    "subject_label": "Falcon 180B",
+    "dimension": "time",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-jamba-1-5-large-awareness",
+    "subject_observable_id": "model-jamba-1-5-large",
+    "subject_label": "Jamba 1.5 Large",
+    "dimension": "awareness",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-jamba-1-5-large-authority",
+    "subject_observable_id": "model-jamba-1-5-large",
+    "subject_label": "Jamba 1.5 Large",
+    "dimension": "authority",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-jamba-1-5-large-accountability",
+    "subject_observable_id": "model-jamba-1-5-large",
+    "subject_label": "Jamba 1.5 Large",
+    "dimension": "accountability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-jamba-1-5-large-time",
+    "subject_observable_id": "model-jamba-1-5-large",
+    "subject_label": "Jamba 1.5 Large",
+    "dimension": "time",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-qwen-2-5-awareness",
+    "subject_observable_id": "model-qwen-2-5",
+    "subject_label": "Qwen2.5",
+    "dimension": "awareness",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-qwen-2-5-authority",
+    "subject_observable_id": "model-qwen-2-5",
+    "subject_label": "Qwen2.5",
+    "dimension": "authority",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-qwen-2-5-accountability",
+    "subject_observable_id": "model-qwen-2-5",
+    "subject_label": "Qwen2.5",
+    "dimension": "accountability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-qwen-2-5-time",
+    "subject_observable_id": "model-qwen-2-5",
+    "subject_label": "Qwen2.5",
+    "dimension": "time",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-deepseek-v3-awareness",
+    "subject_observable_id": "model-deepseek-v3",
+    "subject_label": "DeepSeek-V3",
+    "dimension": "awareness",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-deepseek-v3-authority",
+    "subject_observable_id": "model-deepseek-v3",
+    "subject_label": "DeepSeek-V3",
+    "dimension": "authority",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-deepseek-v3-accountability",
+    "subject_observable_id": "model-deepseek-v3",
+    "subject_label": "DeepSeek-V3",
+    "dimension": "accountability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-deepseek-v3-time",
+    "subject_observable_id": "model-deepseek-v3",
+    "subject_label": "DeepSeek-V3",
+    "dimension": "time",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-phi-3-awareness",
+    "subject_observable_id": "model-phi-3",
+    "subject_label": "Phi-3",
+    "dimension": "awareness",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-phi-3-authority",
+    "subject_observable_id": "model-phi-3",
+    "subject_label": "Phi-3",
+    "dimension": "authority",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-phi-3-accountability",
+    "subject_observable_id": "model-phi-3",
+    "subject_label": "Phi-3",
+    "dimension": "accountability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-phi-3-time",
+    "subject_observable_id": "model-phi-3",
+    "subject_label": "Phi-3",
+    "dimension": "time",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-dbrx-awareness",
+    "subject_observable_id": "model-dbrx",
+    "subject_label": "DBRX",
+    "dimension": "awareness",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-dbrx-authority",
+    "subject_observable_id": "model-dbrx",
+    "subject_label": "DBRX",
+    "dimension": "authority",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-dbrx-accountability",
+    "subject_observable_id": "model-dbrx",
+    "subject_label": "DBRX",
+    "dimension": "accountability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-dbrx-time",
+    "subject_observable_id": "model-dbrx",
+    "subject_label": "DBRX",
+    "dimension": "time",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-nemotron-awareness",
+    "subject_observable_id": "model-nemotron",
+    "subject_label": "Nemotron",
+    "dimension": "awareness",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-nemotron-authority",
+    "subject_observable_id": "model-nemotron",
+    "subject_label": "Nemotron",
+    "dimension": "authority",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-nemotron-accountability",
+    "subject_observable_id": "model-nemotron",
+    "subject_label": "Nemotron",
+    "dimension": "accountability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-nemotron-time",
+    "subject_observable_id": "model-nemotron",
+    "subject_label": "Nemotron",
+    "dimension": "time",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-stable-diffusion-3-awareness",
+    "subject_observable_id": "model-stable-diffusion-3",
+    "subject_label": "Stable Diffusion 3",
+    "dimension": "awareness",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-stable-diffusion-3-authority",
+    "subject_observable_id": "model-stable-diffusion-3",
+    "subject_label": "Stable Diffusion 3",
+    "dimension": "authority",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-stable-diffusion-3-accountability",
+    "subject_observable_id": "model-stable-diffusion-3",
+    "subject_label": "Stable Diffusion 3",
+    "dimension": "accountability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "hda-stable-diffusion-3-time",
+    "subject_observable_id": "model-stable-diffusion-3",
+    "subject_label": "Stable Diffusion 3",
+    "dimension": "time",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  }
+]
