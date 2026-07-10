@@ -110,6 +110,26 @@ const nonPlottableNormalizationStatuses = new Set([
   "not_comparable",
   "quarantined"
 ]);
+
+// Claim Evidence Registry: the backbone object for the measurement and
+// reporting layer. Distinct from `observations` - a claim can carry zero
+// or more sources and is not tied to any single domain's observable model.
+const claimStatuses = new Set([
+  "supported",
+  "partially_supported",
+  "needs_review",
+  "contested",
+  "unsupported",
+  "out_of_scope",
+  "protected"
+]);
+const claimUncertaintyLevels = new Set(["low", "medium", "high"]);
+const sourceBackedClaimStatuses = new Set([
+  "supported",
+  "partially_supported",
+  "contested"
+]);
+
 const reportedFrontierClaimSourceTypes = new Set([
   "investigative_reporting",
   "news_reporting",
@@ -657,8 +677,67 @@ function validateFrontierClaimVelocityChain(errors, record, frontierClaimIds) {
   }
 }
 
+function validateClaimEvidenceRecord(errors, record, sourceIds, observableIds) {
+  const label = record.id || "(missing id)";
+
+  pushMissing(errors, "Claim evidence record", record, [
+    "id",
+    "text",
+    "subject_label",
+    "source_ids",
+    "status",
+    "uncertainty",
+    "review_date"
+  ]);
+
+  if (record.status !== undefined && !claimStatuses.has(record.status)) {
+    errors.push(`Claim evidence record ${label} has invalid status ${record.status}`);
+  }
+  if (
+    record.uncertainty !== undefined &&
+    !claimUncertaintyLevels.has(record.uncertainty)
+  ) {
+    errors.push(`Claim evidence record ${label} has invalid uncertainty ${record.uncertainty}`);
+  }
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(record.review_date || "")) {
+    errors.push(`Claim evidence record ${label} review_date must be YYYY-MM-DD`);
+  }
+
+  if (record.subject_observable_id !== undefined && record.subject_observable_id !== null) {
+    if (!observableIds.has(record.subject_observable_id)) {
+      errors.push(
+        `Claim evidence record ${label} references missing subject_observable_id ${record.subject_observable_id}`
+      );
+    }
+  }
+
+  if (!Array.isArray(record.source_ids)) {
+    errors.push(`Claim evidence record ${label} source_ids must be an array`);
+  } else {
+    record.source_ids.forEach((sourceId) => {
+      if (!sourceIds.has(sourceId)) {
+        errors.push(`Claim evidence record ${label} references missing source ${sourceId}`);
+      }
+    });
+
+    // A claim asserted as supported, partially supported, or contested must
+    // be able to point to at least one source - that is the whole point of
+    // the registry existing as a source-backed spine, not a status label.
+    if (
+      claimStatuses.has(record.status) &&
+      sourceBackedClaimStatuses.has(record.status) &&
+      record.source_ids.length === 0
+    ) {
+      errors.push(
+        `Claim evidence record ${label} has status ${record.status} but no source_ids`
+      );
+    }
+  }
+}
+
 const evidenceRecords = readJson("evidence-records.json");
 const frontierClaimVelocityRecords = readJson("frontier-claim-velocity.json");
+const claimEvidenceRegistry = readJson("claim-evidence-registry.json");
 const observables = readJson("observables.json");
 const sources = readJson("sources.json");
 const observations = readJson("observations.json");
@@ -672,6 +751,9 @@ if (!Array.isArray(evidenceRecords)) {
 }
 if (!Array.isArray(frontierClaimVelocityRecords)) {
   errors.push("frontier-claim-velocity.json must be an array");
+}
+if (!Array.isArray(claimEvidenceRegistry)) {
+  errors.push("claim-evidence-registry.json must be an array");
 }
 if (!Array.isArray(observables)) errors.push("observables.json must be an array");
 if (!Array.isArray(sources)) errors.push("sources.json must be an array");
@@ -699,6 +781,9 @@ duplicateValues(evidenceRecords, "id").forEach((id) =>
 );
 duplicateValues(frontierClaimVelocityRecords, "id").forEach((id) =>
   errors.push(`Duplicate frontier claim velocity record id ${id}`)
+);
+duplicateValues(claimEvidenceRegistry, "id").forEach((id) =>
+  errors.push(`Duplicate claim evidence record id ${id}`)
 );
 duplicateValues(observables, "id").forEach((id) =>
   errors.push(`Duplicate observable id ${id}`)
@@ -752,6 +837,9 @@ frontierClaimVelocityRecords.forEach((record) => {
   );
   validateFrontierClaimVelocityChain(errors, record, frontierClaimIds);
 });
+claimEvidenceRegistry.forEach((record) =>
+  validateClaimEvidenceRecord(errors, record, sourceIds, observableIds)
+);
 
 const countsByType = observables.reduce((counts, observable) => {
   counts[observable.type] = (counts[observable.type] || 0) + 1;
@@ -780,7 +868,8 @@ console.log(
       relationships: relationships.length,
       reviewDecisions: reviewDecisions.length,
       evidenceRecords: evidenceRecords.length,
-      frontierClaimVelocityRecords: frontierClaimVelocityRecords.length
+      frontierClaimVelocityRecords: frontierClaimVelocityRecords.length,
+      claimEvidenceRegistry: claimEvidenceRegistry.length
     },
     null,
     2
