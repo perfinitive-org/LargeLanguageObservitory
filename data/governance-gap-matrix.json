@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "gap-openai-portability",
+    "subject_observable_id": "org-openai",
+    "subject_label": "OpenAI",
+    "dimension": "portability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-openai-consent",
+    "subject_observable_id": "org-openai",
+    "subject_label": "OpenAI",
+    "dimension": "consent",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-openai-context",
+    "subject_observable_id": "org-openai",
+    "subject_label": "OpenAI",
+    "dimension": "context",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-openai-auditability",
+    "subject_observable_id": "org-openai",
+    "subject_label": "OpenAI",
+    "dimension": "auditability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-openai-appeal",
+    "subject_observable_id": "org-openai",
+    "subject_label": "OpenAI",
+    "dimension": "appeal",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-openai-continuity",
+    "subject_observable_id": "org-openai",
+    "subject_label": "OpenAI",
+    "dimension": "continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-microsoft-portability",
+    "subject_observable_id": "org-microsoft",
+    "subject_label": "Microsoft",
+    "dimension": "portability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-microsoft-consent",
+    "subject_observable_id": "org-microsoft",
+    "subject_label": "Microsoft",
+    "dimension": "consent",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-microsoft-context",
+    "subject_observable_id": "org-microsoft",
+    "subject_label": "Microsoft",
+    "dimension": "context",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-microsoft-auditability",
+    "subject_observable_id": "org-microsoft",
+    "subject_label": "Microsoft",
+    "dimension": "auditability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-microsoft-appeal",
+    "subject_observable_id": "org-microsoft",
+    "subject_label": "Microsoft",
+    "dimension": "appeal",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-microsoft-continuity",
+    "subject_observable_id": "org-microsoft",
+    "subject_label": "Microsoft",
+    "dimension": "continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-anthropic-portability",
+    "subject_observable_id": "org-anthropic",
+    "subject_label": "Anthropic",
+    "dimension": "portability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-anthropic-consent",
+    "subject_observable_id": "org-anthropic",
+    "subject_label": "Anthropic",
+    "dimension": "consent",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-anthropic-context",
+    "subject_observable_id": "org-anthropic",
+    "subject_label": "Anthropic",
+    "dimension": "context",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-anthropic-auditability",
+    "subject_observable_id": "org-anthropic",
+    "subject_label": "Anthropic",
+    "dimension": "auditability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-anthropic-appeal",
+    "subject_observable_id": "org-anthropic",
+    "subject_label": "Anthropic",
+    "dimension": "appeal",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-anthropic-continuity",
+    "subject_observable_id": "org-anthropic",
+    "subject_label": "Anthropic",
+    "dimension": "continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-google-deepmind-portability",
+    "subject_observable_id": "org-google-deepmind",
+    "subject_label": "Google DeepMind",
+    "dimension": "portability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-google-deepmind-consent",
+    "subject_observable_id": "org-google-deepmind",
+    "subject_label": "Google DeepMind",
+    "dimension": "consent",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-google-deepmind-context",
+    "subject_observable_id": "org-google-deepmind",
+    "subject_label": "Google DeepMind",
+    "dimension": "context",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-google-deepmind-auditability",
+    "subject_observable_id": "org-google-deepmind",
+    "subject_label": "Google DeepMind",
+    "dimension": "auditability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-google-deepmind-appeal",
+    "subject_observable_id": "org-google-deepmind",
+    "subject_label": "Google DeepMind",
+    "dimension": "appeal",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-google-deepmind-continuity",
+    "subject_observable_id": "org-google-deepmind",
+    "subject_label": "Google DeepMind",
+    "dimension": "continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-meta-ai-portability",
+    "subject_observable_id": "org-meta-ai",
+    "subject_label": "Meta AI",
+    "dimension": "portability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-meta-ai-consent",
+    "subject_observable_id": "org-meta-ai",
+    "subject_label": "Meta AI",
+    "dimension": "consent",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-meta-ai-context",
+    "subject_observable_id": "org-meta-ai",
+    "subject_label": "Meta AI",
+    "dimension": "context",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-meta-ai-auditability",
+    "subject_observable_id": "org-meta-ai",
+    "subject_label": "Meta AI",
+    "dimension": "auditability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-meta-ai-appeal",
+    "subject_observable_id": "org-meta-ai",
+    "subject_label": "Meta AI",
+    "dimension": "appeal",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-meta-ai-continuity",
+    "subject_observable_id": "org-meta-ai",
+    "subject_label": "Meta AI",
+    "dimension": "continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-nvidia-portability",
+    "subject_observable_id": "org-nvidia",
+    "subject_label": "NVIDIA",
+    "dimension": "portability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-nvidia-consent",
+    "subject_observable_id": "org-nvidia",
+    "subject_label": "NVIDIA",
+    "dimension": "consent",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-nvidia-context",
+    "subject_observable_id": "org-nvidia",
+    "subject_label": "NVIDIA",
+    "dimension": "context",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-nvidia-auditability",
+    "subject_observable_id": "org-nvidia",
+    "subject_label": "NVIDIA",
+    "dimension": "auditability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-nvidia-appeal",
+    "subject_observable_id": "org-nvidia",
+    "subject_label": "NVIDIA",
+    "dimension": "appeal",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-nvidia-continuity",
+    "subject_observable_id": "org-nvidia",
+    "subject_label": "NVIDIA",
+    "dimension": "continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-coreweave-portability",
+    "subject_observable_id": "org-coreweave",
+    "subject_label": "CoreWeave",
+    "dimension": "portability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-coreweave-consent",
+    "subject_observable_id": "org-coreweave",
+    "subject_label": "CoreWeave",
+    "dimension": "consent",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-coreweave-context",
+    "subject_observable_id": "org-coreweave",
+    "subject_label": "CoreWeave",
+    "dimension": "context",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-coreweave-auditability",
+    "subject_observable_id": "org-coreweave",
+    "subject_label": "CoreWeave",
+    "dimension": "auditability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-coreweave-appeal",
+    "subject_observable_id": "org-coreweave",
+    "subject_label": "CoreWeave",
+    "dimension": "appeal",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-coreweave-continuity",
+    "subject_observable_id": "org-coreweave",
+    "subject_label": "CoreWeave",
+    "dimension": "continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-oracle-cloud-portability",
+    "subject_observable_id": "org-oracle-cloud",
+    "subject_label": "Oracle Cloud Infrastructure",
+    "dimension": "portability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-oracle-cloud-consent",
+    "subject_observable_id": "org-oracle-cloud",
+    "subject_label": "Oracle Cloud Infrastructure",
+    "dimension": "consent",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-oracle-cloud-context",
+    "subject_observable_id": "org-oracle-cloud",
+    "subject_label": "Oracle Cloud Infrastructure",
+    "dimension": "context",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-oracle-cloud-auditability",
+    "subject_observable_id": "org-oracle-cloud",
+    "subject_label": "Oracle Cloud Infrastructure",
+    "dimension": "auditability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-oracle-cloud-appeal",
+    "subject_observable_id": "org-oracle-cloud",
+    "subject_label": "Oracle Cloud Infrastructure",
+    "dimension": "appeal",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-oracle-cloud-continuity",
+    "subject_observable_id": "org-oracle-cloud",
+    "subject_label": "Oracle Cloud Infrastructure",
+    "dimension": "continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-xai-portability",
+    "subject_observable_id": "org-xai",
+    "subject_label": "xAI",
+    "dimension": "portability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-xai-consent",
+    "subject_observable_id": "org-xai",
+    "subject_label": "xAI",
+    "dimension": "consent",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-xai-context",
+    "subject_observable_id": "org-xai",
+    "subject_label": "xAI",
+    "dimension": "context",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-xai-auditability",
+    "subject_observable_id": "org-xai",
+    "subject_label": "xAI",
+    "dimension": "auditability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-xai-appeal",
+    "subject_observable_id": "org-xai",
+    "subject_label": "xAI",
+    "dimension": "appeal",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-xai-continuity",
+    "subject_observable_id": "org-xai",
+    "subject_label": "xAI",
+    "dimension": "continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-mistral-ai-portability",
+    "subject_observable_id": "org-mistral-ai",
+    "subject_label": "Mistral AI",
+    "dimension": "portability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-mistral-ai-consent",
+    "subject_observable_id": "org-mistral-ai",
+    "subject_label": "Mistral AI",
+    "dimension": "consent",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-mistral-ai-context",
+    "subject_observable_id": "org-mistral-ai",
+    "subject_label": "Mistral AI",
+    "dimension": "context",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-mistral-ai-auditability",
+    "subject_observable_id": "org-mistral-ai",
+    "subject_label": "Mistral AI",
+    "dimension": "auditability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-mistral-ai-appeal",
+    "subject_observable_id": "org-mistral-ai",
+    "subject_label": "Mistral AI",
+    "dimension": "appeal",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-mistral-ai-continuity",
+    "subject_observable_id": "org-mistral-ai",
+    "subject_label": "Mistral AI",
+    "dimension": "continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-cohere-portability",
+    "subject_observable_id": "org-cohere",
+    "subject_label": "Cohere",
+    "dimension": "portability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-cohere-consent",
+    "subject_observable_id": "org-cohere",
+    "subject_label": "Cohere",
+    "dimension": "consent",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-cohere-context",
+    "subject_observable_id": "org-cohere",
+    "subject_label": "Cohere",
+    "dimension": "context",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-cohere-auditability",
+    "subject_observable_id": "org-cohere",
+    "subject_label": "Cohere",
+    "dimension": "auditability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-cohere-appeal",
+    "subject_observable_id": "org-cohere",
+    "subject_label": "Cohere",
+    "dimension": "appeal",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-cohere-continuity",
+    "subject_observable_id": "org-cohere",
+    "subject_label": "Cohere",
+    "dimension": "continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-perplexity-ai-portability",
+    "subject_observable_id": "org-perplexity-ai",
+    "subject_label": "Perplexity AI",
+    "dimension": "portability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-perplexity-ai-consent",
+    "subject_observable_id": "org-perplexity-ai",
+    "subject_label": "Perplexity AI",
+    "dimension": "consent",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-perplexity-ai-context",
+    "subject_observable_id": "org-perplexity-ai",
+    "subject_label": "Perplexity AI",
+    "dimension": "context",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-perplexity-ai-auditability",
+    "subject_observable_id": "org-perplexity-ai",
+    "subject_label": "Perplexity AI",
+    "dimension": "auditability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-perplexity-ai-appeal",
+    "subject_observable_id": "org-perplexity-ai",
+    "subject_label": "Perplexity AI",
+    "dimension": "appeal",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-perplexity-ai-continuity",
+    "subject_observable_id": "org-perplexity-ai",
+    "subject_label": "Perplexity AI",
+    "dimension": "continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-amazon-web-services-portability",
+    "subject_observable_id": "org-amazon-web-services",
+    "subject_label": "Amazon Web Services",
+    "dimension": "portability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-amazon-web-services-consent",
+    "subject_observable_id": "org-amazon-web-services",
+    "subject_label": "Amazon Web Services",
+    "dimension": "consent",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-amazon-web-services-context",
+    "subject_observable_id": "org-amazon-web-services",
+    "subject_label": "Amazon Web Services",
+    "dimension": "context",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-amazon-web-services-auditability",
+    "subject_observable_id": "org-amazon-web-services",
+    "subject_label": "Amazon Web Services",
+    "dimension": "auditability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-amazon-web-services-appeal",
+    "subject_observable_id": "org-amazon-web-services",
+    "subject_label": "Amazon Web Services",
+    "dimension": "appeal",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-amazon-web-services-continuity",
+    "subject_observable_id": "org-amazon-web-services",
+    "subject_label": "Amazon Web Services",
+    "dimension": "continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-google-cloud-portability",
+    "subject_observable_id": "org-google-cloud",
+    "subject_label": "Google Cloud",
+    "dimension": "portability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-google-cloud-consent",
+    "subject_observable_id": "org-google-cloud",
+    "subject_label": "Google Cloud",
+    "dimension": "consent",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-google-cloud-context",
+    "subject_observable_id": "org-google-cloud",
+    "subject_label": "Google Cloud",
+    "dimension": "context",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-google-cloud-auditability",
+    "subject_observable_id": "org-google-cloud",
+    "subject_label": "Google Cloud",
+    "dimension": "auditability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-google-cloud-appeal",
+    "subject_observable_id": "org-google-cloud",
+    "subject_label": "Google Cloud",
+    "dimension": "appeal",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-google-cloud-continuity",
+    "subject_observable_id": "org-google-cloud",
+    "subject_label": "Google Cloud",
+    "dimension": "continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-tesla-portability",
+    "subject_observable_id": "org-tesla",
+    "subject_label": "Tesla",
+    "dimension": "portability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-tesla-consent",
+    "subject_observable_id": "org-tesla",
+    "subject_label": "Tesla",
+    "dimension": "consent",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-tesla-context",
+    "subject_observable_id": "org-tesla",
+    "subject_label": "Tesla",
+    "dimension": "context",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-tesla-auditability",
+    "subject_observable_id": "org-tesla",
+    "subject_label": "Tesla",
+    "dimension": "auditability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-tesla-appeal",
+    "subject_observable_id": "org-tesla",
+    "subject_label": "Tesla",
+    "dimension": "appeal",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-tesla-continuity",
+    "subject_observable_id": "org-tesla",
+    "subject_label": "Tesla",
+    "dimension": "continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-hugging-face-portability",
+    "subject_observable_id": "org-hugging-face",
+    "subject_label": "Hugging Face",
+    "dimension": "portability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-hugging-face-consent",
+    "subject_observable_id": "org-hugging-face",
+    "subject_label": "Hugging Face",
+    "dimension": "consent",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-hugging-face-context",
+    "subject_observable_id": "org-hugging-face",
+    "subject_label": "Hugging Face",
+    "dimension": "context",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-hugging-face-auditability",
+    "subject_observable_id": "org-hugging-face",
+    "subject_label": "Hugging Face",
+    "dimension": "auditability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-hugging-face-appeal",
+    "subject_observable_id": "org-hugging-face",
+    "subject_label": "Hugging Face",
+    "dimension": "appeal",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-hugging-face-continuity",
+    "subject_observable_id": "org-hugging-face",
+    "subject_label": "Hugging Face",
+    "dimension": "continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-databricks-portability",
+    "subject_observable_id": "org-databricks",
+    "subject_label": "Databricks",
+    "dimension": "portability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-databricks-consent",
+    "subject_observable_id": "org-databricks",
+    "subject_label": "Databricks",
+    "dimension": "consent",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-databricks-context",
+    "subject_observable_id": "org-databricks",
+    "subject_label": "Databricks",
+    "dimension": "context",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-databricks-auditability",
+    "subject_observable_id": "org-databricks",
+    "subject_label": "Databricks",
+    "dimension": "auditability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-databricks-appeal",
+    "subject_observable_id": "org-databricks",
+    "subject_label": "Databricks",
+    "dimension": "appeal",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-databricks-continuity",
+    "subject_observable_id": "org-databricks",
+    "subject_label": "Databricks",
+    "dimension": "continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-technology-innovation-institute-portability",
+    "subject_observable_id": "org-technology-innovation-institute",
+    "subject_label": "Technology Innovation Institute",
+    "dimension": "portability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-technology-innovation-institute-consent",
+    "subject_observable_id": "org-technology-innovation-institute",
+    "subject_label": "Technology Innovation Institute",
+    "dimension": "consent",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-technology-innovation-institute-context",
+    "subject_observable_id": "org-technology-innovation-institute",
+    "subject_label": "Technology Innovation Institute",
+    "dimension": "context",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-technology-innovation-institute-auditability",
+    "subject_observable_id": "org-technology-innovation-institute",
+    "subject_label": "Technology Innovation Institute",
+    "dimension": "auditability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-technology-innovation-institute-appeal",
+    "subject_observable_id": "org-technology-innovation-institute",
+    "subject_label": "Technology Innovation Institute",
+    "dimension": "appeal",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-technology-innovation-institute-continuity",
+    "subject_observable_id": "org-technology-innovation-institute",
+    "subject_label": "Technology Innovation Institute",
+    "dimension": "continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-ai21-labs-portability",
+    "subject_observable_id": "org-ai21-labs",
+    "subject_label": "AI21 Labs",
+    "dimension": "portability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-ai21-labs-consent",
+    "subject_observable_id": "org-ai21-labs",
+    "subject_label": "AI21 Labs",
+    "dimension": "consent",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-ai21-labs-context",
+    "subject_observable_id": "org-ai21-labs",
+    "subject_label": "AI21 Labs",
+    "dimension": "context",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-ai21-labs-auditability",
+    "subject_observable_id": "org-ai21-labs",
+    "subject_label": "AI21 Labs",
+    "dimension": "auditability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-ai21-labs-appeal",
+    "subject_observable_id": "org-ai21-labs",
+    "subject_label": "AI21 Labs",
+    "dimension": "appeal",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-ai21-labs-continuity",
+    "subject_observable_id": "org-ai21-labs",
+    "subject_label": "AI21 Labs",
+    "dimension": "continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-alibaba-cloud-portability",
+    "subject_observable_id": "org-alibaba-cloud",
+    "subject_label": "Alibaba Cloud",
+    "dimension": "portability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-alibaba-cloud-consent",
+    "subject_observable_id": "org-alibaba-cloud",
+    "subject_label": "Alibaba Cloud",
+    "dimension": "consent",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-alibaba-cloud-context",
+    "subject_observable_id": "org-alibaba-cloud",
+    "subject_label": "Alibaba Cloud",
+    "dimension": "context",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-alibaba-cloud-auditability",
+    "subject_observable_id": "org-alibaba-cloud",
+    "subject_label": "Alibaba Cloud",
+    "dimension": "auditability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-alibaba-cloud-appeal",
+    "subject_observable_id": "org-alibaba-cloud",
+    "subject_label": "Alibaba Cloud",
+    "dimension": "appeal",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-alibaba-cloud-continuity",
+    "subject_observable_id": "org-alibaba-cloud",
+    "subject_label": "Alibaba Cloud",
+    "dimension": "continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-deepseek-portability",
+    "subject_observable_id": "org-deepseek",
+    "subject_label": "DeepSeek",
+    "dimension": "portability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-deepseek-consent",
+    "subject_observable_id": "org-deepseek",
+    "subject_label": "DeepSeek",
+    "dimension": "consent",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-deepseek-context",
+    "subject_observable_id": "org-deepseek",
+    "subject_label": "DeepSeek",
+    "dimension": "context",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-deepseek-auditability",
+    "subject_observable_id": "org-deepseek",
+    "subject_label": "DeepSeek",
+    "dimension": "auditability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-deepseek-appeal",
+    "subject_observable_id": "org-deepseek",
+    "subject_label": "DeepSeek",
+    "dimension": "appeal",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-deepseek-continuity",
+    "subject_observable_id": "org-deepseek",
+    "subject_label": "DeepSeek",
+    "dimension": "continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-stability-ai-portability",
+    "subject_observable_id": "org-stability-ai",
+    "subject_label": "Stability AI",
+    "dimension": "portability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-stability-ai-consent",
+    "subject_observable_id": "org-stability-ai",
+    "subject_label": "Stability AI",
+    "dimension": "consent",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-stability-ai-context",
+    "subject_observable_id": "org-stability-ai",
+    "subject_label": "Stability AI",
+    "dimension": "context",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-stability-ai-auditability",
+    "subject_observable_id": "org-stability-ai",
+    "subject_label": "Stability AI",
+    "dimension": "auditability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-stability-ai-appeal",
+    "subject_observable_id": "org-stability-ai",
+    "subject_label": "Stability AI",
+    "dimension": "appeal",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-stability-ai-continuity",
+    "subject_observable_id": "org-stability-ai",
+    "subject_label": "Stability AI",
+    "dimension": "continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-cerebras-portability",
+    "subject_observable_id": "org-cerebras",
+    "subject_label": "Cerebras",
+    "dimension": "portability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-cerebras-consent",
+    "subject_observable_id": "org-cerebras",
+    "subject_label": "Cerebras",
+    "dimension": "consent",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-cerebras-context",
+    "subject_observable_id": "org-cerebras",
+    "subject_label": "Cerebras",
+    "dimension": "context",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-cerebras-auditability",
+    "subject_observable_id": "org-cerebras",
+    "subject_label": "Cerebras",
+    "dimension": "auditability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-cerebras-appeal",
+    "subject_observable_id": "org-cerebras",
+    "subject_label": "Cerebras",
+    "dimension": "appeal",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-cerebras-continuity",
+    "subject_observable_id": "org-cerebras",
+    "subject_label": "Cerebras",
+    "dimension": "continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-groq-portability",
+    "subject_observable_id": "org-groq",
+    "subject_label": "Groq",
+    "dimension": "portability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-groq-consent",
+    "subject_observable_id": "org-groq",
+    "subject_label": "Groq",
+    "dimension": "consent",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-groq-context",
+    "subject_observable_id": "org-groq",
+    "subject_label": "Groq",
+    "dimension": "context",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-groq-auditability",
+    "subject_observable_id": "org-groq",
+    "subject_label": "Groq",
+    "dimension": "auditability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-groq-appeal",
+    "subject_observable_id": "org-groq",
+    "subject_label": "Groq",
+    "dimension": "appeal",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-groq-continuity",
+    "subject_observable_id": "org-groq",
+    "subject_label": "Groq",
+    "dimension": "continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-equinix-portability",
+    "subject_observable_id": "org-equinix",
+    "subject_label": "Equinix",
+    "dimension": "portability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-equinix-consent",
+    "subject_observable_id": "org-equinix",
+    "subject_label": "Equinix",
+    "dimension": "consent",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-equinix-context",
+    "subject_observable_id": "org-equinix",
+    "subject_label": "Equinix",
+    "dimension": "context",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-equinix-auditability",
+    "subject_observable_id": "org-equinix",
+    "subject_label": "Equinix",
+    "dimension": "auditability",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-equinix-appeal",
+    "subject_observable_id": "org-equinix",
+    "subject_label": "Equinix",
+    "dimension": "appeal",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "gap-equinix-continuity",
+    "subject_observable_id": "org-equinix",
+    "subject_label": "Equinix",
+    "dimension": "continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  }
+]

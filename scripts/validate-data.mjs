@@ -130,6 +130,31 @@ const sourceBackedClaimStatuses = new Set([
   "contested"
 ]);
 
+// Governance Gap Matrix: tracks whether an organization's public materials
+// recognize portability, consent, context, auditability, appeal, and
+// continuity. A real assessment (not "not_yet_assessed"/"out_of_scope")
+// must cite a claim in the Claim Evidence Registry.
+const governanceDimensions = new Set([
+  "portability",
+  "consent",
+  "context",
+  "auditability",
+  "appeal",
+  "continuity"
+]);
+const governanceGapStatuses = new Set([
+  "recognized",
+  "partially_recognized",
+  "not_recognized",
+  "not_yet_assessed",
+  "out_of_scope"
+]);
+const assessedGovernanceGapStatuses = new Set([
+  "recognized",
+  "partially_recognized",
+  "not_recognized"
+]);
+
 const reportedFrontierClaimSourceTypes = new Set([
   "investigative_reporting",
   "news_reporting",
@@ -735,9 +760,60 @@ function validateClaimEvidenceRecord(errors, record, sourceIds, observableIds) {
   }
 }
 
+function validateGovernanceGapRecord(errors, record, observableIds, claimIds) {
+  const label = record.id || "(missing id)";
+
+  pushMissing(errors, "Governance gap record", record, [
+    "id",
+    "subject_observable_id",
+    "subject_label",
+    "dimension",
+    "status",
+    "last_reviewed"
+  ]);
+
+  if (record.dimension !== undefined && !governanceDimensions.has(record.dimension)) {
+    errors.push(`Governance gap record ${label} has invalid dimension ${record.dimension}`);
+  }
+  if (record.status !== undefined && !governanceGapStatuses.has(record.status)) {
+    errors.push(`Governance gap record ${label} has invalid status ${record.status}`);
+  }
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(record.last_reviewed || "")) {
+    errors.push(`Governance gap record ${label} last_reviewed must be YYYY-MM-DD`);
+  }
+
+  if (
+    record.subject_observable_id !== undefined &&
+    !observableIds.has(record.subject_observable_id)
+  ) {
+    errors.push(
+      `Governance gap record ${label} references missing subject_observable_id ${record.subject_observable_id}`
+    );
+  }
+
+  if (record.claim_id !== undefined && record.claim_id !== null) {
+    if (!claimIds.has(record.claim_id)) {
+      errors.push(`Governance gap record ${label} references missing claim ${record.claim_id}`);
+    }
+  }
+
+  // A real assessment must cite a claim - this matrix never asserts a
+  // judgment about a real organization without a source-backed claim
+  // behind it. Only "not_yet_assessed" and "out_of_scope" may go unlinked.
+  if (
+    assessedGovernanceGapStatuses.has(record.status) &&
+    !record.claim_id
+  ) {
+    errors.push(
+      `Governance gap record ${label} has status ${record.status} but no claim_id`
+    );
+  }
+}
+
 const evidenceRecords = readJson("evidence-records.json");
 const frontierClaimVelocityRecords = readJson("frontier-claim-velocity.json");
 const claimEvidenceRegistry = readJson("claim-evidence-registry.json");
+const governanceGapMatrix = readJson("governance-gap-matrix.json");
 const observables = readJson("observables.json");
 const sources = readJson("sources.json");
 const observations = readJson("observations.json");
@@ -754,6 +830,9 @@ if (!Array.isArray(frontierClaimVelocityRecords)) {
 }
 if (!Array.isArray(claimEvidenceRegistry)) {
   errors.push("claim-evidence-registry.json must be an array");
+}
+if (!Array.isArray(governanceGapMatrix)) {
+  errors.push("governance-gap-matrix.json must be an array");
 }
 if (!Array.isArray(observables)) errors.push("observables.json must be an array");
 if (!Array.isArray(sources)) errors.push("sources.json must be an array");
@@ -775,6 +854,9 @@ const sourceById = new Map(sources.map((source) => [source.id, source]));
 const frontierClaimIds = new Set(
   frontierClaimVelocityRecords.map((record) => record.id)
 );
+const claimEvidenceIds = new Set(
+  claimEvidenceRegistry.map((record) => record.id)
+);
 
 duplicateValues(evidenceRecords, "id").forEach((id) =>
   errors.push(`Duplicate evidence record id ${id}`)
@@ -784,6 +866,9 @@ duplicateValues(frontierClaimVelocityRecords, "id").forEach((id) =>
 );
 duplicateValues(claimEvidenceRegistry, "id").forEach((id) =>
   errors.push(`Duplicate claim evidence record id ${id}`)
+);
+duplicateValues(governanceGapMatrix, "id").forEach((id) =>
+  errors.push(`Duplicate governance gap record id ${id}`)
 );
 duplicateValues(observables, "id").forEach((id) =>
   errors.push(`Duplicate observable id ${id}`)
@@ -840,6 +925,9 @@ frontierClaimVelocityRecords.forEach((record) => {
 claimEvidenceRegistry.forEach((record) =>
   validateClaimEvidenceRecord(errors, record, sourceIds, observableIds)
 );
+governanceGapMatrix.forEach((record) =>
+  validateGovernanceGapRecord(errors, record, observableIds, claimEvidenceIds)
+);
 
 const countsByType = observables.reduce((counts, observable) => {
   counts[observable.type] = (counts[observable.type] || 0) + 1;
@@ -869,7 +957,8 @@ console.log(
       reviewDecisions: reviewDecisions.length,
       evidenceRecords: evidenceRecords.length,
       frontierClaimVelocityRecords: frontierClaimVelocityRecords.length,
-      claimEvidenceRegistry: claimEvidenceRegistry.length
+      claimEvidenceRegistry: claimEvidenceRegistry.length,
+      governanceGapMatrix: governanceGapMatrix.length
     },
     null,
     2
