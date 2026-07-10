@@ -155,6 +155,31 @@ const assessedGovernanceGapStatuses = new Set([
   "not_recognized"
 ]);
 
+// Platform Portability Scorecards: same pattern as the Governance Gap
+// Matrix, applied to platforms (Model observables) instead of
+// organizations. A real assessment must cite a claim.
+const portabilityDimensions = new Set([
+  "raw_data_export",
+  "context_export",
+  "memory_visibility",
+  "deletion_controls",
+  "appeal_path",
+  "workflow_continuity",
+  "recovery"
+]);
+const portabilityStatuses = new Set([
+  "supported",
+  "partially_supported",
+  "not_supported",
+  "not_yet_assessed",
+  "out_of_scope"
+]);
+const assessedPortabilityStatuses = new Set([
+  "supported",
+  "partially_supported",
+  "not_supported"
+]);
+
 const reportedFrontierClaimSourceTypes = new Set([
   "investigative_reporting",
   "news_reporting",
@@ -810,10 +835,60 @@ function validateGovernanceGapRecord(errors, record, observableIds, claimIds) {
   }
 }
 
+function validatePortabilityRecord(errors, record, observableIds, claimIds) {
+  const label = record.id || "(missing id)";
+
+  pushMissing(errors, "Portability record", record, [
+    "id",
+    "subject_observable_id",
+    "subject_label",
+    "dimension",
+    "status",
+    "last_reviewed"
+  ]);
+
+  if (record.dimension !== undefined && !portabilityDimensions.has(record.dimension)) {
+    errors.push(`Portability record ${label} has invalid dimension ${record.dimension}`);
+  }
+  if (record.status !== undefined && !portabilityStatuses.has(record.status)) {
+    errors.push(`Portability record ${label} has invalid status ${record.status}`);
+  }
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(record.last_reviewed || "")) {
+    errors.push(`Portability record ${label} last_reviewed must be YYYY-MM-DD`);
+  }
+
+  if (
+    record.subject_observable_id !== undefined &&
+    !observableIds.has(record.subject_observable_id)
+  ) {
+    errors.push(
+      `Portability record ${label} references missing subject_observable_id ${record.subject_observable_id}`
+    );
+  }
+
+  if (record.claim_id !== undefined && record.claim_id !== null) {
+    if (!claimIds.has(record.claim_id)) {
+      errors.push(`Portability record ${label} references missing claim ${record.claim_id}`);
+    }
+  }
+
+  // A real assessment must cite a claim - this scorecard never asserts a
+  // judgment about a real platform without a source-backed claim behind
+  // it. Only "not_yet_assessed" and "out_of_scope" may go unlinked.
+  if (assessedPortabilityStatuses.has(record.status) && !record.claim_id) {
+    errors.push(
+      `Portability record ${label} has status ${record.status} but no claim_id`
+    );
+  }
+}
+
 const evidenceRecords = readJson("evidence-records.json");
 const frontierClaimVelocityRecords = readJson("frontier-claim-velocity.json");
 const claimEvidenceRegistry = readJson("claim-evidence-registry.json");
 const governanceGapMatrix = readJson("governance-gap-matrix.json");
+const platformPortabilityScorecards = readJson(
+  "platform-portability-scorecards.json"
+);
 const observables = readJson("observables.json");
 const sources = readJson("sources.json");
 const observations = readJson("observations.json");
@@ -833,6 +908,9 @@ if (!Array.isArray(claimEvidenceRegistry)) {
 }
 if (!Array.isArray(governanceGapMatrix)) {
   errors.push("governance-gap-matrix.json must be an array");
+}
+if (!Array.isArray(platformPortabilityScorecards)) {
+  errors.push("platform-portability-scorecards.json must be an array");
 }
 if (!Array.isArray(observables)) errors.push("observables.json must be an array");
 if (!Array.isArray(sources)) errors.push("sources.json must be an array");
@@ -869,6 +947,9 @@ duplicateValues(claimEvidenceRegistry, "id").forEach((id) =>
 );
 duplicateValues(governanceGapMatrix, "id").forEach((id) =>
   errors.push(`Duplicate governance gap record id ${id}`)
+);
+duplicateValues(platformPortabilityScorecards, "id").forEach((id) =>
+  errors.push(`Duplicate portability record id ${id}`)
 );
 duplicateValues(observables, "id").forEach((id) =>
   errors.push(`Duplicate observable id ${id}`)
@@ -928,6 +1009,9 @@ claimEvidenceRegistry.forEach((record) =>
 governanceGapMatrix.forEach((record) =>
   validateGovernanceGapRecord(errors, record, observableIds, claimEvidenceIds)
 );
+platformPortabilityScorecards.forEach((record) =>
+  validatePortabilityRecord(errors, record, observableIds, claimEvidenceIds)
+);
 
 const countsByType = observables.reduce((counts, observable) => {
   counts[observable.type] = (counts[observable.type] || 0) + 1;
@@ -958,7 +1042,8 @@ console.log(
       evidenceRecords: evidenceRecords.length,
       frontierClaimVelocityRecords: frontierClaimVelocityRecords.length,
       claimEvidenceRegistry: claimEvidenceRegistry.length,
-      governanceGapMatrix: governanceGapMatrix.length
+      governanceGapMatrix: governanceGapMatrix.length,
+      platformPortabilityScorecards: platformPortabilityScorecards.length
     },
     null,
     2
