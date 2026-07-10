@@ -202,6 +202,24 @@ const assessedHumanDecisionStatuses = new Set([
   "not_meaningful"
 ]);
 
+// Continuity Rupture Incident Reports: unlike the four matrices above,
+// this is a log, not a coverage grid - there is no "not_yet_assessed"
+// placeholder state. Every entry is a real, dated incident and must
+// carry a claim_id from the moment it exists.
+const continuityIncidentTypes = new Set([
+  "reset",
+  "migration",
+  "policy_change",
+  "account_lockout",
+  "workflow_loss"
+]);
+const continuityIncidentSeverities = new Set([
+  "minor",
+  "moderate",
+  "severe",
+  "unknown"
+]);
+
 const reportedFrontierClaimSourceTypes = new Set([
   "investigative_reporting",
   "news_reporting",
@@ -962,6 +980,65 @@ function validateHumanDecisionAuditRecord(errors, record, observableIds, claimId
   }
 }
 
+function validateContinuityRuptureIncident(errors, record, observableIds, claimIds) {
+  const label = record.id || "(missing id)";
+
+  pushMissing(errors, "Continuity rupture incident", record, [
+    "id",
+    "subject_observable_id",
+    "subject_label",
+    "incident_type",
+    "description",
+    "claim_id",
+    "reported_date",
+    "severity"
+  ]);
+
+  if (
+    record.incident_type !== undefined &&
+    !continuityIncidentTypes.has(record.incident_type)
+  ) {
+    errors.push(
+      `Continuity rupture incident ${label} has invalid incident_type ${record.incident_type}`
+    );
+  }
+  if (
+    record.severity !== undefined &&
+    !continuityIncidentSeverities.has(record.severity)
+  ) {
+    errors.push(`Continuity rupture incident ${label} has invalid severity ${record.severity}`);
+  }
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(record.reported_date || "")) {
+    errors.push(`Continuity rupture incident ${label} reported_date must be YYYY-MM-DD`);
+  }
+  if (
+    record.occurred_date !== undefined &&
+    record.occurred_date !== null &&
+    !/^\d{4}-\d{2}-\d{2}$/.test(record.occurred_date)
+  ) {
+    errors.push(`Continuity rupture incident ${label} occurred_date must be YYYY-MM-DD or null`);
+  }
+
+  if (
+    record.subject_observable_id !== undefined &&
+    !observableIds.has(record.subject_observable_id)
+  ) {
+    errors.push(
+      `Continuity rupture incident ${label} references missing subject_observable_id ${record.subject_observable_id}`
+    );
+  }
+
+  // Unlike the four matrices, there is no unassessed placeholder state
+  // here - every incident in this log is a real, dated claim about a
+  // real platform, so claim_id is unconditionally required, not gated
+  // behind a status check.
+  if (record.claim_id !== undefined && !claimIds.has(record.claim_id)) {
+    errors.push(
+      `Continuity rupture incident ${label} references missing claim ${record.claim_id}`
+    );
+  }
+}
+
 const evidenceRecords = readJson("evidence-records.json");
 const frontierClaimVelocityRecords = readJson("frontier-claim-velocity.json");
 const claimEvidenceRegistry = readJson("claim-evidence-registry.json");
@@ -970,6 +1047,7 @@ const platformPortabilityScorecards = readJson(
   "platform-portability-scorecards.json"
 );
 const humanDecisionAudits = readJson("human-decision-audits.json");
+const continuityRuptureIncidents = readJson("continuity-rupture-incidents.json");
 const observables = readJson("observables.json");
 const sources = readJson("sources.json");
 const observations = readJson("observations.json");
@@ -995,6 +1073,9 @@ if (!Array.isArray(platformPortabilityScorecards)) {
 }
 if (!Array.isArray(humanDecisionAudits)) {
   errors.push("human-decision-audits.json must be an array");
+}
+if (!Array.isArray(continuityRuptureIncidents)) {
+  errors.push("continuity-rupture-incidents.json must be an array");
 }
 if (!Array.isArray(observables)) errors.push("observables.json must be an array");
 if (!Array.isArray(sources)) errors.push("sources.json must be an array");
@@ -1037,6 +1118,9 @@ duplicateValues(platformPortabilityScorecards, "id").forEach((id) =>
 );
 duplicateValues(humanDecisionAudits, "id").forEach((id) =>
   errors.push(`Duplicate human decision audit record id ${id}`)
+);
+duplicateValues(continuityRuptureIncidents, "id").forEach((id) =>
+  errors.push(`Duplicate continuity rupture incident id ${id}`)
 );
 duplicateValues(observables, "id").forEach((id) =>
   errors.push(`Duplicate observable id ${id}`)
@@ -1102,6 +1186,9 @@ platformPortabilityScorecards.forEach((record) =>
 humanDecisionAudits.forEach((record) =>
   validateHumanDecisionAuditRecord(errors, record, observableIds, claimEvidenceIds)
 );
+continuityRuptureIncidents.forEach((record) =>
+  validateContinuityRuptureIncident(errors, record, observableIds, claimEvidenceIds)
+);
 
 const countsByType = observables.reduce((counts, observable) => {
   counts[observable.type] = (counts[observable.type] || 0) + 1;
@@ -1134,7 +1221,8 @@ console.log(
       claimEvidenceRegistry: claimEvidenceRegistry.length,
       governanceGapMatrix: governanceGapMatrix.length,
       platformPortabilityScorecards: platformPortabilityScorecards.length,
-      humanDecisionAudits: humanDecisionAudits.length
+      humanDecisionAudits: humanDecisionAudits.length,
+      continuityRuptureIncidents: continuityRuptureIncidents.length
     },
     null,
     2
