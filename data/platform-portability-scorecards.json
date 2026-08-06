@@ -1,0 +1,1752 @@
+[
+  {
+    "id": "portability-gpt-4o-raw-data-export",
+    "subject_observable_id": "model-gpt-4o",
+    "subject_label": "GPT-4o",
+    "dimension": "raw_data_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gpt-4o-context-export",
+    "subject_observable_id": "model-gpt-4o",
+    "subject_label": "GPT-4o",
+    "dimension": "context_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gpt-4o-memory-visibility",
+    "subject_observable_id": "model-gpt-4o",
+    "subject_label": "GPT-4o",
+    "dimension": "memory_visibility",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gpt-4o-deletion-controls",
+    "subject_observable_id": "model-gpt-4o",
+    "subject_label": "GPT-4o",
+    "dimension": "deletion_controls",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gpt-4o-appeal-path",
+    "subject_observable_id": "model-gpt-4o",
+    "subject_label": "GPT-4o",
+    "dimension": "appeal_path",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gpt-4o-workflow-continuity",
+    "subject_observable_id": "model-gpt-4o",
+    "subject_label": "GPT-4o",
+    "dimension": "workflow_continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gpt-4o-recovery",
+    "subject_observable_id": "model-gpt-4o",
+    "subject_label": "GPT-4o",
+    "dimension": "recovery",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gpt-4o-mini-raw-data-export",
+    "subject_observable_id": "model-gpt-4o-mini",
+    "subject_label": "GPT-4o mini",
+    "dimension": "raw_data_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gpt-4o-mini-context-export",
+    "subject_observable_id": "model-gpt-4o-mini",
+    "subject_label": "GPT-4o mini",
+    "dimension": "context_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gpt-4o-mini-memory-visibility",
+    "subject_observable_id": "model-gpt-4o-mini",
+    "subject_label": "GPT-4o mini",
+    "dimension": "memory_visibility",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gpt-4o-mini-deletion-controls",
+    "subject_observable_id": "model-gpt-4o-mini",
+    "subject_label": "GPT-4o mini",
+    "dimension": "deletion_controls",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gpt-4o-mini-appeal-path",
+    "subject_observable_id": "model-gpt-4o-mini",
+    "subject_label": "GPT-4o mini",
+    "dimension": "appeal_path",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gpt-4o-mini-workflow-continuity",
+    "subject_observable_id": "model-gpt-4o-mini",
+    "subject_label": "GPT-4o mini",
+    "dimension": "workflow_continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gpt-4o-mini-recovery",
+    "subject_observable_id": "model-gpt-4o-mini",
+    "subject_label": "GPT-4o mini",
+    "dimension": "recovery",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-o3-raw-data-export",
+    "subject_observable_id": "model-o3",
+    "subject_label": "o3",
+    "dimension": "raw_data_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-o3-context-export",
+    "subject_observable_id": "model-o3",
+    "subject_label": "o3",
+    "dimension": "context_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-o3-memory-visibility",
+    "subject_observable_id": "model-o3",
+    "subject_label": "o3",
+    "dimension": "memory_visibility",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-o3-deletion-controls",
+    "subject_observable_id": "model-o3",
+    "subject_label": "o3",
+    "dimension": "deletion_controls",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-o3-appeal-path",
+    "subject_observable_id": "model-o3",
+    "subject_label": "o3",
+    "dimension": "appeal_path",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-o3-workflow-continuity",
+    "subject_observable_id": "model-o3",
+    "subject_label": "o3",
+    "dimension": "workflow_continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-o3-recovery",
+    "subject_observable_id": "model-o3",
+    "subject_label": "o3",
+    "dimension": "recovery",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gpt-4-raw-data-export",
+    "subject_observable_id": "model-gpt-4",
+    "subject_label": "GPT-4",
+    "dimension": "raw_data_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gpt-4-context-export",
+    "subject_observable_id": "model-gpt-4",
+    "subject_label": "GPT-4",
+    "dimension": "context_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gpt-4-memory-visibility",
+    "subject_observable_id": "model-gpt-4",
+    "subject_label": "GPT-4",
+    "dimension": "memory_visibility",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gpt-4-deletion-controls",
+    "subject_observable_id": "model-gpt-4",
+    "subject_label": "GPT-4",
+    "dimension": "deletion_controls",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gpt-4-appeal-path",
+    "subject_observable_id": "model-gpt-4",
+    "subject_label": "GPT-4",
+    "dimension": "appeal_path",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gpt-4-workflow-continuity",
+    "subject_observable_id": "model-gpt-4",
+    "subject_label": "GPT-4",
+    "dimension": "workflow_continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gpt-4-recovery",
+    "subject_observable_id": "model-gpt-4",
+    "subject_label": "GPT-4",
+    "dimension": "recovery",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-dall-e-3-raw-data-export",
+    "subject_observable_id": "model-dall-e-3",
+    "subject_label": "DALL-E 3",
+    "dimension": "raw_data_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-dall-e-3-context-export",
+    "subject_observable_id": "model-dall-e-3",
+    "subject_label": "DALL-E 3",
+    "dimension": "context_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-dall-e-3-memory-visibility",
+    "subject_observable_id": "model-dall-e-3",
+    "subject_label": "DALL-E 3",
+    "dimension": "memory_visibility",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-dall-e-3-deletion-controls",
+    "subject_observable_id": "model-dall-e-3",
+    "subject_label": "DALL-E 3",
+    "dimension": "deletion_controls",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-dall-e-3-appeal-path",
+    "subject_observable_id": "model-dall-e-3",
+    "subject_label": "DALL-E 3",
+    "dimension": "appeal_path",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-dall-e-3-workflow-continuity",
+    "subject_observable_id": "model-dall-e-3",
+    "subject_label": "DALL-E 3",
+    "dimension": "workflow_continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-dall-e-3-recovery",
+    "subject_observable_id": "model-dall-e-3",
+    "subject_label": "DALL-E 3",
+    "dimension": "recovery",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-claude-3-5-sonnet-raw-data-export",
+    "subject_observable_id": "model-claude-3-5-sonnet",
+    "subject_label": "Claude 3.5 Sonnet",
+    "dimension": "raw_data_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-claude-3-5-sonnet-context-export",
+    "subject_observable_id": "model-claude-3-5-sonnet",
+    "subject_label": "Claude 3.5 Sonnet",
+    "dimension": "context_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-claude-3-5-sonnet-memory-visibility",
+    "subject_observable_id": "model-claude-3-5-sonnet",
+    "subject_label": "Claude 3.5 Sonnet",
+    "dimension": "memory_visibility",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-claude-3-5-sonnet-deletion-controls",
+    "subject_observable_id": "model-claude-3-5-sonnet",
+    "subject_label": "Claude 3.5 Sonnet",
+    "dimension": "deletion_controls",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-claude-3-5-sonnet-appeal-path",
+    "subject_observable_id": "model-claude-3-5-sonnet",
+    "subject_label": "Claude 3.5 Sonnet",
+    "dimension": "appeal_path",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-claude-3-5-sonnet-workflow-continuity",
+    "subject_observable_id": "model-claude-3-5-sonnet",
+    "subject_label": "Claude 3.5 Sonnet",
+    "dimension": "workflow_continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-claude-3-5-sonnet-recovery",
+    "subject_observable_id": "model-claude-3-5-sonnet",
+    "subject_label": "Claude 3.5 Sonnet",
+    "dimension": "recovery",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-claude-3-opus-raw-data-export",
+    "subject_observable_id": "model-claude-3-opus",
+    "subject_label": "Claude 3 Opus",
+    "dimension": "raw_data_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-claude-3-opus-context-export",
+    "subject_observable_id": "model-claude-3-opus",
+    "subject_label": "Claude 3 Opus",
+    "dimension": "context_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-claude-3-opus-memory-visibility",
+    "subject_observable_id": "model-claude-3-opus",
+    "subject_label": "Claude 3 Opus",
+    "dimension": "memory_visibility",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-claude-3-opus-deletion-controls",
+    "subject_observable_id": "model-claude-3-opus",
+    "subject_label": "Claude 3 Opus",
+    "dimension": "deletion_controls",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-claude-3-opus-appeal-path",
+    "subject_observable_id": "model-claude-3-opus",
+    "subject_label": "Claude 3 Opus",
+    "dimension": "appeal_path",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-claude-3-opus-workflow-continuity",
+    "subject_observable_id": "model-claude-3-opus",
+    "subject_label": "Claude 3 Opus",
+    "dimension": "workflow_continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-claude-3-opus-recovery",
+    "subject_observable_id": "model-claude-3-opus",
+    "subject_label": "Claude 3 Opus",
+    "dimension": "recovery",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gemini-1-5-pro-raw-data-export",
+    "subject_observable_id": "model-gemini-1-5-pro",
+    "subject_label": "Gemini 1.5 Pro",
+    "dimension": "raw_data_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gemini-1-5-pro-context-export",
+    "subject_observable_id": "model-gemini-1-5-pro",
+    "subject_label": "Gemini 1.5 Pro",
+    "dimension": "context_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gemini-1-5-pro-memory-visibility",
+    "subject_observable_id": "model-gemini-1-5-pro",
+    "subject_label": "Gemini 1.5 Pro",
+    "dimension": "memory_visibility",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gemini-1-5-pro-deletion-controls",
+    "subject_observable_id": "model-gemini-1-5-pro",
+    "subject_label": "Gemini 1.5 Pro",
+    "dimension": "deletion_controls",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gemini-1-5-pro-appeal-path",
+    "subject_observable_id": "model-gemini-1-5-pro",
+    "subject_label": "Gemini 1.5 Pro",
+    "dimension": "appeal_path",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gemini-1-5-pro-workflow-continuity",
+    "subject_observable_id": "model-gemini-1-5-pro",
+    "subject_label": "Gemini 1.5 Pro",
+    "dimension": "workflow_continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gemini-1-5-pro-recovery",
+    "subject_observable_id": "model-gemini-1-5-pro",
+    "subject_label": "Gemini 1.5 Pro",
+    "dimension": "recovery",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gemma-2-raw-data-export",
+    "subject_observable_id": "model-gemma-2",
+    "subject_label": "Gemma 2",
+    "dimension": "raw_data_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gemma-2-context-export",
+    "subject_observable_id": "model-gemma-2",
+    "subject_label": "Gemma 2",
+    "dimension": "context_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gemma-2-memory-visibility",
+    "subject_observable_id": "model-gemma-2",
+    "subject_label": "Gemma 2",
+    "dimension": "memory_visibility",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gemma-2-deletion-controls",
+    "subject_observable_id": "model-gemma-2",
+    "subject_label": "Gemma 2",
+    "dimension": "deletion_controls",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gemma-2-appeal-path",
+    "subject_observable_id": "model-gemma-2",
+    "subject_label": "Gemma 2",
+    "dimension": "appeal_path",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gemma-2-workflow-continuity",
+    "subject_observable_id": "model-gemma-2",
+    "subject_label": "Gemma 2",
+    "dimension": "workflow_continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-gemma-2-recovery",
+    "subject_observable_id": "model-gemma-2",
+    "subject_label": "Gemma 2",
+    "dimension": "recovery",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-llama-3-1-405b-raw-data-export",
+    "subject_observable_id": "model-llama-3-1-405b",
+    "subject_label": "Llama 3.1 405B",
+    "dimension": "raw_data_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-llama-3-1-405b-context-export",
+    "subject_observable_id": "model-llama-3-1-405b",
+    "subject_label": "Llama 3.1 405B",
+    "dimension": "context_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-llama-3-1-405b-memory-visibility",
+    "subject_observable_id": "model-llama-3-1-405b",
+    "subject_label": "Llama 3.1 405B",
+    "dimension": "memory_visibility",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-llama-3-1-405b-deletion-controls",
+    "subject_observable_id": "model-llama-3-1-405b",
+    "subject_label": "Llama 3.1 405B",
+    "dimension": "deletion_controls",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-llama-3-1-405b-appeal-path",
+    "subject_observable_id": "model-llama-3-1-405b",
+    "subject_label": "Llama 3.1 405B",
+    "dimension": "appeal_path",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-llama-3-1-405b-workflow-continuity",
+    "subject_observable_id": "model-llama-3-1-405b",
+    "subject_label": "Llama 3.1 405B",
+    "dimension": "workflow_continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-llama-3-1-405b-recovery",
+    "subject_observable_id": "model-llama-3-1-405b",
+    "subject_label": "Llama 3.1 405B",
+    "dimension": "recovery",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-llama-3-70b-raw-data-export",
+    "subject_observable_id": "model-llama-3-70b",
+    "subject_label": "Llama 3 70B",
+    "dimension": "raw_data_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-llama-3-70b-context-export",
+    "subject_observable_id": "model-llama-3-70b",
+    "subject_label": "Llama 3 70B",
+    "dimension": "context_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-llama-3-70b-memory-visibility",
+    "subject_observable_id": "model-llama-3-70b",
+    "subject_label": "Llama 3 70B",
+    "dimension": "memory_visibility",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-llama-3-70b-deletion-controls",
+    "subject_observable_id": "model-llama-3-70b",
+    "subject_label": "Llama 3 70B",
+    "dimension": "deletion_controls",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-llama-3-70b-appeal-path",
+    "subject_observable_id": "model-llama-3-70b",
+    "subject_label": "Llama 3 70B",
+    "dimension": "appeal_path",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-llama-3-70b-workflow-continuity",
+    "subject_observable_id": "model-llama-3-70b",
+    "subject_label": "Llama 3 70B",
+    "dimension": "workflow_continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-llama-3-70b-recovery",
+    "subject_observable_id": "model-llama-3-70b",
+    "subject_label": "Llama 3 70B",
+    "dimension": "recovery",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-grok-2-raw-data-export",
+    "subject_observable_id": "model-grok-2",
+    "subject_label": "Grok-2",
+    "dimension": "raw_data_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-grok-2-context-export",
+    "subject_observable_id": "model-grok-2",
+    "subject_label": "Grok-2",
+    "dimension": "context_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-grok-2-memory-visibility",
+    "subject_observable_id": "model-grok-2",
+    "subject_label": "Grok-2",
+    "dimension": "memory_visibility",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-grok-2-deletion-controls",
+    "subject_observable_id": "model-grok-2",
+    "subject_label": "Grok-2",
+    "dimension": "deletion_controls",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-grok-2-appeal-path",
+    "subject_observable_id": "model-grok-2",
+    "subject_label": "Grok-2",
+    "dimension": "appeal_path",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-grok-2-workflow-continuity",
+    "subject_observable_id": "model-grok-2",
+    "subject_label": "Grok-2",
+    "dimension": "workflow_continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-grok-2-recovery",
+    "subject_observable_id": "model-grok-2",
+    "subject_label": "Grok-2",
+    "dimension": "recovery",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-mistral-large-raw-data-export",
+    "subject_observable_id": "model-mistral-large",
+    "subject_label": "Mistral Large",
+    "dimension": "raw_data_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-mistral-large-context-export",
+    "subject_observable_id": "model-mistral-large",
+    "subject_label": "Mistral Large",
+    "dimension": "context_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-mistral-large-memory-visibility",
+    "subject_observable_id": "model-mistral-large",
+    "subject_label": "Mistral Large",
+    "dimension": "memory_visibility",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-mistral-large-deletion-controls",
+    "subject_observable_id": "model-mistral-large",
+    "subject_label": "Mistral Large",
+    "dimension": "deletion_controls",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-mistral-large-appeal-path",
+    "subject_observable_id": "model-mistral-large",
+    "subject_label": "Mistral Large",
+    "dimension": "appeal_path",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-mistral-large-workflow-continuity",
+    "subject_observable_id": "model-mistral-large",
+    "subject_label": "Mistral Large",
+    "dimension": "workflow_continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-mistral-large-recovery",
+    "subject_observable_id": "model-mistral-large",
+    "subject_label": "Mistral Large",
+    "dimension": "recovery",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-mixtral-8x7b-raw-data-export",
+    "subject_observable_id": "model-mixtral-8x7b",
+    "subject_label": "Mixtral 8x7B",
+    "dimension": "raw_data_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-mixtral-8x7b-context-export",
+    "subject_observable_id": "model-mixtral-8x7b",
+    "subject_label": "Mixtral 8x7B",
+    "dimension": "context_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-mixtral-8x7b-memory-visibility",
+    "subject_observable_id": "model-mixtral-8x7b",
+    "subject_label": "Mixtral 8x7B",
+    "dimension": "memory_visibility",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-mixtral-8x7b-deletion-controls",
+    "subject_observable_id": "model-mixtral-8x7b",
+    "subject_label": "Mixtral 8x7B",
+    "dimension": "deletion_controls",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-mixtral-8x7b-appeal-path",
+    "subject_observable_id": "model-mixtral-8x7b",
+    "subject_label": "Mixtral 8x7B",
+    "dimension": "appeal_path",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-mixtral-8x7b-workflow-continuity",
+    "subject_observable_id": "model-mixtral-8x7b",
+    "subject_label": "Mixtral 8x7B",
+    "dimension": "workflow_continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-mixtral-8x7b-recovery",
+    "subject_observable_id": "model-mixtral-8x7b",
+    "subject_label": "Mixtral 8x7B",
+    "dimension": "recovery",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-command-r-plus-raw-data-export",
+    "subject_observable_id": "model-command-r-plus",
+    "subject_label": "Command R+",
+    "dimension": "raw_data_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-command-r-plus-context-export",
+    "subject_observable_id": "model-command-r-plus",
+    "subject_label": "Command R+",
+    "dimension": "context_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-command-r-plus-memory-visibility",
+    "subject_observable_id": "model-command-r-plus",
+    "subject_label": "Command R+",
+    "dimension": "memory_visibility",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-command-r-plus-deletion-controls",
+    "subject_observable_id": "model-command-r-plus",
+    "subject_label": "Command R+",
+    "dimension": "deletion_controls",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-command-r-plus-appeal-path",
+    "subject_observable_id": "model-command-r-plus",
+    "subject_label": "Command R+",
+    "dimension": "appeal_path",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-command-r-plus-workflow-continuity",
+    "subject_observable_id": "model-command-r-plus",
+    "subject_label": "Command R+",
+    "dimension": "workflow_continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-command-r-plus-recovery",
+    "subject_observable_id": "model-command-r-plus",
+    "subject_label": "Command R+",
+    "dimension": "recovery",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-perplexity-sonar-raw-data-export",
+    "subject_observable_id": "model-perplexity-sonar",
+    "subject_label": "Perplexity Sonar",
+    "dimension": "raw_data_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-perplexity-sonar-context-export",
+    "subject_observable_id": "model-perplexity-sonar",
+    "subject_label": "Perplexity Sonar",
+    "dimension": "context_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-perplexity-sonar-memory-visibility",
+    "subject_observable_id": "model-perplexity-sonar",
+    "subject_label": "Perplexity Sonar",
+    "dimension": "memory_visibility",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-perplexity-sonar-deletion-controls",
+    "subject_observable_id": "model-perplexity-sonar",
+    "subject_label": "Perplexity Sonar",
+    "dimension": "deletion_controls",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-perplexity-sonar-appeal-path",
+    "subject_observable_id": "model-perplexity-sonar",
+    "subject_label": "Perplexity Sonar",
+    "dimension": "appeal_path",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-perplexity-sonar-workflow-continuity",
+    "subject_observable_id": "model-perplexity-sonar",
+    "subject_label": "Perplexity Sonar",
+    "dimension": "workflow_continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-perplexity-sonar-recovery",
+    "subject_observable_id": "model-perplexity-sonar",
+    "subject_label": "Perplexity Sonar",
+    "dimension": "recovery",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-amazon-nova-raw-data-export",
+    "subject_observable_id": "model-amazon-nova",
+    "subject_label": "Amazon Nova",
+    "dimension": "raw_data_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-amazon-nova-context-export",
+    "subject_observable_id": "model-amazon-nova",
+    "subject_label": "Amazon Nova",
+    "dimension": "context_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-amazon-nova-memory-visibility",
+    "subject_observable_id": "model-amazon-nova",
+    "subject_label": "Amazon Nova",
+    "dimension": "memory_visibility",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-amazon-nova-deletion-controls",
+    "subject_observable_id": "model-amazon-nova",
+    "subject_label": "Amazon Nova",
+    "dimension": "deletion_controls",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-amazon-nova-appeal-path",
+    "subject_observable_id": "model-amazon-nova",
+    "subject_label": "Amazon Nova",
+    "dimension": "appeal_path",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-amazon-nova-workflow-continuity",
+    "subject_observable_id": "model-amazon-nova",
+    "subject_label": "Amazon Nova",
+    "dimension": "workflow_continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-amazon-nova-recovery",
+    "subject_observable_id": "model-amazon-nova",
+    "subject_label": "Amazon Nova",
+    "dimension": "recovery",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-falcon-180b-raw-data-export",
+    "subject_observable_id": "model-falcon-180b",
+    "subject_label": "Falcon 180B",
+    "dimension": "raw_data_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-falcon-180b-context-export",
+    "subject_observable_id": "model-falcon-180b",
+    "subject_label": "Falcon 180B",
+    "dimension": "context_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-falcon-180b-memory-visibility",
+    "subject_observable_id": "model-falcon-180b",
+    "subject_label": "Falcon 180B",
+    "dimension": "memory_visibility",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-falcon-180b-deletion-controls",
+    "subject_observable_id": "model-falcon-180b",
+    "subject_label": "Falcon 180B",
+    "dimension": "deletion_controls",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-falcon-180b-appeal-path",
+    "subject_observable_id": "model-falcon-180b",
+    "subject_label": "Falcon 180B",
+    "dimension": "appeal_path",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-falcon-180b-workflow-continuity",
+    "subject_observable_id": "model-falcon-180b",
+    "subject_label": "Falcon 180B",
+    "dimension": "workflow_continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-falcon-180b-recovery",
+    "subject_observable_id": "model-falcon-180b",
+    "subject_label": "Falcon 180B",
+    "dimension": "recovery",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-jamba-1-5-large-raw-data-export",
+    "subject_observable_id": "model-jamba-1-5-large",
+    "subject_label": "Jamba 1.5 Large",
+    "dimension": "raw_data_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-jamba-1-5-large-context-export",
+    "subject_observable_id": "model-jamba-1-5-large",
+    "subject_label": "Jamba 1.5 Large",
+    "dimension": "context_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-jamba-1-5-large-memory-visibility",
+    "subject_observable_id": "model-jamba-1-5-large",
+    "subject_label": "Jamba 1.5 Large",
+    "dimension": "memory_visibility",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-jamba-1-5-large-deletion-controls",
+    "subject_observable_id": "model-jamba-1-5-large",
+    "subject_label": "Jamba 1.5 Large",
+    "dimension": "deletion_controls",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-jamba-1-5-large-appeal-path",
+    "subject_observable_id": "model-jamba-1-5-large",
+    "subject_label": "Jamba 1.5 Large",
+    "dimension": "appeal_path",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-jamba-1-5-large-workflow-continuity",
+    "subject_observable_id": "model-jamba-1-5-large",
+    "subject_label": "Jamba 1.5 Large",
+    "dimension": "workflow_continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-jamba-1-5-large-recovery",
+    "subject_observable_id": "model-jamba-1-5-large",
+    "subject_label": "Jamba 1.5 Large",
+    "dimension": "recovery",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-qwen-2-5-raw-data-export",
+    "subject_observable_id": "model-qwen-2-5",
+    "subject_label": "Qwen2.5",
+    "dimension": "raw_data_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-qwen-2-5-context-export",
+    "subject_observable_id": "model-qwen-2-5",
+    "subject_label": "Qwen2.5",
+    "dimension": "context_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-qwen-2-5-memory-visibility",
+    "subject_observable_id": "model-qwen-2-5",
+    "subject_label": "Qwen2.5",
+    "dimension": "memory_visibility",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-qwen-2-5-deletion-controls",
+    "subject_observable_id": "model-qwen-2-5",
+    "subject_label": "Qwen2.5",
+    "dimension": "deletion_controls",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-qwen-2-5-appeal-path",
+    "subject_observable_id": "model-qwen-2-5",
+    "subject_label": "Qwen2.5",
+    "dimension": "appeal_path",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-qwen-2-5-workflow-continuity",
+    "subject_observable_id": "model-qwen-2-5",
+    "subject_label": "Qwen2.5",
+    "dimension": "workflow_continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-qwen-2-5-recovery",
+    "subject_observable_id": "model-qwen-2-5",
+    "subject_label": "Qwen2.5",
+    "dimension": "recovery",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-deepseek-v3-raw-data-export",
+    "subject_observable_id": "model-deepseek-v3",
+    "subject_label": "DeepSeek-V3",
+    "dimension": "raw_data_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-deepseek-v3-context-export",
+    "subject_observable_id": "model-deepseek-v3",
+    "subject_label": "DeepSeek-V3",
+    "dimension": "context_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-deepseek-v3-memory-visibility",
+    "subject_observable_id": "model-deepseek-v3",
+    "subject_label": "DeepSeek-V3",
+    "dimension": "memory_visibility",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-deepseek-v3-deletion-controls",
+    "subject_observable_id": "model-deepseek-v3",
+    "subject_label": "DeepSeek-V3",
+    "dimension": "deletion_controls",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-deepseek-v3-appeal-path",
+    "subject_observable_id": "model-deepseek-v3",
+    "subject_label": "DeepSeek-V3",
+    "dimension": "appeal_path",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-deepseek-v3-workflow-continuity",
+    "subject_observable_id": "model-deepseek-v3",
+    "subject_label": "DeepSeek-V3",
+    "dimension": "workflow_continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-deepseek-v3-recovery",
+    "subject_observable_id": "model-deepseek-v3",
+    "subject_label": "DeepSeek-V3",
+    "dimension": "recovery",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-phi-3-raw-data-export",
+    "subject_observable_id": "model-phi-3",
+    "subject_label": "Phi-3",
+    "dimension": "raw_data_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-phi-3-context-export",
+    "subject_observable_id": "model-phi-3",
+    "subject_label": "Phi-3",
+    "dimension": "context_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-phi-3-memory-visibility",
+    "subject_observable_id": "model-phi-3",
+    "subject_label": "Phi-3",
+    "dimension": "memory_visibility",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-phi-3-deletion-controls",
+    "subject_observable_id": "model-phi-3",
+    "subject_label": "Phi-3",
+    "dimension": "deletion_controls",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-phi-3-appeal-path",
+    "subject_observable_id": "model-phi-3",
+    "subject_label": "Phi-3",
+    "dimension": "appeal_path",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-phi-3-workflow-continuity",
+    "subject_observable_id": "model-phi-3",
+    "subject_label": "Phi-3",
+    "dimension": "workflow_continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-phi-3-recovery",
+    "subject_observable_id": "model-phi-3",
+    "subject_label": "Phi-3",
+    "dimension": "recovery",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-dbrx-raw-data-export",
+    "subject_observable_id": "model-dbrx",
+    "subject_label": "DBRX",
+    "dimension": "raw_data_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-dbrx-context-export",
+    "subject_observable_id": "model-dbrx",
+    "subject_label": "DBRX",
+    "dimension": "context_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-dbrx-memory-visibility",
+    "subject_observable_id": "model-dbrx",
+    "subject_label": "DBRX",
+    "dimension": "memory_visibility",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-dbrx-deletion-controls",
+    "subject_observable_id": "model-dbrx",
+    "subject_label": "DBRX",
+    "dimension": "deletion_controls",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-dbrx-appeal-path",
+    "subject_observable_id": "model-dbrx",
+    "subject_label": "DBRX",
+    "dimension": "appeal_path",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-dbrx-workflow-continuity",
+    "subject_observable_id": "model-dbrx",
+    "subject_label": "DBRX",
+    "dimension": "workflow_continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-dbrx-recovery",
+    "subject_observable_id": "model-dbrx",
+    "subject_label": "DBRX",
+    "dimension": "recovery",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-nemotron-raw-data-export",
+    "subject_observable_id": "model-nemotron",
+    "subject_label": "Nemotron",
+    "dimension": "raw_data_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-nemotron-context-export",
+    "subject_observable_id": "model-nemotron",
+    "subject_label": "Nemotron",
+    "dimension": "context_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-nemotron-memory-visibility",
+    "subject_observable_id": "model-nemotron",
+    "subject_label": "Nemotron",
+    "dimension": "memory_visibility",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-nemotron-deletion-controls",
+    "subject_observable_id": "model-nemotron",
+    "subject_label": "Nemotron",
+    "dimension": "deletion_controls",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-nemotron-appeal-path",
+    "subject_observable_id": "model-nemotron",
+    "subject_label": "Nemotron",
+    "dimension": "appeal_path",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-nemotron-workflow-continuity",
+    "subject_observable_id": "model-nemotron",
+    "subject_label": "Nemotron",
+    "dimension": "workflow_continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-nemotron-recovery",
+    "subject_observable_id": "model-nemotron",
+    "subject_label": "Nemotron",
+    "dimension": "recovery",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-stable-diffusion-3-raw-data-export",
+    "subject_observable_id": "model-stable-diffusion-3",
+    "subject_label": "Stable Diffusion 3",
+    "dimension": "raw_data_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-stable-diffusion-3-context-export",
+    "subject_observable_id": "model-stable-diffusion-3",
+    "subject_label": "Stable Diffusion 3",
+    "dimension": "context_export",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-stable-diffusion-3-memory-visibility",
+    "subject_observable_id": "model-stable-diffusion-3",
+    "subject_label": "Stable Diffusion 3",
+    "dimension": "memory_visibility",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-stable-diffusion-3-deletion-controls",
+    "subject_observable_id": "model-stable-diffusion-3",
+    "subject_label": "Stable Diffusion 3",
+    "dimension": "deletion_controls",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-stable-diffusion-3-appeal-path",
+    "subject_observable_id": "model-stable-diffusion-3",
+    "subject_label": "Stable Diffusion 3",
+    "dimension": "appeal_path",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-stable-diffusion-3-workflow-continuity",
+    "subject_observable_id": "model-stable-diffusion-3",
+    "subject_label": "Stable Diffusion 3",
+    "dimension": "workflow_continuity",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  },
+  {
+    "id": "portability-stable-diffusion-3-recovery",
+    "subject_observable_id": "model-stable-diffusion-3",
+    "subject_label": "Stable Diffusion 3",
+    "dimension": "recovery",
+    "status": "not_yet_assessed",
+    "claim_id": null,
+    "notes": "",
+    "last_reviewed": "2026-06-12"
+  }
+]

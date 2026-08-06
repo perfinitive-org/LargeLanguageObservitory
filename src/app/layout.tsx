@@ -1,22 +1,25 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { contactEmail, contactMailto } from "@/lib/contact";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "AI Native Observatory",
+  title: {
+    default: "LLM Infrastructure Observatory",
+    template: "%s | LLM Infrastructure Observatory"
+  },
   description:
-    "An evidence-backed AI infrastructure observatory for source-backed AI ecosystem records."
+    "An independent public evidence surface for the infrastructure behind large language models and frontier AI systems."
 };
 
 const navItems = [
   { href: "/", label: "Home" },
-  { href: "/registry", label: "Registry" },
-  { href: "/latest", label: "Latest" },
-  { href: "/sample-brief", label: "Sample Brief" },
-  { href: "/about", label: "Method" },
-  { href: "/submit-official-sources", label: "Submit Sources" },
-  { href: "/custom-research", label: "Research" }
+  { href: "/methodology", label: "Methodology" },
+  { href: "/directory", label: "Directory" },
+  { href: "/claims", label: "Claims" },
+  { href: "/sources", label: "Sources" },
+  { href: "/reports", label: "Reports" },
+  { href: "/glossary", label: "Glossary" },
+  { href: "/changelog", label: "Changelog" }
 ];
 
 export default function RootLayout({
@@ -27,23 +30,26 @@ export default function RootLayout({
   return (
     <html lang="en" data-scroll-behavior="smooth">
       <body className="font-sans antialiased">
-        <div className="min-h-screen">
-          <header className="border-b border-[#182033] bg-[#03050d]">
-            <div className="mx-auto flex max-w-7xl flex-col gap-4 px-5 py-5 sm:flex-row sm:items-center sm:justify-between lg:px-8">
-              <Link href="/" className="group inline-flex flex-col">
-                <span className="text-xs font-semibold uppercase text-[#8fb7cf]">
-                  AI Native Observatory
+        <div className="flex min-h-screen flex-col bg-[#f3f1eb] text-[#202622]">
+          <header className="border-b border-[#c9c6bb] bg-[#f7f6f1]">
+            <div className="mx-auto flex max-w-7xl flex-col gap-5 px-5 py-5 lg:flex-row lg:items-center lg:justify-between lg:px-8">
+              <Link href="/" className="inline-flex max-w-sm flex-col">
+                <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[#315a52]">
+                  LLM Infrastructure Observatory
                 </span>
-                <span className="mt-1 text-sm text-slate-300">
-                  Evidence-backed AI infrastructure observatory
+                <span className="mt-1 text-sm text-[#5e655f]">
+                  Independent public evidence surface
                 </span>
               </Link>
-              <nav className="flex flex-wrap gap-2 text-sm font-medium text-slate-300">
+              <nav
+                aria-label="Primary navigation"
+                className="flex flex-wrap gap-x-1 gap-y-2 text-sm font-medium text-[#424a44]"
+              >
                 {navItems.map((item) => (
                   <Link
                     key={item.href}
                     href={item.href}
-                    className="rounded-md border border-transparent px-3 py-2 transition hover:border-white/15 hover:bg-white/[0.06] hover:text-white"
+                    className="border-b border-transparent px-2 py-1.5 transition hover:border-[#315a52] hover:text-[#1c3f38]"
                   >
                     {item.label}
                   </Link>
@@ -51,47 +57,25 @@ export default function RootLayout({
               </nav>
             </div>
           </header>
-          <main>{children}</main>
-          <footer className="border-t border-[#182033] bg-[#03050d]">
-            <div className="mx-auto flex max-w-7xl flex-col gap-4 px-5 py-8 text-sm text-slate-400 lg:px-8">
-              <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-                <p>AI Native Observatory MVP</p>
-                <p>Static JSON data. No database dependency.</p>
+          <main className="flex-1">{children}</main>
+          <footer className="border-t border-[#c9c6bb] bg-[#e9e7df]">
+            <div className="mx-auto flex max-w-7xl flex-col gap-3 px-5 py-8 text-sm text-[#5e655f] sm:flex-row sm:items-end sm:justify-between lg:px-8">
+              <div>
+                <p className="font-semibold text-[#29302b]">
+                  LLM Infrastructure Observatory
+                </p>
+                <p className="mt-1 max-w-xl leading-6">
+                  Public records will distinguish evidence, uncertainty, and
+                  review status. The current release is a static scaffold.
+                </p>
               </div>
-              <div className="flex flex-wrap gap-3 text-xs font-semibold uppercase tracking-normal">
-                <Link href="/sponsor" className="text-[#8fb7cf] hover:text-white">
-                  Sponsor
+              <div className="flex gap-4 text-xs font-semibold uppercase tracking-[0.12em] text-[#315a52]">
+                <Link href="/methodology" className="hover:text-[#1c3f38]">
+                  Methodology
                 </Link>
-                <Link
-                  href="/submit-official-sources"
-                  className="text-[#8fb7cf] hover:text-white"
-                >
-                  Submit Sources
+                <Link href="/changelog" className="hover:text-[#1c3f38]">
+                  Changelog
                 </Link>
-                <Link
-                  href="/custom-research"
-                  className="text-[#8fb7cf] hover:text-white"
-                >
-                  Custom Research
-                </Link>
-                <Link
-                  href="/transparency"
-                  className="text-[#8fb7cf] hover:text-white"
-                >
-                  Transparency
-                </Link>
-                <Link
-                  href="/method/evidence-manifold"
-                  className="text-[#8fb7cf] hover:text-white"
-                >
-                  Evidence Manifold
-                </Link>
-                <Link href="/press" className="text-[#8fb7cf] hover:text-white">
-                  Press
-                </Link>
-                <a href={contactMailto} className="text-[#8fb7cf] hover:text-white">
-                  {contactEmail}
-                </a>
               </div>
             </div>
           </footer>

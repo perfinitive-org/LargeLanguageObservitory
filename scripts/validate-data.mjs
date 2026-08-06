@@ -110,6 +110,116 @@ const nonPlottableNormalizationStatuses = new Set([
   "not_comparable",
   "quarantined"
 ]);
+
+// Claim Evidence Registry: the backbone object for the measurement and
+// reporting layer. Distinct from `observations` - a claim can carry zero
+// or more sources and is not tied to any single domain's observable model.
+const claimStatuses = new Set([
+  "supported",
+  "partially_supported",
+  "needs_review",
+  "contested",
+  "unsupported",
+  "out_of_scope",
+  "protected"
+]);
+const claimUncertaintyLevels = new Set(["low", "medium", "high"]);
+const sourceBackedClaimStatuses = new Set([
+  "supported",
+  "partially_supported",
+  "contested"
+]);
+
+// Governance Gap Matrix: tracks whether an organization's public materials
+// recognize portability, consent, context, auditability, appeal, and
+// continuity. A real assessment (not "not_yet_assessed"/"out_of_scope")
+// must cite a claim in the Claim Evidence Registry.
+const governanceDimensions = new Set([
+  "portability",
+  "consent",
+  "context",
+  "auditability",
+  "appeal",
+  "continuity"
+]);
+const governanceGapStatuses = new Set([
+  "recognized",
+  "partially_recognized",
+  "not_recognized",
+  "not_yet_assessed",
+  "out_of_scope"
+]);
+const assessedGovernanceGapStatuses = new Set([
+  "recognized",
+  "partially_recognized",
+  "not_recognized"
+]);
+
+// Platform Portability Scorecards: same pattern as the Governance Gap
+// Matrix, applied to platforms (Model observables) instead of
+// organizations. A real assessment must cite a claim.
+const portabilityDimensions = new Set([
+  "raw_data_export",
+  "context_export",
+  "memory_visibility",
+  "deletion_controls",
+  "appeal_path",
+  "workflow_continuity",
+  "recovery"
+]);
+const portabilityStatuses = new Set([
+  "supported",
+  "partially_supported",
+  "not_supported",
+  "not_yet_assessed",
+  "out_of_scope"
+]);
+const assessedPortabilityStatuses = new Set([
+  "supported",
+  "partially_supported",
+  "not_supported"
+]);
+
+// Meaningful Human Decision Audits: same pattern again, testing whether a
+// platform's "human in the loop" claim is actually meaningful on four
+// axes. A real finding must cite a claim.
+const humanDecisionDimensions = new Set([
+  "awareness",
+  "authority",
+  "accountability",
+  "time"
+]);
+const humanDecisionStatuses = new Set([
+  "meaningful",
+  "partially_meaningful",
+  "not_meaningful",
+  "not_yet_assessed",
+  "out_of_scope"
+]);
+const assessedHumanDecisionStatuses = new Set([
+  "meaningful",
+  "partially_meaningful",
+  "not_meaningful"
+]);
+
+// Continuity Rupture Incident Reports: unlike the four matrices above,
+// this is a log, not a coverage grid - there is no "not_yet_assessed"
+// placeholder state. Every entry is a real, dated incident and must
+// carry a claim_id from the moment it exists.
+const continuityIncidentTypes = new Set([
+  "reset",
+  "migration",
+  "policy_change",
+  "account_lockout",
+  "workflow_loss"
+]);
+const continuityIncidentSeverities = new Set([
+  "minor",
+  "moderate",
+  "severe",
+  "unknown"
+]);
+
 const reportedFrontierClaimSourceTypes = new Set([
   "investigative_reporting",
   "news_reporting",
@@ -657,8 +767,287 @@ function validateFrontierClaimVelocityChain(errors, record, frontierClaimIds) {
   }
 }
 
+function validateClaimEvidenceRecord(errors, record, sourceIds, observableIds) {
+  const label = record.id || "(missing id)";
+
+  pushMissing(errors, "Claim evidence record", record, [
+    "id",
+    "text",
+    "subject_label",
+    "source_ids",
+    "status",
+    "uncertainty",
+    "review_date"
+  ]);
+
+  if (record.status !== undefined && !claimStatuses.has(record.status)) {
+    errors.push(`Claim evidence record ${label} has invalid status ${record.status}`);
+  }
+  if (
+    record.uncertainty !== undefined &&
+    !claimUncertaintyLevels.has(record.uncertainty)
+  ) {
+    errors.push(`Claim evidence record ${label} has invalid uncertainty ${record.uncertainty}`);
+  }
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(record.review_date || "")) {
+    errors.push(`Claim evidence record ${label} review_date must be YYYY-MM-DD`);
+  }
+
+  if (record.subject_observable_id !== undefined && record.subject_observable_id !== null) {
+    if (!observableIds.has(record.subject_observable_id)) {
+      errors.push(
+        `Claim evidence record ${label} references missing subject_observable_id ${record.subject_observable_id}`
+      );
+    }
+  }
+
+  if (!Array.isArray(record.source_ids)) {
+    errors.push(`Claim evidence record ${label} source_ids must be an array`);
+  } else {
+    record.source_ids.forEach((sourceId) => {
+      if (!sourceIds.has(sourceId)) {
+        errors.push(`Claim evidence record ${label} references missing source ${sourceId}`);
+      }
+    });
+
+    // A claim asserted as supported, partially supported, or contested must
+    // be able to point to at least one source - that is the whole point of
+    // the registry existing as a source-backed spine, not a status label.
+    if (
+      claimStatuses.has(record.status) &&
+      sourceBackedClaimStatuses.has(record.status) &&
+      record.source_ids.length === 0
+    ) {
+      errors.push(
+        `Claim evidence record ${label} has status ${record.status} but no source_ids`
+      );
+    }
+  }
+}
+
+function validateGovernanceGapRecord(errors, record, observableIds, claimIds) {
+  const label = record.id || "(missing id)";
+
+  pushMissing(errors, "Governance gap record", record, [
+    "id",
+    "subject_observable_id",
+    "subject_label",
+    "dimension",
+    "status",
+    "last_reviewed"
+  ]);
+
+  if (record.dimension !== undefined && !governanceDimensions.has(record.dimension)) {
+    errors.push(`Governance gap record ${label} has invalid dimension ${record.dimension}`);
+  }
+  if (record.status !== undefined && !governanceGapStatuses.has(record.status)) {
+    errors.push(`Governance gap record ${label} has invalid status ${record.status}`);
+  }
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(record.last_reviewed || "")) {
+    errors.push(`Governance gap record ${label} last_reviewed must be YYYY-MM-DD`);
+  }
+
+  if (
+    record.subject_observable_id !== undefined &&
+    !observableIds.has(record.subject_observable_id)
+  ) {
+    errors.push(
+      `Governance gap record ${label} references missing subject_observable_id ${record.subject_observable_id}`
+    );
+  }
+
+  if (record.claim_id !== undefined && record.claim_id !== null) {
+    if (!claimIds.has(record.claim_id)) {
+      errors.push(`Governance gap record ${label} references missing claim ${record.claim_id}`);
+    }
+  }
+
+  // A real assessment must cite a claim - this matrix never asserts a
+  // judgment about a real organization without a source-backed claim
+  // behind it. Only "not_yet_assessed" and "out_of_scope" may go unlinked.
+  if (
+    assessedGovernanceGapStatuses.has(record.status) &&
+    !record.claim_id
+  ) {
+    errors.push(
+      `Governance gap record ${label} has status ${record.status} but no claim_id`
+    );
+  }
+}
+
+function validatePortabilityRecord(errors, record, observableIds, claimIds) {
+  const label = record.id || "(missing id)";
+
+  pushMissing(errors, "Portability record", record, [
+    "id",
+    "subject_observable_id",
+    "subject_label",
+    "dimension",
+    "status",
+    "last_reviewed"
+  ]);
+
+  if (record.dimension !== undefined && !portabilityDimensions.has(record.dimension)) {
+    errors.push(`Portability record ${label} has invalid dimension ${record.dimension}`);
+  }
+  if (record.status !== undefined && !portabilityStatuses.has(record.status)) {
+    errors.push(`Portability record ${label} has invalid status ${record.status}`);
+  }
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(record.last_reviewed || "")) {
+    errors.push(`Portability record ${label} last_reviewed must be YYYY-MM-DD`);
+  }
+
+  if (
+    record.subject_observable_id !== undefined &&
+    !observableIds.has(record.subject_observable_id)
+  ) {
+    errors.push(
+      `Portability record ${label} references missing subject_observable_id ${record.subject_observable_id}`
+    );
+  }
+
+  if (record.claim_id !== undefined && record.claim_id !== null) {
+    if (!claimIds.has(record.claim_id)) {
+      errors.push(`Portability record ${label} references missing claim ${record.claim_id}`);
+    }
+  }
+
+  // A real assessment must cite a claim - this scorecard never asserts a
+  // judgment about a real platform without a source-backed claim behind
+  // it. Only "not_yet_assessed" and "out_of_scope" may go unlinked.
+  if (assessedPortabilityStatuses.has(record.status) && !record.claim_id) {
+    errors.push(
+      `Portability record ${label} has status ${record.status} but no claim_id`
+    );
+  }
+}
+
+function validateHumanDecisionAuditRecord(errors, record, observableIds, claimIds) {
+  const label = record.id || "(missing id)";
+
+  pushMissing(errors, "Human decision audit record", record, [
+    "id",
+    "subject_observable_id",
+    "subject_label",
+    "dimension",
+    "status",
+    "last_reviewed"
+  ]);
+
+  if (
+    record.dimension !== undefined &&
+    !humanDecisionDimensions.has(record.dimension)
+  ) {
+    errors.push(
+      `Human decision audit record ${label} has invalid dimension ${record.dimension}`
+    );
+  }
+  if (record.status !== undefined && !humanDecisionStatuses.has(record.status)) {
+    errors.push(
+      `Human decision audit record ${label} has invalid status ${record.status}`
+    );
+  }
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(record.last_reviewed || "")) {
+    errors.push(
+      `Human decision audit record ${label} last_reviewed must be YYYY-MM-DD`
+    );
+  }
+
+  if (
+    record.subject_observable_id !== undefined &&
+    !observableIds.has(record.subject_observable_id)
+  ) {
+    errors.push(
+      `Human decision audit record ${label} references missing subject_observable_id ${record.subject_observable_id}`
+    );
+  }
+
+  if (record.claim_id !== undefined && record.claim_id !== null) {
+    if (!claimIds.has(record.claim_id)) {
+      errors.push(
+        `Human decision audit record ${label} references missing claim ${record.claim_id}`
+      );
+    }
+  }
+
+  // A real finding must cite a claim - this audit never asserts a
+  // judgment about a real platform without a source-backed claim behind
+  // it. Only "not_yet_assessed" and "out_of_scope" may go unlinked.
+  if (assessedHumanDecisionStatuses.has(record.status) && !record.claim_id) {
+    errors.push(
+      `Human decision audit record ${label} has status ${record.status} but no claim_id`
+    );
+  }
+}
+
+function validateContinuityRuptureIncident(errors, record, observableIds, claimIds) {
+  const label = record.id || "(missing id)";
+
+  pushMissing(errors, "Continuity rupture incident", record, [
+    "id",
+    "subject_observable_id",
+    "subject_label",
+    "incident_type",
+    "description",
+    "claim_id",
+    "reported_date",
+    "severity"
+  ]);
+
+  if (
+    record.incident_type !== undefined &&
+    !continuityIncidentTypes.has(record.incident_type)
+  ) {
+    errors.push(
+      `Continuity rupture incident ${label} has invalid incident_type ${record.incident_type}`
+    );
+  }
+  if (
+    record.severity !== undefined &&
+    !continuityIncidentSeverities.has(record.severity)
+  ) {
+    errors.push(`Continuity rupture incident ${label} has invalid severity ${record.severity}`);
+  }
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(record.reported_date || "")) {
+    errors.push(`Continuity rupture incident ${label} reported_date must be YYYY-MM-DD`);
+  }
+  if (
+    record.occurred_date !== undefined &&
+    record.occurred_date !== null &&
+    !/^\d{4}-\d{2}-\d{2}$/.test(record.occurred_date)
+  ) {
+    errors.push(`Continuity rupture incident ${label} occurred_date must be YYYY-MM-DD or null`);
+  }
+
+  if (
+    record.subject_observable_id !== undefined &&
+    !observableIds.has(record.subject_observable_id)
+  ) {
+    errors.push(
+      `Continuity rupture incident ${label} references missing subject_observable_id ${record.subject_observable_id}`
+    );
+  }
+
+  // Unlike the four matrices, there is no unassessed placeholder state
+  // here - every incident in this log is a real, dated claim about a
+  // real platform, so claim_id is unconditionally required, not gated
+  // behind a status check.
+  if (record.claim_id !== undefined && !claimIds.has(record.claim_id)) {
+    errors.push(
+      `Continuity rupture incident ${label} references missing claim ${record.claim_id}`
+    );
+  }
+}
+
 const evidenceRecords = readJson("evidence-records.json");
 const frontierClaimVelocityRecords = readJson("frontier-claim-velocity.json");
+const claimEvidenceRegistry = readJson("claim-evidence-registry.json");
+const governanceGapMatrix = readJson("governance-gap-matrix.json");
+const platformPortabilityScorecards = readJson(
+  "platform-portability-scorecards.json"
+);
+const humanDecisionAudits = readJson("human-decision-audits.json");
+const continuityRuptureIncidents = readJson("continuity-rupture-incidents.json");
 const observables = readJson("observables.json");
 const sources = readJson("sources.json");
 const observations = readJson("observations.json");
@@ -672,6 +1061,21 @@ if (!Array.isArray(evidenceRecords)) {
 }
 if (!Array.isArray(frontierClaimVelocityRecords)) {
   errors.push("frontier-claim-velocity.json must be an array");
+}
+if (!Array.isArray(claimEvidenceRegistry)) {
+  errors.push("claim-evidence-registry.json must be an array");
+}
+if (!Array.isArray(governanceGapMatrix)) {
+  errors.push("governance-gap-matrix.json must be an array");
+}
+if (!Array.isArray(platformPortabilityScorecards)) {
+  errors.push("platform-portability-scorecards.json must be an array");
+}
+if (!Array.isArray(humanDecisionAudits)) {
+  errors.push("human-decision-audits.json must be an array");
+}
+if (!Array.isArray(continuityRuptureIncidents)) {
+  errors.push("continuity-rupture-incidents.json must be an array");
 }
 if (!Array.isArray(observables)) errors.push("observables.json must be an array");
 if (!Array.isArray(sources)) errors.push("sources.json must be an array");
@@ -693,12 +1097,30 @@ const sourceById = new Map(sources.map((source) => [source.id, source]));
 const frontierClaimIds = new Set(
   frontierClaimVelocityRecords.map((record) => record.id)
 );
+const claimEvidenceIds = new Set(
+  claimEvidenceRegistry.map((record) => record.id)
+);
 
 duplicateValues(evidenceRecords, "id").forEach((id) =>
   errors.push(`Duplicate evidence record id ${id}`)
 );
 duplicateValues(frontierClaimVelocityRecords, "id").forEach((id) =>
   errors.push(`Duplicate frontier claim velocity record id ${id}`)
+);
+duplicateValues(claimEvidenceRegistry, "id").forEach((id) =>
+  errors.push(`Duplicate claim evidence record id ${id}`)
+);
+duplicateValues(governanceGapMatrix, "id").forEach((id) =>
+  errors.push(`Duplicate governance gap record id ${id}`)
+);
+duplicateValues(platformPortabilityScorecards, "id").forEach((id) =>
+  errors.push(`Duplicate portability record id ${id}`)
+);
+duplicateValues(humanDecisionAudits, "id").forEach((id) =>
+  errors.push(`Duplicate human decision audit record id ${id}`)
+);
+duplicateValues(continuityRuptureIncidents, "id").forEach((id) =>
+  errors.push(`Duplicate continuity rupture incident id ${id}`)
 );
 duplicateValues(observables, "id").forEach((id) =>
   errors.push(`Duplicate observable id ${id}`)
@@ -752,6 +1174,21 @@ frontierClaimVelocityRecords.forEach((record) => {
   );
   validateFrontierClaimVelocityChain(errors, record, frontierClaimIds);
 });
+claimEvidenceRegistry.forEach((record) =>
+  validateClaimEvidenceRecord(errors, record, sourceIds, observableIds)
+);
+governanceGapMatrix.forEach((record) =>
+  validateGovernanceGapRecord(errors, record, observableIds, claimEvidenceIds)
+);
+platformPortabilityScorecards.forEach((record) =>
+  validatePortabilityRecord(errors, record, observableIds, claimEvidenceIds)
+);
+humanDecisionAudits.forEach((record) =>
+  validateHumanDecisionAuditRecord(errors, record, observableIds, claimEvidenceIds)
+);
+continuityRuptureIncidents.forEach((record) =>
+  validateContinuityRuptureIncident(errors, record, observableIds, claimEvidenceIds)
+);
 
 const countsByType = observables.reduce((counts, observable) => {
   counts[observable.type] = (counts[observable.type] || 0) + 1;
@@ -780,7 +1217,12 @@ console.log(
       relationships: relationships.length,
       reviewDecisions: reviewDecisions.length,
       evidenceRecords: evidenceRecords.length,
-      frontierClaimVelocityRecords: frontierClaimVelocityRecords.length
+      frontierClaimVelocityRecords: frontierClaimVelocityRecords.length,
+      claimEvidenceRegistry: claimEvidenceRegistry.length,
+      governanceGapMatrix: governanceGapMatrix.length,
+      platformPortabilityScorecards: platformPortabilityScorecards.length,
+      humanDecisionAudits: humanDecisionAudits.length,
+      continuityRuptureIncidents: continuityRuptureIncidents.length
     },
     null,
     2
