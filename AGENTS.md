@@ -18,9 +18,8 @@ The internal north-star reconstruction authority is:
 
 `LLM_INFRA_OBSERVATORY_RECONSTRUCTION_BRIEF_v0.4_INTERNAL.md`
 
-The current reference copy is located outside the repository at:
-
-`/Users/michealpreble/Desktop/LLM_INFRA_OBSERVATORY_RECONSTRUCTION_BRIEF_v0.4_INTERNAL.md`
+The current reference copy is kept outside this public repository in protected
+local custody.
 
 Treat that brief as internal and do not publish or copy it into the public site. Use it to resolve product purpose, evidence posture, public/private boundaries, staged architecture, and long-term direction.
 
