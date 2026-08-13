@@ -1,0 +1,10 @@
+[
+  {
+    "id": "reviewer-REPLACE-ME",
+    "name": "REPLACE WITH YOUR FULL NAME",
+    "role": "Registry reviewer",
+    "affiliation": "Perfinitive",
+    "active": true,
+    "notes": "INV-03 requires every reviewer value in review-decisions.json to match an id in this file. Batch labels such as 'Source Verification Batch 001' or 'Verification Threshold 80' are rejected. Add a reviewMethod field of 'human' or 'assisted' to each decision row so model-drafted reviews stay distinguishable from human ones."
+  }
+]
