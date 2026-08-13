@@ -1,0 +1,36 @@
+{
+  "observables": {
+    "total": 101,
+    "byType": {
+      "Organization": 25,
+      "Model": 25,
+      "Data Center": 25,
+      "Source": 26
+    },
+    "byStatus": {
+      "source_backed": 80,
+      "needs_source_review": 20,
+      "placeholder": 1
+    }
+  },
+  "sources": {
+    "total": 38
+  },
+  "observations": {
+    "total": 101,
+    "registrySeedNotes": 101,
+    "substantive": 0
+  },
+  "relationships": {
+    "total": 156
+  },
+  "reviewDecisions": {
+    "total": 53,
+    "observablesCovered": 43,
+    "observablesUncovered": 58
+  },
+  "freshness": {
+    "oldestRetrievedAt": "2026-06-11",
+    "latestRetrievedAt": "2026-06-12"
+  }
+}

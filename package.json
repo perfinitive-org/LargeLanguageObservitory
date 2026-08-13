@@ -9,6 +9,10 @@
     "serve:static": "node scripts/serve-static.mjs out",
     "typecheck": "tsc -p tsconfig.typecheck.json --noEmit --incremental false",
     "validate:data": "node scripts/validate-data.mjs",
+    "validate:invariants": "node scripts/validate-invariants.mjs",
+    "validate:invariants:report": "node scripts/validate-invariants.mjs --report-only",
+    "verify": "npm run typecheck && npm run validate:data && npm run validate:invariants",
+    "verify:report": "npm run typecheck && npm run validate:data && npm run validate:invariants:report",
     "author:frontier-claim": "node scripts/author-frontier-claim.mjs"
   },
   "overrides": {
